@@ -126,6 +126,21 @@ def gen_trading():
         bl_date = contract_date + timedelta(days=random.randint(15, 50))
         # simulate ~12% missing BL date/qty (fulfilment gaps)
         has_bl = np.random.rand() > 0.12
+        # LC issue date: normally the LC is opened well before the vessel sails.
+        # ~15% of LC-backed shipments simulate a documentary discrepancy exception
+        # where the LC is only issued/dated AFTER the BL date (i.e. the shipment
+        # sailed before the LC was in place — a "backdated LC vs BL" red flag).
+        has_lc = "LC" in payment_term
+        lc_issue_date = ""
+        if has_lc:
+            if has_bl:
+                if np.random.rand() < 0.15:
+                    lc_dt = bl_date + timedelta(days=random.randint(1, 20))
+                else:
+                    lc_dt = bl_date - timedelta(days=random.randint(10, 35))
+            else:
+                lc_dt = contract_date + timedelta(days=random.randint(5, 25))
+            lc_issue_date = lc_dt.date().isoformat()
         rows.append({
             "contract_ref": f"CTR-{2025000+i}",
             "sales_order": f"SO-{500000+i}",
@@ -150,7 +165,8 @@ def gen_trading():
             "shipment_month": shipment_month,
             "bl_date": bl_date.date().isoformat() if has_bl else "",
             "bl_quantity_mt": round(qty * np.random.uniform(0.97, 1.02), 1) if has_bl else np.nan,
-            "lc_number": f"LC-{90000+i}" if "LC" in payment_term else "",
+            "lc_number": f"LC-{90000+i}" if has_lc else "",
+            "lc_issue_date": lc_issue_date,
             "status": random.choice(["Open", "Fulfilled", "Fulfilled", "Fulfilled", "Cancelled"]),
         })
     return pd.DataFrame(rows)

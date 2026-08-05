@@ -1,87 +1,87 @@
 {
   "caveat": "Tariff and FTA rates are illustrative placeholders and require validation by Customs / Trade Compliance SMEs.",
-  "coo_completion_pct": 72.9,
-  "shipments_missing_coo": 114,
+  "coo_completion_pct": 74.0,
+  "shipments_missing_coo": 109,
   "fta_eligible_shipments": 420,
-  "fta_eligible_missing_coo": 114,
-  "total_potential_saving_usd": 48806130.25,
+  "fta_eligible_missing_coo": 109,
+  "total_potential_saving_usd": 40988813.44,
   "by_country_opportunity": [
     {
       "discharge_country": "China",
-      "shipments": 78,
-      "missing_coo": 23,
-      "potential_saving_usd": 15299735.17
+      "shipments": 59,
+      "missing_coo": 15,
+      "potential_saving_usd": 11859251.39
     },
     {
       "discharge_country": "India",
-      "shipments": 43,
-      "missing_coo": 11,
-      "potential_saving_usd": 9257444.51
+      "shipments": 56,
+      "missing_coo": 17,
+      "potential_saving_usd": 10848354.0
+    },
+    {
+      "discharge_country": "Pakistan",
+      "shipments": 35,
+      "missing_coo": 7,
+      "potential_saving_usd": 7015206.93
     },
     {
       "discharge_country": "Malaysia",
-      "shipments": 35,
-      "missing_coo": 7,
-      "potential_saving_usd": 8148488.93
+      "shipments": 30,
+      "missing_coo": 6,
+      "potential_saving_usd": 4448294.67
     },
     {
       "discharge_country": "Netherlands",
       "shipments": 23,
       "missing_coo": 8,
-      "potential_saving_usd": 6660035.99
-    },
-    {
-      "discharge_country": "Pakistan",
-      "shipments": 30,
-      "missing_coo": 7,
-      "potential_saving_usd": 5482427.11
+      "potential_saving_usd": 4392817.01
     },
     {
       "discharge_country": "Singapore",
-      "shipments": 21,
-      "missing_coo": 3,
-      "potential_saving_usd": 3957998.54
+      "shipments": 20,
+      "missing_coo": 6,
+      "potential_saving_usd": 2424889.44
     },
     {
       "discharge_country": "Bangladesh",
-      "shipments": 21,
-      "missing_coo": 4,
+      "shipments": 28,
+      "missing_coo": 7,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "Egypt",
-      "shipments": 22,
-      "missing_coo": 8,
+      "shipments": 20,
+      "missing_coo": 5,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "Nigeria",
-      "shipments": 26,
+      "shipments": 29,
       "missing_coo": 7,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "Saudi Arabia",
-      "shipments": 25,
+      "shipments": 30,
       "missing_coo": 7,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "Sri Lanka",
-      "shipments": 27,
-      "missing_coo": 7,
+      "shipments": 25,
+      "missing_coo": 4,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "Turkey",
       "shipments": 32,
-      "missing_coo": 8,
+      "missing_coo": 9,
       "potential_saving_usd": 0.0
     },
     {
       "discharge_country": "USA",
-      "shipments": 37,
-      "missing_coo": 14,
+      "shipments": 33,
+      "missing_coo": 11,
       "potential_saving_usd": 0.0
     }
   ]

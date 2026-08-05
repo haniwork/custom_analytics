@@ -47,11 +47,21 @@ silver_shipment = trading[[
     "shipment_id", "contract_ref", "sales_order", "material_code", "product",
     "quantity_mt", "load_port", "discharge_port", "discharge_port_country",
     "mode_of_transport", "vessel", "shipment_month", "bl_date", "bl_quantity_mt",
+    "lc_number", "lc_issue_date",
 ]].copy()
 silver_shipment["bl_date"] = pd.to_datetime(silver_shipment["bl_date"], errors="coerce")
+silver_shipment["lc_issue_date"] = pd.to_datetime(silver_shipment["lc_issue_date"], errors="coerce")
 silver_shipment["bl_available"] = silver_shipment["bl_date"].notna()
+silver_shipment["lc_available"] = silver_shipment["lc_number"].fillna("").astype(str).str.len() > 0
 silver_shipment["qty_variance_mt"] = (silver_shipment["bl_quantity_mt"] - silver_shipment["quantity_mt"]).round(2)
 silver_shipment["qty_variance_pct"] = (silver_shipment["qty_variance_mt"] / silver_shipment["quantity_mt"] * 100).round(2)
+# LC/BL document-timing check: an LC dated on or after the BL date means the
+# vessel sailed before the LC was confirmed in place — a documentary
+# discrepancy / "backdated LC vs BL" exception flagged for trade-finance review.
+silver_shipment["lc_bl_lag_days"] = (silver_shipment["lc_issue_date"] - silver_shipment["bl_date"]).dt.days
+silver_shipment["lc_backdated_vs_bl"] = (
+    silver_shipment["lc_available"] & silver_shipment["bl_available"] & (silver_shipment["lc_bl_lag_days"] >= 0)
+)
 
 silver_invoice = trading[[
     "shipment_id", "contract_ref", "invoice_amount_usd", "price_usd_per_mt", "lc_number",
@@ -154,6 +164,24 @@ with open(os.path.join(GOLD, "gold_customs_document_compliance.json"), "w") as f
 missing_bl_date = int((~silver_shipment["bl_available"]).sum())
 qty_variance_exceptions = silver_shipment[silver_shipment["qty_variance_pct"].abs() > 1.5]
 
+lc_bl_applicable = silver_shipment[silver_shipment["lc_available"] & silver_shipment["bl_available"]]
+lc_backdated = silver_shipment[silver_shipment["lc_backdated_vs_bl"]]
+
+# clean, display-ready detail table: dates as plain YYYY-MM-DD strings (not
+# pandas Timestamp/"NaT"), and an explicit Y/N/N-A label for the backdate flag
+shipment_detail = silver_shipment.copy()
+shipment_detail["bl_date"] = shipment_detail["bl_date"].dt.strftime("%Y-%m-%d")
+shipment_detail["lc_issue_date"] = shipment_detail["lc_issue_date"].dt.strftime("%Y-%m-%d")
+
+def backdate_label(r):
+    if not r["lc_available"]:
+        return "N/A"
+    if not r["bl_available"]:
+        return "N/A"
+    return "Backdated" if r["lc_backdated_vs_bl"] else "OK"
+
+shipment_detail["lc_backdated_vs_bl"] = shipment_detail.apply(backdate_label, axis=1)
+
 gold_shipment_bl_monitoring = {
     "missing_bl_date_count": missing_bl_date,
     "missing_bl_pct": round(missing_bl_date / len(silver_shipment) * 100, 1),
@@ -161,9 +189,14 @@ gold_shipment_bl_monitoring = {
     "avg_qty_variance_pct": round(silver_shipment["qty_variance_pct"].abs().mean(), 2),
     "pending_vessel_sailed": int((silver_lct_document["stage_gate"] != "SG10").sum()),
     "by_load_port": silver_shipment.groupby("load_port")["shipment_id"].count().reset_index().rename(columns={"shipment_id": "count"}).to_dict("records"),
-    "detail": silver_shipment[[
+    "lc_bl_applicable_count": int(len(lc_bl_applicable)),
+    "lc_backdated_count": int(len(lc_backdated)),
+    "lc_backdated_pct": round(len(lc_backdated) / len(lc_bl_applicable) * 100, 1) if len(lc_bl_applicable) else 0.0,
+    "lc_bl_lag_distribution": lc_bl_applicable["lc_bl_lag_days"].dropna().astype(int).tolist(),
+    "detail": shipment_detail[[
         "shipment_id", "contract_ref", "vessel", "load_port", "discharge_port", "shipment_month",
         "bl_date", "bl_quantity_mt", "quantity_mt", "qty_variance_pct", "bl_available",
+        "lc_number", "lc_issue_date", "lc_backdated_vs_bl",
     ]].fillna("").to_dict("records"),
 }
 with open(os.path.join(GOLD, "gold_shipment_bl_monitoring.json"), "w") as f:

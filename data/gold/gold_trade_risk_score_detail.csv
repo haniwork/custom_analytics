@@ -1,421 +1,421 @@
 shipment_id,contract_ref,counterparty_name,product,discharge_port,lc_number,payment_terms_id,k2_flag,k2_chit_flag,customs_release_flag,customs_official_receipt_flag,certificate_of_origin_flag,bill_of_lading_flag,shipment_tender_flag,loi_flag,has_hs_code,limit_utilisation_pct,risk_score,rag
-SHP-700000,CTR-2025000,PT Nusantara Lipid,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,Y,Y,Y,N,Y,N,N,True,19.8,1,Green
-SHP-700001,CTR-2025001,Nile Delta Vegetable Oils,RBD Palm Oil,Istanbul,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700002,CTR-2025002,California Biofuels Inc,Crude Palm Oil (CPO),Los Angeles,,TT 60 days,Y,Y,Y,Y,Y,Y,N,Y,True,52.2,0,Green
-SHP-700003,CTR-2025003,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90003,LC at sight,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700004,CTR-2025004,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Alexandria,LC-90004,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,13.4,1,Green
-SHP-700005,CTR-2025005,EuroFat Amsterdam,Palm Kernel Oil (PKO),Colombo,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,39.2,0,Green
-SHP-700006,CTR-2025006,Rotterdam Fats & Oils BV,RBD Palm Oil,Lagos,,TT advance,Y,Y,Y,Y,Y,Y,N,N,True,64.5,0,Green
-SHP-700007,CTR-2025007,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Kandla,,TT 30 days,N,Y,Y,Y,Y,N,Y,Y,False,,3,Amber
-SHP-700008,CTR-2025008,PT Nusantara Lipid,RBD Palm Oil,Istanbul,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,,1,Green
-SHP-700009,CTR-2025009,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Los Angeles,,TT 30 days,Y,N,N,Y,N,Y,Y,N,False,,3,Amber
-SHP-700010,CTR-2025010,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT advance,Y,Y,Y,N,N/A,Y,Y,Y,True,,0,Green
-SHP-700011,CTR-2025011,Ganga Agro Traders,Palm Kernel Expeller (PKE),Jeddah,,TT advance,Y,N,Y,Y,N,Y,Y,N,False,,3,Amber
-SHP-700012,CTR-2025012,Shanghai Huifeng Trading,RBD Palm Stearin,Los Angeles,,TT advance,Y,Y,N,N,N,Y,Y,N,True,,1,Green
-SHP-700013,CTR-2025013,Ganga Agro Traders,RBD Palm Oil,Alexandria,LC-90013,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700014,CTR-2025014,Karachi Edible Oil Co.,RBD Palm Stearin,Istanbul,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700015,CTR-2025015,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,False,15.7,2,Amber
-SHP-700016,CTR-2025016,Meridian Oleo Pvt Ltd,RBD Palm Oil,Singapore,LC-90016,LC at sight,N,Y,N,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700017,CTR-2025017,PT Nusantara Lipid,RBD Palm Stearin,Singapore,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,16.3,1,Green
-SHP-700018,CTR-2025018,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90018,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700019,CTR-2025019,Lagos Vegetable Oil Ltd,RBD Palm Oil,Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700020,CTR-2025020,Chittagong Oil Refinery,Crude Palm Oil (CPO),Istanbul,,TT 30 days,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700021,CTR-2025021,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Guangzhou,,TT 60 days,Y,N,Y,Y,Y,Y,N,N,True,,1,Green
-SHP-700022,CTR-2025022,Nile Delta Vegetable Oils,RBD Palm Stearin,Karachi,,TT advance,N,N,Y,Y,N,Y,Y,N,True,44.7,3,Amber
-SHP-700023,CTR-2025023,Ganga Agro Traders,RBD Palm Stearin,Istanbul,LC-90023,LC at sight,Y,Y,Y,N,N,N,Y,Y,True,,2,Amber
-SHP-700024,CTR-2025024,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),Kandla,,TT 60 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700025,CTR-2025025,EuroFat Amsterdam,Palm Kernel Oil (PKO),Shanghai,LC-90025,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700026,CTR-2025026,Jeddah Oils & Fats Co,RBD Palm Stearin,Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700027,CTR-2025027,Chittagong Oil Refinery,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90027,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700028,CTR-2025028,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Chittagong,,TT 30 days,Y,N,Y,Y,N,N,Y,N,True,49.7,3,Amber
-SHP-700029,CTR-2025029,Ganga Agro Traders,Palm Kernel Oil (PKO),Chennai,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700030,CTR-2025030,Meridian Oleo Pvt Ltd,RBD Palm Olein,Singapore,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700031,CTR-2025031,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Shanghai,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700032,CTR-2025032,Colombo Fats Trading,RBD Palm Oil,Rotterdam,LC-90032,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700033,CTR-2025033,California Biofuels Inc,RBD Palm Stearin,Jeddah,LC-90033,LC at sight,Y,N,Y,Y,N,N,Y,N,True,,3,Amber
-SHP-700034,CTR-2025034,Nile Delta Vegetable Oils,RBD Palm Oil,Chennai,LC-90034,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700035,CTR-2025035,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90035,LC at sight,N,Y,Y,Y,N,Y,Y,Y,False,110.5,4,Red
-SHP-700036,CTR-2025036,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700037,CTR-2025037,PT Nusantara Lipid,Crude Palm Oil (CPO),Guangzhou,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700038,CTR-2025038,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Karachi,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700039,CTR-2025039,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Jeddah,LC-90039,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
-SHP-700040,CTR-2025040,EuroFat Amsterdam,Palm Fatty Acid Distillate (PFAD),Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700041,CTR-2025041,Colombo Fats Trading,RBD Palm Olein,Los Angeles,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700042,CTR-2025042,EuroFat Amsterdam,RBD Palm Olein,Guangzhou,LC-90042,LC 90 days,Y,Y,N,Y,Y,Y,Y,Y,True,41.4,0,Green
-SHP-700043,CTR-2025043,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),Rotterdam,LC-90043,LC at sight,Y,N,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700044,CTR-2025044,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Singapore,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700045,CTR-2025045,California Biofuels Inc,Palm Kernel Oil (PKO),Los Angeles,,TT 30 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
-SHP-700046,CTR-2025046,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Shanghai,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
-SHP-700047,CTR-2025047,Guangzhou Oleochem Ltd,RBD Palm Olein,Guangzhou,LC-90047,LC 90 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700048,CTR-2025048,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90048,LC 90 days,Y,Y,N,Y,Y,Y,N,N,False,,1,Green
-SHP-700049,CTR-2025049,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,N,Y,Y,Y,Y,N,Y,N,False,,3,Amber
-SHP-700050,CTR-2025050,Chittagong Oil Refinery,RBD Palm Olein,Guangzhou,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700051,CTR-2025051,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90051,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700052,CTR-2025052,Nile Delta Vegetable Oils,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90052,LC at sight,N,Y,Y,Y,N,N,Y,N,True,,3,Amber
-SHP-700053,CTR-2025053,EuroFat Amsterdam,RBD Palm Stearin,Colombo,LC-90053,LC 90 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700054,CTR-2025054,Karachi Edible Oil Co.,RBD Palm Stearin,Kandla,,TT 60 days,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700055,CTR-2025055,PT Nusantara Lipid,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700056,CTR-2025056,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",LC-90056,LC at sight,Y,Y,Y,Y,N/A,Y,Y,Y,True,,0,Green
-SHP-700057,CTR-2025057,PT Nusantara Lipid,RBD Palm Stearin,Istanbul,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700058,CTR-2025058,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Alexandria,LC-90058,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,20.6,1,Green
-SHP-700059,CTR-2025059,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,16.6,0,Green
-SHP-700060,CTR-2025060,Meridian Oleo Pvt Ltd,RBD Palm Oil,Alexandria,LC-90060,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700061,CTR-2025061,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
-SHP-700062,CTR-2025062,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90062,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,False,6.8,2,Amber
-SHP-700063,CTR-2025063,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700064,CTR-2025064,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700065,CTR-2025065,Ganga Agro Traders,Palm Kernel Oil (PKO),Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700066,CTR-2025066,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Shanghai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
-SHP-700067,CTR-2025067,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Rotterdam,LC-90067,LC at sight,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700068,CTR-2025068,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Singapore,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,False,68.8,1,Green
-SHP-700069,CTR-2025069,Karachi Edible Oil Co.,RBD Palm Oil,Colombo,,TT 30 days,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
-SHP-700070,CTR-2025070,Karachi Edible Oil Co.,Palm Kernel Expeller (PKE),Chennai,,TT 60 days,Y,Y,N,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700071,CTR-2025071,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700072,CTR-2025072,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Lagos,LC-90072,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700073,CTR-2025073,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90073,LC at sight,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700074,CTR-2025074,EuroFat Amsterdam,RBD Palm Stearin,Istanbul,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700075,CTR-2025075,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Shanghai,,TT 30 days,N,Y,N,Y,Y,N,Y,N,False,,3,Amber
-SHP-700076,CTR-2025076,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Shanghai,LC-90076,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
-SHP-700077,CTR-2025077,Lagos Vegetable Oil Ltd,RBD Palm Oil,Shanghai,LC-90077,LC 90 days,Y,Y,N,Y,N,Y,N,Y,True,,1,Green
-SHP-700078,CTR-2025078,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Jeddah,LC-90078,LC at sight,Y,Y,N,Y,Y,Y,Y,N,False,5.8,1,Green
-SHP-700079,CTR-2025079,Nile Delta Vegetable Oils,RBD Palm Olein,"West Port, Malaysia",LC-90079,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700080,CTR-2025080,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Alexandria,LC-90080,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700081,CTR-2025081,Colombo Fats Trading,Palm Kernel Oil (PKO),Chennai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700082,CTR-2025082,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90082,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700083,CTR-2025083,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90083,LC 90 days,N,N,Y,Y,N,Y,Y,N,False,,4,Red
-SHP-700084,CTR-2025084,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Kandla,,TT advance,Y,N,N,N,Y,Y,N,N,True,,1,Green
-SHP-700085,CTR-2025085,California Biofuels Inc,Palm Kernel Expeller (PKE),Karachi,LC-90085,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700086,CTR-2025086,Nile Delta Vegetable Oils,RBD Palm Olein,Colombo,,TT 30 days,Y,N,Y,Y,Y,N,Y,N,True,36.3,2,Amber
-SHP-700087,CTR-2025087,PT Nusantara Lipid,RBD Palm Stearin,Karachi,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700088,CTR-2025088,Lagos Vegetable Oil Ltd,RBD Palm Oil,Guangzhou,,TT 30 days,Y,Y,Y,N,Y,Y,N,Y,True,,0,Green
-SHP-700089,CTR-2025089,Nile Delta Vegetable Oils,RBD Palm Stearin,Lagos,LC-90089,LC 90 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
-SHP-700090,CTR-2025090,EuroFat Amsterdam,RBD Palm Olein,Shanghai,LC-90090,LC 90 days,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
-SHP-700091,CTR-2025091,Nile Delta Vegetable Oils,RBD Palm Olein,Guangzhou,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700092,CTR-2025092,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),"West Port, Malaysia",,TT advance,N,Y,N,Y,N/A,N,N,N,True,,2,Amber
-SHP-700093,CTR-2025093,Istanbul Bitkisel Yag,RBD Palm Oil,Karachi,LC-90093,LC at sight,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
-SHP-700094,CTR-2025094,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Singapore,LC-90094,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700095,CTR-2025095,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700096,CTR-2025096,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Los Angeles,LC-90096,LC at sight,Y,Y,Y,Y,Y,N,Y,N,False,9.8,2,Amber
-SHP-700097,CTR-2025097,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT advance,Y,Y,N,Y,N,N,Y,Y,True,,2,Amber
-SHP-700098,CTR-2025098,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),Singapore,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700099,CTR-2025099,Rotterdam Fats & Oils BV,RBD Palm Olein,Chennai,LC-90099,LC 90 days,Y,N,N,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700100,CTR-2025100,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Colombo,,TT advance,N,Y,N,Y,N,Y,Y,N,False,,3,Amber
-SHP-700101,CTR-2025101,Ganga Agro Traders,Palm Kernel Oil (PKO),Jeddah,LC-90101,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700102,CTR-2025102,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Karachi,LC-90102,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700103,CTR-2025103,California Biofuels Inc,RBD Palm Stearin,Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700104,CTR-2025104,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700105,CTR-2025105,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700106,CTR-2025106,EuroFat Amsterdam,RBD Palm Olein,Istanbul,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700107,CTR-2025107,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90107,LC at sight,Y,Y,Y,N,N,Y,Y,Y,False,,2,Amber
-SHP-700108,CTR-2025108,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90108,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,110.4,2,Amber
-SHP-700109,CTR-2025109,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Singapore,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,False,22.0,2,Amber
-SHP-700110,CTR-2025110,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,Y,Y,Y,N,Y,Y,False,54.3,2,Amber
-SHP-700111,CTR-2025111,PT Nusantara Lipid,RBD Palm Olein,Jeddah,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700112,CTR-2025112,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Chittagong,LC-90112,LC at sight,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
-SHP-700113,CTR-2025113,Shanghai Huifeng Trading,RBD Palm Olein,"West Port, Malaysia",LC-90113,LC at sight,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700114,CTR-2025114,Ganga Agro Traders,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,Y,N,Y,N,Y,Y,True,,1,Green
-SHP-700115,CTR-2025115,Rotterdam Fats & Oils BV,RBD Palm Olein,Jeddah,LC-90115,LC at sight,N,Y,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700116,CTR-2025116,Shanghai Huifeng Trading,RBD Palm Stearin,Karachi,,TT advance,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700117,CTR-2025117,Karachi Edible Oil Co.,RBD Palm Olein,Lagos,LC-90117,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700118,CTR-2025118,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Kandla,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700119,CTR-2025119,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Karachi,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700120,CTR-2025120,Rotterdam Fats & Oils BV,RBD Palm Stearin,Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,14.7,0,Green
-SHP-700121,CTR-2025121,EuroFat Amsterdam,Crude Palm Oil (CPO),Singapore,,TT advance,Y,N,Y,Y,Y,Y,Y,Y,True,4.3,1,Green
-SHP-700122,CTR-2025122,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Rotterdam,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700123,CTR-2025123,Guangzhou Oleochem Ltd,RBD Palm Olein,"West Port, Malaysia",,TT 30 days,N,Y,Y,N,N/A,Y,N,N,True,42.6,1,Green
-SHP-700124,CTR-2025124,Jeddah Oils & Fats Co,RBD Palm Oil,Los Angeles,,TT 30 days,Y,N,N,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700125,CTR-2025125,California Biofuels Inc,RBD Palm Stearin,Los Angeles,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700126,CTR-2025126,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90126,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700127,CTR-2025127,EuroFat Amsterdam,Palm Kernel Oil (PKO),Lagos,,TT 60 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700128,CTR-2025128,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chittagong,LC-90128,LC 90 days,Y,N,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700129,CTR-2025129,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Los Angeles,,TT advance,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700130,CTR-2025130,Shanghai Huifeng Trading,RBD Palm Stearin,Shanghai,LC-90130,LC 90 days,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
-SHP-700131,CTR-2025131,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Karachi,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700132,CTR-2025132,Karachi Edible Oil Co.,RBD Palm Olein,Istanbul,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700133,CTR-2025133,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90133,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,60.3,1,Green
-SHP-700134,CTR-2025134,Lagos Vegetable Oil Ltd,RBD Palm Olein,Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700135,CTR-2025135,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,LC-90135,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700136,CTR-2025136,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT advance,Y,Y,N,Y,N/A,Y,Y,N,False,,1,Green
-SHP-700137,CTR-2025137,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700138,CTR-2025138,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,LC-90138,LC 90 days,N,Y,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700139,CTR-2025139,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Chennai,LC-90139,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
-SHP-700140,CTR-2025140,Ganga Agro Traders,RBD Palm Oil,Shanghai,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700141,CTR-2025141,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Chennai,,TT 60 days,N,Y,Y,N,Y,Y,Y,Y,False,,2,Amber
-SHP-700142,CTR-2025142,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700143,CTR-2025143,Meridian Oleo Pvt Ltd,RBD Palm Olein,"West Port, Malaysia",,TT advance,N,N,Y,Y,N,Y,Y,N,True,,3,Amber
-SHP-700144,CTR-2025144,Istanbul Bitkisel Yag,RBD Palm Oil,Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700145,CTR-2025145,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90145,LC 90 days,Y,N,Y,Y,N/A,Y,N,N,True,104.1,2,Amber
-SHP-700146,CTR-2025146,PT Nusantara Lipid,RBD Palm Oil,Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700147,CTR-2025147,Colombo Fats Trading,RBD Palm Stearin,Los Angeles,LC-90147,LC 90 days,Y,Y,Y,Y,Y,N,N,N,True,,1,Green
-SHP-700148,CTR-2025148,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Chennai,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700149,CTR-2025149,Karachi Edible Oil Co.,RBD Palm Oil,Shanghai,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700150,CTR-2025150,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 60 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
-SHP-700151,CTR-2025151,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700152,CTR-2025152,PT Nusantara Lipid,RBD Palm Stearin,Lagos,LC-90152,LC at sight,Y,Y,Y,Y,N,Y,Y,Y,True,33.9,1,Green
-SHP-700153,CTR-2025153,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90153,LC at sight,Y,Y,Y,Y,Y,N,Y,Y,False,21.4,2,Amber
-SHP-700154,CTR-2025154,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700155,CTR-2025155,Lagos Vegetable Oil Ltd,RBD Palm Stearin,Shanghai,,TT 60 days,N,Y,N,N,N,Y,Y,N,True,,2,Amber
-SHP-700156,CTR-2025156,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700157,CTR-2025157,Rotterdam Fats & Oils BV,RBD Palm Olein,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N/A,Y,Y,Y,True,,0,Green
-SHP-700158,CTR-2025158,Jeddah Oils & Fats Co,Palm Kernel Oil (PKO),Karachi,,TT 60 days,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
-SHP-700159,CTR-2025159,Ganga Agro Traders,Palm Kernel Expeller (PKE),Shanghai,LC-90159,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700160,CTR-2025160,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,Y,N,Y,Y,Y,N,N,N,False,,3,Amber
-SHP-700161,CTR-2025161,Jeddah Oils & Fats Co,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,N,Y,Y,N/A,N,Y,N,True,,2,Amber
-SHP-700162,CTR-2025162,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
-SHP-700163,CTR-2025163,Chittagong Oil Refinery,RBD Palm Stearin,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700164,CTR-2025164,Colombo Fats Trading,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90164,LC at sight,Y,Y,Y,Y,N/A,Y,Y,Y,True,17.1,0,Green
-SHP-700165,CTR-2025165,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Karachi,LC-90165,LC 90 days,Y,N,Y,N,Y,Y,Y,Y,True,29.3,1,Green
-SHP-700166,CTR-2025166,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Lagos,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700167,CTR-2025167,California Biofuels Inc,RBD Palm Stearin,Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700168,CTR-2025168,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700169,CTR-2025169,California Biofuels Inc,RBD Palm Oil,Rotterdam,LC-90169,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700170,CTR-2025170,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Alexandria,LC-90170,LC at sight,N,Y,Y,N,Y,Y,N,Y,False,,2,Amber
-SHP-700171,CTR-2025171,Colombo Fats Trading,Crude Palm Oil (CPO),Kandla,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700172,CTR-2025172,Shanghai Huifeng Trading,RBD Palm Oil,Istanbul,LC-90172,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700173,CTR-2025173,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Guangzhou,,TT advance,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700174,CTR-2025174,Ganga Agro Traders,Crude Palm Oil (CPO),Chennai,LC-90174,LC 90 days,Y,Y,Y,N,Y,Y,N,Y,True,,0,Green
-SHP-700175,CTR-2025175,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90175,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700176,CTR-2025176,EuroFat Amsterdam,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700177,CTR-2025177,PT Nusantara Lipid,RBD Palm Oil,Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700178,CTR-2025178,Nile Delta Vegetable Oils,RBD Palm Olein,Chennai,LC-90178,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700179,CTR-2025179,PT Nusantara Lipid,Crude Palm Oil (CPO),Rotterdam,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700180,CTR-2025180,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,N,Y,False,,1,Green
-SHP-700181,CTR-2025181,Karachi Edible Oil Co.,RBD Palm Oil,Los Angeles,LC-90181,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700182,CTR-2025182,Istanbul Bitkisel Yag,RBD Palm Olein,Colombo,LC-90182,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700183,CTR-2025183,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90183,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700184,CTR-2025184,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chittagong,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,71.6,0,Green
-SHP-700185,CTR-2025185,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90185,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700186,CTR-2025186,California Biofuels Inc,RBD Palm Oil,Karachi,LC-90186,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,27.9,1,Green
-SHP-700187,CTR-2025187,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90187,LC 90 days,N,Y,Y,Y,N/A,Y,Y,N,False,54.3,2,Amber
-SHP-700188,CTR-2025188,Jeddah Oils & Fats Co,RBD Palm Olein,Shanghai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700189,CTR-2025189,California Biofuels Inc,RBD Palm Oil,Kandla,LC-90189,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700190,CTR-2025190,Rotterdam Fats & Oils BV,RBD Palm Oil,Chittagong,LC-90190,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,13.7,0,Green
-SHP-700191,CTR-2025191,EuroFat Amsterdam,RBD Palm Stearin,Shanghai,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700192,CTR-2025192,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Colombo,LC-90192,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700193,CTR-2025193,PT Nusantara Lipid,Palm Kernel Oil (PKO),Kandla,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700194,CTR-2025194,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700195,CTR-2025195,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Singapore,LC-90195,LC at sight,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
-SHP-700196,CTR-2025196,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Colombo,LC-90196,LC at sight,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700197,CTR-2025197,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700198,CTR-2025198,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Shanghai,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700199,CTR-2025199,California Biofuels Inc,RBD Palm Stearin,Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,91.6,1,Green
-SHP-700200,CTR-2025200,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT advance,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700201,CTR-2025201,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90201,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,False,25.6,1,Green
-SHP-700202,CTR-2025202,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700203,CTR-2025203,PT Nusantara Lipid,RBD Palm Oil,Chennai,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700204,CTR-2025204,Colombo Fats Trading,RBD Palm Oil,Singapore,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700205,CTR-2025205,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Karachi,LC-90205,LC 90 days,Y,N,N,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700206,CTR-2025206,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700207,CTR-2025207,Colombo Fats Trading,Palm Kernel Oil (PKO),Jeddah,LC-90207,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700208,CTR-2025208,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),Karachi,LC-90208,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700209,CTR-2025209,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Colombo,LC-90209,LC at sight,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700210,CTR-2025210,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Singapore,LC-90210,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700211,CTR-2025211,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Lagos,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700212,CTR-2025212,California Biofuels Inc,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT 60 days,Y,N,Y,Y,N/A,Y,Y,Y,False,,2,Amber
-SHP-700213,CTR-2025213,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Istanbul,,TT 60 days,N,N,Y,N,Y,Y,Y,Y,True,,2,Amber
-SHP-700214,CTR-2025214,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Colombo,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700215,CTR-2025215,PT Nusantara Lipid,RBD Palm Stearin,Istanbul,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,True,48.5,0,Green
-SHP-700216,CTR-2025216,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90216,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700217,CTR-2025217,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Lagos,,TT advance,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700218,CTR-2025218,Ganga Agro Traders,Palm Kernel Oil (PKO),Istanbul,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700219,CTR-2025219,Colombo Fats Trading,Palm Kernel Oil (PKO),Shanghai,LC-90219,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700220,CTR-2025220,Chittagong Oil Refinery,Palm Kernel Oil (PKO),"West Port, Malaysia",LC-90220,LC at sight,Y,N,Y,Y,N/A,Y,Y,Y,True,,1,Green
-SHP-700221,CTR-2025221,PT Nusantara Lipid,Crude Palm Oil (CPO),Rotterdam,LC-90221,LC 90 days,Y,N,Y,Y,N,Y,N,N,True,,2,Amber
-SHP-700222,CTR-2025222,Karachi Edible Oil Co.,Palm Kernel Expeller (PKE),Chennai,,TT advance,N,Y,Y,N,N,N,Y,Y,False,,4,Red
-SHP-700223,CTR-2025223,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),Kandla,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700224,CTR-2025224,Lagos Vegetable Oil Ltd,RBD Palm Olein,Jeddah,LC-90224,LC at sight,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700225,CTR-2025225,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90225,LC 90 days,Y,N,N,N,Y,Y,Y,N,True,,1,Green
-SHP-700226,CTR-2025226,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 30 days,Y,Y,N,Y,N,N,Y,Y,False,,3,Amber
-SHP-700227,CTR-2025227,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90227,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,33.3,1,Green
-SHP-700228,CTR-2025228,Rotterdam Fats & Oils BV,RBD Palm Olein,Guangzhou,LC-90228,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,11.1,0,Green
-SHP-700229,CTR-2025229,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Karachi,LC-90229,LC at sight,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700230,CTR-2025230,Karachi Edible Oil Co.,RBD Palm Stearin,Karachi,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700231,CTR-2025231,California Biofuels Inc,Palm Kernel Expeller (PKE),Kandla,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700232,CTR-2025232,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Shanghai,,TT 60 days,N,Y,Y,Y,Y,Y,N,N,True,,1,Green
-SHP-700233,CTR-2025233,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Chittagong,LC-90233,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700234,CTR-2025234,Shanghai Huifeng Trading,RBD Palm Oil,Guangzhou,,TT 60 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700235,CTR-2025235,PT Nusantara Lipid,Palm Kernel Expeller (PKE),Alexandria,LC-90235,LC at sight,N,Y,Y,Y,N,Y,Y,Y,False,,3,Amber
-SHP-700236,CTR-2025236,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Rotterdam,LC-90236,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700237,CTR-2025237,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90237,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700238,CTR-2025238,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90238,LC at sight,Y,Y,Y,N,Y,Y,N,N,False,,1,Green
-SHP-700239,CTR-2025239,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Guangzhou,,TT 60 days,Y,Y,N,N,N,Y,Y,N,False,,2,Amber
-SHP-700240,CTR-2025240,Colombo Fats Trading,RBD Palm Olein,Jeddah,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700241,CTR-2025241,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Lagos,,TT 60 days,Y,Y,N,Y,Y,Y,Y,Y,False,12.4,1,Green
-SHP-700242,CTR-2025242,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Kandla,,TT 30 days,Y,N,Y,Y,N,N,Y,N,True,,3,Amber
-SHP-700243,CTR-2025243,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Los Angeles,,TT 30 days,Y,Y,Y,Y,N,Y,N,N,False,,2,Amber
-SHP-700244,CTR-2025244,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,False,69.2,2,Amber
-SHP-700245,CTR-2025245,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Alexandria,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700246,CTR-2025246,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700247,CTR-2025247,Shanghai Huifeng Trading,RBD Palm Stearin,Jeddah,LC-90247,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700248,CTR-2025248,EuroFat Amsterdam,RBD Palm Stearin,Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700249,CTR-2025249,Colombo Fats Trading,RBD Palm Oil,Guangzhou,LC-90249,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700250,CTR-2025250,California Biofuels Inc,Crude Palm Oil (CPO),Los Angeles,LC-90250,LC at sight,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700251,CTR-2025251,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700252,CTR-2025252,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,False,9.3,2,Amber
-SHP-700253,CTR-2025253,California Biofuels Inc,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700254,CTR-2025254,California Biofuels Inc,RBD Palm Oil,Chennai,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700255,CTR-2025255,Colombo Fats Trading,Palm Kernel Oil (PKO),Istanbul,,TT 30 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700256,CTR-2025256,Rotterdam Fats & Oils BV,RBD Palm Oil,Jeddah,LC-90256,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700257,CTR-2025257,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Colombo,,TT advance,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
-SHP-700258,CTR-2025258,PT Nusantara Lipid,RBD Palm Olein,Lagos,LC-90258,LC at sight,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700259,CTR-2025259,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,13.1,1,Green
-SHP-700260,CTR-2025260,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Singapore,LC-90260,LC 90 days,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
-SHP-700261,CTR-2025261,Colombo Fats Trading,RBD Palm Stearin,Singapore,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700262,CTR-2025262,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Karachi,LC-90262,LC 90 days,Y,Y,Y,Y,Y,Y,N,Y,False,,1,Green
-SHP-700263,CTR-2025263,Istanbul Bitkisel Yag,RBD Palm Stearin,Alexandria,LC-90263,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700264,CTR-2025264,Nile Delta Vegetable Oils,RBD Palm Olein,Guangzhou,LC-90264,LC at sight,Y,Y,Y,Y,Y,Y,N,Y,True,,0,Green
-SHP-700265,CTR-2025265,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Istanbul,,TT advance,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700266,CTR-2025266,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Colombo,LC-90266,LC at sight,Y,Y,Y,Y,Y,N,Y,Y,False,,2,Amber
-SHP-700267,CTR-2025267,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 60 days,N,N,Y,Y,Y,Y,Y,Y,False,,3,Amber
-SHP-700268,CTR-2025268,Colombo Fats Trading,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 30 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
-SHP-700269,CTR-2025269,Nile Delta Vegetable Oils,RBD Palm Olein,Lagos,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700270,CTR-2025270,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90270,LC at sight,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700271,CTR-2025271,California Biofuels Inc,Crude Palm Oil (CPO),Guangzhou,,TT advance,Y,Y,Y,Y,Y,N,N,N,True,,1,Green
-SHP-700272,CTR-2025272,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Karachi,,TT 30 days,Y,N,Y,N,Y,Y,Y,Y,True,140.0,2,Amber
-SHP-700273,CTR-2025273,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700274,CTR-2025274,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Jeddah,LC-90274,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700275,CTR-2025275,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Shanghai,LC-90275,LC at sight,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700276,CTR-2025276,PT Nusantara Lipid,Palm Kernel Oil (PKO),Chittagong,LC-90276,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700277,CTR-2025277,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Karachi,,TT 30 days,Y,N,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700278,CTR-2025278,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Guangzhou,LC-90278,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700279,CTR-2025279,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",LC-90279,LC at sight,Y,N,Y,N,Y,Y,Y,Y,True,,1,Green
-SHP-700280,CTR-2025280,Colombo Fats Trading,Palm Kernel Expeller (PKE),Karachi,LC-90280,LC at sight,Y,N,N,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700281,CTR-2025281,PT Nusantara Lipid,Palm Kernel Oil (PKO),Chittagong,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700282,CTR-2025282,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Alexandria,LC-90282,LC at sight,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700283,CTR-2025283,Lagos Vegetable Oil Ltd,RBD Palm Oil,Alexandria,LC-90283,LC at sight,N,Y,Y,N,N,Y,Y,Y,True,,2,Amber
-SHP-700284,CTR-2025284,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),Singapore,LC-90284,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700285,CTR-2025285,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700286,CTR-2025286,Meridian Oleo Pvt Ltd,RBD Palm Oil,Alexandria,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700287,CTR-2025287,Lagos Vegetable Oil Ltd,RBD Palm Olein,Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700288,CTR-2025288,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90288,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700289,CTR-2025289,Ganga Agro Traders,RBD Palm Stearin,Guangzhou,LC-90289,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,35.5,0,Green
-SHP-700290,CTR-2025290,Rotterdam Fats & Oils BV,RBD Palm Oil,Alexandria,LC-90290,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700291,CTR-2025291,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Singapore,LC-90291,LC at sight,Y,N,Y,Y,N,Y,N,Y,True,,2,Amber
-SHP-700292,CTR-2025292,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,N,N,Y,N,Y,Y,N,N,False,,3,Amber
-SHP-700293,CTR-2025293,Ganga Agro Traders,RBD Palm Stearin,Chittagong,,TT 60 days,Y,N,Y,Y,N,N,N,N,True,63.5,3,Amber
-SHP-700294,CTR-2025294,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Rotterdam,,TT advance,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
-SHP-700295,CTR-2025295,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Singapore,LC-90295,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700296,CTR-2025296,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Los Angeles,LC-90296,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,62.4,1,Green
-SHP-700297,CTR-2025297,Karachi Edible Oil Co.,RBD Palm Oil,Istanbul,,TT 30 days,Y,Y,Y,Y,N,Y,N,Y,True,,1,Green
-SHP-700298,CTR-2025298,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Chittagong,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700299,CTR-2025299,Ganga Agro Traders,Palm Kernel Expeller (PKE),Kandla,,TT advance,Y,Y,Y,N,Y,Y,Y,N,False,54.1,1,Green
-SHP-700300,CTR-2025300,California Biofuels Inc,RBD Palm Oil,Rotterdam,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700301,CTR-2025301,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700302,CTR-2025302,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700303,CTR-2025303,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT 30 days,N,Y,Y,Y,N,Y,Y,Y,False,20.1,3,Amber
-SHP-700304,CTR-2025304,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,65.3,0,Green
-SHP-700305,CTR-2025305,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700306,CTR-2025306,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90306,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700307,CTR-2025307,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90307,LC 90 days,Y,N,Y,Y,N,N,Y,Y,False,27.0,4,Red
-SHP-700308,CTR-2025308,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,21.7,0,Green
-SHP-700309,CTR-2025309,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90309,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,77.4,0,Green
-SHP-700310,CTR-2025310,Nile Delta Vegetable Oils,RBD Palm Oil,Guangzhou,,TT 60 days,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700311,CTR-2025311,Ganga Agro Traders,RBD Palm Stearin,Shanghai,LC-90311,LC at sight,N,N,N,Y,N,Y,Y,N,True,3.1,3,Amber
-SHP-700312,CTR-2025312,Chittagong Oil Refinery,RBD Palm Stearin,Karachi,LC-90312,LC at sight,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700313,CTR-2025313,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Shanghai,,TT 30 days,N,N,Y,Y,Y,Y,Y,N,False,,3,Amber
-SHP-700314,CTR-2025314,Colombo Fats Trading,RBD Palm Oil,Karachi,,TT 30 days,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700315,CTR-2025315,Colombo Fats Trading,Crude Palm Oil (CPO),Guangzhou,,TT advance,Y,N,Y,Y,N,Y,Y,Y,True,107.0,3,Amber
-SHP-700316,CTR-2025316,Lagos Vegetable Oil Ltd,Crude Palm Oil (CPO),Chittagong,LC-90316,LC at sight,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700317,CTR-2025317,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Kandla,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,25.2,1,Green
-SHP-700318,CTR-2025318,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT 60 days,Y,Y,N,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700319,CTR-2025319,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700320,CTR-2025320,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,Y,N,Y,Y,N,Y,Y,N,False,,3,Amber
-SHP-700321,CTR-2025321,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90321,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700322,CTR-2025322,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 30 days,N,Y,Y,Y,N,N,Y,Y,True,,3,Amber
-SHP-700323,CTR-2025323,EuroFat Amsterdam,RBD Palm Oil,Alexandria,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,39.2,0,Green
-SHP-700324,CTR-2025324,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 30 days,Y,N,Y,N,N,Y,Y,N,False,15.7,3,Amber
-SHP-700325,CTR-2025325,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Shanghai,,TT 60 days,N,N,Y,Y,N,N,Y,N,True,23.6,4,Red
-SHP-700326,CTR-2025326,Shanghai Huifeng Trading,RBD Palm Oil,Lagos,,TT 30 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700327,CTR-2025327,Ganga Agro Traders,Palm Kernel Oil (PKO),Guangzhou,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700328,CTR-2025328,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90328,LC 90 days,Y,Y,Y,N,N,Y,Y,Y,False,,2,Amber
-SHP-700329,CTR-2025329,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Singapore,LC-90329,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700330,CTR-2025330,Ganga Agro Traders,RBD Palm Olein,Istanbul,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,41.5,0,Green
-SHP-700331,CTR-2025331,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Shanghai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,13.0,0,Green
-SHP-700332,CTR-2025332,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90332,LC 90 days,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700333,CTR-2025333,Shanghai Huifeng Trading,RBD Palm Oil,Jeddah,,TT advance,N,Y,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700334,CTR-2025334,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Lagos,,TT advance,N,Y,N,Y,N,Y,Y,N,True,,2,Amber
-SHP-700335,CTR-2025335,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Los Angeles,,TT 60 days,Y,Y,N,Y,Y,Y,Y,Y,True,140.0,1,Green
-SHP-700336,CTR-2025336,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Alexandria,LC-90336,LC 90 days,N,N,Y,N,Y,Y,Y,Y,False,,3,Amber
-SHP-700337,CTR-2025337,Shanghai Huifeng Trading,RBD Palm Oil,Guangzhou,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700338,CTR-2025338,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Chennai,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,55.0,1,Green
-SHP-700339,CTR-2025339,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90339,LC 90 days,Y,Y,Y,Y,Y,Y,N,Y,False,,1,Green
-SHP-700340,CTR-2025340,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Shanghai,LC-90340,LC at sight,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700341,CTR-2025341,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700342,CTR-2025342,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Singapore,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700343,CTR-2025343,Nile Delta Vegetable Oils,RBD Palm Oil,Jeddah,LC-90343,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,56.4,0,Green
-SHP-700344,CTR-2025344,California Biofuels Inc,Palm Kernel Oil (PKO),Istanbul,,TT advance,N,Y,Y,Y,Y,Y,N,Y,True,28.4,1,Green
-SHP-700345,CTR-2025345,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Kandla,LC-90345,LC 90 days,N,N,Y,N,N,Y,Y,N,False,,4,Red
-SHP-700346,CTR-2025346,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Chittagong,LC-90346,LC 90 days,Y,Y,Y,N,N,N,Y,N,True,16.6,2,Amber
-SHP-700347,CTR-2025347,Istanbul Bitkisel Yag,RBD Palm Oil,Alexandria,,TT 60 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
-SHP-700348,CTR-2025348,PT Nusantara Lipid,RBD Palm Oil,Singapore,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700349,CTR-2025349,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Los Angeles,LC-90349,LC at sight,N,Y,Y,Y,N,N,Y,Y,True,,3,Amber
-SHP-700350,CTR-2025350,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 60 days,Y,Y,N,N,N/A,Y,Y,Y,True,73.7,0,Green
-SHP-700351,CTR-2025351,Ganga Agro Traders,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,N/A,Y,N,N,True,28.3,0,Green
-SHP-700352,CTR-2025352,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Kandla,LC-90352,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700353,CTR-2025353,PT Nusantara Lipid,RBD Palm Stearin,Jeddah,LC-90353,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700354,CTR-2025354,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Chennai,LC-90354,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
-SHP-700355,CTR-2025355,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700356,CTR-2025356,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Colombo,,TT 30 days,Y,N,N,Y,Y,Y,Y,N,True,,1,Green
-SHP-700357,CTR-2025357,Colombo Fats Trading,Palm Kernel Expeller (PKE),Lagos,LC-90357,LC 90 days,Y,N,Y,N,Y,Y,Y,N,False,70.0,2,Amber
-SHP-700358,CTR-2025358,Lagos Vegetable Oil Ltd,RBD Palm Oil,Colombo,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700359,CTR-2025359,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Shanghai,LC-90359,LC at sight,Y,Y,Y,Y,N,Y,Y,N,False,,2,Amber
-SHP-700360,CTR-2025360,California Biofuels Inc,RBD Palm Olein,Chittagong,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700361,CTR-2025361,Colombo Fats Trading,RBD Palm Oil,Lagos,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700362,CTR-2025362,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",,TT advance,Y,N,Y,Y,N/A,Y,N,Y,True,,1,Green
-SHP-700363,CTR-2025363,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Karachi,,TT 30 days,Y,N,N,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700364,CTR-2025364,California Biofuels Inc,RBD Palm Olein,Guangzhou,LC-90364,LC 90 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700365,CTR-2025365,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT advance,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
-SHP-700366,CTR-2025366,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT 60 days,Y,Y,Y,Y,Y,N,N,N,False,,2,Amber
-SHP-700367,CTR-2025367,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT advance,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700368,CTR-2025368,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Colombo,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700369,CTR-2025369,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Jeddah,LC-90369,LC 90 days,Y,Y,Y,Y,Y,Y,N,Y,False,,1,Green
-SHP-700370,CTR-2025370,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Karachi,,TT 60 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700371,CTR-2025371,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Lagos,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700372,CTR-2025372,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700373,CTR-2025373,Jeddah Oils & Fats Co,RBD Palm Oil,Colombo,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700374,CTR-2025374,Rotterdam Fats & Oils BV,RBD Palm Olein,Rotterdam,LC-90374,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700375,CTR-2025375,Istanbul Bitkisel Yag,RBD Palm Stearin,"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700376,CTR-2025376,EuroFat Amsterdam,Palm Kernel Oil (PKO),Los Angeles,LC-90376,LC at sight,Y,N,Y,Y,N,N,Y,Y,True,40.7,3,Amber
-SHP-700377,CTR-2025377,Guangzhou Oleochem Ltd,RBD Palm Stearin,Istanbul,LC-90377,LC at sight,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700378,CTR-2025378,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Alexandria,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700379,CTR-2025379,Chittagong Oil Refinery,Crude Palm Oil (CPO),Singapore,LC-90379,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700380,CTR-2025380,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90380,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700381,CTR-2025381,Rotterdam Fats & Oils BV,RBD Palm Olein,Los Angeles,LC-90381,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700382,CTR-2025382,PT Nusantara Lipid,RBD Palm Olein,Colombo,LC-90382,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,17.7,0,Green
-SHP-700383,CTR-2025383,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Kandla,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700384,CTR-2025384,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,50.5,1,Green
-SHP-700385,CTR-2025385,Karachi Edible Oil Co.,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
-SHP-700386,CTR-2025386,Rotterdam Fats & Oils BV,Palm Kernel Expeller (PKE),Istanbul,LC-90386,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700387,CTR-2025387,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chennai,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700388,CTR-2025388,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,72.0,1,Green
-SHP-700389,CTR-2025389,Colombo Fats Trading,Crude Palm Oil (CPO),Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,3.4,0,Green
-SHP-700390,CTR-2025390,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Shanghai,LC-90390,LC at sight,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700391,CTR-2025391,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Colombo,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,85.3,1,Green
-SHP-700392,CTR-2025392,California Biofuels Inc,RBD Palm Oil,Alexandria,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700393,CTR-2025393,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Karachi,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700394,CTR-2025394,PT Nusantara Lipid,RBD Palm Olein,Kandla,,TT advance,N,Y,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700395,CTR-2025395,Shanghai Huifeng Trading,RBD Palm Stearin,Guangzhou,,TT 30 days,Y,Y,N,Y,Y,Y,N,N,True,,0,Green
-SHP-700396,CTR-2025396,Colombo Fats Trading,RBD Palm Oil,Los Angeles,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700397,CTR-2025397,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Chennai,,TT 30 days,N,N,Y,Y,Y,Y,Y,N,False,140.0,4,Red
-SHP-700398,CTR-2025398,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90398,LC at sight,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
-SHP-700399,CTR-2025399,Guangzhou Oleochem Ltd,RBD Palm Stearin,Colombo,,TT advance,N,Y,Y,N,N,Y,Y,N,True,,2,Amber
-SHP-700400,CTR-2025400,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",LC-90400,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700401,CTR-2025401,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,True,20.7,1,Green
-SHP-700402,CTR-2025402,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Alexandria,LC-90402,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700403,CTR-2025403,Chittagong Oil Refinery,RBD Palm Stearin,Istanbul,LC-90403,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700404,CTR-2025404,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Alexandria,LC-90404,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700405,CTR-2025405,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Jeddah,LC-90405,LC 90 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
-SHP-700406,CTR-2025406,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Istanbul,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700407,CTR-2025407,Meridian Oleo Pvt Ltd,RBD Palm Olein,Lagos,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700408,CTR-2025408,PT Nusantara Lipid,Crude Palm Oil (CPO),Istanbul,LC-90408,LC 90 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
-SHP-700409,CTR-2025409,California Biofuels Inc,Palm Kernel Expeller (PKE),Alexandria,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,22.1,1,Green
-SHP-700410,CTR-2025410,Lagos Vegetable Oil Ltd,RBD Palm Olein,Chennai,,TT 60 days,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
-SHP-700411,CTR-2025411,Colombo Fats Trading,Palm Kernel Oil (PKO),Istanbul,,TT advance,Y,Y,N,N,Y,Y,N,N,True,,0,Green
-SHP-700412,CTR-2025412,Shanghai Huifeng Trading,RBD Palm Stearin,Istanbul,,TT 60 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700413,CTR-2025413,EuroFat Amsterdam,RBD Palm Oil,Los Angeles,LC-90413,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700414,CTR-2025414,Guangzhou Oleochem Ltd,RBD Palm Stearin,Colombo,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700415,CTR-2025415,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90415,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700416,CTR-2025416,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,25.5,0,Green
-SHP-700417,CTR-2025417,Chittagong Oil Refinery,RBD Palm Oil,Chennai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700418,CTR-2025418,PT Nusantara Lipid,Crude Palm Oil (CPO),Jeddah,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700419,CTR-2025419,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Guangzhou,,TT 60 days,Y,Y,Y,Y,N,N,Y,N,False,,3,Amber
+SHP-700000,CTR-2025000,PT Nusantara Lipid,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,27.2,0,Green
+SHP-700001,CTR-2025001,Nile Delta Vegetable Oils,RBD Palm Oil,Istanbul,,TT advance,Y,Y,Y,N,N,N,Y,Y,True,,2,Amber
+SHP-700002,CTR-2025002,California Biofuels Inc,Crude Palm Oil (CPO),Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,True,140.0,1,Green
+SHP-700003,CTR-2025003,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90003,LC at sight,Y,Y,N,Y,N,Y,N,N,True,,1,Green
+SHP-700004,CTR-2025004,PT Nusantara Lipid,RBD Palm Oil,Kandla,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700005,CTR-2025005,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT 60 days,N,N,Y,Y,Y,Y,N,N,True,,2,Amber
+SHP-700006,CTR-2025006,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700007,CTR-2025007,Nile Delta Vegetable Oils,RBD Palm Olein,Singapore,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700008,CTR-2025008,PT Nusantara Lipid,RBD Palm Oil,Istanbul,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700009,CTR-2025009,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Los Angeles,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700010,CTR-2025010,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,N,Y,Y,True,,1,Green
+SHP-700011,CTR-2025011,Ganga Agro Traders,Palm Kernel Expeller (PKE),Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700012,CTR-2025012,Shanghai Huifeng Trading,RBD Palm Stearin,Los Angeles,,TT advance,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
+SHP-700013,CTR-2025013,Ganga Agro Traders,RBD Palm Oil,Alexandria,LC-90013,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700014,CTR-2025014,Karachi Edible Oil Co.,RBD Palm Stearin,Istanbul,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700015,CTR-2025015,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Alexandria,,TT 60 days,Y,Y,N,Y,Y,Y,Y,Y,True,80.5,1,Green
+SHP-700016,CTR-2025016,Meridian Oleo Pvt Ltd,RBD Palm Oil,Singapore,LC-90016,LC at sight,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
+SHP-700017,CTR-2025017,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Los Angeles,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700018,CTR-2025018,Colombo Fats Trading,Palm Kernel Expeller (PKE),Jeddah,LC-90018,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700019,CTR-2025019,Guangzhou Oleochem Ltd,RBD Palm Stearin,Rotterdam,,TT 30 days,Y,Y,Y,Y,N,N,N,Y,True,22.3,2,Amber
+SHP-700020,CTR-2025020,Jeddah Oils & Fats Co,RBD Palm Olein,Los Angeles,LC-90020,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700021,CTR-2025021,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Karachi,LC-90021,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700022,CTR-2025022,PT Nusantara Lipid,Crude Palm Oil (CPO),Shanghai,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,10.4,0,Green
+SHP-700023,CTR-2025023,Istanbul Bitkisel Yag,RBD Palm Olein,Kandla,LC-90023,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700024,CTR-2025024,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Karachi,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700025,CTR-2025025,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90025,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700026,CTR-2025026,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Kandla,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700027,CTR-2025027,Chittagong Oil Refinery,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90027,LC at sight,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700028,CTR-2025028,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Alexandria,,TT 30 days,N,Y,Y,Y,N,Y,N,Y,True,45.9,2,Amber
+SHP-700029,CTR-2025029,Ganga Agro Traders,Palm Kernel Oil (PKO),Chennai,,TT 60 days,Y,Y,Y,Y,N,N,Y,N,True,,2,Amber
+SHP-700030,CTR-2025030,Meridian Oleo Pvt Ltd,RBD Palm Olein,Singapore,,TT advance,Y,N,N,N,Y,Y,Y,Y,True,,1,Green
+SHP-700031,CTR-2025031,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Shanghai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700032,CTR-2025032,Colombo Fats Trading,RBD Palm Oil,Rotterdam,LC-90032,LC at sight,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700033,CTR-2025033,California Biofuels Inc,RBD Palm Stearin,Jeddah,LC-90033,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700034,CTR-2025034,Ganga Agro Traders,RBD Palm Oil,Colombo,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700035,CTR-2025035,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Kandla,,TT advance,Y,Y,Y,Y,N,N,Y,N,True,,2,Amber
+SHP-700036,CTR-2025036,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90036,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700037,CTR-2025037,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Kandla,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700038,CTR-2025038,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700039,CTR-2025039,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,N,Y,Y,N,N,Y,N,True,,3,Amber
+SHP-700040,CTR-2025040,California Biofuels Inc,Palm Kernel Expeller (PKE),Singapore,LC-90040,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700041,CTR-2025041,Rotterdam Fats & Oils BV,RBD Palm Oil,Chennai,LC-90041,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700042,CTR-2025042,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Alexandria,LC-90042,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700043,CTR-2025043,Lagos Vegetable Oil Ltd,Crude Palm Oil (CPO),Alexandria,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700044,CTR-2025044,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Rotterdam,LC-90044,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700045,CTR-2025045,EuroFat Amsterdam,Palm Kernel Oil (PKO),Kandla,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,True,12.9,1,Green
+SHP-700046,CTR-2025046,Nile Delta Vegetable Oils,RBD Palm Stearin,Guangzhou,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700047,CTR-2025047,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Alexandria,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700048,CTR-2025048,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Singapore,LC-90048,LC 90 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700049,CTR-2025049,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),Rotterdam,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700050,CTR-2025050,Chittagong Oil Refinery,RBD Palm Olein,Guangzhou,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700051,CTR-2025051,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90051,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700052,CTR-2025052,Nile Delta Vegetable Oils,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90052,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700053,CTR-2025053,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Kandla,LC-90053,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,True,18.6,0,Green
+SHP-700054,CTR-2025054,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Chittagong,,TT advance,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
+SHP-700055,CTR-2025055,PT Nusantara Lipid,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700056,CTR-2025056,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",LC-90056,LC at sight,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700057,CTR-2025057,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Los Angeles,LC-90057,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700058,CTR-2025058,California Biofuels Inc,RBD Palm Oil,Lagos,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700059,CTR-2025059,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,N,Y,N,Y,Y,Y,Y,Y,True,72.1,1,Green
+SHP-700060,CTR-2025060,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90060,LC 90 days,N,Y,N,N,Y,Y,Y,Y,True,,1,Green
+SHP-700061,CTR-2025061,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700062,CTR-2025062,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,24.6,0,Green
+SHP-700063,CTR-2025063,Nile Delta Vegetable Oils,RBD Palm Oil,Jeddah,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700064,CTR-2025064,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Karachi,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700065,CTR-2025065,Colombo Fats Trading,RBD Palm Olein,Chennai,LC-90065,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700066,CTR-2025066,Colombo Fats Trading,RBD Palm Olein,Kandla,LC-90066,LC at sight,N,N,N,N,N,Y,Y,N,True,41.5,3,Amber
+SHP-700067,CTR-2025067,Lagos Vegetable Oil Ltd,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700068,CTR-2025068,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Chittagong,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700069,CTR-2025069,Rotterdam Fats & Oils BV,RBD Palm Olein,Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700070,CTR-2025070,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Colombo,,TT advance,Y,N,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700071,CTR-2025071,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700072,CTR-2025072,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90072,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700073,CTR-2025073,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Alexandria,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700074,CTR-2025074,Istanbul Bitkisel Yag,RBD Palm Stearin,Guangzhou,LC-90074,LC at sight,Y,N,Y,Y,N,Y,Y,N,True,28.5,2,Amber
+SHP-700075,CTR-2025075,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Jeddah,LC-90075,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700076,CTR-2025076,California Biofuels Inc,RBD Palm Olein,Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700077,CTR-2025077,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Lagos,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700078,CTR-2025078,Chittagong Oil Refinery,Crude Palm Oil (CPO),Chittagong,,TT 60 days,Y,N,N,Y,Y,N,Y,N,True,97.3,3,Amber
+SHP-700079,CTR-2025079,EuroFat Amsterdam,RBD Palm Olein,Kandla,LC-90079,LC 90 days,Y,Y,N,Y,Y,N,Y,N,True,,1,Green
+SHP-700080,CTR-2025080,Guangzhou Oleochem Ltd,RBD Palm Stearin,Alexandria,LC-90080,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,38.7,1,Green
+SHP-700081,CTR-2025081,Colombo Fats Trading,Palm Kernel Oil (PKO),Chittagong,,TT 30 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
+SHP-700082,CTR-2025082,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Shanghai,,TT advance,Y,Y,Y,N,Y,N,Y,Y,True,,1,Green
+SHP-700083,CTR-2025083,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,LC-90083,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,22.4,0,Green
+SHP-700084,CTR-2025084,Lagos Vegetable Oil Ltd,RBD Palm Olein,Singapore,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700085,CTR-2025085,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,,TT 60 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700086,CTR-2025086,Guangzhou Oleochem Ltd,RBD Palm Olein,Kandla,LC-90086,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,67.6,1,Green
+SHP-700087,CTR-2025087,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,45.9,0,Green
+SHP-700088,CTR-2025088,EuroFat Amsterdam,RBD Palm Oil,Singapore,,TT 30 days,Y,Y,Y,Y,Y,N,Y,Y,True,23.3,1,Green
+SHP-700089,CTR-2025089,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Istanbul,LC-90089,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700090,CTR-2025090,Guangzhou Oleochem Ltd,RBD Palm Oil,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N/A,N,Y,N,True,,1,Green
+SHP-700091,CTR-2025091,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700092,CTR-2025092,Istanbul Bitkisel Yag,RBD Palm Oil,Karachi,LC-90092,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700093,CTR-2025093,Jeddah Oils & Fats Co,RBD Palm Olein,Karachi,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700094,CTR-2025094,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700095,CTR-2025095,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Los Angeles,LC-90095,LC at sight,Y,N,N,Y,Y,N,Y,Y,True,,2,Amber
+SHP-700096,CTR-2025096,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Guangzhou,LC-90096,LC at sight,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700097,CTR-2025097,Chittagong Oil Refinery,RBD Palm Olein,"West Port, Malaysia",LC-90097,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,True,14.0,0,Green
+SHP-700098,CTR-2025098,Jeddah Oils & Fats Co,RBD Palm Oil,Istanbul,LC-90098,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,134.9,3,Amber
+SHP-700099,CTR-2025099,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Chennai,,TT 30 days,Y,N,Y,Y,Y,Y,N,N,True,56.5,1,Green
+SHP-700100,CTR-2025100,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90100,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700101,CTR-2025101,California Biofuels Inc,Crude Palm Oil (CPO),Shanghai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700102,CTR-2025102,Shanghai Huifeng Trading,RBD Palm Oil,Los Angeles,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700103,CTR-2025103,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,11.7,0,Green
+SHP-700104,CTR-2025104,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90104,LC 90 days,Y,Y,Y,N,N,N,Y,Y,True,,2,Amber
+SHP-700105,CTR-2025105,Istanbul Bitkisel Yag,RBD Palm Oil,Chennai,LC-90105,LC 90 days,Y,N,Y,N,N,N,N,Y,True,43.9,3,Amber
+SHP-700106,CTR-2025106,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Singapore,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700107,CTR-2025107,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700108,CTR-2025108,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Singapore,,TT 60 days,Y,Y,N,N,Y,Y,Y,Y,True,19.5,0,Green
+SHP-700109,CTR-2025109,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,Y,N,Y,N,Y,Y,True,140.0,2,Amber
+SHP-700110,CTR-2025110,PT Nusantara Lipid,RBD Palm Olein,Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700111,CTR-2025111,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Chittagong,LC-90111,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700112,CTR-2025112,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Istanbul,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700113,CTR-2025113,Ganga Agro Traders,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,Y,N,Y,N,Y,Y,True,,1,Green
+SHP-700114,CTR-2025114,Rotterdam Fats & Oils BV,RBD Palm Olein,Jeddah,LC-90114,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
+SHP-700115,CTR-2025115,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Jeddah,LC-90115,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
+SHP-700116,CTR-2025116,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,50.3,0,Green
+SHP-700117,CTR-2025117,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Colombo,,TT 30 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700118,CTR-2025118,California Biofuels Inc,RBD Palm Stearin,Karachi,LC-90118,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700119,CTR-2025119,Lagos Vegetable Oil Ltd,RBD Palm Oil,Istanbul,LC-90119,LC at sight,Y,Y,Y,Y,N,Y,Y,Y,True,39.8,1,Green
+SHP-700120,CTR-2025120,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT 60 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700121,CTR-2025121,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90121,LC 90 days,Y,Y,Y,Y,Y,Y,N,Y,True,,0,Green
+SHP-700122,CTR-2025122,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700123,CTR-2025123,Rotterdam Fats & Oils BV,RBD Palm Olein,Karachi,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
+SHP-700124,CTR-2025124,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Singapore,,TT 60 days,Y,Y,N,N,N,Y,Y,Y,True,,1,Green
+SHP-700125,CTR-2025125,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Chennai,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700126,CTR-2025126,Chittagong Oil Refinery,RBD Palm Olein,"West Port, Malaysia",LC-90126,LC 90 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
+SHP-700127,CTR-2025127,EuroFat Amsterdam,Crude Palm Oil (CPO),Kandla,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700128,CTR-2025128,Shanghai Huifeng Trading,RBD Palm Stearin,Shanghai,LC-90128,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,45.8,0,Green
+SHP-700129,CTR-2025129,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Jeddah,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700130,CTR-2025130,Karachi Edible Oil Co.,RBD Palm Olein,Istanbul,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700131,CTR-2025131,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90131,LC 90 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700132,CTR-2025132,Chittagong Oil Refinery,Crude Palm Oil (CPO),Shanghai,,TT advance,Y,Y,Y,Y,N,Y,N,Y,True,,1,Green
+SHP-700133,CTR-2025133,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,LC-90133,LC 90 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700134,CTR-2025134,Shanghai Huifeng Trading,RBD Palm Oil,Colombo,LC-90134,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700135,CTR-2025135,Colombo Fats Trading,RBD Palm Stearin,Karachi,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700136,CTR-2025136,Karachi Edible Oil Co.,RBD Palm Stearin,Lagos,LC-90136,LC 90 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700137,CTR-2025137,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Shanghai,LC-90137,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700138,CTR-2025138,Ganga Agro Traders,RBD Palm Stearin,Karachi,LC-90138,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700139,CTR-2025139,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 60 days,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
+SHP-700140,CTR-2025140,Meridian Oleo Pvt Ltd,RBD Palm Olein,"West Port, Malaysia",,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700141,CTR-2025141,Istanbul Bitkisel Yag,RBD Palm Oil,Guangzhou,,TT advance,Y,N,Y,Y,Y,Y,N,N,True,,1,Green
+SHP-700142,CTR-2025142,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90142,LC 90 days,Y,N,Y,Y,N/A,Y,Y,N,True,,1,Green
+SHP-700143,CTR-2025143,California Biofuels Inc,RBD Palm Olein,Chittagong,,TT 30 days,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
+SHP-700144,CTR-2025144,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Rotterdam,LC-90144,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,14.8,0,Green
+SHP-700145,CTR-2025145,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,39.9,0,Green
+SHP-700146,CTR-2025146,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,LC-90146,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700147,CTR-2025147,California Biofuels Inc,Palm Kernel Oil (PKO),Kandla,LC-90147,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,69.8,0,Green
+SHP-700148,CTR-2025148,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700149,CTR-2025149,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90149,LC at sight,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
+SHP-700150,CTR-2025150,Colombo Fats Trading,RBD Palm Stearin,Chittagong,LC-90150,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700151,CTR-2025151,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),Rotterdam,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700152,CTR-2025152,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,N,Y,True,,0,Green
+SHP-700153,CTR-2025153,Karachi Edible Oil Co.,RBD Palm Olein,Los Angeles,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700154,CTR-2025154,Rotterdam Fats & Oils BV,Palm Kernel Expeller (PKE),Singapore,LC-90154,LC at sight,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700155,CTR-2025155,PT Nusantara Lipid,RBD Palm Stearin,Jeddah,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700156,CTR-2025156,Ganga Agro Traders,Palm Kernel Expeller (PKE),Shanghai,LC-90156,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700157,CTR-2025157,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700158,CTR-2025158,Jeddah Oils & Fats Co,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N/A,Y,Y,Y,True,,0,Green
+SHP-700159,CTR-2025159,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700160,CTR-2025160,Chittagong Oil Refinery,RBD Palm Stearin,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700161,CTR-2025161,Colombo Fats Trading,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90161,LC at sight,Y,Y,Y,Y,N/A,Y,Y,Y,True,140.0,1,Green
+SHP-700162,CTR-2025162,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Karachi,LC-90162,LC 90 days,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700163,CTR-2025163,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Lagos,,TT advance,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700164,CTR-2025164,California Biofuels Inc,RBD Palm Stearin,Shanghai,,TT 60 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700165,CTR-2025165,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700166,CTR-2025166,California Biofuels Inc,RBD Palm Oil,Rotterdam,LC-90166,LC 90 days,Y,Y,Y,N,Y,N,Y,Y,True,,1,Green
+SHP-700167,CTR-2025167,Nile Delta Vegetable Oils,RBD Palm Oil,Chittagong,LC-90167,LC at sight,N,Y,Y,Y,N,N,Y,N,True,19.5,3,Amber
+SHP-700168,CTR-2025168,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Singapore,LC-90168,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700169,CTR-2025169,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,43.1,0,Green
+SHP-700170,CTR-2025170,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,True,32.4,1,Green
+SHP-700171,CTR-2025171,PT Nusantara Lipid,RBD Palm Stearin,Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700172,CTR-2025172,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,12.8,1,Green
+SHP-700173,CTR-2025173,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Kandla,LC-90173,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700174,CTR-2025174,Lagos Vegetable Oil Ltd,RBD Palm Stearin,Colombo,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,47.7,0,Green
+SHP-700175,CTR-2025175,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90175,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700176,CTR-2025176,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 60 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
+SHP-700177,CTR-2025177,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Lagos,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700178,CTR-2025178,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Lagos,,TT 60 days,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
+SHP-700179,CTR-2025179,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Jeddah,LC-90179,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700180,CTR-2025180,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chittagong,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,84.5,1,Green
+SHP-700181,CTR-2025181,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90181,LC at sight,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700182,CTR-2025182,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Karachi,LC-90182,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,43.9,0,Green
+SHP-700183,CTR-2025183,Rotterdam Fats & Oils BV,Palm Kernel Expeller (PKE),Singapore,LC-90183,LC at sight,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700184,CTR-2025184,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Rotterdam,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700185,CTR-2025185,Ganga Agro Traders,RBD Palm Stearin,Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700186,CTR-2025186,Guangzhou Oleochem Ltd,RBD Palm Olein,Colombo,,TT 30 days,Y,N,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700187,CTR-2025187,EuroFat Amsterdam,RBD Palm Oil,Los Angeles,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700188,CTR-2025188,EuroFat Amsterdam,RBD Palm Olein,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700189,CTR-2025189,Rotterdam Fats & Oils BV,RBD Palm Oil,Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700190,CTR-2025190,Chittagong Oil Refinery,RBD Palm Oil,Los Angeles,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,77.5,0,Green
+SHP-700191,CTR-2025191,Istanbul Bitkisel Yag,RBD Palm Oil,Istanbul,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700192,CTR-2025192,Jeddah Oils & Fats Co,RBD Palm Olein,Istanbul,LC-90192,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700193,CTR-2025193,PT Nusantara Lipid,Palm Kernel Oil (PKO),Chennai,LC-90193,LC at sight,Y,N,Y,Y,Y,Y,Y,Y,True,59.3,1,Green
+SHP-700194,CTR-2025194,Jeddah Oils & Fats Co,RBD Palm Olein,Lagos,LC-90194,LC 90 days,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700195,CTR-2025195,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700196,CTR-2025196,Colombo Fats Trading,RBD Palm Oil,Chennai,LC-90196,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700197,CTR-2025197,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Karachi,LC-90197,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,132.0,1,Green
+SHP-700198,CTR-2025198,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700199,CTR-2025199,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Istanbul,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
+SHP-700200,CTR-2025200,Guangzhou Oleochem Ltd,RBD Palm Oil,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,34.2,0,Green
+SHP-700201,CTR-2025201,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90201,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700202,CTR-2025202,Karachi Edible Oil Co.,RBD Palm Oil,"West Port, Malaysia",LC-90202,LC 90 days,N,Y,Y,N,Y,Y,N,N,True,,1,Green
+SHP-700203,CTR-2025203,Karachi Edible Oil Co.,RBD Palm Oil,Alexandria,LC-90203,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,59.5,1,Green
+SHP-700204,CTR-2025204,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Chittagong,LC-90204,LC at sight,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700205,CTR-2025205,Jeddah Oils & Fats Co,RBD Palm Oil,Alexandria,LC-90205,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700206,CTR-2025206,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700207,CTR-2025207,California Biofuels Inc,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT 60 days,Y,N,Y,Y,N/A,Y,N,Y,True,,1,Green
+SHP-700208,CTR-2025208,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700209,CTR-2025209,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Colombo,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700210,CTR-2025210,PT Nusantara Lipid,RBD Palm Stearin,Istanbul,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,40.0,2,Amber
+SHP-700211,CTR-2025211,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90211,LC at sight,N,Y,Y,Y,Y,Y,Y,Y,True,14.2,1,Green
+SHP-700212,CTR-2025212,Ganga Agro Traders,Palm Kernel Expeller (PKE),Chennai,LC-90212,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700213,CTR-2025213,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Singapore,,TT 30 days,Y,Y,Y,N,Y,N,Y,N,True,,1,Green
+SHP-700214,CTR-2025214,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700215,CTR-2025215,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700216,CTR-2025216,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Alexandria,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700217,CTR-2025217,Jeddah Oils & Fats Co,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,N,Y,Y,Y,Y,N,Y,True,,1,Green
+SHP-700218,CTR-2025218,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Singapore,LC-90218,LC 90 days,Y,Y,Y,N,Y,Y,N,N,True,26.9,0,Green
+SHP-700219,CTR-2025219,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT advance,Y,Y,Y,N,N/A,N,N,N,True,,1,Green
+SHP-700220,CTR-2025220,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Shanghai,LC-90220,LC 90 days,Y,Y,N,N,N,Y,Y,N,True,,1,Green
+SHP-700221,CTR-2025221,Meridian Oleo Pvt Ltd,RBD Palm Olein,Karachi,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,38.9,1,Green
+SHP-700222,CTR-2025222,EuroFat Amsterdam,Palm Kernel Oil (PKO),Shanghai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700223,CTR-2025223,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700224,CTR-2025224,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Kandla,,TT advance,Y,Y,Y,Y,N,N,N,N,True,,2,Amber
+SHP-700225,CTR-2025225,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Lagos,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700226,CTR-2025226,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Alexandria,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700227,CTR-2025227,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700228,CTR-2025228,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Chittagong,LC-90228,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700229,CTR-2025229,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Karachi,LC-90229,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700230,CTR-2025230,California Biofuels Inc,Palm Kernel Expeller (PKE),Karachi,LC-90230,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700231,CTR-2025231,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Lagos,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700232,CTR-2025232,California Biofuels Inc,RBD Palm Olein,Alexandria,,TT 30 days,N,Y,Y,N,Y,N,Y,Y,True,35.4,2,Amber
+SHP-700233,CTR-2025233,Karachi Edible Oil Co.,RBD Palm Olein,Alexandria,LC-90233,LC 90 days,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
+SHP-700234,CTR-2025234,Shanghai Huifeng Trading,RBD Palm Stearin,Chennai,,TT 60 days,N,Y,N,Y,Y,Y,N,Y,True,,1,Green
+SHP-700235,CTR-2025235,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Lagos,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700236,CTR-2025236,Karachi Edible Oil Co.,RBD Palm Olein,Chennai,LC-90236,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700237,CTR-2025237,Shanghai Huifeng Trading,RBD Palm Stearin,Istanbul,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700238,CTR-2025238,PT Nusantara Lipid,Crude Palm Oil (CPO),Chittagong,,TT advance,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700239,CTR-2025239,California Biofuels Inc,Palm Kernel Oil (PKO),Jeddah,,TT advance,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700240,CTR-2025240,Chittagong Oil Refinery,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT advance,Y,Y,N,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700241,CTR-2025241,Colombo Fats Trading,RBD Palm Stearin,Colombo,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700242,CTR-2025242,Rotterdam Fats & Oils BV,RBD Palm Olein,Shanghai,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700243,CTR-2025243,EuroFat Amsterdam,RBD Palm Stearin,Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700244,CTR-2025244,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Chennai,LC-90244,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700245,CTR-2025245,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Jeddah,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,30.4,0,Green
+SHP-700246,CTR-2025246,Lagos Vegetable Oil Ltd,RBD Palm Oil,Karachi,,TT advance,N,N,Y,N,N,Y,Y,Y,True,,3,Amber
+SHP-700247,CTR-2025247,California Biofuels Inc,Crude Palm Oil (CPO),Jeddah,LC-90247,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700248,CTR-2025248,EuroFat Amsterdam,RBD Palm Olein,"West Port, Malaysia",,TT 30 days,Y,N,N,Y,N/A,Y,Y,Y,True,,1,Green
+SHP-700249,CTR-2025249,California Biofuels Inc,RBD Palm Oil,Chennai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700250,CTR-2025250,Colombo Fats Trading,Palm Kernel Oil (PKO),Istanbul,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700251,CTR-2025251,Rotterdam Fats & Oils BV,RBD Palm Oil,Jeddah,LC-90251,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700252,CTR-2025252,Chittagong Oil Refinery,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700253,CTR-2025253,PT Nusantara Lipid,RBD Palm Olein,Lagos,LC-90253,LC at sight,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700254,CTR-2025254,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,21.9,2,Amber
+SHP-700255,CTR-2025255,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Singapore,LC-90255,LC 90 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
+SHP-700256,CTR-2025256,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Colombo,LC-90256,LC at sight,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700257,CTR-2025257,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90257,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700258,CTR-2025258,Ganga Agro Traders,Palm Kernel Expeller (PKE),Chennai,LC-90258,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700259,CTR-2025259,Meridian Oleo Pvt Ltd,RBD Palm Olein,Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700260,CTR-2025260,EuroFat Amsterdam,RBD Palm Stearin,Shanghai,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,True,29.9,1,Green
+SHP-700261,CTR-2025261,Istanbul Bitkisel Yag,RBD Palm Olein,Jeddah,LC-90261,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,12.9,0,Green
+SHP-700262,CTR-2025262,California Biofuels Inc,Palm Kernel Oil (PKO),Jeddah,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,7.2,1,Green
+SHP-700263,CTR-2025263,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Kandla,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700264,CTR-2025264,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90264,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700265,CTR-2025265,California Biofuels Inc,Crude Palm Oil (CPO),Guangzhou,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700266,CTR-2025266,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Karachi,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,53.4,0,Green
+SHP-700267,CTR-2025267,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700268,CTR-2025268,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Jeddah,LC-90268,LC at sight,Y,Y,Y,Y,N,N,Y,N,True,,2,Amber
+SHP-700269,CTR-2025269,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Shanghai,LC-90269,LC at sight,Y,N,N,Y,N,N,Y,Y,True,20.0,3,Amber
+SHP-700270,CTR-2025270,EuroFat Amsterdam,RBD Palm Olein,Lagos,LC-90270,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,62.8,0,Green
+SHP-700271,CTR-2025271,PT Nusantara Lipid,RBD Palm Oil,Istanbul,LC-90271,LC at sight,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700272,CTR-2025272,Lagos Vegetable Oil Ltd,Crude Palm Oil (CPO),Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700273,CTR-2025273,Istanbul Bitkisel Yag,RBD Palm Olein,Shanghai,,TT 30 days,Y,N,N,N,Y,Y,Y,Y,True,,1,Green
+SHP-700274,CTR-2025274,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Kandla,LC-90274,LC at sight,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700275,CTR-2025275,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Chittagong,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,5.8,2,Amber
+SHP-700276,CTR-2025276,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700277,CTR-2025277,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90277,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700278,CTR-2025278,Istanbul Bitkisel Yag,RBD Palm Olein,Kandla,LC-90278,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700279,CTR-2025279,Colombo Fats Trading,Palm Kernel Oil (PKO),Shanghai,,TT 60 days,Y,N,Y,N,N,Y,Y,N,True,,2,Amber
+SHP-700280,CTR-2025280,Rotterdam Fats & Oils BV,RBD Palm Olein,Kandla,LC-90280,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700281,CTR-2025281,EuroFat Amsterdam,Palm Kernel Oil (PKO),Karachi,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700282,CTR-2025282,Shanghai Huifeng Trading,RBD Palm Oil,Guangzhou,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700283,CTR-2025283,EuroFat Amsterdam,RBD Palm Olein,Kandla,LC-90283,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700284,CTR-2025284,Jeddah Oils & Fats Co,Palm Kernel Oil (PKO),"West Port, Malaysia",LC-90284,LC at sight,Y,Y,N,Y,N,N,Y,N,True,28.7,2,Amber
+SHP-700285,CTR-2025285,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Singapore,LC-90285,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700286,CTR-2025286,Jeddah Oils & Fats Co,RBD Palm Oil,Rotterdam,LC-90286,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700287,CTR-2025287,Ganga Agro Traders,Palm Kernel Expeller (PKE),Kandla,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
+SHP-700288,CTR-2025288,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT advance,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
+SHP-700289,CTR-2025289,Ganga Agro Traders,RBD Palm Stearin,Shanghai,LC-90289,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700290,CTR-2025290,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700291,CTR-2025291,Rotterdam Fats & Oils BV,RBD Palm Stearin,Alexandria,,TT 60 days,N,N,Y,N,Y,Y,Y,Y,True,,2,Amber
+SHP-700292,CTR-2025292,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Lagos,LC-90292,LC at sight,Y,Y,N,N,Y,Y,N,N,True,4.6,0,Green
+SHP-700293,CTR-2025293,California Biofuels Inc,RBD Palm Oil,Rotterdam,,TT 60 days,Y,Y,Y,Y,N,Y,N,Y,True,,1,Green
+SHP-700294,CTR-2025294,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT advance,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700295,CTR-2025295,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700296,CTR-2025296,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT 30 days,Y,Y,Y,N,Y,N,Y,N,True,114.2,2,Amber
+SHP-700297,CTR-2025297,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,10.6,1,Green
+SHP-700298,CTR-2025298,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT 60 days,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
+SHP-700299,CTR-2025299,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90299,LC at sight,Y,N,Y,Y,N,Y,N,N,True,,2,Amber
+SHP-700300,CTR-2025300,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,50.4,0,Green
+SHP-700301,CTR-2025301,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Karachi,,TT 60 days,Y,Y,Y,N,N,Y,Y,N,True,56.8,1,Green
+SHP-700302,CTR-2025302,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90302,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700303,CTR-2025303,Guangzhou Oleochem Ltd,RBD Palm Oil,Jeddah,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700304,CTR-2025304,Ganga Agro Traders,RBD Palm Stearin,Shanghai,LC-90304,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700305,CTR-2025305,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Lagos,LC-90305,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700306,CTR-2025306,Shanghai Huifeng Trading,RBD Palm Stearin,Singapore,,TT 30 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
+SHP-700307,CTR-2025307,Colombo Fats Trading,RBD Palm Oil,Karachi,,TT 30 days,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700308,CTR-2025308,Colombo Fats Trading,Crude Palm Oil (CPO),Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,48.8,0,Green
+SHP-700309,CTR-2025309,Lagos Vegetable Oil Ltd,Crude Palm Oil (CPO),Chittagong,LC-90309,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700310,CTR-2025310,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700311,CTR-2025311,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Karachi,LC-90311,LC at sight,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
+SHP-700312,CTR-2025312,Istanbul Bitkisel Yag,RBD Palm Olein,Los Angeles,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700313,CTR-2025313,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Karachi,,TT advance,Y,Y,Y,Y,Y,Y,N,Y,True,,0,Green
+SHP-700314,CTR-2025314,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,34.0,0,Green
+SHP-700315,CTR-2025315,Karachi Edible Oil Co.,RBD Palm Stearin,Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,N,N,True,,1,Green
+SHP-700316,CTR-2025316,California Biofuels Inc,Palm Kernel Expeller (PKE),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700317,CTR-2025317,California Biofuels Inc,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,Y,N,N,Y,Y,Y,N,True,,0,Green
+SHP-700318,CTR-2025318,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Alexandria,LC-90318,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700319,CTR-2025319,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Lagos,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700320,CTR-2025320,Ganga Agro Traders,Palm Kernel Oil (PKO),Guangzhou,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700321,CTR-2025321,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90321,LC 90 days,Y,N,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700322,CTR-2025322,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Singapore,LC-90322,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700323,CTR-2025323,Ganga Agro Traders,RBD Palm Olein,Istanbul,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,70.2,1,Green
+SHP-700324,CTR-2025324,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,59.2,0,Green
+SHP-700325,CTR-2025325,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90325,LC 90 days,Y,Y,N,Y,N,Y,Y,Y,True,20.4,1,Green
+SHP-700326,CTR-2025326,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 60 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700327,CTR-2025327,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700328,CTR-2025328,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Los Angeles,,TT 60 days,N,Y,Y,Y,Y,Y,N,Y,True,14.5,1,Green
+SHP-700329,CTR-2025329,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Alexandria,LC-90329,LC 90 days,N,N,Y,N,Y,Y,Y,Y,True,,2,Amber
+SHP-700330,CTR-2025330,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,,TT 60 days,N,N,N,Y,N,Y,Y,N,True,,3,Amber
+SHP-700331,CTR-2025331,Ganga Agro Traders,Crude Palm Oil (CPO),Lagos,,TT 30 days,Y,Y,Y,Y,N,N,N,N,True,,2,Amber
+SHP-700332,CTR-2025332,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90332,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700333,CTR-2025333,Chittagong Oil Refinery,Crude Palm Oil (CPO),Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700334,CTR-2025334,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Kandla,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700335,CTR-2025335,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Los Angeles,LC-90335,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700336,CTR-2025336,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Shanghai,LC-90336,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,31.0,1,Green
+SHP-700337,CTR-2025337,Guangzhou Oleochem Ltd,RBD Palm Olein,Lagos,,TT advance,Y,Y,Y,N,N,Y,Y,N,True,15.3,1,Green
+SHP-700338,CTR-2025338,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700339,CTR-2025339,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700340,CTR-2025340,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,29.4,0,Green
+SHP-700341,CTR-2025341,Colombo Fats Trading,RBD Palm Olein,Chittagong,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700342,CTR-2025342,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Lagos,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700343,CTR-2025343,Meridian Oleo Pvt Ltd,RBD Palm Olein,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N,Y,N,Y,True,,1,Green
+SHP-700344,CTR-2025344,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Shanghai,LC-90344,LC 90 days,Y,N,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700345,CTR-2025345,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Rotterdam,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700346,CTR-2025346,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Shanghai,,TT 30 days,Y,Y,Y,N,Y,N,Y,N,True,,1,Green
+SHP-700347,CTR-2025347,Karachi Edible Oil Co.,RBD Palm Olein,Colombo,,TT advance,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700348,CTR-2025348,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,93.8,2,Amber
+SHP-700349,CTR-2025349,Lagos Vegetable Oil Ltd,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700350,CTR-2025350,Lagos Vegetable Oil Ltd,RBD Palm Oil,Colombo,,TT 30 days,Y,Y,Y,Y,Y,Y,N,Y,True,,0,Green
+SHP-700351,CTR-2025351,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Shanghai,LC-90351,LC at sight,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700352,CTR-2025352,California Biofuels Inc,RBD Palm Olein,Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700353,CTR-2025353,Colombo Fats Trading,RBD Palm Oil,Lagos,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700354,CTR-2025354,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700355,CTR-2025355,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Karachi,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700356,CTR-2025356,California Biofuels Inc,RBD Palm Olein,Guangzhou,LC-90356,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,6.8,0,Green
+SHP-700357,CTR-2025357,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Istanbul,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700358,CTR-2025358,Karachi Edible Oil Co.,RBD Palm Oil,Guangzhou,LC-90358,LC 90 days,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
+SHP-700359,CTR-2025359,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700360,CTR-2025360,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Kandla,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700361,CTR-2025361,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,N,N,N,True,,1,Green
+SHP-700362,CTR-2025362,PT Nusantara Lipid,Crude Palm Oil (CPO),Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700363,CTR-2025363,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90363,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700364,CTR-2025364,PT Nusantara Lipid,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700365,CTR-2025365,Rotterdam Fats & Oils BV,RBD Palm Olein,Rotterdam,LC-90365,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700366,CTR-2025366,Ganga Agro Traders,Palm Kernel Oil (PKO),Shanghai,LC-90366,LC at sight,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
+SHP-700367,CTR-2025367,California Biofuels Inc,Palm Kernel Expeller (PKE),Chittagong,LC-90367,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700368,CTR-2025368,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700369,CTR-2025369,California Biofuels Inc,RBD Palm Oil,Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700370,CTR-2025370,Chittagong Oil Refinery,Crude Palm Oil (CPO),Singapore,LC-90370,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,19.9,0,Green
+SHP-700371,CTR-2025371,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90371,LC 90 days,Y,N,Y,Y,Y,N,Y,N,True,122.5,3,Amber
+SHP-700372,CTR-2025372,California Biofuels Inc,RBD Palm Stearin,Istanbul,LC-90372,LC at sight,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700373,CTR-2025373,PT Nusantara Lipid,RBD Palm Olein,Colombo,LC-90373,LC 90 days,Y,N,Y,Y,N,N,Y,N,True,,3,Amber
+SHP-700374,CTR-2025374,Istanbul Bitkisel Yag,RBD Palm Olein,"West Port, Malaysia",LC-90374,LC 90 days,Y,Y,Y,Y,N/A,Y,Y,Y,True,3.3,0,Green
+SHP-700375,CTR-2025375,Lagos Vegetable Oil Ltd,RBD Palm Olein,Chennai,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,47.7,1,Green
+SHP-700376,CTR-2025376,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Kandla,LC-90376,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700377,CTR-2025377,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700378,CTR-2025378,Ganga Agro Traders,RBD Palm Olein,Chennai,,TT advance,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700379,CTR-2025379,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,22.9,0,Green
+SHP-700380,CTR-2025380,Colombo Fats Trading,Crude Palm Oil (CPO),Los Angeles,,TT advance,Y,N,N,Y,Y,N,N,N,True,38.9,2,Amber
+SHP-700381,CTR-2025381,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Shanghai,LC-90381,LC at sight,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700382,CTR-2025382,PT Nusantara Lipid,Palm Kernel Oil (PKO),Chittagong,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700383,CTR-2025383,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700384,CTR-2025384,Rotterdam Fats & Oils BV,RBD Palm Olein,Colombo,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,66.1,1,Green
+SHP-700385,CTR-2025385,Colombo Fats Trading,Crude Palm Oil (CPO),Istanbul,,TT advance,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700386,CTR-2025386,Shanghai Huifeng Trading,RBD Palm Stearin,Guangzhou,,TT 30 days,Y,N,Y,Y,N,N,Y,N,True,,3,Amber
+SHP-700387,CTR-2025387,Colombo Fats Trading,RBD Palm Oil,Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700388,CTR-2025388,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Chennai,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,119.9,1,Green
+SHP-700389,CTR-2025389,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90389,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700390,CTR-2025390,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
+SHP-700391,CTR-2025391,EuroFat Amsterdam,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,Y,N,Y,Y,N,Y,N,Y,True,55.2,2,Amber
+SHP-700392,CTR-2025392,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,45.0,1,Green
+SHP-700393,CTR-2025393,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Alexandria,LC-90393,LC 90 days,N,Y,Y,N,N,Y,Y,N,True,,2,Amber
+SHP-700394,CTR-2025394,Chittagong Oil Refinery,RBD Palm Stearin,Istanbul,LC-90394,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700395,CTR-2025395,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Alexandria,LC-90395,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700396,CTR-2025396,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Jeddah,LC-90396,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,22.1,1,Green
+SHP-700397,CTR-2025397,Lagos Vegetable Oil Ltd,RBD Palm Oil,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700398,CTR-2025398,EuroFat Amsterdam,RBD Palm Olein,Colombo,LC-90398,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700399,CTR-2025399,California Biofuels Inc,RBD Palm Oil,Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700400,CTR-2025400,Karachi Edible Oil Co.,RBD Palm Olein,Chittagong,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700401,CTR-2025401,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Colombo,LC-90401,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700402,CTR-2025402,Colombo Fats Trading,Palm Kernel Oil (PKO),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700403,CTR-2025403,Shanghai Huifeng Trading,RBD Palm Stearin,Istanbul,,TT 60 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
+SHP-700404,CTR-2025404,EuroFat Amsterdam,RBD Palm Oil,Los Angeles,LC-90404,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,21.4,1,Green
+SHP-700405,CTR-2025405,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Chennai,LC-90405,LC 90 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700406,CTR-2025406,PT Nusantara Lipid,Crude Palm Oil (CPO),Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,9.6,0,Green
+SHP-700407,CTR-2025407,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Chennai,,TT advance,N,Y,Y,N,Y,Y,N,N,True,77.1,1,Green
+SHP-700408,CTR-2025408,Karachi Edible Oil Co.,RBD Palm Olein,Los Angeles,LC-90408,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,8.1,0,Green
+SHP-700409,CTR-2025409,PT Nusantara Lipid,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 60 days,Y,N,Y,N,N/A,Y,Y,N,True,,1,Green
+SHP-700410,CTR-2025410,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Guangzhou,,TT advance,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700411,CTR-2025411,PT Nusantara Lipid,Palm Kernel Oil (PKO),Lagos,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,19.7,1,Green
+SHP-700412,CTR-2025412,Karachi Edible Oil Co.,RBD Palm Olein,Kandla,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700413,CTR-2025413,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700414,CTR-2025414,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Jeddah,LC-90414,LC 90 days,N,Y,Y,N,Y,N,Y,N,True,,2,Amber
+SHP-700415,CTR-2025415,Colombo Fats Trading,RBD Palm Oil,Chittagong,LC-90415,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700416,CTR-2025416,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Chittagong,,TT advance,N,Y,Y,Y,N,Y,N,Y,True,,2,Amber
+SHP-700417,CTR-2025417,California Biofuels Inc,RBD Palm Oil,Chittagong,,TT advance,N,N,Y,N,N,N,Y,N,True,,4,Red
+SHP-700418,CTR-2025418,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Colombo,LC-90418,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700419,CTR-2025419,Shanghai Huifeng Trading,RBD Palm Olein,Shanghai,,TT 30 days,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber

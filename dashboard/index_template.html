@@ -221,7 +221,8 @@ function el(tag, attrs = {}, children = []) {
     else e.setAttribute(k, v);
   }
   (Array.isArray(children) ? children : [children]).forEach(c => {
-    if (c) e.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+    if (c === undefined || c === null || c === "") return;
+    e.appendChild(c instanceof Node ? c : document.createTextNode(String(c)));
   });
   return e;
 }
@@ -245,6 +246,8 @@ function badge(val) {
   let cls = "NA", label = v || "N/A";
   if (v === "Y") { cls = "Y"; label = "Complete"; }
   else if (v === "N") { cls = "N"; label = "Missing"; }
+  else if (v === "Backdated") { cls = "N"; label = "Backdated"; }
+  else if (v === "OK") { cls = "Y"; label = "OK"; }
   else if (v === "Green" || v === "Amber" || v === "Red") { cls = v; label = v; }
   return `<span class="badge ${cls}">${label}</span>`;
 }
@@ -299,7 +302,7 @@ function buildOverview(container) {
   const d = DATA.trade_overview;
   container.appendChild(el("div", {class: "panel"}, [
     el("h2", {}, "Project narrative"),
-    el("p", {}, `"This dashboard is a customs and trade analytics MVP built from illustrative, SD-Guthrie-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be integrated into a control tower for customs readiness, document completeness, HS code governance, tariff exposure simulation, FTA opportunity analysis and trade risk scoring."`),
+    el("p", {}, `"This dashboard is a customs and trade analytics MVP built from illustrative, Oil Palm Company-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be integrated into a control tower for customs readiness, document completeness, HS code governance, tariff exposure simulation, FTA opportunity analysis and trade risk scoring."`),
   ]));
 
   const kpis = el("div", {class: "kpi-row"});
@@ -394,12 +397,20 @@ function buildShipment(container) {
   kpis.appendChild(kpiCard("Qty Variance Exceptions (>1.5%)", d.qty_variance_exception_count, "amber"));
   kpis.appendChild(kpiCard("Avg |Qty Variance|", fmtPct(d.avg_qty_variance_pct)));
   kpis.appendChild(kpiCard("Pending 'Vessel Sailed' (SG10)", d.pending_vessel_sailed, "amber"));
+  kpis.appendChild(kpiCard("Backdated LC vs BL", `${d.lc_backdated_count} (${fmtPct(d.lc_backdated_pct)})`, d.lc_backdated_count > 0 ? "red" : "green"));
   container.appendChild(kpis);
+
+  container.appendChild(el("div", {class: "panel caveat"}, [
+    el("h2", {}, "⚠️ Backdated LC vs BL — what this flags"),
+    el("p", {}, `An LC (Letter of Credit) is expected to be issued and confirmed before the vessel sails. This flag catches shipments where the LC issue date falls on or after the Bill of Lading date — i.e. the goods were shipped before the LC was in place. That's a documentary discrepancy / trade-finance exposure that banks and compliance teams treat as an exception requiring review. Of ${d.lc_bl_applicable_count} shipments with both an LC and a BL date on file, ${d.lc_backdated_count} (${fmtPct(d.lc_backdated_pct)}) show this pattern.`),
+  ]));
 
   const g2 = el("div", {class: "grid-2"});
   g2.appendChild(chartCard("Shipments by load port", "chart-ship-port"));
   g2.appendChild(chartCard("BL quantity variance % distribution", "chart-ship-variance"));
   container.appendChild(g2);
+
+  container.appendChild(chartCard("LC issuance lag vs BL date (days) — positive = LC dated on/after BL (backdated)", "chart-ship-lc-lag"));
 
   renderTable(container, d.detail, [
     {key: "shipment_id", label: "Shipment"}, {key: "contract_ref", label: "Contract"},
@@ -407,6 +418,8 @@ function buildShipment(container) {
     {key: "discharge_port", label: "Discharge Port"}, {key: "shipment_month", label: "Ship Month"},
     {key: "bl_date", label: "BL Date"}, {key: "bl_quantity_mt", label: "BL Qty (MT)"},
     {key: "quantity_mt", label: "Contract Qty (MT)"}, {key: "qty_variance_pct", label: "Variance %"},
+    {key: "lc_number", label: "LC Number"}, {key: "lc_issue_date", label: "LC Issue Date"},
+    {key: "lc_backdated_vs_bl", label: "Backdated vs BL", badge: true},
   ], {title: "Shipment / BL detail"});
 
   Plotly.newPlot("chart-ship-port", [{
@@ -418,6 +431,15 @@ function buildShipment(container) {
   Plotly.newPlot("chart-ship-variance", [{
     x: variances, type: "histogram", marker: {color: "#c8963e"}, nbinsx: 30,
   }], {margin: {t: 10, l: 50, r: 10, b: 40}, xaxis: {title: "Variance %"}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-ship-lc-lag", [{
+    x: d.lc_bl_lag_distribution, type: "histogram", nbinsx: 30, marker: {color: "#0b2545"},
+  }], {
+    margin: {t: 10, l: 50, r: 10, b: 40},
+    xaxis: {title: "Days (LC issue date − BL date)"},
+    shapes: [{type: "line", x0: 0, x1: 0, y0: 0, y1: 1, yref: "paper", line: {color: "#c0392b", width: 2, dash: "dot"}}],
+    annotations: [{x: 0, y: 1, yref: "paper", yshift: 12, text: "backdated →", showarrow: false, font: {size: 10, color: "#c0392b"}}],
+  }, {displayModeBar: false, responsive: true});
 }
 
 function buildHsCode(container) {
@@ -517,6 +539,20 @@ function buildRisk(container) {
   kpis.appendChild(kpiCard("Near-Limit Contracts (≥80% util.)", d.near_limit_contracts, "amber"));
   d.rag_distribution.forEach(r => kpis.appendChild(kpiCard(r.rag + " shipments", r.count, r.rag === "Red" ? "red" : r.rag === "Amber" ? "amber" : "green")));
   container.appendChild(kpis);
+
+  container.appendChild(el("div", {class: "panel"}, [
+    el("h2", {}, "What do Green / Amber / Red mean?"),
+    el("p", {}, "Each shipment gets a risk score from 0–7, one point for every compliance gap below. The RAG color is just that score bucketed:"),
+    el("div", {html: `
+      <div style="display:flex; flex-wrap:wrap; gap:14px; margin: 4px 0 12px;">
+        <span class="badge Green">Green · 0–1</span>
+        <span class="badge Amber">Amber · 2–3</span>
+        <span class="badge Red">Red · 4+</span>
+      </div>
+    `}),
+    el("p", {}, "Green = low risk, business as usual. Amber = worth monitoring, some documentation or exposure gaps. Red = high risk, needs immediate follow-up before/at shipment."),
+    el("p", {}, "1 point is added for each of: K2 missing · K2 Chit missing · Certificate of Origin missing · Bill of Lading missing · HS code missing · LC required but missing · risk-limit utilization ≥ 80%."),
+  ]));
 
   const g3 = el("div", {class: "grid-3"});
   g3.appendChild(chartCard("RAG distribution", "chart-risk-rag"));
