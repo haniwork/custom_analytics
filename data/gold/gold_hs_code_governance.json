@@ -1,0 +1,129 @@
+{
+  "hs_coverage_pct": 75.0,
+  "products_missing_hs": 2,
+  "products_hs_expired": 6,
+  "high_volume_products_missing_hs": [
+    {
+      "product": "Palm Kernel Expeller (PKE)",
+      "quantity_mt": 198675.6
+    },
+    {
+      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "quantity_mt": 260127.6
+    }
+  ],
+  "detail": [
+    {
+      "material_code": "MAT-1001",
+      "product": "Crude Palm Oil (CPO)",
+      "product_group": "Crude Oils",
+      "commodity_code_hs": "1511.1",
+      "hs_valid_from": "2023-04-03",
+      "hs_valid_to": "2024-10-15",
+      "reclassification_date": "",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst02",
+      "last_changed_date": "2023-10-16",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1002",
+      "product": "RBD Palm Olein",
+      "product_group": "Refined Oils",
+      "commodity_code_hs": "1511.9",
+      "hs_valid_from": "2023-01-07",
+      "hs_valid_to": "2024-05-10",
+      "reclassification_date": "2023-06-13",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst02",
+      "last_changed_date": "2023-08-22",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1003",
+      "product": "RBD Palm Stearin",
+      "product_group": "Refined Oils",
+      "commodity_code_hs": "1511.9",
+      "hs_valid_from": "2023-05-07",
+      "hs_valid_to": "2024-06-09",
+      "reclassification_date": "",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst01",
+      "last_changed_date": "2023-12-29",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1004",
+      "product": "RBD Palm Oil",
+      "product_group": "Refined Oils",
+      "commodity_code_hs": "1511.9",
+      "hs_valid_from": "2024-01-12",
+      "hs_valid_to": "2025-04-17",
+      "reclassification_date": "2024-11-03",
+      "created_by": "SYS-BATCH",
+      "changed_by": "trade.compliance",
+      "last_changed_date": "2024-04-28",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1005",
+      "product": "Palm Kernel Oil (PKO)",
+      "product_group": "Kernel Oils",
+      "commodity_code_hs": "1513.29",
+      "hs_valid_from": "2023-08-31",
+      "hs_valid_to": "2025-10-02",
+      "reclassification_date": "2024-03-07",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst02",
+      "last_changed_date": "2023-11-21",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1006",
+      "product": "Palm Fatty Acid Distillate (PFAD)",
+      "product_group": "By-Products",
+      "commodity_code_hs": "3823.19",
+      "hs_valid_from": "2023-11-19",
+      "hs_valid_to": "2024-12-31",
+      "reclassification_date": "",
+      "created_by": "SYS-BATCH",
+      "changed_by": "trade.compliance",
+      "last_changed_date": "2024-08-27",
+      "has_hs_code": "True",
+      "hs_expired": "True"
+    },
+    {
+      "material_code": "MAT-1007",
+      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "product_group": "Biofuels",
+      "commodity_code_hs": "",
+      "hs_valid_from": "",
+      "hs_valid_to": "NaT",
+      "reclassification_date": "",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst02",
+      "last_changed_date": "2024-05-28",
+      "has_hs_code": "False",
+      "hs_expired": "False"
+    },
+    {
+      "material_code": "MAT-1008",
+      "product": "Palm Kernel Expeller (PKE)",
+      "product_group": "By-Products",
+      "commodity_code_hs": "",
+      "hs_valid_from": "",
+      "hs_valid_to": "NaT",
+      "reclassification_date": "",
+      "created_by": "SYS-BATCH",
+      "changed_by": "analyst01",
+      "last_changed_date": "2024-05-26",
+      "has_hs_code": "False",
+      "hs_expired": "False"
+    }
+  ]
+}

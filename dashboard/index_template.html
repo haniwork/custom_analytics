@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trade Compliance & Customs Analytics Control Tower</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<style>
+  :root {
+    --navy: #0b2545;
+    --navy-light: #13315c;
+    --gold: #c8963e;
+    --green: #2e7d32;
+    --amber: #b8860b;
+    --red: #c0392b;
+    --bg: #f4f6f9;
+    --card-bg: #ffffff;
+    --text: #1c2733;
+    --muted: #667085;
+    --border: #e2e6ec;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header.top {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+    color: #fff;
+    padding: 28px 32px 20px;
+  }
+  header.top h1 {
+    margin: 0 0 6px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+  }
+  header.top p.subtitle {
+    margin: 0;
+    color: #cdd8e8;
+    font-size: 14px;
+    max-width: 900px;
+    line-height: 1.5;
+  }
+  .disclaimer {
+    background: #fff8e6;
+    border: 1px solid #f0d38a;
+    color: #6b4e00;
+    font-size: 12.5px;
+    padding: 10px 32px;
+    line-height: 1.5;
+  }
+  .disclaimer strong { color: #4a3600; }
+  nav.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    background: #fff;
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  nav.tabs button {
+    background: none;
+    border: none;
+    padding: 14px 16px;
+    font-size: 13.5px;
+    font-weight: 600;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+  }
+  nav.tabs button.active {
+    color: var(--navy);
+    border-bottom: 3px solid var(--gold);
+  }
+  main {
+    padding: 24px 32px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .page { display: none; }
+  .page.active { display: block; }
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 14px;
+    margin-bottom: 20px;
+  }
+  .kpi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+  }
+  .kpi-card .label {
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    color: var(--muted);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .kpi-card .value {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--navy);
+  }
+  .kpi-card .value.red { color: var(--red); }
+  .kpi-card .value.amber { color: var(--amber); }
+  .kpi-card .value.green { color: var(--green); }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  @media (max-width: 900px) {
+    .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  }
+  .chart-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px 4px;
+  }
+  .chart-card h3 {
+    font-size: 13.5px;
+    margin: 2px 0 8px;
+    color: var(--navy);
+  }
+  .panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 18px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 13.5px;
+    color: #34424f;
+  }
+  .panel h2 { margin-top: 0; font-size: 16px; color: var(--navy); }
+  .panel.caveat { background: #fff8e6; border-color: #f0d38a; color: #6b4e00; font-size: 12.5px; }
+  .table-wrap { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+  .table-wrap h3 { font-size: 13.5px; color: var(--navy); margin: 2px 0 10px; }
+  .table-controls { display:flex; gap:10px; margin-bottom:10px; align-items:center; }
+  .table-controls input {
+    flex: 1; padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 12.5px;
+  }
+  .table-controls span { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+  table.data-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  table.data-table th {
+    text-align: left; background: #f7f9fc; color: var(--muted);
+    padding: 7px 8px; font-size: 10.8px; text-transform: uppercase; letter-spacing: 0.3px;
+    border-bottom: 1px solid var(--border); position: sticky; top: 0;
+  }
+  table.data-table td { padding: 6px 8px; border-bottom: 1px solid #eef1f5; white-space: nowrap; }
+  table.data-table tr:hover { background: #f9fbfd; }
+  .scroll-y { max-height: 420px; overflow-y: auto; }
+  .badge { display:inline-block; padding: 2px 7px; border-radius: 20px; font-size: 10.5px; font-weight: 700; }
+  .badge.Y, .badge.Green { background:#e6f4ea; color:var(--green); }
+  .badge.N, .badge.Red { background:#fbe9e7; color:var(--red); }
+  .badge.Amber { background:#fdf3d9; color:var(--amber); }
+  .badge.NA { background:#eef1f5; color:var(--muted); }
+  footer.foot { text-align: center; padding: 24px; font-size: 11.5px; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <h1>🧭 Trade Compliance &amp; Customs Analytics Control Tower</h1>
+  <p class="subtitle">A customs &amp; trade analytics MVP demonstrating how fragmented trading, logistics, ERP/commodity-code and trading-risk data can be consolidated into a single control tower for customs readiness, documentation compliance, HS code governance, tariff exposure and trade risk monitoring.</p>
+</header>
+<div class="disclaimer">
+  <strong>Portfolio disclaimer:</strong> All figures, counterparties, contracts, vessels, tariff rates and FTA schemes shown on this dashboard are <strong>synthetically generated</strong> for demonstration purposes only. This project does not use, reference, or expose any real employer data, credentials, or infrastructure, and it is not a substitute for validated customs/duty data (e.g. SAP GTS). Duty and FTA figures are illustrative proxies only and require SME validation before any business use.
+</div>
+
+<nav class="tabs" id="tabNav"></nav>
+
+<main>
+  <div id="pages"></div>
+</main>
+
+<footer class="foot">
+  Built by Hani Ihsanuddin · Synthetic data, Python (pandas) · Medallion architecture (Bronze → Silver → Gold) · Visualized with Plotly.js
+</footer>
+
+<script>
+const DATA = __DATA_JSON__;
+
+const fmtUSD = (n) => n == null ? "–" : "$" + Number(n).toLocaleString("en-US", {maximumFractionDigits: 0});
+const fmtNum = (n) => n == null ? "–" : Number(n).toLocaleString("en-US", {maximumFractionDigits: 1});
+const fmtPct = (n) => n == null ? "–" : Number(n).toFixed(1) + "%";
+
+const PAGES = [
+  {id: "overview", label: "1 · Executive Overview"},
+  {id: "docs", label: "2 · Customs Doc Compliance"},
+  {id: "shipment", label: "3 · Shipment & BL Monitoring"},
+  {id: "hscode", label: "4 · HS Code Governance"},
+  {id: "duty", label: "5 · Duty / Freight Exposure"},
+  {id: "fta", label: "6 · FTA / COO Opportunity"},
+  {id: "risk", label: "7 · Trade Risk Score"},
+];
+
+function el(tag, attrs = {}, children = []) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v;
+    else if (k === "html") e.innerHTML = v;
+    else e.setAttribute(k, v);
+  }
+  (Array.isArray(children) ? children : [children]).forEach(c => {
+    if (c) e.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  });
+  return e;
+}
+
+function kpiCard(label, value, cls) {
+  return el("div", {class: "kpi-card"}, [
+    el("div", {class: "label"}, label),
+    el("div", {class: "value" + (cls ? " " + cls : "")}, value),
+  ]);
+}
+
+function chartCard(title, id) {
+  return el("div", {class: "chart-card"}, [
+    el("h3", {}, title),
+    el("div", {id: id, style: "height:320px;"}),
+  ]);
+}
+
+function badge(val) {
+  const v = (val === undefined || val === null) ? "" : String(val);
+  let cls = "NA", label = v || "N/A";
+  if (v === "Y") { cls = "Y"; label = "Complete"; }
+  else if (v === "N") { cls = "N"; label = "Missing"; }
+  else if (v === "Green" || v === "Amber" || v === "Red") { cls = v; label = v; }
+  return `<span class="badge ${cls}">${label}</span>`;
+}
+
+function renderTable(container, rows, columns, opts = {}) {
+  const wrap = el("div", {class: "table-wrap"});
+  if (opts.title) wrap.appendChild(el("h3", {}, opts.title));
+  const controls = el("div", {class: "table-controls"});
+  const search = el("input", {type: "text", placeholder: "Filter rows… (any column)"});
+  const countLabel = el("span", {}, `${rows.length} rows`);
+  controls.appendChild(search);
+  controls.appendChild(countLabel);
+  wrap.appendChild(controls);
+
+  const scrollDiv = el("div", {class: "scroll-y"});
+  const table = el("table", {class: "data-table"});
+  const thead = el("thead", {}, el("tr", {}, columns.map(c => el("th", {}, c.label))));
+  const tbody = el("tbody");
+  table.appendChild(thead);
+  table.appendChild(tbody);
+  scrollDiv.appendChild(table);
+  wrap.appendChild(scrollDiv);
+  container.appendChild(wrap);
+
+  function draw(filterText) {
+    tbody.innerHTML = "";
+    const ft = (filterText || "").toLowerCase();
+    let shown = 0;
+    let matched = 0;
+    for (const row of rows) {
+      const rowText = columns.map(c => row[c.key]).join(" ").toLowerCase();
+      if (ft && !rowText.includes(ft)) continue;
+      matched++;
+      if (shown >= 300) continue;
+      shown++;
+      const tr = el("tr");
+      for (const c of columns) {
+        const raw = row[c.key];
+        const td = el("td");
+        td.innerHTML = c.badge ? badge(raw) : (raw === undefined || raw === null || raw === "" ? "–" : String(raw));
+        tr.appendChild(td);
+      }
+      tbody.appendChild(tr);
+    }
+    countLabel.textContent = `${matched} rows${matched > 300 ? " (showing first 300)" : ""}`;
+  }
+  draw("");
+  search.addEventListener("input", () => draw(search.value));
+}
+
+function buildOverview(container) {
+  const d = DATA.trade_overview;
+  container.appendChild(el("div", {class: "panel"}, [
+    el("h2", {}, "Project narrative"),
+    el("p", {}, `"This dashboard is a customs and trade analytics MVP built from illustrative, SD-Guthrie-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be integrated into a control tower for customs readiness, document completeness, HS code governance, tariff exposure simulation, FTA opportunity analysis and trade risk scoring."`),
+  ]));
+
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("Total Contract Value", fmtUSD(d.total_contract_value_usd)));
+  kpis.appendChild(kpiCard("Total Quantity (MT)", fmtNum(d.total_quantity_mt)));
+  kpis.appendChild(kpiCard("Total Contracts", d.total_contracts));
+  kpis.appendChild(kpiCard("Open Contracts", d.open_contracts));
+  kpis.appendChild(kpiCard("LC Transactions", d.lc_transaction_count));
+  container.appendChild(kpis);
+
+  const g2 = el("div", {class: "grid-2"});
+  g2.appendChild(chartCard("Contract value by product", "chart-ov-product"));
+  g2.appendChild(chartCard("Top counterparties by contract value", "chart-ov-cp"));
+  container.appendChild(g2);
+
+  const g2b = el("div", {class: "grid-2"});
+  g2b.appendChild(chartCard("Contracts by Incoterm", "chart-ov-inco"));
+  g2b.appendChild(chartCard("Monthly contract value trend", "chart-ov-trend"));
+  container.appendChild(g2b);
+
+  renderTable(container, d.by_port, [
+    {key: "discharge_port", label: "Discharge Port"},
+    {key: "quantity_mt", label: "Quantity (MT)"},
+  ], {title: "Volume by discharge port"});
+
+  Plotly.newPlot("chart-ov-product", [{
+    x: d.by_product.map(r => r.product), y: d.by_product.map(r => r.invoice_amount_usd),
+    type: "bar", marker: {color: "#0b2545"},
+  }], {margin: {t: 10, l: 60, r: 10, b: 110}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-ov-cp", [{
+    x: d.by_counterparty.map(r => r.invoice_amount_usd), y: d.by_counterparty.map(r => r.counterparty_name),
+    type: "bar", orientation: "h", marker: {color: "#c8963e"},
+  }], {margin: {t: 10, l: 190, r: 10, b: 40}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-ov-inco", [{
+    labels: d.by_incoterm.map(r => r.incoterms), values: d.by_incoterm.map(r => r.contract_count),
+    type: "pie", hole: 0.5, marker: {colors: ["#0b2545", "#13315c", "#c8963e", "#7f9cbf"]},
+  }], {margin: {t: 10, l: 10, r: 10, b: 10}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-ov-trend", [{
+    x: d.monthly_value.map(r => r.shipment_month), y: d.monthly_value.map(r => r.invoice_amount_usd),
+    type: "scatter", mode: "lines+markers", line: {color: "#0b2545"},
+  }], {margin: {t: 10, l: 60, r: 10, b: 40}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
+}
+
+function buildDocs(container) {
+  const d = DATA.customs_document_compliance;
+  const kpis = el("div", {class: "kpi-row"});
+  const docKeys = Object.keys(d.doc_completion_pct);
+  const avgCompletion = docKeys.reduce((s, k) => s + (d.doc_completion_pct[k] || 0), 0) / docKeys.length;
+  kpis.appendChild(kpiCard("Avg. Document Completion", fmtPct(avgCompletion), avgCompletion < 75 ? "amber" : "green"));
+  kpis.appendChild(kpiCard("Missing Document Instances", d.missing_document_count, "red"));
+  kpis.appendChild(kpiCard("SAP Complete, LCT Still Open", d.sap_complete_lct_open_count, "amber"));
+  container.appendChild(kpis);
+
+  const g2 = el("div", {class: "grid-2"});
+  g2.appendChild(chartCard("Document completion % by type", "chart-doc-completion"));
+  g2.appendChild(chartCard("Orders by stage gate", "chart-doc-stage"));
+  container.appendChild(g2);
+
+  renderTable(container, d.detail, [
+    {key: "shipment_id", label: "Shipment"}, {key: "contract_ref", label: "Contract"},
+    {key: "delivery_mode", label: "Mode"}, {key: "stage_gate", label: "Stage Gate"},
+    {key: "lct_status", label: "LCT Status"}, {key: "sap_status", label: "SAP Status"},
+    {key: "k2_flag", label: "K2", badge: true}, {key: "k2_chit_flag", label: "K2 Chit", badge: true},
+    {key: "certificate_of_origin_flag", label: "COO", badge: true},
+    {key: "bill_of_lading_flag", label: "BL", badge: true},
+    {key: "customs_release_flag", label: "Customs Release", badge: true},
+    {key: "customs_official_receipt_flag", label: "Customs Receipt", badge: true},
+    {key: "loi_flag", label: "LOI", badge: true},
+    {key: "ocr_confidence_pct", label: "OCR Conf. %"},
+  ], {title: "Shipment-level document compliance"});
+
+  const labels = docKeys.map(k => k.replace(/_/g, " "));
+  const values = docKeys.map(k => d.doc_completion_pct[k]);
+  Plotly.newPlot("chart-doc-completion", [{
+    x: labels, y: values, type: "bar",
+    marker: {color: values.map(v => v >= 80 ? "#2e7d32" : v >= 65 ? "#b8860b" : "#c0392b")},
+  }], {margin: {t: 10, l: 50, r: 10, b: 110}, yaxis: {title: "% complete", range: [0, 100]}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-doc-stage", [{
+    x: d.orders_by_stage_gate.map(r => r.stage_gate), y: d.orders_by_stage_gate.map(r => r.count),
+    type: "bar", marker: {color: "#0b2545"},
+  }], {margin: {t: 10, l: 50, r: 10, b: 40}}, {displayModeBar: false, responsive: true});
+}
+
+function buildShipment(container) {
+  const d = DATA.shipment_bl_monitoring;
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("Missing BL Date", `${d.missing_bl_date_count} (${fmtPct(d.missing_bl_pct)})`, "amber"));
+  kpis.appendChild(kpiCard("Qty Variance Exceptions (>1.5%)", d.qty_variance_exception_count, "amber"));
+  kpis.appendChild(kpiCard("Avg |Qty Variance|", fmtPct(d.avg_qty_variance_pct)));
+  kpis.appendChild(kpiCard("Pending 'Vessel Sailed' (SG10)", d.pending_vessel_sailed, "amber"));
+  container.appendChild(kpis);
+
+  const g2 = el("div", {class: "grid-2"});
+  g2.appendChild(chartCard("Shipments by load port", "chart-ship-port"));
+  g2.appendChild(chartCard("BL quantity variance % distribution", "chart-ship-variance"));
+  container.appendChild(g2);
+
+  renderTable(container, d.detail, [
+    {key: "shipment_id", label: "Shipment"}, {key: "contract_ref", label: "Contract"},
+    {key: "vessel", label: "Vessel"}, {key: "load_port", label: "Load Port"},
+    {key: "discharge_port", label: "Discharge Port"}, {key: "shipment_month", label: "Ship Month"},
+    {key: "bl_date", label: "BL Date"}, {key: "bl_quantity_mt", label: "BL Qty (MT)"},
+    {key: "quantity_mt", label: "Contract Qty (MT)"}, {key: "qty_variance_pct", label: "Variance %"},
+  ], {title: "Shipment / BL detail"});
+
+  Plotly.newPlot("chart-ship-port", [{
+    x: d.by_load_port.map(r => r.load_port), y: d.by_load_port.map(r => r.count),
+    type: "bar", marker: {color: "#0b2545"},
+  }], {margin: {t: 10, l: 50, r: 10, b: 60}}, {displayModeBar: false, responsive: true});
+
+  const variances = d.detail.filter(r => r.qty_variance_pct !== "" && r.qty_variance_pct !== null).map(r => r.qty_variance_pct);
+  Plotly.newPlot("chart-ship-variance", [{
+    x: variances, type: "histogram", marker: {color: "#c8963e"}, nbinsx: 30,
+  }], {margin: {t: 10, l: 50, r: 10, b: 40}, xaxis: {title: "Variance %"}}, {displayModeBar: false, responsive: true});
+}
+
+function buildHsCode(container) {
+  const d = DATA.hs_code_governance;
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("HS Code Coverage", fmtPct(d.hs_coverage_pct), d.hs_coverage_pct < 85 ? "amber" : "green"));
+  kpis.appendChild(kpiCard("Products Missing HS Code", d.products_missing_hs, "red"));
+  kpis.appendChild(kpiCard("Products with Expired HS Validity", d.products_hs_expired, "amber"));
+  container.appendChild(kpis);
+
+  if (d.high_volume_products_missing_hs.length) {
+    const g1 = el("div", {class: "grid-2"});
+    g1.appendChild(chartCard("High-volume products missing HS code", "chart-hs-missing"));
+    g1.appendChild(el("div"));
+    container.appendChild(g1);
+  }
+
+  renderTable(container, d.detail, [
+    {key: "material_code", label: "Material Code"}, {key: "product", label: "Product"},
+    {key: "product_group", label: "Group"}, {key: "commodity_code_hs", label: "HS Code"},
+    {key: "hs_valid_from", label: "Valid From"}, {key: "hs_valid_to", label: "Valid To"},
+    {key: "reclassification_date", label: "Reclassified"}, {key: "changed_by", label: "Changed By"},
+    {key: "last_changed_date", label: "Last Changed"},
+  ], {title: "Product / commodity code master"});
+
+  if (d.high_volume_products_missing_hs.length) {
+    Plotly.newPlot("chart-hs-missing", [{
+      x: d.high_volume_products_missing_hs.map(r => r.product),
+      y: d.high_volume_products_missing_hs.map(r => r.quantity_mt),
+      type: "bar", marker: {color: "#c0392b"},
+    }], {margin: {t: 10, l: 50, r: 10, b: 110}, yaxis: {title: "Quantity (MT)"}}, {displayModeBar: false, responsive: true});
+  }
+}
+
+function buildDuty(container) {
+  const d = DATA.duty_exposure;
+  container.appendChild(el("div", {class: "panel caveat"}, [
+    el("strong", {}, "⚠ " + d.label),
+  ]));
+
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("Avg Freight / MT", "$" + d.avg_freight_cost_per_mt));
+  kpis.appendChild(kpiCard("Avg Export Duty / MT", "$" + d.avg_export_duty_per_mt));
+  kpis.appendChild(kpiCard("Avg Port Cost / MT", "$" + d.avg_port_cost_per_mt));
+  kpis.appendChild(kpiCard("Freight+Duty % of Invoice (avg)", fmtPct(d.avg_freight_duty_pct_of_invoice)));
+  kpis.appendChild(kpiCard("Est. Total Landed Cost", fmtUSD(d.total_estimated_landed_cost_usd)));
+  container.appendChild(kpis);
+
+  const g2 = el("div", {class: "grid-2"});
+  g2.appendChild(chartCard("Top products by freight+duty burden (% of invoice)", "chart-duty-product"));
+  g2.appendChild(chartCard("Top lanes (destination country) by burden", "chart-duty-lane"));
+  container.appendChild(g2);
+
+  Plotly.newPlot("chart-duty-product", [{
+    x: d.top_products_by_burden.map(r => r.product), y: d.top_products_by_burden.map(r => r.freight_duty_pct_of_invoice),
+    type: "bar", marker: {color: "#0b2545"},
+  }], {margin: {t: 10, l: 50, r: 10, b: 110}, yaxis: {title: "%"}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-duty-lane", [{
+    x: d.top_lanes_by_burden.map(r => r.discharge_country), y: d.top_lanes_by_burden.map(r => r.freight_duty_pct_of_invoice),
+    type: "bar", marker: {color: "#c8963e"},
+  }], {margin: {t: 10, l: 50, r: 10, b: 80}, yaxis: {title: "%"}}, {displayModeBar: false, responsive: true});
+}
+
+function buildFta(container) {
+  const d = DATA.fta_opportunity;
+  container.appendChild(el("div", {class: "panel caveat"}, [ el("strong", {}, "⚠ " + d.caveat) ]));
+
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("COO Completion", fmtPct(d.coo_completion_pct), d.coo_completion_pct < 80 ? "amber" : "green"));
+  kpis.appendChild(kpiCard("Shipments Missing COO", d.shipments_missing_coo, "red"));
+  kpis.appendChild(kpiCard("FTA-Eligible Shipments", d.fta_eligible_shipments));
+  kpis.appendChild(kpiCard("FTA-Eligible but Missing COO", d.fta_eligible_missing_coo, "amber"));
+  kpis.appendChild(kpiCard("Est. Potential Savings", fmtUSD(d.total_potential_saving_usd), "green"));
+  container.appendChild(kpis);
+
+  const g2 = el("div", {class: "grid-2"});
+  g2.appendChild(chartCard("Potential savings by destination country", "chart-fta-savings"));
+  g2.appendChild(el("div"));
+  container.appendChild(g2);
+
+  renderTable(container, d.by_country_opportunity, [
+    {key: "discharge_country", label: "Country"}, {key: "shipments", label: "Shipments"},
+    {key: "missing_coo", label: "Missing COO"}, {key: "potential_saving_usd", label: "Potential Saving (USD)"},
+  ], {title: "FTA opportunity by country"});
+
+  Plotly.newPlot("chart-fta-savings", [{
+    x: d.by_country_opportunity.map(r => r.discharge_country), y: d.by_country_opportunity.map(r => r.potential_saving_usd),
+    type: "bar", marker: {color: "#2e7d32"},
+  }], {margin: {t: 10, l: 60, r: 10, b: 80}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
+}
+
+function buildRisk(container) {
+  const d = DATA.trade_risk_score;
+  const kpis = el("div", {class: "kpi-row"});
+  kpis.appendChild(kpiCard("High-Risk Shipments (Red)", d.high_risk_shipment_count, "red"));
+  kpis.appendChild(kpiCard("Near-Limit Contracts (≥80% util.)", d.near_limit_contracts, "amber"));
+  d.rag_distribution.forEach(r => kpis.appendChild(kpiCard(r.rag + " shipments", r.count, r.rag === "Red" ? "red" : r.rag === "Amber" ? "amber" : "green")));
+  container.appendChild(kpis);
+
+  const g3 = el("div", {class: "grid-3"});
+  g3.appendChild(chartCard("RAG distribution", "chart-risk-rag"));
+  g3.appendChild(chartCard("High-risk counterparties", "chart-risk-cp"));
+  g3.appendChild(chartCard("High-risk products", "chart-risk-prod"));
+  container.appendChild(g3);
+
+  const detailWithBadge = d.detail.map(r => ({...r}));
+  renderTable(container, detailWithBadge, [
+    {key: "shipment_id", label: "Shipment"}, {key: "contract_ref", label: "Contract"},
+    {key: "counterparty_name", label: "Counterparty"}, {key: "product", label: "Product"},
+    {key: "discharge_port", label: "Discharge Port"}, {key: "risk_score", label: "Risk Score"},
+    {key: "rag", label: "RAG", badge: true},
+  ], {title: "Shipment-level trade risk score"});
+
+  const ragColors = {Green: "#2e7d32", Amber: "#b8860b", Red: "#c0392b"};
+  Plotly.newPlot("chart-risk-rag", [{
+    labels: d.rag_distribution.map(r => r.rag), values: d.rag_distribution.map(r => r.count),
+    type: "pie", hole: 0.5, marker: {colors: d.rag_distribution.map(r => ragColors[r.rag])},
+  }], {margin: {t: 10, l: 10, r: 10, b: 10}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-risk-cp", [{
+    x: d.high_risk_counterparties.map(r => r.count), y: d.high_risk_counterparties.map(r => r.counterparty_name),
+    type: "bar", orientation: "h", marker: {color: "#c0392b"},
+  }], {margin: {t: 10, l: 150, r: 10, b: 30}}, {displayModeBar: false, responsive: true});
+
+  Plotly.newPlot("chart-risk-prod", [{
+    x: d.high_risk_products.map(r => r.count), y: d.high_risk_products.map(r => r.product),
+    type: "bar", orientation: "h", marker: {color: "#b8860b"},
+  }], {margin: {t: 10, l: 170, r: 10, b: 30}}, {displayModeBar: false, responsive: true});
+}
+
+const BUILDERS = {
+  overview: buildOverview, docs: buildDocs, shipment: buildShipment,
+  hscode: buildHsCode, duty: buildDuty, fta: buildFta, risk: buildRisk,
+};
+
+function init() {
+  const nav = document.getElementById("tabNav");
+  const pagesDiv = document.getElementById("pages");
+  PAGES.forEach((p, i) => {
+    const btn = el("button", {}, p.label);
+    btn.dataset.id = p.id;
+    if (i === 0) btn.classList.add("active");
+    btn.addEventListener("click", () => switchPage(p.id));
+    nav.appendChild(btn);
+
+    const pageDiv = el("div", {class: "page" + (i === 0 ? " active" : ""), id: "page-" + p.id});
+    pagesDiv.appendChild(pageDiv);
+    BUILDERS[p.id](pageDiv);
+  });
+}
+
+function switchPage(id) {
+  document.querySelectorAll("nav.tabs button").forEach(b => b.classList.toggle("active", b.dataset.id === id));
+  document.querySelectorAll(".page").forEach(p => p.classList.toggle("active", p.id === "page-" + id));
+  window.dispatchEvent(new Event("resize"));
+}
+
+init();
+</script>
+</body>
+</html>

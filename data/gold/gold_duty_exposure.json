@@ -1,0 +1,76 @@
+{
+  "label": "Duty Exposure Proxy / Illustrative Tariff Exposure (not actual customs duty data)",
+  "avg_freight_cost_per_mt": 57.11,
+  "avg_export_duty_per_mt": 86.77,
+  "avg_port_cost_per_mt": 7.41,
+  "avg_freight_duty_pct_of_invoice": 15.42,
+  "total_estimated_landed_cost_usd": 2004082776.22,
+  "top_products_by_burden": [
+    {
+      "product": "RBD Palm Oil",
+      "freight_duty_pct_of_invoice": 16.37
+    },
+    {
+      "product": "RBD Palm Olein",
+      "freight_duty_pct_of_invoice": 16.35
+    },
+    {
+      "product": "Palm Kernel Oil (PKO)",
+      "freight_duty_pct_of_invoice": 15.43
+    },
+    {
+      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "freight_duty_pct_of_invoice": 15.42
+    },
+    {
+      "product": "Palm Fatty Acid Distillate (PFAD)",
+      "freight_duty_pct_of_invoice": 15.12
+    },
+    {
+      "product": "Crude Palm Oil (CPO)",
+      "freight_duty_pct_of_invoice": 15.1
+    },
+    {
+      "product": "RBD Palm Stearin",
+      "freight_duty_pct_of_invoice": 14.98
+    },
+    {
+      "product": "Palm Kernel Expeller (PKE)",
+      "freight_duty_pct_of_invoice": 14.75
+    }
+  ],
+  "top_lanes_by_burden": [
+    {
+      "discharge_country": "USA",
+      "freight_duty_pct_of_invoice": 16.97
+    },
+    {
+      "discharge_country": "Malaysia",
+      "freight_duty_pct_of_invoice": 16.46
+    },
+    {
+      "discharge_country": "Netherlands",
+      "freight_duty_pct_of_invoice": 16.37
+    },
+    {
+      "discharge_country": "Egypt",
+      "freight_duty_pct_of_invoice": 16.35
+    },
+    {
+      "discharge_country": "Nigeria",
+      "freight_duty_pct_of_invoice": 16.07
+    },
+    {
+      "discharge_country": "Turkey",
+      "freight_duty_pct_of_invoice": 15.82
+    },
+    {
+      "discharge_country": "Saudi Arabia",
+      "freight_duty_pct_of_invoice": 15.76
+    },
+    {
+      "discharge_country": "China",
+      "freight_duty_pct_of_invoice": 15.12
+    }
+  ]
+}
