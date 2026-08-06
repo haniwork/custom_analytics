@@ -148,21 +148,8 @@ open('dashboard/index.html', 'w').write(tpl.replace('__DATA_JSON__', data))
 
 Open `dashboard/index.html` directly in a browser, or enable **GitHub Pages** on this repo (Settings → Pages → Deploy from branch → `/dashboard`) to get a shareable link.
 
-## 8. How I'd describe this in an interview
 
-> "This dashboard is a customs and trade analytics MVP built to mirror the kind of fragmented data landscape you'd find at a commodity trading organization without a dedicated customs platform. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. It doesn't claim to replace a system like SAP GTS — it demonstrates how fragmented source data can be integrated into a control tower for customs readiness, document completeness, HS code governance, tariff exposure simulation, FTA opportunity analysis and trade risk scoring."
-
-**Wording I'm careful to avoid**, since the underlying data here is simulated and I haven't personally implemented duty optimization or SAP GTS in production:
-
-- ❌ "Implemented duty optimization" / "delivered FTA savings" — unless actually validated and delivered
-- ❌ "SAP GTS experience" — unless actually used
-- ❌ "HS classification expert"
-
-**Safer phrasing:**
-
-> "Built a self-initiated analytics prototype that models how trading, logistics, commodity-code and document data can be consolidated for customs KPI monitoring and exception reporting."
-
-## 9. Glossary
+## 8. Glossary
 
 - **Customs vs. Duty vs. Levy** — Customs is the government process controlling cross-border goods movement; duty is the tax on imported/exported goods; a levy is a broader government charge, not always customs-related.
 - **K2** — Malaysia's export customs declaration form, evidence goods were declared to customs.
