@@ -7,17 +7,24 @@
 <script>__PLOTLY_JS__</script>
 <style>
   :root {
-    --navy: #0b2545;
-    --navy-light: #13315c;
-    --gold: #c8963e;
+    /* BASF-inspired brand palette: deep corporate blue as primary, a
+       lighter steel blue as the secondary/accent tone. RAG semantic
+       colors (green/amber/red) are kept distinct from the brand hue on
+       purpose — status color and brand color are different jobs. */
+    --navy: #003d6b;
+    --navy-light: #1b5fa8;
+    --accent: #6e93c2;
+    --accent-pale: #d7e3f1;
     --green: #2e7d32;
     --amber: #b8860b;
     --red: #c0392b;
-    --bg: #f4f6f9;
+    --info-bg: #eaf1f9;
+    --info-text: #2c5b8c;
+    --bg: #f5f7fa;
     --card-bg: #ffffff;
     --text: #1c2733;
-    --muted: #667085;
-    --border: #e2e6ec;
+    --muted: #64707e;
+    --border: #dce3ec;
   }
   * { box-sizing: border-box; }
   body {
@@ -76,7 +83,7 @@
   }
   nav.tabs button.active {
     color: var(--navy);
-    border-bottom: 3px solid var(--gold);
+    border-bottom: 3px solid var(--navy-light);
   }
   main {
     padding: 24px 32px 60px;
@@ -85,35 +92,78 @@
   }
   .page { display: none; }
   .page.active { display: block; }
-  .kpi-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    gap: 14px;
-    margin-bottom: 20px;
+
+  .scorecard-title {
+    font-size: 12.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--muted);
+    margin: 0 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
-  .kpi-card {
+  .scorecard-title::before {
+    content: "";
+    width: 4px;
+    height: 15px;
+    background: var(--navy-light);
+    border-radius: 2px;
+    display: inline-block;
+  }
+  .scorecard-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+  .score-card {
     background: var(--card-bg);
     border: 1px solid var(--border);
+    border-left: 5px solid var(--muted);
     border-radius: 10px;
-    padding: 16px 18px;
-    box-shadow: 0 1px 2px rgba(16,24,40,0.04);
+    padding: 15px 17px;
+    box-shadow: 0 1px 2px rgba(16,24,40,0.05);
   }
-  .kpi-card .label {
-    font-size: 11.5px;
+  .score-card.status-green { border-left-color: var(--green); }
+  .score-card.status-amber { border-left-color: var(--amber); }
+  .score-card.status-red { border-left-color: var(--red); }
+  .score-card.status-info { border-left-color: var(--accent); }
+  .score-card.clickable { cursor: pointer; transition: box-shadow 0.15s, transform 0.15s; }
+  .score-card.clickable:hover { box-shadow: 0 4px 10px rgba(16,24,40,0.10); transform: translateY(-1px); }
+  .score-card .sc-label {
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.4px;
     color: var(--muted);
-    margin-bottom: 6px;
-    font-weight: 600;
-  }
-  .kpi-card .value {
-    font-size: 22px;
     font-weight: 700;
-    color: var(--navy);
+    margin-bottom: 8px;
   }
-  .kpi-card .value.red { color: var(--red); }
-  .kpi-card .value.amber { color: var(--amber); }
-  .kpi-card .value.green { color: var(--green); }
+  .score-card .sc-value {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.15;
+  }
+  .score-card .sc-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+  }
+  .score-card .sc-status {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 20px;
+    font-size: 10.5px;
+    font-weight: 700;
+  }
+  .score-card .sc-status.green { background: #e6f4ea; color: var(--green); }
+  .score-card .sc-status.amber { background: #fdf3d9; color: var(--amber); }
+  .score-card .sc-status.red { background: #fbe9e7; color: var(--red); }
+  .score-card .sc-status.info { background: var(--info-bg); color: var(--info-text); }
+  .score-card .sc-link { font-size: 11px; font-weight: 700; color: var(--navy-light); white-space: nowrap; }
   .grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -180,7 +230,7 @@
 
 <header class="top">
   <h1>🧭 Trade Compliance &amp; Customs Analytics Control Tower</h1>
-  <p class="subtitle">A customs &amp; trade analytics MVP demonstrating how fragmented trading, logistics, ERP/commodity-code and trading-risk data can be consolidated into a single control tower for customs readiness, documentation compliance, HS code governance, tariff exposure and trade risk monitoring.</p>
+  <p class="subtitle">A KPI scorecard &amp; reporting MVP demonstrating how fragmented trading, logistics, ERP/commodity-code and trading-risk data can be consolidated into customs KPI monitoring, dashboards and scorecards — covering documentation compliance, HS code governance, duty analysis, FTA/duty optimization and trade risk performance.</p>
 </header>
 <div class="disclaimer">
   <strong>Portfolio disclaimer:</strong> All figures, counterparties, contracts, vessels, tariff rates and FTA schemes shown on this dashboard are <strong>synthetically generated</strong> for demonstration purposes only. This project does not use, reference, or expose any real employer data, credentials, or infrastructure, and it is not a substitute for validated customs/duty data (e.g. SAP GTS). Duty and FTA figures are illustrative proxies only and require SME validation before any business use.
@@ -227,11 +277,31 @@ function el(tag, attrs = {}, children = []) {
   return e;
 }
 
-function kpiCard(label, value, cls) {
-  return el("div", {class: "kpi-card"}, [
-    el("div", {class: "label"}, label),
-    el("div", {class: "value" + (cls ? " " + cls : "")}, value),
+const STATUS_WORD = {green: "On Target", amber: "Watch", red: "At Risk", info: "Reference"};
+
+// A scorecard tile: bigger, gives the metric an explicit RAG status pill
+// (not just colored text) so a page reads as a scorecard, not just numbers.
+// opts: {statusText, onClick, linkText}
+function scoreCard(label, value, status, opts = {}) {
+  status = status || "info";
+  const foot = el("div", {class: "sc-foot"}, [
+    el("span", {class: "sc-status " + status}, opts.statusText || STATUS_WORD[status]),
   ]);
+  if (opts.linkText) foot.appendChild(el("span", {class: "sc-link"}, opts.linkText + " →"));
+  const card = el("div", {class: "score-card status-" + status + (opts.onClick ? " clickable" : "")}, [
+    el("div", {class: "sc-label"}, label),
+    el("div", {class: "sc-value"}, value),
+    foot,
+  ]);
+  if (opts.onClick) card.addEventListener("click", opts.onClick);
+  return card;
+}
+
+function scorecardSection(container, title, cards) {
+  container.appendChild(el("div", {class: "scorecard-title"}, title));
+  const row = el("div", {class: "scorecard-row"});
+  cards.forEach(c => row.appendChild(c));
+  container.appendChild(row);
 }
 
 function chartCard(title, id) {
@@ -305,16 +375,57 @@ function buildOverview(container) {
   const d = DATA.trade_overview;
   container.appendChild(el("div", {class: "panel"}, [
     el("h2", {}, "Project narrative"),
-    el("p", {}, `"This dashboard is a customs and trade analytics MVP built from illustrative, Oil Palm Company-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be integrated into a control tower for customs readiness, document completeness, HS code governance, tariff exposure simulation, FTA opportunity analysis and trade risk scoring."`),
+    el("p", {}, `"This dashboard is a customs KPI scorecard & analytics MVP built from illustrative, Oil Palm Company-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be validated, reconciled and rolled up into KPI monitoring, scorecards and management reporting for customs readiness, document completeness, HS code governance, duty analysis, FTA/duty optimization and trade risk performance."`),
   ]));
 
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("Total Contract Value", fmtUSD(d.total_contract_value_usd)));
-  kpis.appendChild(kpiCard("Total Quantity (MT)", fmtNum(d.total_quantity_mt)));
-  kpis.appendChild(kpiCard("Total Contracts", d.total_contracts));
-  kpis.appendChild(kpiCard("Open Contracts", d.open_contracts));
-  kpis.appendChild(kpiCard("LC Transactions", d.lc_transaction_count));
-  container.appendChild(kpis);
+  // -------------------------------------------------------------------
+  // Overall Control Tower Scorecard — one headline metric rolled up from
+  // each of the other six pages, so the exec summary reads as a single
+  // scorecard-of-scorecards rather than just this page's own numbers.
+  // -------------------------------------------------------------------
+  const docsD = DATA.customs_document_compliance;
+  const docKeys = Object.keys(docsD.doc_completion_pct);
+  const avgDocCompletion = docKeys.reduce((s, k) => s + (docsD.doc_completion_pct[k] || 0), 0) / docKeys.length;
+  const docStatus = avgDocCompletion < 60 ? "red" : avgDocCompletion < 80 ? "amber" : "green";
+
+  const shipD = DATA.shipment_bl_monitoring;
+  const backdatedStatus = shipD.lc_backdated_count > 0 ? "red" : "green";
+
+  const hsD = DATA.hs_code_governance;
+  const hsStatus = hsD.hs_coverage_pct < 70 ? "red" : hsD.hs_coverage_pct < 85 ? "amber" : "green";
+
+  const dutyD = DATA.duty_exposure;
+  const burden = dutyD.avg_freight_duty_pct_of_invoice;
+  const burdenStatus = burden > 15 ? "red" : burden > 10 ? "amber" : "green";
+
+  const ftaOpt = DATA.fta_opportunity.hs_fta_optimization;
+  const ftaStatus = ftaOpt && ftaOpt.total_saving_opportunity_usd > 0 ? "red" : "green";
+
+  const riskD = DATA.trade_risk_score;
+  const riskStatus = riskD.high_risk_shipment_count > 0 ? "red" : "green";
+
+  scorecardSection(container, "Overall control tower scorecard — one metric per page", [
+    scoreCard("Doc Compliance", fmtPct(avgDocCompletion), docStatus,
+      {linkText: "Page 2", onClick: () => switchPage("docs")}),
+    scoreCard("Backdated LC vs BL", `${shipD.lc_backdated_count} (${fmtPct(shipD.lc_backdated_pct)})`, backdatedStatus,
+      {linkText: "Page 3", onClick: () => switchPage("shipment")}),
+    scoreCard("HS Code Coverage", fmtPct(hsD.hs_coverage_pct), hsStatus,
+      {linkText: "Page 4", onClick: () => switchPage("hscode")}),
+    scoreCard("Freight+Duty % of Invoice", fmtPct(burden), burdenStatus,
+      {linkText: "Page 5", onClick: () => switchPage("duty")}),
+    scoreCard("Un-Claimed FTA Savings", ftaOpt ? fmtUSD(ftaOpt.total_saving_opportunity_usd) : "–", ftaStatus,
+      {linkText: "Page 6", onClick: () => switchPage("fta")}),
+    scoreCard("High-Risk Shipments (Red)", riskD.high_risk_shipment_count, riskStatus,
+      {linkText: "Page 7", onClick: () => switchPage("risk")}),
+  ]);
+
+  scorecardSection(container, "Portfolio snapshot", [
+    scoreCard("Total Contract Value", fmtUSD(d.total_contract_value_usd), "info"),
+    scoreCard("Total Quantity (MT)", fmtNum(d.total_quantity_mt), "info"),
+    scoreCard("Total Contracts", d.total_contracts, "info"),
+    scoreCard("Open Contracts", d.open_contracts, "info"),
+    scoreCard("LC Transactions", d.lc_transaction_count, "info"),
+  ]);
 
   const g2 = el("div", {class: "grid-2"});
   g2.appendChild(chartCard("Contract value by product", "chart-ov-product"));
@@ -333,34 +444,34 @@ function buildOverview(container) {
 
   Plotly.newPlot("chart-ov-product", [{
     x: d.by_product.map(r => r.product), y: d.by_product.map(r => r.invoice_amount_usd),
-    type: "bar", marker: {color: "#0b2545"},
+    type: "bar", marker: {color: "#003d6b"},
   }], {margin: {t: 10, l: 60, r: 10, b: 110}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-ov-cp", [{
     x: d.by_counterparty.map(r => r.invoice_amount_usd), y: d.by_counterparty.map(r => r.counterparty_name),
-    type: "bar", orientation: "h", marker: {color: "#c8963e"},
+    type: "bar", orientation: "h", marker: {color: "#6e93c2"},
   }], {margin: {t: 10, l: 190, r: 10, b: 40}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-ov-inco", [{
     labels: d.by_incoterm.map(r => r.incoterms), values: d.by_incoterm.map(r => r.contract_count),
-    type: "pie", hole: 0.5, marker: {colors: ["#0b2545", "#13315c", "#c8963e", "#7f9cbf"]},
+    type: "pie", hole: 0.5, marker: {colors: ["#003d6b", "#1b5fa8", "#6e93c2", "#b8cbe3"]},
   }], {margin: {t: 10, l: 10, r: 10, b: 10}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-ov-trend", [{
     x: d.monthly_value.map(r => r.shipment_month), y: d.monthly_value.map(r => r.invoice_amount_usd),
-    type: "scatter", mode: "lines+markers", line: {color: "#0b2545"},
+    type: "scatter", mode: "lines+markers", line: {color: "#003d6b"},
   }], {margin: {t: 10, l: 60, r: 10, b: 40}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
 }
 
 function buildDocs(container) {
   const d = DATA.customs_document_compliance;
-  const kpis = el("div", {class: "kpi-row"});
   const docKeys = Object.keys(d.doc_completion_pct);
   const avgCompletion = docKeys.reduce((s, k) => s + (d.doc_completion_pct[k] || 0), 0) / docKeys.length;
-  kpis.appendChild(kpiCard("Avg. Document Completion", fmtPct(avgCompletion), avgCompletion < 75 ? "amber" : "green"));
-  kpis.appendChild(kpiCard("Missing Document Instances", d.missing_document_count, "red"));
-  kpis.appendChild(kpiCard("SAP Complete, LCT Still Open", d.sap_complete_lct_open_count, "amber"));
-  container.appendChild(kpis);
+  scorecardSection(container, "Documentation compliance scorecard", [
+    scoreCard("Avg. Document Completion", fmtPct(avgCompletion), avgCompletion < 60 ? "red" : avgCompletion < 80 ? "amber" : "green"),
+    scoreCard("Missing Document Instances", d.missing_document_count, d.missing_document_count > 0 ? "red" : "green"),
+    scoreCard("SAP Complete, LCT Still Open", d.sap_complete_lct_open_count, d.sap_complete_lct_open_count > 0 ? "amber" : "green"),
+  ]);
 
   const g2 = el("div", {class: "grid-2"});
   g2.appendChild(chartCard("Document completion % by type", "chart-doc-completion"));
@@ -389,19 +500,19 @@ function buildDocs(container) {
 
   Plotly.newPlot("chart-doc-stage", [{
     x: d.orders_by_stage_gate.map(r => r.stage_gate), y: d.orders_by_stage_gate.map(r => r.count),
-    type: "bar", marker: {color: "#0b2545"},
+    type: "bar", marker: {color: "#003d6b"},
   }], {margin: {t: 10, l: 50, r: 10, b: 40}}, {displayModeBar: false, responsive: true});
 }
 
 function buildShipment(container) {
   const d = DATA.shipment_bl_monitoring;
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("Missing BL Date", `${d.missing_bl_date_count} (${fmtPct(d.missing_bl_pct)})`, "amber"));
-  kpis.appendChild(kpiCard("Qty Variance Exceptions (>1.5%)", d.qty_variance_exception_count, "amber"));
-  kpis.appendChild(kpiCard("Avg |Qty Variance|", fmtPct(d.avg_qty_variance_pct)));
-  kpis.appendChild(kpiCard("Pending 'Vessel Sailed' (SG10)", d.pending_vessel_sailed, "amber"));
-  kpis.appendChild(kpiCard("Backdated LC vs BL", `${d.lc_backdated_count} (${fmtPct(d.lc_backdated_pct)})`, d.lc_backdated_count > 0 ? "red" : "green"));
-  container.appendChild(kpis);
+  scorecardSection(container, "Shipment & BL scorecard", [
+    scoreCard("Missing BL Date", `${d.missing_bl_date_count} (${fmtPct(d.missing_bl_pct)})`, d.missing_bl_pct > 10 ? "red" : d.missing_bl_date_count > 0 ? "amber" : "green"),
+    scoreCard("Qty Variance Exceptions (>1.5%)", d.qty_variance_exception_count, d.qty_variance_exception_count > 0 ? "amber" : "green"),
+    scoreCard("Avg |Qty Variance|", fmtPct(d.avg_qty_variance_pct), d.avg_qty_variance_pct > 2 ? "red" : d.avg_qty_variance_pct > 1 ? "amber" : "green"),
+    scoreCard("Pending 'Vessel Sailed' (SG10)", d.pending_vessel_sailed, d.pending_vessel_sailed > 0 ? "amber" : "green"),
+    scoreCard("Backdated LC vs BL", `${d.lc_backdated_count} (${fmtPct(d.lc_backdated_pct)})`, d.lc_backdated_count > 0 ? "red" : "green"),
+  ]);
 
   container.appendChild(el("div", {class: "panel caveat"}, [
     el("h2", {}, "⚠️ Backdated LC vs BL — what this flags"),
@@ -427,16 +538,16 @@ function buildShipment(container) {
 
   Plotly.newPlot("chart-ship-port", [{
     x: d.by_load_port.map(r => r.load_port), y: d.by_load_port.map(r => r.count),
-    type: "bar", marker: {color: "#0b2545"},
+    type: "bar", marker: {color: "#003d6b"},
   }], {margin: {t: 10, l: 50, r: 10, b: 60}}, {displayModeBar: false, responsive: true});
 
   const variances = d.detail.filter(r => r.qty_variance_pct !== "" && r.qty_variance_pct !== null).map(r => r.qty_variance_pct);
   Plotly.newPlot("chart-ship-variance", [{
-    x: variances, type: "histogram", marker: {color: "#c8963e"}, nbinsx: 30,
+    x: variances, type: "histogram", marker: {color: "#6e93c2"}, nbinsx: 30,
   }], {margin: {t: 10, l: 50, r: 10, b: 40}, xaxis: {title: "Variance %"}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-ship-lc-lag", [{
-    x: d.lc_bl_lag_distribution, type: "histogram", nbinsx: 30, marker: {color: "#0b2545"},
+    x: d.lc_bl_lag_distribution, type: "histogram", nbinsx: 30, marker: {color: "#003d6b"},
   }], {
     margin: {t: 10, l: 50, r: 10, b: 40},
     xaxis: {title: "Days (LC issue date − BL date)"},
@@ -447,11 +558,11 @@ function buildShipment(container) {
 
 function buildHsCode(container) {
   const d = DATA.hs_code_governance;
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("HS Code Coverage", fmtPct(d.hs_coverage_pct), d.hs_coverage_pct < 85 ? "amber" : "green"));
-  kpis.appendChild(kpiCard("Products Missing HS Code", d.products_missing_hs, "red"));
-  kpis.appendChild(kpiCard("Products with Expired HS Validity", d.products_hs_expired, "amber"));
-  container.appendChild(kpis);
+  scorecardSection(container, "HS code governance scorecard", [
+    scoreCard("HS Code Coverage", fmtPct(d.hs_coverage_pct), d.hs_coverage_pct < 70 ? "red" : d.hs_coverage_pct < 85 ? "amber" : "green"),
+    scoreCard("Products Missing HS Code", d.products_missing_hs, d.products_missing_hs > 0 ? "red" : "green"),
+    scoreCard("Products with Expired HS Validity", d.products_hs_expired, d.products_hs_expired > 0 ? "amber" : "green"),
+  ]);
 
   if (d.high_volume_products_missing_hs.length) {
     const g1 = el("div", {class: "grid-2"});
@@ -483,13 +594,14 @@ function buildDuty(container) {
     el("strong", {}, "⚠ " + d.label),
   ]));
 
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("Avg Freight / MT", "$" + d.avg_freight_cost_per_mt));
-  kpis.appendChild(kpiCard("Avg Export Duty / MT", "$" + d.avg_export_duty_per_mt));
-  kpis.appendChild(kpiCard("Avg Port Cost / MT", "$" + d.avg_port_cost_per_mt));
-  kpis.appendChild(kpiCard("Freight+Duty % of Invoice (avg)", fmtPct(d.avg_freight_duty_pct_of_invoice)));
-  kpis.appendChild(kpiCard("Est. Total Landed Cost", fmtUSD(d.total_estimated_landed_cost_usd)));
-  container.appendChild(kpis);
+  const burden = d.avg_freight_duty_pct_of_invoice;
+  scorecardSection(container, "Duty exposure scorecard (illustrative)", [
+    scoreCard("Avg Freight / MT", "$" + d.avg_freight_cost_per_mt, "info"),
+    scoreCard("Avg Export Duty / MT", "$" + d.avg_export_duty_per_mt, "info"),
+    scoreCard("Avg Port Cost / MT", "$" + d.avg_port_cost_per_mt, "info"),
+    scoreCard("Freight+Duty % of Invoice (avg)", fmtPct(burden), burden > 15 ? "red" : burden > 10 ? "amber" : "green"),
+    scoreCard("Est. Total Landed Cost", fmtUSD(d.total_estimated_landed_cost_usd), "info"),
+  ]);
 
   const g2 = el("div", {class: "grid-2"});
   g2.appendChild(chartCard("Top products by freight+duty burden (% of invoice)", "chart-duty-product"));
@@ -498,12 +610,12 @@ function buildDuty(container) {
 
   Plotly.newPlot("chart-duty-product", [{
     x: d.top_products_by_burden.map(r => r.product), y: d.top_products_by_burden.map(r => r.freight_duty_pct_of_invoice),
-    type: "bar", marker: {color: "#0b2545"},
+    type: "bar", marker: {color: "#003d6b"},
   }], {margin: {t: 10, l: 50, r: 10, b: 110}, yaxis: {title: "%"}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-duty-lane", [{
     x: d.top_lanes_by_burden.map(r => r.discharge_country), y: d.top_lanes_by_burden.map(r => r.freight_duty_pct_of_invoice),
-    type: "bar", marker: {color: "#c8963e"},
+    type: "bar", marker: {color: "#6e93c2"},
   }], {margin: {t: 10, l: 50, r: 10, b: 80}, yaxis: {title: "%"}}, {displayModeBar: false, responsive: true});
 }
 
@@ -511,13 +623,13 @@ function buildFta(container) {
   const d = DATA.fta_opportunity;
   container.appendChild(el("div", {class: "panel caveat"}, [ el("strong", {}, "⚠ " + d.caveat) ]));
 
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("COO Completion", fmtPct(d.coo_completion_pct), d.coo_completion_pct < 80 ? "amber" : "green"));
-  kpis.appendChild(kpiCard("Shipments Missing COO", d.shipments_missing_coo, "red"));
-  kpis.appendChild(kpiCard("FTA-Eligible Shipments", d.fta_eligible_shipments));
-  kpis.appendChild(kpiCard("FTA-Eligible but Missing COO", d.fta_eligible_missing_coo, "amber"));
-  kpis.appendChild(kpiCard("Est. Potential Savings", fmtUSD(d.total_potential_saving_usd), "green"));
-  container.appendChild(kpis);
+  scorecardSection(container, "FTA / COO scorecard", [
+    scoreCard("COO Completion", fmtPct(d.coo_completion_pct), d.coo_completion_pct < 60 ? "red" : d.coo_completion_pct < 80 ? "amber" : "green"),
+    scoreCard("Shipments Missing COO", d.shipments_missing_coo, d.shipments_missing_coo > 0 ? "red" : "green"),
+    scoreCard("FTA-Eligible Shipments", d.fta_eligible_shipments, "info"),
+    scoreCard("FTA-Eligible but Missing COO", d.fta_eligible_missing_coo, d.fta_eligible_missing_coo > 0 ? "amber" : "green"),
+    scoreCard("Est. Potential Savings", fmtUSD(d.total_potential_saving_usd), "green"),
+  ]);
 
   const g2 = el("div", {class: "grid-2"});
   g2.appendChild(chartCard("Potential savings by destination country", "chart-fta-savings"));
@@ -531,7 +643,7 @@ function buildFta(container) {
 
   Plotly.newPlot("chart-fta-savings", [{
     x: d.by_country_opportunity.map(r => r.discharge_country), y: d.by_country_opportunity.map(r => r.potential_saving_usd),
-    type: "bar", marker: {color: "#2e7d32"},
+    type: "bar", marker: {color: "#1b5fa8"},
   }], {margin: {t: 10, l: 60, r: 10, b: 80}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
 
   // -------------------------------------------------------------------
@@ -544,12 +656,12 @@ function buildFta(container) {
       el("p", {}, "This drills into the same opportunity at the shipment level, using the fields that actually determine FTA eligibility: the true Country of Origin per Rules of Origin (not the ship-from port — cargo can load from Malaysia without qualifying as Malaysia-originating), the destination, and the HS code, since preferential rates are code-specific. \"Is FTA Available\" is a lookup against a Customs FTA/tariff-schedule master keyed by (origin, destination, HS code) — no matching row means no preferential rate exists for that exact combination. \"Duty Paid\" is what's currently being paid, at the standard/MFN rate unless a Certificate of Origin is on file to support a preferential claim. \"Saving Opportunity\" is duty paid minus duty at the preferential rate, only for shipments where an FTA is available but not being claimed."),
     ]));
 
-    const kpis2 = el("div", {class: "kpi-row"});
-    kpis2.appendChild(kpiCard("Un-Claimed FTA Saving Opportunity", fmtUSD(h.total_saving_opportunity_usd), h.total_saving_opportunity_usd > 0 ? "red" : "green"));
-    kpis2.appendChild(kpiCard("Shipments With Missed Savings", h.shipments_with_missed_saving, h.shipments_with_missed_saving > 0 ? "amber" : "green"));
-    kpis2.appendChild(kpiCard("Shipments FTA-Available (code+origin verified)", h.shipments_fta_available));
-    kpis2.appendChild(kpiCard("Shipments — HS Code Unknown", h.shipments_unknown_hs, h.shipments_unknown_hs > 0 ? "amber" : "green"));
-    container.appendChild(kpis2);
+    scorecardSection(container, "HS + FTA optimization scorecard", [
+      scoreCard("Un-Claimed FTA Saving Opportunity", fmtUSD(h.total_saving_opportunity_usd), h.total_saving_opportunity_usd > 0 ? "red" : "green"),
+      scoreCard("Shipments With Missed Savings", h.shipments_with_missed_saving, h.shipments_with_missed_saving > 0 ? "amber" : "green"),
+      scoreCard("Shipments FTA-Available (code+origin verified)", h.shipments_fta_available, "info"),
+      scoreCard("Shipments — HS Code Unknown", h.shipments_unknown_hs, h.shipments_unknown_hs > 0 ? "amber" : "green"),
+    ]);
 
     const hsFtaDetail = h.detail.map(r => ({
       ...r,
@@ -568,11 +680,14 @@ function buildFta(container) {
 
 function buildRisk(container) {
   const d = DATA.trade_risk_score;
-  const kpis = el("div", {class: "kpi-row"});
-  kpis.appendChild(kpiCard("High-Risk Shipments (Red)", d.high_risk_shipment_count, "red"));
-  kpis.appendChild(kpiCard("Near-Limit Contracts (≥80% util.)", d.near_limit_contracts, "amber"));
-  d.rag_distribution.forEach(r => kpis.appendChild(kpiCard(r.rag + " shipments", r.count, r.rag === "Red" ? "red" : r.rag === "Amber" ? "amber" : "green")));
-  container.appendChild(kpis);
+  const ragCards = d.rag_distribution.map(r => scoreCard(
+    r.rag + " shipments", r.count, r.rag === "Red" ? "red" : r.rag === "Amber" ? "amber" : "green"
+  ));
+  scorecardSection(container, "Trade risk scorecard", [
+    scoreCard("High-Risk Shipments (Red)", d.high_risk_shipment_count, d.high_risk_shipment_count > 0 ? "red" : "green"),
+    scoreCard("Near-Limit Contracts (≥80% util.)", d.near_limit_contracts, d.near_limit_contracts > 0 ? "amber" : "green"),
+    ...ragCards,
+  ]);
 
   container.appendChild(el("div", {class: "panel"}, [
     el("h2", {}, "What do Green / Amber / Red mean?"),
@@ -615,7 +730,7 @@ function buildRisk(container) {
 
   Plotly.newPlot("chart-risk-prod", [{
     x: d.high_risk_products.map(r => r.count), y: d.high_risk_products.map(r => r.product),
-    type: "bar", orientation: "h", marker: {color: "#b8860b"},
+    type: "bar", orientation: "h", marker: {color: "#c0392b"},
   }], {margin: {t: 10, l: 170, r: 10, b: 30}}, {displayModeBar: false, responsive: true});
 }
 

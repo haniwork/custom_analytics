@@ -27,7 +27,7 @@
 
 **Monitor and analyze customs process compliance by pulling data from a handful of disconnected source systems into one integrated model.**
 
-Most commodity trading organizations don't run a dedicated customs platform (e.g. SAP GTS). Their customs-relevant data instead lives scattered across a trading/contract system, a logistics document tracker, an ERP product master, and a risk system — four systems, four owners, none of them built with customs analytics in mind. This project builds a small ETL pipeline that extracts from all four, models them as one dataset, and surfaces the result as a KPI dashboard covering documentation compliance, HS code governance, tariff exposure, FTA optimization, and trade risk scoring.
+Most commodity trading organizations don't run a dedicated customs platform (e.g. SAP GTS). Their customs-relevant data instead lives scattered across a trading/contract system, a logistics document tracker, an ERP product master, and a risk system — four systems, four owners, none of them built with customs analytics in mind. This project builds a small ETL pipeline that extracts from all four, models them as one dataset, and surfaces the result as KPI scorecards and dashboards covering documentation compliance, HS code governance, duty analysis, FTA/duty optimization, and trade risk performance — the same kind of KPI reporting, dashboard management, and performance monitoring a global customs analytics function runs day to day.
 
 ## 2. Customs Process at a Glance
 
@@ -60,6 +60,8 @@ The catch: those checkpoints don't all live in one system. The contract terms si
 All four are generated as independent synthetic extracts and then joined the way a real ETL pipeline would join them — by contract reference, sales order, or shipment ID — which is the same source-to-target mapping problem a real customs control tower would face: inconsistent keys, different field names for the same business concept, and partial coverage across systems.
 
 ## 4. Dashboard Pages
+
+Every page opens with a **scorecard**: a row of KPI tiles, each carrying an explicit RAG status pill (On Target / Watch / At Risk), not just a colored number — matching how customs teams actually track performance (monthly reports, dashboards, scorecards, management presentations). Page 1's scorecard is a roll-up of one headline metric from each of the other six pages, so the exec summary reads as a scorecard-of-scorecards; click any tile to jump straight to that page.
 
 | # | Page | Purpose |
 |---|---|---|
