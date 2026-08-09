@@ -333,6 +333,36 @@ function chartCard(title, id) {
   ]);
 }
 
+// Segment colors approximate BASF's real segment-color-coding (visual
+// read of BASF's own "We create chemistry" banners, not exact hex values).
+// Used only on "by product" charts, where color meaningfully encodes which
+// BASF business segment each product belongs to.
+const SEGMENT_COLORS = {
+  "Chemicals": "#1e6fb8",
+  "Materials": "#0a2f5c",
+  "Industrial Solutions": "#4a9b3e",
+  "Nutrition & Care": "#8bc53f",
+  "Surface Technologies": "#e8862e",
+  "Agricultural Solutions": "#d9483c",
+};
+const PRODUCT_SEGMENT = {};
+(DATA.hs_code_governance.detail || []).forEach(r => {
+  const seg = Object.keys(SEGMENT_COLORS).find(s => (r.product_group || "").startsWith(s));
+  if (seg) PRODUCT_SEGMENT[r.product] = seg;
+});
+function segmentColor(product) {
+  return SEGMENT_COLORS[PRODUCT_SEGMENT[product]] || "#6e93c2";
+}
+function segmentLegend() {
+  const items = Object.entries(SEGMENT_COLORS).map(([seg, color]) => el("span", {
+    style: "display:inline-flex; align-items:center; gap:5px; font-size: 11px; color: var(--muted);",
+  }, [
+    el("span", {style: `width:9px; height:9px; border-radius:50%; background:${color}; display:inline-block;`}),
+    el("span", {}, seg),
+  ]));
+  return el("div", {style: "display:flex; flex-wrap:wrap; gap:12px 16px; margin: -10px 0 18px; padding: 0 4px;"}, items);
+}
+
 function badge(val) {
   const v = (val === undefined || val === null) ? "" : String(val);
   let cls = "NA", label = v || "N/A";
@@ -460,6 +490,7 @@ function buildOverview(container) {
   g2.appendChild(chartCard("Contract value by product", "chart-ov-product"));
   g2.appendChild(chartCard("Top counterparties by contract value", "chart-ov-cp"));
   container.appendChild(g2);
+  container.appendChild(segmentLegend());
 
   const g2b = el("div", {class: "grid-2"});
   g2b.appendChild(chartCard("Contracts by Incoterm", "chart-ov-inco"));
@@ -473,7 +504,7 @@ function buildOverview(container) {
 
   Plotly.newPlot("chart-ov-product", [{
     x: d.by_product.map(r => r.product), y: d.by_product.map(r => r.invoice_amount_usd),
-    type: "bar", marker: {color: "#003d6b"},
+    type: "bar", marker: {color: d.by_product.map(r => segmentColor(r.product))},
   }], {margin: {t: 10, l: 60, r: 10, b: 110}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-ov-cp", [{
@@ -636,10 +667,11 @@ function buildDuty(container) {
   g2.appendChild(chartCard("Top products by freight+duty burden (% of invoice)", "chart-duty-product"));
   g2.appendChild(chartCard("Top lanes (destination country) by burden", "chart-duty-lane"));
   container.appendChild(g2);
+  container.appendChild(segmentLegend());
 
   Plotly.newPlot("chart-duty-product", [{
     x: d.top_products_by_burden.map(r => r.product), y: d.top_products_by_burden.map(r => r.freight_duty_pct_of_invoice),
-    type: "bar", marker: {color: "#003d6b"},
+    type: "bar", marker: {color: d.top_products_by_burden.map(r => segmentColor(r.product))},
   }], {margin: {t: 10, l: 50, r: 10, b: 110}, yaxis: {title: "%"}}, {displayModeBar: false, responsive: true});
 
   Plotly.newPlot("chart-duty-lane", [{
