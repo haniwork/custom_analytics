@@ -116,6 +116,7 @@ Fact_DocumentCompliance          Fact_RAVEExposure
 trade-compliance-customs-control-tower/
 ├── README.md
 ├── requirements.txt
+├── .github/workflows/pages.yml   publishes dashboard/ to GitHub Pages on every push to master
 ├── data/
 │   ├── bronze/     raw synthetic source extracts (per system)
 │   ├── silver/     cleaned, standardized tables
@@ -152,7 +153,7 @@ open('dashboard/index.html', 'w').write(out)
 "
 ```
 
-Open `dashboard/index.html` directly in a browser, or enable **GitHub Pages** on this repo (Settings → Pages → Deploy from branch → `/dashboard`) to get a shareable link.
+Open `dashboard/index.html` directly in a browser, or enable **GitHub Pages** on this repo to get a shareable link. GitHub Pages' "Deploy from a branch" mode only supports `/ (root)` or `/docs` as the folder — it can't point at `/dashboard` — so this repo instead ships a `.github/workflows/pages.yml` workflow that publishes the `dashboard/` folder via GitHub Actions. To enable it: **Settings → Pages → Source: GitHub Actions** (no branch/folder picker needed — the workflow runs automatically on every push to `master`).
 
 
 ## 8. Glossary
