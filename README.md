@@ -31,7 +31,7 @@ All four are generated as independent synthetic extracts and then joined the way
 
 ## 3. Dashboard pages
 
-[->Click here for dashboard <-](claude.ai/code/artifact/2647fd37-2e05-4d79-8fb4-b97aba26d9e4)
+[Click here for dashboard: Custom Analytics](https://haniwork.github.io/custom_analytics/)
 
 | # | Page | Purpose |
 |---|---|---|
