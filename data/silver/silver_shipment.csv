@@ -1,421 +1,421 @@
 shipment_id,contract_ref,sales_order,material_code,product,quantity_mt,load_port,discharge_port,discharge_port_country,mode_of_transport,vessel,shipment_month,bl_date,bl_quantity_mt,lc_number,lc_issue_date,bl_available,lc_available,qty_variance_mt,qty_variance_pct,lc_bl_lag_days,lc_backdated_vs_bl
-SHP-700000,CTR-2025000,SO-500000,MAT-1001,Crude Palm Oil (CPO),7630.4,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-05,2025-06-06,7461.0,,,True,False,-169.4,-2.22,,False
-SHP-700001,CTR-2025001,SO-500001,MAT-1004,RBD Palm Oil,935.6,Lahad Datu,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-04,2025-05-05,940.7,,,True,False,5.1,0.55,,False
-SHP-700002,CTR-2025002,SO-500002,MAT-1001,Crude Palm Oil (CPO),7774.3,Westport,Los Angeles,USA,Sea,MT Pahang Voyager,2025-10,2025-11-17,7611.7,,,True,False,-162.6,-2.09,,False
-SHP-700003,CTR-2025003,SO-500003,MAT-1002,RBD Palm Olein,2781.8,Pasir Gudang,"West Port, Malaysia",Malaysia,Land,,2026-03,2026-02-16,2783.4,LC-90003,2026-01-25,True,True,1.6,0.06,-22.0,False
-SHP-700004,CTR-2025004,SO-500004,MAT-1006,Palm Fatty Acid Distillate (PFAD),2691.1,Bintulu,Alexandria,Egypt,Sea,MT Sarawak Trader,2025-11,2025-11-17,2637.2,LC-90004,2025-10-31,True,True,-53.9,-2.0,-17.0,False
-SHP-700005,CTR-2025005,SO-500005,MAT-1008,Palm Kernel Expeller (PKE),4943.1,Pasir Gudang,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-13,4837.0,,,True,False,-106.1,-2.15,,False
-SHP-700006,CTR-2025006,SO-500006,MAT-1004,RBD Palm Oil,7616.6,Kuantan,Lagos,Nigeria,Sea,MT Pahang Voyager,2025-07,2025-07-12,7504.1,,,True,False,-112.5,-1.48,,False
-SHP-700007,CTR-2025007,SO-500007,MAT-1002,RBD Palm Olein,5631.7,Lahad Datu,Singapore,Singapore,Sea,MT Labuan Wave,2025-11,2025-10-26,5472.4,LC-90007,2025-10-08,True,True,-159.3,-2.83,-18.0,False
-SHP-700008,CTR-2025008,SO-500008,MAT-1007,Palm Methyl Ester Biodiesel (B100),2440.8,Kuantan,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-10,2025-10-17,2431.0,,,True,False,-9.8,-0.4,,False
-SHP-700009,CTR-2025009,SO-500009,MAT-1003,RBD Palm Stearin,1886.4,Kuantan,Colombo,Sri Lanka,Sea,MT Labuan Wave,2025-07,2025-07-24,1914.2,LC-90009,2025-07-06,True,True,27.8,1.47,-18.0,False
-SHP-700010,CTR-2025010,SO-500010,MAT-1005,Palm Kernel Oil (PKO),7414.1,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-06,2025-06-11,7208.4,,,True,False,-205.7,-2.77,,False
-SHP-700011,CTR-2025011,SO-500011,MAT-1003,RBD Palm Stearin,3415.1,Port Klang,Singapore,Singapore,Sea,MT Selangor Star,2026-06,2026-07-05,3373.6,,,True,False,-41.5,-1.22,,False
-SHP-700012,CTR-2025012,SO-500012,MAT-1001,Crude Palm Oil (CPO),4570.2,Kuantan,Shanghai,China,Sea,MT Sarawak Trader,2026-07,2026-07-28,4658.6,LC-90012,2026-07-30,True,True,88.4,1.93,2.0,True
-SHP-700013,CTR-2025013,SO-500013,MAT-1002,RBD Palm Olein,1990.4,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-05,2025-04-22,2001.0,,,True,False,10.6,0.53,,False
-SHP-700014,CTR-2025014,SO-500014,MAT-1004,RBD Palm Oil,6284.5,Bintulu,Istanbul,Turkey,Sea,MT Perak Navigator,2026-04,2026-04-22,6132.4,,,True,False,-152.1,-2.42,,False
-SHP-700015,CTR-2025015,SO-500015,MAT-1004,RBD Palm Oil,5174.7,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-06,,,,,False,False,,,,False
-SHP-700016,CTR-2025016,SO-500016,MAT-1004,RBD Palm Oil,2938.9,Port Klang,Singapore,Singapore,Sea,MT Pahang Voyager,2025-04,2025-04-03,2920.1,LC-90016,2025-03-03,True,True,-18.8,-0.64,-31.0,False
-SHP-700017,CTR-2025017,SO-500017,MAT-1008,Palm Kernel Expeller (PKE),5849.3,Kuantan,Los Angeles,USA,Sea,MT Melaka Horizon,2025-06,2025-06-22,5818.2,LC-90017,2025-05-30,True,True,-31.1,-0.53,-23.0,False
-SHP-700018,CTR-2025018,SO-500018,MAT-1002,RBD Palm Olein,3706.6,Bintulu,Guangzhou,China,Sea,MT Pahang Voyager,2025-03,,,LC-90018,2025-03-19,False,True,,,,False
-SHP-700019,CTR-2025019,SO-500019,MAT-1003,RBD Palm Stearin,5273.1,Westport,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2026-03,2026-04-27,5354.2,,,True,False,81.1,1.54,,False
-SHP-700020,CTR-2025020,SO-500020,MAT-1003,RBD Palm Stearin,3577.9,Kuantan,Lagos,Nigeria,Sea,MT Selangor Star,2025-09,2025-10-09,3522.4,LC-90020,2025-10-10,True,True,-55.5,-1.55,1.0,True
-SHP-700021,CTR-2025021,SO-500021,MAT-1005,Palm Kernel Oil (PKO),7472.7,Bintulu,Jeddah,Saudi Arabia,Sea,MT Sarawak Trader,2026-05,2026-05-09,7574.1,,,True,False,101.4,1.36,,False
-SHP-700022,CTR-2025022,SO-500022,MAT-1006,Palm Fatty Acid Distillate (PFAD),1899.3,Lahad Datu,Chennai,India,Sea,MT Selangor Star,2025-04,2025-03-22,1919.0,,,True,False,19.7,1.04,,False
-SHP-700023,CTR-2025023,SO-500023,MAT-1002,RBD Palm Olein,2885.0,Bintulu,Kandla,India,Sea,MT Pahang Voyager,2025-07,2025-07-27,2916.4,LC-90023,2025-06-28,True,True,31.4,1.09,-29.0,False
-SHP-700024,CTR-2025024,SO-500024,MAT-1006,Palm Fatty Acid Distillate (PFAD),552.1,Westport,Karachi,Pakistan,Sea,MT Melaka Horizon,2026-07,2026-07-13,541.7,,,True,False,-10.4,-1.88,,False
-SHP-700025,CTR-2025025,SO-500025,MAT-1006,Palm Fatty Acid Distillate (PFAD),3032.1,Port Klang,Los Angeles,USA,Sea,MT Sabahan Pride,2026-04,2026-06-02,3019.8,,,True,False,-12.3,-0.41,,False
-SHP-700026,CTR-2025026,SO-500026,MAT-1003,RBD Palm Stearin,3227.2,Port Klang,Shanghai,China,Sea,MT Selangor Star,2025-10,2025-11-11,3171.0,,,True,False,-56.2,-1.74,,False
-SHP-700027,CTR-2025027,SO-500027,MAT-1001,Crude Palm Oil (CPO),2756.6,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2026-07,,,LC-90027,2026-07-18,False,True,,,,False
-SHP-700028,CTR-2025028,SO-500028,MAT-1004,RBD Palm Oil,4270.1,Westport,Shanghai,China,Sea,MT Sarawak Trader,2025-11,2025-11-03,4335.9,,,True,False,65.8,1.54,,False
-SHP-700029,CTR-2025029,SO-500029,MAT-1001,Crude Palm Oil (CPO),1586.7,Westport,Shanghai,China,Sea,MT Melaka Horizon,2025-11,2025-11-30,1558.3,,,True,False,-28.4,-1.79,,False
-SHP-700030,CTR-2025030,SO-500030,MAT-1003,RBD Palm Stearin,6212.1,Pasir Gudang,Chennai,India,Sea,MT Kinabalu Spirit,2025-04,2025-04-22,6222.1,LC-90030,2025-04-01,True,True,10.0,0.16,-21.0,False
-SHP-700031,CTR-2025031,SO-500031,MAT-1004,RBD Palm Oil,4518.3,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-08,2025-08-29,4455.2,,,True,False,-63.1,-1.4,,False
-SHP-700032,CTR-2025032,SO-500032,MAT-1003,RBD Palm Stearin,805.8,Pasir Gudang,Singapore,Singapore,Sea,MT Selangor Star,2025-02,2025-02-16,782.3,,,True,False,-23.5,-2.92,,False
-SHP-700033,CTR-2025033,SO-500033,MAT-1004,RBD Palm Oil,2198.7,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Kinabalu Spirit,2026-05,2026-05-24,2208.7,,,True,False,10.0,0.45,,False
-SHP-700034,CTR-2025034,SO-500034,MAT-1002,RBD Palm Olein,7525.5,Pasir Gudang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-11,2025-11-04,7342.4,,,True,False,-183.1,-2.43,,False
-SHP-700035,CTR-2025035,SO-500035,MAT-1001,Crude Palm Oil (CPO),7080.0,Kuantan,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-11,2025-11-07,7156.9,,,True,False,76.9,1.09,,False
-SHP-700036,CTR-2025036,SO-500036,MAT-1001,Crude Palm Oil (CPO),4472.4,Port Klang,Guangzhou,China,Sea,MT Sabahan Pride,2025-10,,,,,False,False,,,,False
-SHP-700037,CTR-2025037,SO-500037,MAT-1005,Palm Kernel Oil (PKO),7253.1,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-06,2025-06-27,7162.1,,,True,False,-91.0,-1.25,,False
-SHP-700038,CTR-2025038,SO-500038,MAT-1007,Palm Methyl Ester Biodiesel (B100),7228.3,Westport,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2026-04,2026-04-10,7041.9,LC-90038,2026-03-22,True,True,-186.4,-2.58,-19.0,False
-SHP-700039,CTR-2025039,SO-500039,MAT-1008,Palm Kernel Expeller (PKE),7239.2,Bintulu,Lagos,Nigeria,Sea,MT Selangor Star,2026-01,,,,,False,False,,,,False
-SHP-700040,CTR-2025040,SO-500040,MAT-1002,RBD Palm Olein,5476.3,Westport,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-12,2025-12-27,5462.3,,,True,False,-14.0,-0.26,,False
-SHP-700041,CTR-2025041,SO-500041,MAT-1008,Palm Kernel Expeller (PKE),5389.7,Bintulu,Singapore,Singapore,Sea,MT Melaka Horizon,2025-04,2025-04-15,5315.7,LC-90041,2025-04-01,True,True,-74.0,-1.37,-14.0,False
-SHP-700042,CTR-2025042,SO-500042,MAT-1007,Palm Methyl Ester Biodiesel (B100),5372.2,Bintulu,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-06,2025-05-12,5236.2,LC-90042,2025-04-18,True,True,-136.0,-2.53,-24.0,False
-SHP-700043,CTR-2025043,SO-500043,MAT-1006,Palm Fatty Acid Distillate (PFAD),2489.0,Kuantan,Singapore,Singapore,Sea,MT Selangor Star,2026-08,2026-08-12,2463.3,,,True,False,-25.7,-1.03,,False
-SHP-700044,CTR-2025044,SO-500044,MAT-1005,Palm Kernel Oil (PKO),5233.5,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2025-10,2025-09-30,5227.5,,,True,False,-6.0,-0.11,,False
-SHP-700045,CTR-2025045,SO-500045,MAT-1005,Palm Kernel Oil (PKO),1964.3,Lahad Datu,Shanghai,China,Sea,MT Pahang Voyager,2025-09,2025-10-07,1907.8,,,True,False,-56.5,-2.88,,False
-SHP-700046,CTR-2025046,SO-500046,MAT-1002,RBD Palm Olein,1828.3,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2025-08,2025-09-18,1807.3,LC-90046,2025-08-27,True,True,-21.0,-1.15,-22.0,False
-SHP-700047,CTR-2025047,SO-500047,MAT-1008,Palm Kernel Expeller (PKE),7462.4,Pasir Gudang,Shanghai,China,Sea,MT Pahang Voyager,2026-03,2026-03-12,7598.1,,,True,False,135.7,1.82,,False
-SHP-700048,CTR-2025048,SO-500048,MAT-1008,Palm Kernel Expeller (PKE),2708.4,Pasir Gudang,Guangzhou,China,Sea,MT Selangor Star,2026-05,2026-05-11,2670.1,,,True,False,-38.3,-1.41,,False
-SHP-700049,CTR-2025049,SO-500049,MAT-1002,RBD Palm Olein,4676.0,Westport,Guangzhou,China,Sea,MT Sarawak Trader,2025-02,2025-03-08,4669.0,,,True,False,-7.0,-0.15,,False
-SHP-700050,CTR-2025050,SO-500050,MAT-1006,Palm Fatty Acid Distillate (PFAD),5112.6,Kuantan,Los Angeles,USA,Sea,MT Labuan Wave,2026-04,2026-04-27,5091.7,,,True,False,-20.9,-0.41,,False
-SHP-700051,CTR-2025051,SO-500051,MAT-1006,Palm Fatty Acid Distillate (PFAD),6055.8,Port Klang,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2025-03,2025-03-11,5963.0,LC-90051,2025-02-10,True,True,-92.8,-1.53,-29.0,False
-SHP-700052,CTR-2025052,SO-500052,MAT-1008,Palm Kernel Expeller (PKE),6575.9,Lahad Datu,Kandla,India,Sea,MT Perak Navigator,2025-06,2025-06-04,6543.5,LC-90052,2025-05-06,True,True,-32.4,-0.49,-29.0,False
-SHP-700053,CTR-2025053,SO-500053,MAT-1005,Palm Kernel Oil (PKO),5374.7,Port Klang,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-07,2025-07-14,5452.6,,,True,False,77.9,1.45,,False
-SHP-700054,CTR-2025054,SO-500054,MAT-1002,RBD Palm Olein,3316.9,Pasir Gudang,Los Angeles,USA,Sea,MT Perak Navigator,2025-09,2025-10-25,3223.4,,,True,False,-93.5,-2.82,,False
-SHP-700055,CTR-2025055,SO-500055,MAT-1006,Palm Fatty Acid Distillate (PFAD),4569.8,Kuantan,"West Port, Malaysia",Malaysia,Land,,2025-04,2025-04-25,4441.2,LC-90055,2025-04-30,True,True,-128.6,-2.81,5.0,True
-SHP-700056,CTR-2025056,SO-500056,MAT-1005,Palm Kernel Oil (PKO),3201.4,Lahad Datu,Los Angeles,USA,Sea,MT Sarawak Trader,2026-07,2026-07-24,3139.9,LC-90056,2026-07-07,True,True,-61.5,-1.92,-17.0,False
-SHP-700057,CTR-2025057,SO-500057,MAT-1004,RBD Palm Oil,1140.1,Lahad Datu,Lagos,Nigeria,Sea,MT Labuan Wave,2026-04,2026-05-12,1136.7,,,True,False,-3.4,-0.3,,False
-SHP-700058,CTR-2025058,SO-500058,MAT-1006,Palm Fatty Acid Distillate (PFAD),5945.7,Pasir Gudang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-09-23,5863.3,,,True,False,-82.4,-1.39,,False
-SHP-700059,CTR-2025059,SO-500059,MAT-1007,Palm Methyl Ester Biodiesel (B100),2531.2,Westport,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-10,,,LC-90059,2025-09-19,False,True,,,,False
-SHP-700060,CTR-2025060,SO-500060,MAT-1005,Palm Kernel Oil (PKO),7719.9,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-10,2025-10-14,7555.2,LC-90060,2025-09-12,True,True,-164.7,-2.13,-32.0,False
-SHP-700061,CTR-2025061,SO-500061,MAT-1005,Palm Kernel Oil (PKO),2376.8,Bintulu,Kandla,India,Sea,MT Selangor Star,2025-11,2025-12-07,2384.0,,,True,False,7.2,0.3,,False
-SHP-700062,CTR-2025062,SO-500062,MAT-1005,Palm Kernel Oil (PKO),7661.5,Westport,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-14,7666.0,,,True,False,4.5,0.06,,False
-SHP-700063,CTR-2025063,SO-500063,MAT-1005,Palm Kernel Oil (PKO),2358.0,Lahad Datu,Chennai,India,Sea,MT Sabahan Pride,2025-06,2025-05-25,2289.0,,,True,False,-69.0,-2.93,,False
-SHP-700064,CTR-2025064,SO-500064,MAT-1008,Palm Kernel Expeller (PKE),845.0,Westport,Shanghai,China,Sea,MT Sabahan Pride,2026-05,2026-06-05,839.7,LC-90064,2026-05-11,True,True,-5.3,-0.63,-25.0,False
-SHP-700065,CTR-2025065,SO-500065,MAT-1003,RBD Palm Stearin,4187.1,Lahad Datu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-03,2025-03-25,4152.3,,,True,False,-34.8,-0.83,,False
-SHP-700066,CTR-2025066,SO-500066,MAT-1008,Palm Kernel Expeller (PKE),5118.9,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2026-04,,,,,False,False,,,,False
-SHP-700067,CTR-2025067,SO-500067,MAT-1004,RBD Palm Oil,5193.9,Port Klang,Istanbul,Turkey,Sea,MT Labuan Wave,2025-07,2025-07-25,5080.4,LC-90067,2025-07-06,True,True,-113.5,-2.19,-19.0,False
-SHP-700068,CTR-2025068,SO-500068,MAT-1005,Palm Kernel Oil (PKO),5318.1,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-11,2025-12-11,5408.6,,,True,False,90.5,1.7,,False
-SHP-700069,CTR-2025069,SO-500069,MAT-1003,RBD Palm Stearin,3411.3,Westport,Chennai,India,Sea,MT Labuan Wave,2025-10,2025-10-22,3402.0,,,True,False,-9.3,-0.27,,False
-SHP-700070,CTR-2025070,SO-500070,MAT-1005,Palm Kernel Oil (PKO),3395.8,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-03,2026-03-24,3305.7,LC-90070,2026-02-23,True,True,-90.1,-2.65,-29.0,False
-SHP-700071,CTR-2025071,SO-500071,MAT-1004,RBD Palm Oil,636.7,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Labuan Wave,2025-04,2025-05-22,619.9,,,True,False,-16.8,-2.64,,False
-SHP-700072,CTR-2025072,SO-500072,MAT-1003,RBD Palm Stearin,6836.6,Bintulu,Guangzhou,China,Sea,MT Perak Navigator,2025-11,2025-11-22,6671.9,LC-90072,2025-11-02,True,True,-164.7,-2.41,-20.0,False
-SHP-700073,CTR-2025073,SO-500073,MAT-1006,Palm Fatty Acid Distillate (PFAD),5217.1,Kuantan,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-07,2025-07-28,5134.2,LC-90073,2025-07-16,True,True,-82.9,-1.59,-12.0,False
-SHP-700074,CTR-2025074,SO-500074,MAT-1002,RBD Palm Olein,6129.6,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2026-01,2025-12-16,6072.2,,,True,False,-57.4,-0.94,,False
-SHP-700075,CTR-2025075,SO-500075,MAT-1008,Palm Kernel Expeller (PKE),6323.1,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2026-02,2026-02-08,6404.8,,,True,False,81.7,1.29,,False
-SHP-700076,CTR-2025076,SO-500076,MAT-1001,Crude Palm Oil (CPO),6131.5,Westport,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-06,,,,,False,False,,,,False
-SHP-700077,CTR-2025077,SO-500077,MAT-1002,RBD Palm Olein,4289.4,Bintulu,Kandla,India,Sea,MT Sarawak Trader,2025-09,2025-09-29,4244.2,LC-90077,2025-09-04,True,True,-45.2,-1.05,-25.0,False
-SHP-700078,CTR-2025078,SO-500078,MAT-1003,RBD Palm Stearin,7290.4,Lahad Datu,Alexandria,Egypt,Sea,MT Perak Navigator,2026-05,2026-05-30,7418.0,,,True,False,127.6,1.75,,False
-SHP-700079,CTR-2025079,SO-500079,MAT-1005,Palm Kernel Oil (PKO),4800.8,Lahad Datu,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-11,2025-11-23,4727.2,,,True,False,-73.6,-1.53,,False
-SHP-700080,CTR-2025080,SO-500080,MAT-1008,Palm Kernel Expeller (PKE),5543.9,Westport,Shanghai,China,Sea,MT Pahang Voyager,2026-02,2026-03-04,5596.5,,,True,False,52.6,0.95,,False
-SHP-700081,CTR-2025081,SO-500081,MAT-1007,Palm Methyl Ester Biodiesel (B100),4208.2,Bintulu,Colombo,Sri Lanka,Sea,MT Perak Navigator,2026-05,2026-05-21,4268.7,LC-90081,2026-04-27,True,True,60.5,1.44,-24.0,False
-SHP-700082,CTR-2025082,SO-500082,MAT-1001,Crude Palm Oil (CPO),1378.0,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-05,2026-05-19,1343.6,LC-90082,2026-04-20,True,True,-34.4,-2.5,-29.0,False
-SHP-700083,CTR-2025083,SO-500083,MAT-1006,Palm Fatty Acid Distillate (PFAD),5757.3,Lahad Datu,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-05,2025-04-12,5608.0,LC-90083,2025-03-26,True,True,-149.3,-2.59,-17.0,False
-SHP-700084,CTR-2025084,SO-500084,MAT-1002,RBD Palm Olein,7899.8,Bintulu,Kandla,India,Sea,MT Kinabalu Spirit,2025-09,2025-09-07,7983.9,,,True,False,84.1,1.06,,False
-SHP-700085,CTR-2025085,SO-500085,MAT-1006,Palm Fatty Acid Distillate (PFAD),7895.0,Westport,Guangzhou,China,Sea,MT Selangor Star,2025-12,2025-11-22,7691.1,,,True,False,-203.9,-2.58,,False
-SHP-700086,CTR-2025086,SO-500086,MAT-1004,RBD Palm Oil,4688.0,Lahad Datu,Singapore,Singapore,Sea,MT Sarawak Trader,2026-03,2026-03-12,4573.4,,,True,False,-114.6,-2.44,,False
-SHP-700087,CTR-2025087,SO-500087,MAT-1005,Palm Kernel Oil (PKO),585.2,Westport,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-05,,,LC-90087,2026-05-05,False,True,,,,False
-SHP-700088,CTR-2025088,SO-500088,MAT-1007,Palm Methyl Ester Biodiesel (B100),1381.4,Port Klang,Lagos,Nigeria,Sea,MT Sarawak Trader,2025-08,2025-08-25,1380.3,,,True,False,-1.1,-0.08,,False
-SHP-700089,CTR-2025089,SO-500089,MAT-1001,Crude Palm Oil (CPO),3311.5,Bintulu,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-07,3249.2,,,True,False,-62.3,-1.88,,False
-SHP-700090,CTR-2025090,SO-500090,MAT-1004,RBD Palm Oil,591.2,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-08,,,LC-90090,2025-08-19,False,True,,,,False
-SHP-700091,CTR-2025091,SO-500091,MAT-1002,RBD Palm Olein,4457.8,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-06,,,,,False,False,,,,False
-SHP-700092,CTR-2025092,SO-500092,MAT-1005,Palm Kernel Oil (PKO),7769.8,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2026-06,2026-07-12,7807.0,,,True,False,37.2,0.48,,False
-SHP-700093,CTR-2025093,SO-500093,MAT-1007,Palm Methyl Ester Biodiesel (B100),5206.7,Lahad Datu,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-09,2025-09-20,5123.6,LC-90093,2025-10-08,True,True,-83.1,-1.6,18.0,True
-SHP-700094,CTR-2025094,SO-500094,MAT-1005,Palm Kernel Oil (PKO),7177.0,Bintulu,Guangzhou,China,Sea,MT Labuan Wave,2026-02,2026-01-29,7029.2,LC-90094,2025-12-31,True,True,-147.8,-2.06,-29.0,False
-SHP-700095,CTR-2025095,SO-500095,MAT-1002,RBD Palm Olein,3150.1,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Kinabalu Spirit,2025-09,,,LC-90095,2025-08-29,False,True,,,,False
-SHP-700096,CTR-2025096,SO-500096,MAT-1004,RBD Palm Oil,7896.6,Westport,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-05,2025-05-04,7981.0,LC-90096,2025-04-11,True,True,84.4,1.07,-23.0,False
-SHP-700097,CTR-2025097,SO-500097,MAT-1007,Palm Methyl Ester Biodiesel (B100),1719.6,Bintulu,Chennai,India,Sea,MT Labuan Wave,2026-06,2026-06-16,1749.7,,,True,False,30.1,1.75,,False
-SHP-700098,CTR-2025098,SO-500098,MAT-1006,Palm Fatty Acid Distillate (PFAD),5100.6,Pasir Gudang,Guangzhou,China,Sea,MT Sabahan Pride,2026-02,2026-02-09,4959.1,LC-90098,2026-01-10,True,True,-141.5,-2.77,-30.0,False
-SHP-700099,CTR-2025099,SO-500099,MAT-1001,Crude Palm Oil (CPO),3323.5,Westport,Shanghai,China,Sea,MT Pahang Voyager,2025-03,2025-02-19,3322.5,LC-90099,2025-02-02,True,True,-1.0,-0.03,-17.0,False
-SHP-700100,CTR-2025100,SO-500100,MAT-1005,Palm Kernel Oil (PKO),7774.4,Westport,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-01,2025-01-26,7723.4,,,True,False,-51.0,-0.66,,False
-SHP-700101,CTR-2025101,SO-500101,MAT-1006,Palm Fatty Acid Distillate (PFAD),2550.6,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2025-10,2025-09-20,2577.8,,,True,False,27.2,1.07,,False
-SHP-700102,CTR-2025102,SO-500102,MAT-1002,RBD Palm Olein,7974.8,Westport,Istanbul,Turkey,Sea,MT Labuan Wave,2026-02,2026-01-22,8112.3,,,True,False,137.5,1.72,,False
-SHP-700103,CTR-2025103,SO-500103,MAT-1007,Palm Methyl Ester Biodiesel (B100),2355.1,Kuantan,Kandla,India,Sea,MT Perak Navigator,2026-03,2026-03-12,2355.8,LC-90103,2026-02-28,True,True,0.7,0.03,-12.0,False
-SHP-700104,CTR-2025104,SO-500104,MAT-1007,Palm Methyl Ester Biodiesel (B100),5537.8,Pasir Gudang,Istanbul,Turkey,Sea,MT Sabahan Pride,2026-01,2025-12-21,5403.1,,,True,False,-134.7,-2.43,,False
-SHP-700105,CTR-2025105,SO-500105,MAT-1007,Palm Methyl Ester Biodiesel (B100),4402.3,Westport,Singapore,Singapore,Sea,MT Melaka Horizon,2025-09,2025-09-19,4457.8,,,True,False,55.5,1.26,,False
-SHP-700106,CTR-2025106,SO-500106,MAT-1007,Palm Methyl Ester Biodiesel (B100),4707.0,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-12,2025-12-07,4597.3,,,True,False,-109.7,-2.33,,False
-SHP-700107,CTR-2025107,SO-500107,MAT-1002,RBD Palm Olein,6163.5,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2026-05,2026-04-10,6044.2,,,True,False,-119.3,-1.94,,False
-SHP-700108,CTR-2025108,SO-500108,MAT-1001,Crude Palm Oil (CPO),609.1,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Pahang Voyager,2026-04,2026-04-03,604.2,LC-90108,2026-03-03,True,True,-4.9,-0.8,-31.0,False
-SHP-700109,CTR-2025109,SO-500109,MAT-1006,Palm Fatty Acid Distillate (PFAD),3111.9,Pasir Gudang,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-05,2025-06-10,3080.2,,,True,False,-31.7,-1.02,,False
-SHP-700110,CTR-2025110,SO-500110,MAT-1005,Palm Kernel Oil (PKO),6967.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-02,2025-02-22,7081.5,,,True,False,113.8,1.63,,False
-SHP-700111,CTR-2025111,SO-500111,MAT-1002,RBD Palm Olein,2436.8,Bintulu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-03,2026-03-26,2403.8,LC-90111,2026-03-03,True,True,-33.0,-1.35,-23.0,False
-SHP-700112,CTR-2025112,SO-500112,MAT-1006,Palm Fatty Acid Distillate (PFAD),2301.1,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-06,2025-06-29,2249.5,LC-90112,2025-07-02,True,True,-51.6,-2.24,3.0,True
-SHP-700113,CTR-2025113,SO-500113,MAT-1008,Palm Kernel Expeller (PKE),5306.6,Kuantan,Lagos,Nigeria,Sea,MT Sabahan Pride,2026-04,2026-04-17,5385.3,,,True,False,78.7,1.48,,False
-SHP-700114,CTR-2025114,SO-500114,MAT-1008,Palm Kernel Expeller (PKE),5506.7,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-11,2025-11-02,5352.8,,,True,False,-153.9,-2.79,,False
-SHP-700115,CTR-2025115,SO-500115,MAT-1003,RBD Palm Stearin,2589.4,Pasir Gudang,Karachi,Pakistan,Sea,MT Labuan Wave,2025-08,,,LC-90115,2025-08-15,False,True,,,,False
-SHP-700116,CTR-2025116,SO-500116,MAT-1004,RBD Palm Oil,3955.8,Bintulu,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2026-08,2026-08-11,3973.7,LC-90116,2026-08-01,True,True,17.9,0.45,-10.0,False
-SHP-700117,CTR-2025117,SO-500117,MAT-1007,Palm Methyl Ester Biodiesel (B100),6495.6,Bintulu,Guangzhou,China,Sea,MT Kinabalu Spirit,2025-12,,,LC-90117,2025-11-27,False,True,,,,False
-SHP-700118,CTR-2025118,SO-500118,MAT-1002,RBD Palm Olein,7406.5,Port Klang,"West Port, Malaysia",Malaysia,Land,,2026-02,2026-01-26,7461.4,LC-90118,2026-01-04,True,True,54.9,0.74,-22.0,False
-SHP-700119,CTR-2025119,SO-500119,MAT-1006,Palm Fatty Acid Distillate (PFAD),2070.1,Port Klang,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-09,2025-09-21,2072.0,,,True,False,1.9,0.09,,False
-SHP-700120,CTR-2025120,SO-500120,MAT-1002,RBD Palm Olein,3969.0,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-09,,,,,False,False,,,,False
-SHP-700121,CTR-2025121,SO-500121,MAT-1008,Palm Kernel Expeller (PKE),5850.1,Lahad Datu,Singapore,Singapore,Sea,MT Labuan Wave,2026-05,2026-05-10,5830.2,,,True,False,-19.9,-0.34,,False
-SHP-700122,CTR-2025122,SO-500122,MAT-1005,Palm Kernel Oil (PKO),3855.6,Pasir Gudang,Chennai,India,Sea,MT Kinabalu Spirit,2025-12,2025-11-25,3812.7,LC-90122,2025-11-04,True,True,-42.9,-1.11,-21.0,False
-SHP-700123,CTR-2025123,SO-500123,MAT-1007,Palm Methyl Ester Biodiesel (B100),2915.6,Lahad Datu,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-04,2025-05-18,2845.6,,,True,False,-70.0,-2.4,,False
-SHP-700124,CTR-2025124,SO-500124,MAT-1008,Palm Kernel Expeller (PKE),4951.9,Pasir Gudang,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-03,2025-04-04,4926.8,,,True,False,-25.1,-0.51,,False
-SHP-700125,CTR-2025125,SO-500125,MAT-1003,RBD Palm Stearin,4528.3,Pasir Gudang,Shanghai,China,Sea,MT Perak Navigator,2026-04,2026-04-14,4490.2,,,True,False,-38.1,-0.84,,False
-SHP-700126,CTR-2025126,SO-500126,MAT-1005,Palm Kernel Oil (PKO),2628.3,Bintulu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2026-02,2026-03-09,2624.5,,,True,False,-3.8,-0.14,,False
-SHP-700127,CTR-2025127,SO-500127,MAT-1002,RBD Palm Olein,7898.9,Kuantan,Istanbul,Turkey,Sea,MT Sabahan Pride,2025-06,2025-06-24,7702.1,,,True,False,-196.8,-2.49,,False
-SHP-700128,CTR-2025128,SO-500128,MAT-1006,Palm Fatty Acid Distillate (PFAD),2344.7,Westport,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-02,2025-02-11,2294.7,LC-90128,2025-01-28,True,True,-50.0,-2.13,-14.0,False
-SHP-700129,CTR-2025129,SO-500129,MAT-1001,Crude Palm Oil (CPO),1101.8,Lahad Datu,Shanghai,China,Sea,MT Selangor Star,2025-05,2025-05-09,1122.9,,,True,False,21.1,1.92,,False
-SHP-700130,CTR-2025130,SO-500130,MAT-1008,Palm Kernel Expeller (PKE),3483.9,Pasir Gudang,Guangzhou,China,Sea,MT Labuan Wave,2025-07,2025-07-18,3521.7,,,True,False,37.8,1.08,,False
-SHP-700131,CTR-2025131,SO-500131,MAT-1008,Palm Kernel Expeller (PKE),1781.7,Westport,"West Port, Malaysia",Malaysia,Land,,2025-12,2025-12-16,1777.8,,,True,False,-3.9,-0.22,,False
-SHP-700132,CTR-2025132,SO-500132,MAT-1007,Palm Methyl Ester Biodiesel (B100),2599.8,Westport,"West Port, Malaysia",Malaysia,Sea,MT Perak Navigator,2026-08,2026-08-14,2563.9,,,True,False,-35.9,-1.38,,False
-SHP-700133,CTR-2025133,SO-500133,MAT-1005,Palm Kernel Oil (PKO),4307.1,Westport,Los Angeles,USA,Sea,MT Selangor Star,2025-06,,,LC-90133,2025-05-15,False,True,,,,False
-SHP-700134,CTR-2025134,SO-500134,MAT-1001,Crude Palm Oil (CPO),2664.7,Kuantan,Chennai,India,Sea,MT Sabahan Pride,2026-01,2026-01-31,2648.9,,,True,False,-15.8,-0.59,,False
-SHP-700135,CTR-2025135,SO-500135,MAT-1002,RBD Palm Olein,888.7,Bintulu,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-12,2025-12-26,864.9,,,True,False,-23.8,-2.68,,False
-SHP-700136,CTR-2025136,SO-500136,MAT-1008,Palm Kernel Expeller (PKE),2917.7,Port Klang,Chennai,India,Sea,MT Selangor Star,2026-05,2026-06-15,2929.6,,,True,False,11.9,0.41,,False
-SHP-700137,CTR-2025137,SO-500137,MAT-1007,Palm Methyl Ester Biodiesel (B100),4967.3,Pasir Gudang,Los Angeles,USA,Sea,MT Kinabalu Spirit,2026-07,2026-07-25,4904.9,,,True,False,-62.4,-1.26,,False
-SHP-700138,CTR-2025138,SO-500138,MAT-1002,RBD Palm Olein,6729.6,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Sarawak Trader,2026-05,2026-05-26,6773.6,,,True,False,44.0,0.65,,False
-SHP-700139,CTR-2025139,SO-500139,MAT-1004,RBD Palm Oil,1859.2,Westport,Guangzhou,China,Sea,MT Sabahan Pride,2026-01,2026-02-14,1856.8,,,True,False,-2.4,-0.13,,False
-SHP-700140,CTR-2025140,SO-500140,MAT-1001,Crude Palm Oil (CPO),1548.3,Kuantan,"West Port, Malaysia",Malaysia,Land,,2026-06,2026-06-20,1514.6,LC-90140,2026-05-30,True,True,-33.7,-2.18,-21.0,False
-SHP-700141,CTR-2025141,SO-500141,MAT-1002,RBD Palm Olein,5489.0,Bintulu,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-09,2025-10-23,5565.1,,,True,False,76.1,1.39,,False
-SHP-700142,CTR-2025142,SO-500142,MAT-1008,Palm Kernel Expeller (PKE),6624.5,Westport,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-05,2026-05-18,6525.6,LC-90142,2026-05-07,True,True,-98.9,-1.49,-11.0,False
-SHP-700143,CTR-2025143,SO-500143,MAT-1005,Palm Kernel Oil (PKO),4270.4,Lahad Datu,Guangzhou,China,Sea,MT Pahang Voyager,2025-12,2025-12-23,4224.3,,,True,False,-46.1,-1.08,,False
-SHP-700144,CTR-2025144,SO-500144,MAT-1005,Palm Kernel Oil (PKO),7298.5,Pasir Gudang,Los Angeles,USA,Sea,MT Melaka Horizon,2026-01,,,LC-90144,2025-12-16,False,True,,,,False
-SHP-700145,CTR-2025145,SO-500145,MAT-1005,Palm Kernel Oil (PKO),5207.8,Bintulu,Kandla,India,Sea,MT Selangor Star,2026-02,2026-03-02,5213.0,LC-90145,2026-02-11,True,True,5.2,0.1,-19.0,False
-SHP-700146,CTR-2025146,SO-500146,MAT-1006,Palm Fatty Acid Distillate (PFAD),7204.2,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-04,2025-05-05,7100.4,,,True,False,-103.8,-1.44,,False
-SHP-700147,CTR-2025147,SO-500147,MAT-1006,Palm Fatty Acid Distillate (PFAD),6079.6,Pasir Gudang,Guangzhou,China,Sea,MT Perak Navigator,2025-03,2025-04-01,6163.7,LC-90147,2025-02-25,True,True,84.1,1.38,-35.0,False
-SHP-700148,CTR-2025148,SO-500148,MAT-1003,RBD Palm Stearin,6659.4,Bintulu,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-02,2025-03-03,6591.9,LC-90148,2025-03-15,True,True,-67.5,-1.01,12.0,True
-SHP-700149,CTR-2025149,SO-500149,MAT-1003,RBD Palm Stearin,1624.4,Pasir Gudang,Lagos,Nigeria,Sea,MT Selangor Star,2025-02,2025-03-23,1627.7,LC-90149,2025-03-02,True,True,3.3,0.2,-21.0,False
-SHP-700150,CTR-2025150,SO-500150,MAT-1004,RBD Palm Oil,4570.4,Bintulu,Chennai,India,Sea,MT Melaka Horizon,2025-11,2025-12-02,4640.9,LC-90150,2025-11-19,True,True,70.5,1.54,-13.0,False
-SHP-700151,CTR-2025151,SO-500151,MAT-1004,RBD Palm Oil,3506.4,Bintulu,Karachi,Pakistan,Sea,MT Selangor Star,2026-04,2026-04-21,3428.1,,,True,False,-78.3,-2.23,,False
-SHP-700152,CTR-2025152,SO-500152,MAT-1002,RBD Palm Olein,4294.2,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Sarawak Trader,2026-05,,,LC-90152,2026-04-11,False,True,,,,False
-SHP-700153,CTR-2025153,SO-500153,MAT-1004,RBD Palm Oil,7490.9,Westport,Alexandria,Egypt,Sea,MT Perak Navigator,2026-01,2026-02-25,7531.1,LC-90153,2026-01-28,True,True,40.2,0.54,-28.0,False
-SHP-700154,CTR-2025154,SO-500154,MAT-1002,RBD Palm Olein,4822.2,Kuantan,Karachi,Pakistan,Sea,MT Melaka Horizon,2025-06,2025-06-01,4855.1,,,True,False,32.9,0.68,,False
-SHP-700155,CTR-2025155,SO-500155,MAT-1008,Palm Kernel Expeller (PKE),7441.8,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-05,,,,,False,False,,,,False
-SHP-700156,CTR-2025156,SO-500156,MAT-1002,RBD Palm Olein,6791.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-03,2025-04-04,6883.4,,,True,False,91.7,1.35,,False
-SHP-700157,CTR-2025157,SO-500157,MAT-1005,Palm Kernel Oil (PKO),4934.6,Lahad Datu,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-04,,,,,False,False,,,,False
-SHP-700158,CTR-2025158,SO-500158,MAT-1003,RBD Palm Stearin,6521.4,Bintulu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-06,2025-06-27,6455.6,,,True,False,-65.8,-1.01,,False
-SHP-700159,CTR-2025159,SO-500159,MAT-1004,RBD Palm Oil,7398.9,Kuantan,Chittagong,Bangladesh,Sea,MT Sarawak Trader,2025-11,2025-11-02,7344.2,LC-90159,2025-10-08,True,True,-54.7,-0.74,-25.0,False
-SHP-700160,CTR-2025160,SO-500160,MAT-1008,Palm Kernel Expeller (PKE),3893.3,Port Klang,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2025-12,2025-12-15,3858.1,LC-90160,2025-11-29,True,True,-35.2,-0.9,-16.0,False
-SHP-700161,CTR-2025161,SO-500161,MAT-1006,Palm Fatty Acid Distillate (PFAD),3218.0,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-06,2025-07-14,3228.2,LC-90161,2025-08-01,True,True,10.2,0.32,18.0,True
-SHP-700162,CTR-2025162,SO-500162,MAT-1008,Palm Kernel Expeller (PKE),7708.0,Kuantan,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-10-08,7509.7,,,True,False,-198.3,-2.57,,False
-SHP-700163,CTR-2025163,SO-500163,MAT-1004,RBD Palm Oil,4266.5,Westport,Singapore,Singapore,Sea,MT Pahang Voyager,2026-04,,,,,False,False,,,,False
-SHP-700164,CTR-2025164,SO-500164,MAT-1008,Palm Kernel Expeller (PKE),2074.3,Kuantan,Karachi,Pakistan,Sea,MT Labuan Wave,2026-05,2026-05-24,2015.9,LC-90164,2026-05-08,True,True,-58.4,-2.82,-16.0,False
-SHP-700165,CTR-2025165,SO-500165,MAT-1001,Crude Palm Oil (CPO),4736.3,Lahad Datu,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2025-04,2025-03-12,4701.6,,,True,False,-34.7,-0.73,,False
-SHP-700166,CTR-2025166,SO-500166,MAT-1006,Palm Fatty Acid Distillate (PFAD),3805.7,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2025-10,2025-11-05,3726.1,LC-90166,2025-10-09,True,True,-79.6,-2.09,-27.0,False
-SHP-700167,CTR-2025167,SO-500167,MAT-1008,Palm Kernel Expeller (PKE),7595.9,Pasir Gudang,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-02,2026-03-10,7612.6,,,True,False,16.7,0.22,,False
-SHP-700168,CTR-2025168,SO-500168,MAT-1003,RBD Palm Stearin,690.4,Lahad Datu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2026-01,2026-01-27,692.4,,,True,False,2.0,0.29,,False
-SHP-700169,CTR-2025169,SO-500169,MAT-1008,Palm Kernel Expeller (PKE),2164.8,Lahad Datu,Chittagong,Bangladesh,Sea,MT Selangor Star,2026-05,2026-06-10,2102.0,,,True,False,-62.8,-2.9,,False
-SHP-700170,CTR-2025170,SO-500170,MAT-1008,Palm Kernel Expeller (PKE),6499.4,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2026-01,2026-01-21,6381.8,,,True,False,-117.6,-1.81,,False
-SHP-700171,CTR-2025171,SO-500171,MAT-1008,Palm Kernel Expeller (PKE),2323.8,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-03,2025-03-17,2350.5,,,True,False,26.7,1.15,,False
-SHP-700172,CTR-2025172,SO-500172,MAT-1003,RBD Palm Stearin,5510.6,Westport,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2026-02,2026-02-10,5592.2,,,True,False,81.6,1.48,,False
-SHP-700173,CTR-2025173,SO-500173,MAT-1003,RBD Palm Stearin,1141.3,Westport,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-03,,,LC-90173,2026-03-20,False,True,,,,False
-SHP-700174,CTR-2025174,SO-500174,MAT-1007,Palm Methyl Ester Biodiesel (B100),4872.8,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-07,2026-08-07,4925.8,,,True,False,53.0,1.09,,False
-SHP-700175,CTR-2025175,SO-500175,MAT-1005,Palm Kernel Oil (PKO),2445.7,Pasir Gudang,Karachi,Pakistan,Sea,MT Labuan Wave,2025-11,2025-11-19,2448.7,LC-90175,2025-10-23,True,True,3.0,0.12,-27.0,False
-SHP-700176,CTR-2025176,SO-500176,MAT-1002,RBD Palm Olein,4640.4,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-11,2025-11-24,4678.4,LC-90176,2025-11-13,True,True,38.0,0.82,-11.0,False
-SHP-700177,CTR-2025177,SO-500177,MAT-1008,Palm Kernel Expeller (PKE),7013.5,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2026-01,2026-02-09,7083.6,,,True,False,70.1,1.0,,False
-SHP-700178,CTR-2025178,SO-500178,MAT-1002,RBD Palm Olein,668.5,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-06,2025-06-19,669.6,,,True,False,1.1,0.16,,False
-SHP-700179,CTR-2025179,SO-500179,MAT-1006,Palm Fatty Acid Distillate (PFAD),1545.2,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2026-04,2026-04-10,1512.1,LC-90179,2026-03-11,True,True,-33.1,-2.14,-30.0,False
-SHP-700180,CTR-2025180,SO-500180,MAT-1005,Palm Kernel Oil (PKO),637.9,Bintulu,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-08,,,LC-90180,2025-08-11,False,True,,,,False
-SHP-700181,CTR-2025181,SO-500181,MAT-1008,Palm Kernel Expeller (PKE),2555.4,Bintulu,Singapore,Singapore,Sea,MT Sarawak Trader,2026-02,2026-03-04,2505.1,LC-90181,2026-02-12,True,True,-50.3,-1.97,-20.0,False
-SHP-700182,CTR-2025182,SO-500182,MAT-1008,Palm Kernel Expeller (PKE),1526.6,Lahad Datu,Rotterdam,Netherlands,Sea,MT Perak Navigator,2026-07,2026-07-16,1526.4,,,True,False,-0.2,-0.01,,False
-SHP-700183,CTR-2025183,SO-500183,MAT-1003,RBD Palm Stearin,5487.8,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-10,2025-10-31,5438.1,,,True,False,-49.7,-0.91,,False
-SHP-700184,CTR-2025184,SO-500184,MAT-1002,RBD Palm Olein,4391.9,Port Klang,Colombo,Sri Lanka,Sea,MT Perak Navigator,2026-01,2026-01-01,4422.2,,,True,False,30.3,0.69,,False
-SHP-700185,CTR-2025185,SO-500185,MAT-1004,RBD Palm Oil,5023.6,Pasir Gudang,Los Angeles,USA,Sea,MT Sarawak Trader,2026-02,2026-03-07,4945.4,,,True,False,-78.2,-1.56,,False
-SHP-700186,CTR-2025186,SO-500186,MAT-1002,RBD Palm Olein,5892.8,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-04,2025-04-07,5856.3,,,True,False,-36.5,-0.62,,False
-SHP-700187,CTR-2025187,SO-500187,MAT-1004,RBD Palm Oil,7526.2,Westport,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-09,2025-10-04,7312.1,,,True,False,-214.1,-2.84,,False
-SHP-700188,CTR-2025188,SO-500188,MAT-1004,RBD Palm Oil,4963.1,Lahad Datu,Los Angeles,USA,Sea,MT Perak Navigator,2025-09,2025-08-31,4962.3,,,True,False,-0.8,-0.02,,False
-SHP-700189,CTR-2025189,SO-500189,MAT-1004,RBD Palm Oil,6281.8,Westport,Istanbul,Turkey,Sea,MT Labuan Wave,2025-04,,,,,False,False,,,,False
-SHP-700190,CTR-2025190,SO-500190,MAT-1002,RBD Palm Olein,4216.2,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-06,2026-06-29,4262.4,LC-90190,2026-06-01,True,True,46.2,1.1,-28.0,False
-SHP-700191,CTR-2025191,SO-500191,MAT-1005,Palm Kernel Oil (PKO),5710.2,Kuantan,Chennai,India,Sea,MT Sabahan Pride,2026-05,2026-05-06,5565.0,LC-90191,2026-04-13,True,True,-145.2,-2.54,-23.0,False
-SHP-700192,CTR-2025192,SO-500192,MAT-1002,RBD Palm Olein,1526.1,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-03,2025-04-13,1521.7,LC-90192,2025-03-23,True,True,-4.4,-0.29,-21.0,False
-SHP-700193,CTR-2025193,SO-500193,MAT-1007,Palm Methyl Ester Biodiesel (B100),5991.7,Bintulu,Colombo,Sri Lanka,Sea,MT Selangor Star,2026-02,2026-03-12,6019.3,,,True,False,27.6,0.46,,False
-SHP-700194,CTR-2025194,SO-500194,MAT-1004,RBD Palm Oil,2372.5,Port Klang,Chennai,India,Sea,MT Melaka Horizon,2025-06,2025-06-29,2413.3,LC-90194,2025-06-07,True,True,40.8,1.72,-22.0,False
-SHP-700195,CTR-2025195,SO-500195,MAT-1006,Palm Fatty Acid Distillate (PFAD),5791.8,Westport,Karachi,Pakistan,Sea,MT Pahang Voyager,2026-04,2026-05-15,5883.2,LC-90195,2026-05-03,True,True,91.4,1.58,-12.0,False
-SHP-700196,CTR-2025196,SO-500196,MAT-1008,Palm Kernel Expeller (PKE),5730.7,Bintulu,Colombo,Sri Lanka,Sea,MT Labuan Wave,2025-03,2025-03-05,5829.3,LC-90196,2025-02-06,True,True,98.6,1.72,-27.0,False
-SHP-700197,CTR-2025197,SO-500197,MAT-1005,Palm Kernel Oil (PKO),6965.3,Bintulu,"West Port, Malaysia",Malaysia,Land,,2025-06,2025-06-27,7045.0,,,True,False,79.7,1.14,,False
-SHP-700198,CTR-2025198,SO-500198,MAT-1007,Palm Methyl Ester Biodiesel (B100),4972.0,Port Klang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-09-21,4842.0,,,True,False,-130.0,-2.61,,False
-SHP-700199,CTR-2025199,SO-500199,MAT-1006,Palm Fatty Acid Distillate (PFAD),3049.1,Kuantan,Guangzhou,China,Sea,MT Selangor Star,2026-07,,,,,False,False,,,,False
-SHP-700200,CTR-2025200,SO-500200,MAT-1005,Palm Kernel Oil (PKO),4546.2,Westport,Jeddah,Saudi Arabia,Sea,MT Melaka Horizon,2025-10,2025-09-29,4611.2,LC-90200,2025-09-02,True,True,65.0,1.43,-27.0,False
-SHP-700201,CTR-2025201,SO-500201,MAT-1004,RBD Palm Oil,2247.2,Pasir Gudang,Alexandria,Egypt,Sea,MT Sabahan Pride,2026-03,2026-03-23,2278.1,LC-90201,2026-03-30,True,True,30.9,1.38,7.0,True
-SHP-700202,CTR-2025202,SO-500202,MAT-1001,Crude Palm Oil (CPO),7543.0,Westport,Kandla,India,Sea,MT Perak Navigator,2026-02,2026-02-25,7606.1,LC-90202,2026-02-15,True,True,63.1,0.84,-10.0,False
-SHP-700203,CTR-2025203,SO-500203,MAT-1008,Palm Kernel Expeller (PKE),4099.1,Bintulu,Alexandria,Egypt,Sea,MT Perak Navigator,2025-05,2025-06-03,4133.6,LC-90203,2025-05-12,True,True,34.5,0.84,-22.0,False
-SHP-700204,CTR-2025204,SO-500204,MAT-1005,Palm Kernel Oil (PKO),3660.2,Lahad Datu,Shanghai,China,Sea,MT Labuan Wave,2026-01,2026-02-07,3615.3,LC-90204,2026-02-14,True,True,-44.9,-1.23,7.0,True
-SHP-700205,CTR-2025205,SO-500205,MAT-1001,Crude Palm Oil (CPO),2722.3,Westport,"West Port, Malaysia",Malaysia,Land,,2026-04,,,LC-90205,2026-03-14,False,True,,,,False
-SHP-700206,CTR-2025206,SO-500206,MAT-1004,RBD Palm Oil,7907.9,Westport,Chittagong,Bangladesh,Sea,MT Labuan Wave,2026-01,2026-01-17,7939.4,,,True,False,31.5,0.4,,False
-SHP-700207,CTR-2025207,SO-500207,MAT-1003,RBD Palm Stearin,7624.7,Kuantan,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-07,,,,,False,False,,,,False
-SHP-700208,CTR-2025208,SO-500208,MAT-1007,Palm Methyl Ester Biodiesel (B100),7093.4,Bintulu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2025-01,2025-02-23,6939.8,LC-90208,2025-01-30,True,True,-153.6,-2.17,-24.0,False
-SHP-700209,CTR-2025209,SO-500209,MAT-1008,Palm Kernel Expeller (PKE),2237.5,Lahad Datu,Chennai,India,Sea,MT Sarawak Trader,2026-05,2026-06-28,2227.7,LC-90209,2026-06-09,True,True,-9.8,-0.44,-19.0,False
-SHP-700210,CTR-2025210,SO-500210,MAT-1003,RBD Palm Stearin,1824.0,Port Klang,Singapore,Singapore,Sea,MT Sarawak Trader,2026-04,2026-04-23,1840.4,,,True,False,16.4,0.9,,False
-SHP-700211,CTR-2025211,SO-500211,MAT-1006,Palm Fatty Acid Distillate (PFAD),933.8,Lahad Datu,Lagos,Nigeria,Sea,MT Sabahan Pride,2025-04,2025-04-08,949.1,,,True,False,15.3,1.64,,False
-SHP-700212,CTR-2025212,SO-500212,MAT-1007,Palm Methyl Ester Biodiesel (B100),1804.2,Port Klang,Lagos,Nigeria,Sea,MT Labuan Wave,2026-02,2026-03-07,1812.9,,,True,False,8.7,0.48,,False
-SHP-700213,CTR-2025213,SO-500213,MAT-1001,Crude Palm Oil (CPO),6618.7,Bintulu,Alexandria,Egypt,Sea,MT Sabahan Pride,2025-04,2025-05-10,6597.8,,,True,False,-20.9,-0.32,,False
-SHP-700214,CTR-2025214,SO-500214,MAT-1003,RBD Palm Stearin,4850.6,Pasir Gudang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-03,2025-03-09,4769.5,,,True,False,-81.1,-1.67,,False
-SHP-700215,CTR-2025215,SO-500215,MAT-1007,Palm Methyl Ester Biodiesel (B100),7165.6,Lahad Datu,Singapore,Singapore,Sea,MT Sabahan Pride,2025-09,2025-10-21,7185.4,LC-90215,2025-09-18,True,True,19.8,0.28,-33.0,False
-SHP-700216,CTR-2025216,SO-500216,MAT-1007,Palm Methyl Ester Biodiesel (B100),1152.4,Port Klang,"West Port, Malaysia",Malaysia,Land,,2025-05,2025-04-27,1132.8,,,True,False,-19.6,-1.7,,False
-SHP-700217,CTR-2025217,SO-500217,MAT-1008,Palm Kernel Expeller (PKE),4219.1,Lahad Datu,Shanghai,China,Sea,MT Melaka Horizon,2026-04,2026-04-27,4108.6,LC-90217,2026-03-24,True,True,-110.5,-2.62,-34.0,False
-SHP-700218,CTR-2025218,SO-500218,MAT-1002,RBD Palm Olein,4213.6,Westport,Karachi,Pakistan,Sea,MT Perak Navigator,2025-10,2025-10-18,4260.9,,,True,False,47.3,1.12,,False
-SHP-700219,CTR-2025219,SO-500219,MAT-1005,Palm Kernel Oil (PKO),5585.1,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2025-01,2025-02-17,5662.9,,,True,False,77.8,1.39,,False
-SHP-700220,CTR-2025220,SO-500220,MAT-1007,Palm Methyl Ester Biodiesel (B100),5438.4,Port Klang,Chennai,India,Sea,MT Perak Navigator,2026-06,2026-07-18,5467.9,,,True,False,29.5,0.54,,False
-SHP-700221,CTR-2025221,SO-500221,MAT-1007,Palm Methyl Ester Biodiesel (B100),5731.0,Bintulu,Kandla,India,Sea,MT Selangor Star,2026-04,2026-04-08,5774.8,,,True,False,43.8,0.76,,False
-SHP-700222,CTR-2025222,SO-500222,MAT-1005,Palm Kernel Oil (PKO),7106.5,Westport,Lagos,Nigeria,Sea,MT Sarawak Trader,2025-11,,,,,False,False,,,,False
-SHP-700223,CTR-2025223,SO-500223,MAT-1006,Palm Fatty Acid Distillate (PFAD),1466.5,Bintulu,Alexandria,Egypt,Sea,MT Labuan Wave,2025-04,2025-04-10,1434.3,,,True,False,-32.2,-2.2,,False
-SHP-700224,CTR-2025224,SO-500224,MAT-1007,Palm Methyl Ester Biodiesel (B100),6741.0,Lahad Datu,"West Port, Malaysia",Malaysia,Land,,2025-02,,,,,False,False,,,,False
-SHP-700225,CTR-2025225,SO-500225,MAT-1005,Palm Kernel Oil (PKO),5127.0,Bintulu,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-06,2025-06-29,5135.7,LC-90225,2025-06-09,True,True,8.7,0.17,-20.0,False
-SHP-700226,CTR-2025226,SO-500226,MAT-1006,Palm Fatty Acid Distillate (PFAD),6348.8,Kuantan,Karachi,Pakistan,Sea,MT Selangor Star,2025-09,2025-10-26,6464.0,LC-90226,2025-10-16,True,True,115.2,1.81,-10.0,False
-SHP-700227,CTR-2025227,SO-500227,MAT-1008,Palm Kernel Expeller (PKE),5244.7,Bintulu,Karachi,Pakistan,Sea,MT Selangor Star,2025-09,,,LC-90227,2025-08-15,False,True,,,,False
-SHP-700228,CTR-2025228,SO-500228,MAT-1007,Palm Methyl Ester Biodiesel (B100),5659.1,Lahad Datu,Lagos,Nigeria,Sea,MT Melaka Horizon,2026-04,2026-04-28,5689.7,,,True,False,30.6,0.54,,False
-SHP-700229,CTR-2025229,SO-500229,MAT-1002,RBD Palm Olein,4866.3,Bintulu,Alexandria,Egypt,Sea,MT Melaka Horizon,2025-04,2025-05-04,4731.4,,,True,False,-134.9,-2.77,,False
-SHP-700230,CTR-2025230,SO-500230,MAT-1002,RBD Palm Olein,7801.2,Lahad Datu,Alexandria,Egypt,Sea,MT Melaka Horizon,2025-02,2025-02-24,7862.9,LC-90230,2025-03-15,True,True,61.7,0.79,19.0,True
-SHP-700231,CTR-2025231,SO-500231,MAT-1006,Palm Fatty Acid Distillate (PFAD),665.9,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-06,2025-07-11,668.7,LC-90231,2025-06-22,True,True,2.8,0.42,-19.0,False
-SHP-700232,CTR-2025232,SO-500232,MAT-1008,Palm Kernel Expeller (PKE),2552.2,Port Klang,Lagos,Nigeria,Sea,MT Sabahan Pride,2025-08,2025-09-03,2496.5,LC-90232,2025-08-23,True,True,-55.7,-2.18,-11.0,False
-SHP-700233,CTR-2025233,SO-500233,MAT-1006,Palm Fatty Acid Distillate (PFAD),5702.6,Bintulu,Kandla,India,Sea,MT Selangor Star,2025-03,,,,,False,False,,,,False
-SHP-700234,CTR-2025234,SO-500234,MAT-1008,Palm Kernel Expeller (PKE),5408.8,Kuantan,Los Angeles,USA,Sea,MT Melaka Horizon,2026-04,2026-03-29,5287.4,,,True,False,-121.4,-2.24,,False
-SHP-700235,CTR-2025235,SO-500235,MAT-1008,Palm Kernel Expeller (PKE),7577.1,Kuantan,Guangzhou,China,Sea,MT Sarawak Trader,2025-08,2025-08-10,7500.4,,,True,False,-76.7,-1.01,,False
-SHP-700236,CTR-2025236,SO-500236,MAT-1006,Palm Fatty Acid Distillate (PFAD),7879.8,Kuantan,Alexandria,Egypt,Sea,MT Perak Navigator,2025-08,2025-08-19,7734.0,,,True,False,-145.8,-1.85,,False
-SHP-700237,CTR-2025237,SO-500237,MAT-1006,Palm Fatty Acid Distillate (PFAD),733.5,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Perak Navigator,2025-05,2025-05-19,743.2,,,True,False,9.7,1.32,,False
-SHP-700238,CTR-2025238,SO-500238,MAT-1003,RBD Palm Stearin,7761.5,Westport,Jeddah,Saudi Arabia,Sea,MT Melaka Horizon,2025-05,2025-06-11,7827.8,LC-90238,2025-05-27,True,True,66.3,0.85,-15.0,False
-SHP-700239,CTR-2025239,SO-500239,MAT-1003,RBD Palm Stearin,6207.7,Westport,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-08,2025-08-03,6031.6,,,True,False,-176.1,-2.84,,False
-SHP-700240,CTR-2025240,SO-500240,MAT-1004,RBD Palm Oil,5124.9,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2025-06,2025-07-02,5003.2,LC-90240,2025-07-18,True,True,-121.7,-2.37,16.0,True
-SHP-700241,CTR-2025241,SO-500241,MAT-1004,RBD Palm Oil,3727.3,Pasir Gudang,Chennai,India,Sea,MT Selangor Star,2025-03,2025-03-17,3627.4,,,True,False,-99.9,-2.68,,False
-SHP-700242,CTR-2025242,SO-500242,MAT-1002,RBD Palm Olein,2517.5,Pasir Gudang,Kandla,India,Sea,MT Labuan Wave,2026-06,2026-07-27,2499.3,,,True,False,-18.2,-0.72,,False
-SHP-700243,CTR-2025243,SO-500243,MAT-1004,RBD Palm Oil,1043.4,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-05,2025-05-15,1043.4,,,True,False,0.0,0.0,,False
-SHP-700244,CTR-2025244,SO-500244,MAT-1007,Palm Methyl Ester Biodiesel (B100),5712.4,Westport,Chittagong,Bangladesh,Sea,MT Perak Navigator,2026-01,2026-02-13,5552.3,,,True,False,-160.1,-2.8,,False
-SHP-700245,CTR-2025245,SO-500245,MAT-1006,Palm Fatty Acid Distillate (PFAD),1287.0,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-07,2025-08-02,1257.6,,,True,False,-29.4,-2.28,,False
-SHP-700246,CTR-2025246,SO-500246,MAT-1003,RBD Palm Stearin,5136.2,Bintulu,Rotterdam,Netherlands,Sea,MT Labuan Wave,2025-06,2025-06-03,4984.6,,,True,False,-151.6,-2.95,,False
-SHP-700247,CTR-2025247,SO-500247,MAT-1007,Palm Methyl Ester Biodiesel (B100),4382.8,Bintulu,Kandla,India,Sea,MT Sarawak Trader,2026-04,2026-04-08,4268.5,LC-90247,2026-04-23,True,True,-114.3,-2.61,15.0,True
-SHP-700248,CTR-2025248,SO-500248,MAT-1002,RBD Palm Olein,1495.4,Bintulu,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-02,2025-01-31,1465.5,LC-90248,2025-01-08,True,True,-29.9,-2.0,-23.0,False
-SHP-700249,CTR-2025249,SO-500249,MAT-1006,Palm Fatty Acid Distillate (PFAD),1284.3,Pasir Gudang,Karachi,Pakistan,Sea,MT Perak Navigator,2025-11,2025-10-20,1247.8,,,True,False,-36.5,-2.84,,False
-SHP-700250,CTR-2025250,SO-500250,MAT-1001,Crude Palm Oil (CPO),889.8,Westport,Singapore,Singapore,Sea,MT Melaka Horizon,2026-04,2026-05-13,894.9,LC-90250,2026-04-11,True,True,5.1,0.57,-32.0,False
-SHP-700251,CTR-2025251,SO-500251,MAT-1005,Palm Kernel Oil (PKO),3045.9,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-07,,,LC-90251,2025-06-29,False,True,,,,False
-SHP-700252,CTR-2025252,SO-500252,MAT-1007,Palm Methyl Ester Biodiesel (B100),4606.9,Bintulu,Kandla,India,Sea,MT Labuan Wave,2025-09,2025-09-16,4589.9,LC-90252,2025-09-02,True,True,-17.0,-0.37,-14.0,False
-SHP-700253,CTR-2025253,SO-500253,MAT-1008,Palm Kernel Expeller (PKE),1112.2,Bintulu,Chennai,India,Sea,MT Selangor Star,2026-07,2026-07-31,1127.3,LC-90253,2026-07-19,True,True,15.1,1.36,-12.0,False
-SHP-700254,CTR-2025254,SO-500254,MAT-1002,RBD Palm Olein,7819.0,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2025-05,2025-04-26,7893.2,,,True,False,74.2,0.95,,False
-SHP-700255,CTR-2025255,SO-500255,MAT-1003,RBD Palm Stearin,4236.5,Bintulu,Shanghai,China,Sea,MT Labuan Wave,2025-02,2025-02-06,4157.8,,,True,False,-78.7,-1.86,,False
-SHP-700256,CTR-2025256,SO-500256,MAT-1002,RBD Palm Olein,7810.9,Kuantan,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-06,2025-06-23,7604.8,LC-90256,2025-06-05,True,True,-206.1,-2.64,-18.0,False
-SHP-700257,CTR-2025257,SO-500257,MAT-1005,Palm Kernel Oil (PKO),2432.6,Port Klang,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-10,2025-10-22,2448.1,,,True,False,15.5,0.64,,False
-SHP-700258,CTR-2025258,SO-500258,MAT-1008,Palm Kernel Expeller (PKE),3691.2,Westport,Kandla,India,Sea,MT Kinabalu Spirit,2025-09,2025-10-11,3762.7,,,True,False,71.5,1.94,,False
-SHP-700259,CTR-2025259,SO-500259,MAT-1007,Palm Methyl Ester Biodiesel (B100),7002.7,Bintulu,Istanbul,Turkey,Sea,MT Sabahan Pride,2026-02,2026-02-16,6963.0,LC-90259,2026-01-29,True,True,-39.7,-0.57,-18.0,False
-SHP-700260,CTR-2025260,SO-500260,MAT-1007,Palm Methyl Ester Biodiesel (B100),7255.3,Bintulu,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-04,2025-04-21,7368.6,LC-90260,2025-03-25,True,True,113.3,1.56,-27.0,False
-SHP-700261,CTR-2025261,SO-500261,MAT-1002,RBD Palm Olein,5172.2,Lahad Datu,Kandla,India,Sea,MT Perak Navigator,2025-11,2025-11-21,5051.1,,,True,False,-121.1,-2.34,,False
-SHP-700262,CTR-2025262,SO-500262,MAT-1007,Palm Methyl Ester Biodiesel (B100),7317.7,Westport,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-12,2025-12-28,7453.6,,,True,False,135.9,1.86,,False
-SHP-700263,CTR-2025263,SO-500263,MAT-1005,Palm Kernel Oil (PKO),6907.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-03,2025-03-13,6854.5,LC-90263,2025-02-26,True,True,-53.4,-0.77,-15.0,False
-SHP-700264,CTR-2025264,SO-500264,MAT-1005,Palm Kernel Oil (PKO),3194.3,Westport,Shanghai,China,Sea,MT Perak Navigator,2026-07,2026-08-01,3253.3,LC-90264,2026-07-14,True,True,59.0,1.85,-18.0,False
-SHP-700265,CTR-2025265,SO-500265,MAT-1002,RBD Palm Olein,5425.5,Lahad Datu,Lagos,Nigeria,Sea,MT Selangor Star,2025-11,2025-11-04,5525.8,LC-90265,2025-11-10,True,True,100.3,1.85,6.0,True
-SHP-700266,CTR-2025266,SO-500266,MAT-1004,RBD Palm Oil,2270.4,Port Klang,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-05,2025-06-13,2240.5,LC-90266,2025-05-23,True,True,-29.9,-1.32,-21.0,False
-SHP-700267,CTR-2025267,SO-500267,MAT-1001,Crude Palm Oil (CPO),3731.7,Bintulu,Los Angeles,USA,Sea,MT Pahang Voyager,2025-08,2025-08-13,3751.6,,,True,False,19.9,0.53,,False
-SHP-700268,CTR-2025268,SO-500268,MAT-1002,RBD Palm Olein,1757.1,Port Klang,Shanghai,China,Sea,MT Kinabalu Spirit,2025-10,2025-11-14,1762.7,,,True,False,5.6,0.32,,False
-SHP-700269,CTR-2025269,SO-500269,MAT-1005,Palm Kernel Oil (PKO),6831.3,Lahad Datu,Kandla,India,Sea,MT Pahang Voyager,2025-11,2025-11-19,6696.7,LC-90269,2025-10-22,True,True,-134.6,-1.97,-28.0,False
-SHP-700270,CTR-2025270,SO-500270,MAT-1008,Palm Kernel Expeller (PKE),2523.1,Kuantan,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-09,2025-09-22,2565.6,,,True,False,42.5,1.68,,False
-SHP-700271,CTR-2025271,SO-500271,MAT-1001,Crude Palm Oil (CPO),1415.8,Bintulu,Chennai,India,Sea,MT Pahang Voyager,2026-01,2026-01-31,1409.2,LC-90271,2026-01-06,True,True,-6.6,-0.47,-25.0,False
-SHP-700272,CTR-2025272,SO-500272,MAT-1002,RBD Palm Olein,1612.6,Westport,Singapore,Singapore,Sea,MT Sabahan Pride,2025-10,2025-11-30,1641.0,LC-90272,2025-12-05,True,True,28.4,1.76,5.0,True
-SHP-700273,CTR-2025273,SO-500273,MAT-1001,Crude Palm Oil (CPO),7009.4,Westport,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-04,2025-04-27,6970.4,,,True,False,-39.0,-0.56,,False
-SHP-700274,CTR-2025274,SO-500274,MAT-1008,Palm Kernel Expeller (PKE),1547.4,Port Klang,Alexandria,Egypt,Sea,MT Selangor Star,2025-12,2025-12-13,1555.5,,,True,False,8.1,0.52,,False
-SHP-700275,CTR-2025275,SO-500275,MAT-1006,Palm Fatty Acid Distillate (PFAD),5550.7,Lahad Datu,Kandla,India,Sea,MT Sarawak Trader,2026-05,,,,,False,False,,,,False
-SHP-700276,CTR-2025276,SO-500276,MAT-1003,RBD Palm Stearin,3828.1,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-05,2025-04-23,3845.8,,,True,False,17.7,0.46,,False
-SHP-700277,CTR-2025277,SO-500277,MAT-1007,Palm Methyl Ester Biodiesel (B100),7584.6,Bintulu,Chennai,India,Sea,MT Kinabalu Spirit,2026-01,2026-02-09,7591.4,,,True,False,6.8,0.09,,False
-SHP-700278,CTR-2025278,SO-500278,MAT-1002,RBD Palm Olein,4779.6,Westport,Kandla,India,Sea,MT Pahang Voyager,2025-09,2025-10-06,4797.9,LC-90278,2025-09-20,True,True,18.3,0.38,-16.0,False
-SHP-700279,CTR-2025279,SO-500279,MAT-1005,Palm Kernel Oil (PKO),5441.6,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Selangor Star,2025-05,2025-04-17,5457.3,LC-90279,2025-04-28,True,True,15.7,0.29,11.0,True
-SHP-700280,CTR-2025280,SO-500280,MAT-1001,Crude Palm Oil (CPO),861.6,Lahad Datu,Singapore,Singapore,Sea,MT Kinabalu Spirit,2026-05,2026-05-27,869.5,LC-90280,2026-04-26,True,True,7.9,0.92,-31.0,False
-SHP-700281,CTR-2025281,SO-500281,MAT-1004,RBD Palm Oil,6038.4,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2026-01,2026-01-28,6058.8,LC-90281,2025-12-29,True,True,20.4,0.34,-30.0,False
-SHP-700282,CTR-2025282,SO-500282,MAT-1008,Palm Kernel Expeller (PKE),6217.1,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2026-04,2026-04-15,6284.8,,,True,False,67.7,1.09,,False
-SHP-700283,CTR-2025283,SO-500283,MAT-1007,Palm Methyl Ester Biodiesel (B100),4583.7,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-03,2025-03-08,4530.2,,,True,False,-53.5,-1.17,,False
-SHP-700284,CTR-2025284,SO-500284,MAT-1003,RBD Palm Stearin,5716.0,Lahad Datu,Shanghai,China,Sea,MT Kinabalu Spirit,2025-10,2025-11-18,5651.2,LC-90284,2025-10-23,True,True,-64.8,-1.13,-26.0,False
-SHP-700285,CTR-2025285,SO-500285,MAT-1003,RBD Palm Stearin,1049.0,Bintulu,Alexandria,Egypt,Sea,MT Kinabalu Spirit,2025-10,2025-09-25,1050.0,,,True,False,1.0,0.1,,False
-SHP-700286,CTR-2025286,SO-500286,MAT-1003,RBD Palm Stearin,3348.4,Lahad Datu,Alexandria,Egypt,Sea,MT Perak Navigator,2026-01,2026-01-23,3328.2,,,True,False,-20.2,-0.6,,False
-SHP-700287,CTR-2025287,SO-500287,MAT-1005,Palm Kernel Oil (PKO),3059.4,Port Klang,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2026-06,2026-07-07,3056.4,,,True,False,-3.0,-0.1,,False
-SHP-700288,CTR-2025288,SO-500288,MAT-1004,RBD Palm Oil,5059.3,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-12,2025-12-30,5089.2,,,True,False,29.9,0.59,,False
-SHP-700289,CTR-2025289,SO-500289,MAT-1006,Palm Fatty Acid Distillate (PFAD),636.7,Bintulu,Shanghai,China,Sea,MT Perak Navigator,2025-05,,,,,False,False,,,,False
-SHP-700290,CTR-2025290,SO-500290,MAT-1007,Palm Methyl Ester Biodiesel (B100),7235.2,Kuantan,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-07,2025-07-10,7039.9,,,True,False,-195.3,-2.7,,False
-SHP-700291,CTR-2025291,SO-500291,MAT-1007,Palm Methyl Ester Biodiesel (B100),3137.2,Bintulu,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-07,2025-08-08,3083.4,,,True,False,-53.8,-1.71,,False
-SHP-700292,CTR-2025292,SO-500292,MAT-1006,Palm Fatty Acid Distillate (PFAD),2804.7,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2025-07,2025-07-30,2764.2,,,True,False,-40.5,-1.44,,False
-SHP-700293,CTR-2025293,SO-500293,MAT-1006,Palm Fatty Acid Distillate (PFAD),5871.1,Bintulu,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-10,2025-10-02,5730.7,,,True,False,-140.4,-2.39,,False
-SHP-700294,CTR-2025294,SO-500294,MAT-1006,Palm Fatty Acid Distillate (PFAD),5608.4,Port Klang,Los Angeles,USA,Sea,MT Labuan Wave,2025-04,2025-04-21,5470.1,LC-90294,2025-04-06,True,True,-138.3,-2.47,-15.0,False
-SHP-700295,CTR-2025295,SO-500295,MAT-1006,Palm Fatty Acid Distillate (PFAD),2424.2,Port Klang,Guangzhou,China,Sea,MT Selangor Star,2026-02,2026-03-07,2449.2,,,True,False,25.0,1.03,,False
-SHP-700296,CTR-2025296,SO-500296,MAT-1001,Crude Palm Oil (CPO),825.6,Port Klang,Karachi,Pakistan,Sea,MT Melaka Horizon,2025-11,2025-11-23,825.7,,,True,False,0.1,0.01,,False
-SHP-700297,CTR-2025297,SO-500297,MAT-1006,Palm Fatty Acid Distillate (PFAD),7131.5,Kuantan,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-04,2025-05-01,7064.1,LC-90297,2025-04-20,True,True,-67.4,-0.95,-11.0,False
-SHP-700298,CTR-2025298,SO-500298,MAT-1004,RBD Palm Oil,7250.2,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-08,2025-08-20,7315.6,,,True,False,65.4,0.9,,False
-SHP-700299,CTR-2025299,SO-500299,MAT-1003,RBD Palm Stearin,6669.6,Port Klang,Shanghai,China,Sea,MT Labuan Wave,2026-06,2026-06-14,6677.6,LC-90299,2026-06-18,True,True,8.0,0.12,4.0,True
-SHP-700300,CTR-2025300,SO-500300,MAT-1005,Palm Kernel Oil (PKO),4899.6,Port Klang,Lagos,Nigeria,Sea,MT Labuan Wave,2025-08,2025-07-25,4805.7,LC-90300,2025-07-13,True,True,-93.9,-1.92,-12.0,False
-SHP-700301,CTR-2025301,SO-500301,MAT-1003,RBD Palm Stearin,677.3,Kuantan,Singapore,Singapore,Sea,MT Sarawak Trader,2026-02,2026-03-16,664.8,LC-90301,2026-02-20,True,True,-12.5,-1.85,-24.0,False
-SHP-700302,CTR-2025302,SO-500302,MAT-1001,Crude Palm Oil (CPO),4958.6,Bintulu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-11,2025-11-01,4982.2,LC-90302,2025-11-19,True,True,23.6,0.48,18.0,True
-SHP-700303,CTR-2025303,SO-500303,MAT-1007,Palm Methyl Ester Biodiesel (B100),3711.5,Kuantan,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-07,2026-07-30,3624.0,LC-90303,2026-06-28,True,True,-87.5,-2.36,-32.0,False
-SHP-700304,CTR-2025304,SO-500304,MAT-1003,RBD Palm Stearin,5932.5,Kuantan,Los Angeles,USA,Sea,MT Selangor Star,2026-07,2026-07-01,5778.1,,,True,False,-154.4,-2.6,,False
-SHP-700305,CTR-2025305,SO-500305,MAT-1004,RBD Palm Oil,7206.4,Westport,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2026-04,2026-05-11,7118.1,LC-90305,2026-04-19,True,True,-88.3,-1.23,-22.0,False
-SHP-700306,CTR-2025306,SO-500306,MAT-1008,Palm Kernel Expeller (PKE),4392.9,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-10,2025-10-31,4379.7,LC-90306,2025-10-03,True,True,-13.2,-0.3,-28.0,False
-SHP-700307,CTR-2025307,SO-500307,MAT-1007,Palm Methyl Ester Biodiesel (B100),5381.6,Bintulu,Guangzhou,China,Sea,MT Kinabalu Spirit,2026-01,2026-01-14,5309.8,,,True,False,-71.8,-1.33,,False
-SHP-700308,CTR-2025308,SO-500308,MAT-1007,Palm Methyl Ester Biodiesel (B100),7956.0,Pasir Gudang,Guangzhou,China,Sea,MT Sarawak Trader,2025-07,2025-07-05,7902.4,LC-90308,2025-06-25,True,True,-53.6,-0.67,-10.0,False
-SHP-700309,CTR-2025309,SO-500309,MAT-1005,Palm Kernel Oil (PKO),4717.2,Bintulu,Lagos,Nigeria,Sea,MT Labuan Wave,2025-12,2025-12-20,4738.4,,,True,False,21.2,0.45,,False
-SHP-700310,CTR-2025310,SO-500310,MAT-1004,RBD Palm Oil,4518.7,Kuantan,Alexandria,Egypt,Sea,MT Kinabalu Spirit,2025-05,2025-05-19,4554.0,,,True,False,35.3,0.78,,False
-SHP-700311,CTR-2025311,SO-500311,MAT-1007,Palm Methyl Ester Biodiesel (B100),5486.8,Lahad Datu,Los Angeles,USA,Sea,MT Pahang Voyager,2025-12,2025-12-03,5386.6,,,True,False,-100.2,-1.83,,False
-SHP-700312,CTR-2025312,SO-500312,MAT-1001,Crude Palm Oil (CPO),1643.1,Bintulu,Shanghai,China,Sea,MT Labuan Wave,2026-05,2026-05-30,1638.2,,,True,False,-4.9,-0.3,,False
-SHP-700313,CTR-2025313,SO-500313,MAT-1004,RBD Palm Oil,4407.2,Lahad Datu,Lagos,Nigeria,Sea,MT Perak Navigator,2025-03,,,,,False,False,,,,False
-SHP-700314,CTR-2025314,SO-500314,MAT-1005,Palm Kernel Oil (PKO),1457.9,Port Klang,Guangzhou,China,Sea,MT Pahang Voyager,2025-04,2025-05-02,1465.8,,,True,False,7.9,0.54,,False
-SHP-700315,CTR-2025315,SO-500315,MAT-1007,Palm Methyl Ester Biodiesel (B100),2773.5,Bintulu,Chennai,India,Sea,MT Kinabalu Spirit,2025-10,2025-11-01,2702.4,,,True,False,-71.1,-2.56,,False
-SHP-700316,CTR-2025316,SO-500316,MAT-1005,Palm Kernel Oil (PKO),4653.5,Kuantan,Singapore,Singapore,Sea,MT Pahang Voyager,2025-12,2025-12-23,4653.6,LC-90316,2025-12-04,True,True,0.1,0.0,-19.0,False
-SHP-700317,CTR-2025317,SO-500317,MAT-1002,RBD Palm Olein,7395.4,Bintulu,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-03,2026-03-04,7488.4,,,True,False,93.0,1.26,,False
-SHP-700318,CTR-2025318,SO-500318,MAT-1005,Palm Kernel Oil (PKO),7479.5,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2026-01,2026-01-28,7397.5,,,True,False,-82.0,-1.1,,False
-SHP-700319,CTR-2025319,SO-500319,MAT-1006,Palm Fatty Acid Distillate (PFAD),7010.4,Bintulu,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-03,2026-03-31,6828.5,LC-90319,2026-03-09,True,True,-181.9,-2.59,-22.0,False
-SHP-700320,CTR-2025320,SO-500320,MAT-1006,Palm Fatty Acid Distillate (PFAD),1801.4,Westport,Jeddah,Saudi Arabia,Sea,MT Sarawak Trader,2025-08,2025-08-08,1835.2,,,True,False,33.8,1.88,,False
-SHP-700321,CTR-2025321,SO-500321,MAT-1005,Palm Kernel Oil (PKO),6668.6,Westport,Lagos,Nigeria,Sea,MT Perak Navigator,2025-07,2025-07-25,6776.2,,,True,False,107.6,1.61,,False
-SHP-700322,CTR-2025322,SO-500322,MAT-1005,Palm Kernel Oil (PKO),5046.9,Pasir Gudang,Los Angeles,USA,Sea,MT Labuan Wave,2025-09,2025-09-08,5022.3,,,True,False,-24.6,-0.49,,False
-SHP-700323,CTR-2025323,SO-500323,MAT-1008,Palm Kernel Expeller (PKE),1597.8,Lahad Datu,Alexandria,Egypt,Sea,MT Sarawak Trader,2025-04,,,LC-90323,2025-03-20,False,True,,,,False
-SHP-700324,CTR-2025324,SO-500324,MAT-1006,Palm Fatty Acid Distillate (PFAD),1513.7,Kuantan,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-08,2025-08-30,1541.4,,,True,False,27.7,1.83,,False
-SHP-700325,CTR-2025325,SO-500325,MAT-1001,Crude Palm Oil (CPO),2838.6,Pasir Gudang,Lagos,Nigeria,Sea,MT Labuan Wave,2025-12,2025-12-07,2768.4,,,True,False,-70.2,-2.47,,False
-SHP-700326,CTR-2025326,SO-500326,MAT-1007,Palm Methyl Ester Biodiesel (B100),2120.3,Kuantan,Guangzhou,China,Sea,MT Pahang Voyager,2026-04,2026-04-28,2063.2,LC-90326,2026-04-18,True,True,-57.1,-2.69,-10.0,False
-SHP-700327,CTR-2025327,SO-500327,MAT-1001,Crude Palm Oil (CPO),3948.5,Bintulu,Chennai,India,Sea,MT Sarawak Trader,2025-08,2025-08-07,3841.5,,,True,False,-107.0,-2.71,,False
-SHP-700328,CTR-2025328,SO-500328,MAT-1005,Palm Kernel Oil (PKO),7877.6,Port Klang,Kandla,India,Sea,MT Perak Navigator,2026-07,2026-07-12,7689.1,,,True,False,-188.5,-2.39,,False
-SHP-700329,CTR-2025329,SO-500329,MAT-1008,Palm Kernel Expeller (PKE),1257.8,Westport,Los Angeles,USA,Sea,MT Pahang Voyager,2025-12,,,LC-90329,2025-12-26,False,True,,,,False
-SHP-700330,CTR-2025330,SO-500330,MAT-1003,RBD Palm Stearin,7975.2,Bintulu,Shanghai,China,Sea,MT Kinabalu Spirit,2026-06,2026-06-19,7984.7,LC-90330,2026-05-19,True,True,9.5,0.12,-31.0,False
-SHP-700331,CTR-2025331,SO-500331,MAT-1002,RBD Palm Olein,3695.6,Kuantan,Lagos,Nigeria,Sea,MT Labuan Wave,2025-03,2025-03-15,3667.8,,,True,False,-27.8,-0.75,,False
-SHP-700332,CTR-2025332,SO-500332,MAT-1007,Palm Methyl Ester Biodiesel (B100),3258.2,Bintulu,Kandla,India,Sea,MT Melaka Horizon,2025-11,2025-11-26,3280.0,,,True,False,21.8,0.67,,False
-SHP-700333,CTR-2025333,SO-500333,MAT-1005,Palm Kernel Oil (PKO),582.7,Port Klang,Los Angeles,USA,Sea,MT Sarawak Trader,2025-05,2025-06-18,565.8,,,True,False,-16.9,-2.9,,False
-SHP-700334,CTR-2025334,SO-500334,MAT-1005,Palm Kernel Oil (PKO),6202.2,Lahad Datu,Chennai,India,Sea,MT Perak Navigator,2026-04,2026-03-26,6082.9,,,True,False,-119.3,-1.92,,False
-SHP-700335,CTR-2025335,SO-500335,MAT-1002,RBD Palm Olein,2309.0,Bintulu,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-05,2025-04-23,2296.1,LC-90335,2025-04-05,True,True,-12.9,-0.56,-18.0,False
-SHP-700336,CTR-2025336,SO-500336,MAT-1005,Palm Kernel Oil (PKO),4609.7,Port Klang,Lagos,Nigeria,Sea,MT Perak Navigator,2026-05,2026-05-18,4583.9,LC-90336,2026-06-01,True,True,-25.8,-0.56,14.0,True
-SHP-700337,CTR-2025337,SO-500337,MAT-1001,Crude Palm Oil (CPO),2935.1,Westport,"West Port, Malaysia",Malaysia,Land,,2025-05,2025-05-10,2902.2,,,True,False,-32.9,-1.12,,False
-SHP-700338,CTR-2025338,SO-500338,MAT-1006,Palm Fatty Acid Distillate (PFAD),3945.9,Kuantan,Kandla,India,Sea,MT Melaka Horizon,2026-02,2026-03-03,3982.8,LC-90338,2026-01-27,True,True,36.9,0.94,-35.0,False
-SHP-700339,CTR-2025339,SO-500339,MAT-1003,RBD Palm Stearin,5661.0,Port Klang,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2025-06,2025-06-08,5502.0,LC-90339,2025-05-24,True,True,-159.0,-2.81,-15.0,False
-SHP-700340,CTR-2025340,SO-500340,MAT-1001,Crude Palm Oil (CPO),3961.1,Bintulu,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-02,2026-02-13,3968.4,LC-90340,2026-01-20,True,True,7.3,0.18,-24.0,False
-SHP-700341,CTR-2025341,SO-500341,MAT-1006,Palm Fatty Acid Distillate (PFAD),999.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Sabahan Pride,2025-11,2025-11-06,1006.8,,,True,False,6.9,0.69,,False
-SHP-700342,CTR-2025342,SO-500342,MAT-1006,Palm Fatty Acid Distillate (PFAD),5601.7,Bintulu,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2026-06,,,,,False,False,,,,False
-SHP-700343,CTR-2025343,SO-500343,MAT-1008,Palm Kernel Expeller (PKE),1040.6,Westport,Lagos,Nigeria,Sea,MT Pahang Voyager,2026-07,,,LC-90343,2026-06-15,False,True,,,,False
-SHP-700344,CTR-2025344,SO-500344,MAT-1007,Palm Methyl Ester Biodiesel (B100),6031.3,Westport,"West Port, Malaysia",Malaysia,Land,,2025-09,2025-09-06,6084.0,LC-90344,2025-08-12,True,True,52.7,0.87,-25.0,False
-SHP-700345,CTR-2025345,SO-500345,MAT-1008,Palm Kernel Expeller (PKE),1889.0,Port Klang,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-06,,,LC-90345,2025-05-24,False,True,,,,False
-SHP-700346,CTR-2025346,SO-500346,MAT-1004,RBD Palm Oil,6232.8,Kuantan,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2025-11,,,,,False,False,,,,False
-SHP-700347,CTR-2025347,SO-500347,MAT-1006,Palm Fatty Acid Distillate (PFAD),7759.0,Port Klang,Lagos,Nigeria,Sea,MT Perak Navigator,2026-05,2026-06-02,7674.4,LC-90347,2026-05-06,True,True,-84.6,-1.09,-27.0,False
-SHP-700348,CTR-2025348,SO-500348,MAT-1001,Crude Palm Oil (CPO),1410.4,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2025-05,2025-05-16,1405.5,LC-90348,2025-04-30,True,True,-4.9,-0.35,-16.0,False
-SHP-700349,CTR-2025349,SO-500349,MAT-1008,Palm Kernel Expeller (PKE),7763.7,Westport,Los Angeles,USA,Sea,MT Sabahan Pride,2025-08,2025-09-21,7764.4,LC-90349,2025-08-28,True,True,0.7,0.01,-24.0,False
-SHP-700350,CTR-2025350,SO-500350,MAT-1003,RBD Palm Stearin,6110.5,Lahad Datu,Chennai,India,Sea,MT Labuan Wave,2026-07,2026-07-18,5966.3,,,True,False,-144.2,-2.36,,False
-SHP-700351,CTR-2025351,SO-500351,MAT-1003,RBD Palm Stearin,7460.6,Bintulu,Guangzhou,China,Sea,MT Melaka Horizon,2025-07,2025-07-27,7398.0,,,True,False,-62.6,-0.84,,False
-SHP-700352,CTR-2025352,SO-500352,MAT-1005,Palm Kernel Oil (PKO),5097.0,Westport,Los Angeles,USA,Sea,MT Sarawak Trader,2026-01,2026-02-06,4994.4,LC-90352,2026-02-17,True,True,-102.6,-2.01,11.0,True
-SHP-700353,CTR-2025353,SO-500353,MAT-1004,RBD Palm Oil,5343.6,Bintulu,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-08,2025-09-27,5413.4,,,True,False,69.8,1.31,,False
-SHP-700354,CTR-2025354,SO-500354,MAT-1006,Palm Fatty Acid Distillate (PFAD),7391.9,Lahad Datu,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-05,2025-05-14,7340.4,,,True,False,-51.5,-0.7,,False
-SHP-700355,CTR-2025355,SO-500355,MAT-1007,Palm Methyl Ester Biodiesel (B100),5963.7,Bintulu,Chennai,India,Sea,MT Selangor Star,2025-02,2025-02-28,5837.7,,,True,False,-126.0,-2.11,,False
-SHP-700356,CTR-2025356,SO-500356,MAT-1001,Crude Palm Oil (CPO),7885.0,Pasir Gudang,Los Angeles,USA,Sea,MT Perak Navigator,2025-06,,,,,False,False,,,,False
-SHP-700357,CTR-2025357,SO-500357,MAT-1007,Palm Methyl Ester Biodiesel (B100),1488.0,Bintulu,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-09,2025-09-28,1481.0,LC-90357,2025-08-24,True,True,-7.0,-0.47,-35.0,False
-SHP-700358,CTR-2025358,SO-500358,MAT-1001,Crude Palm Oil (CPO),5996.0,Westport,Karachi,Pakistan,Sea,MT Pahang Voyager,2025-03,2025-03-24,5968.5,,,True,False,-27.5,-0.46,,False
-SHP-700359,CTR-2025359,SO-500359,MAT-1002,RBD Palm Olein,4737.7,Bintulu,Rotterdam,Netherlands,Sea,MT Melaka Horizon,2025-07,2025-08-02,4775.9,LC-90359,2025-07-06,True,True,38.2,0.81,-27.0,False
-SHP-700360,CTR-2025360,SO-500360,MAT-1005,Palm Kernel Oil (PKO),3961.7,Kuantan,Shanghai,China,Sea,MT Perak Navigator,2025-07,2025-07-02,4039.3,LC-90360,2025-05-29,True,True,77.6,1.96,-34.0,False
-SHP-700361,CTR-2025361,SO-500361,MAT-1008,Palm Kernel Expeller (PKE),3511.2,Lahad Datu,Chittagong,Bangladesh,Sea,MT Pahang Voyager,2025-12,2025-12-01,3503.3,,,True,False,-7.9,-0.22,,False
-SHP-700362,CTR-2025362,SO-500362,MAT-1003,RBD Palm Stearin,5119.9,Lahad Datu,Istanbul,Turkey,Sea,MT Pahang Voyager,2026-07,2026-06-30,5108.2,LC-90362,2026-05-30,True,True,-11.7,-0.23,-31.0,False
-SHP-700363,CTR-2025363,SO-500363,MAT-1005,Palm Kernel Oil (PKO),6207.4,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2026-02,2026-02-04,6318.5,LC-90363,2026-01-05,True,True,111.1,1.79,-30.0,False
-SHP-700364,CTR-2025364,SO-500364,MAT-1001,Crude Palm Oil (CPO),2952.0,Pasir Gudang,Singapore,Singapore,Sea,MT Sarawak Trader,2025-10,2025-10-26,3010.5,LC-90364,2025-09-23,True,True,58.5,1.98,-33.0,False
-SHP-700365,CTR-2025365,SO-500365,MAT-1006,Palm Fatty Acid Distillate (PFAD),3864.6,Lahad Datu,Los Angeles,USA,Sea,MT Sarawak Trader,2026-06,2026-07-11,3824.3,LC-90365,2026-06-21,True,True,-40.3,-1.04,-20.0,False
-SHP-700366,CTR-2025366,SO-500366,MAT-1003,RBD Palm Stearin,5717.1,Lahad Datu,Istanbul,Turkey,Sea,MT Pahang Voyager,2025-05,2025-05-21,5772.6,LC-90366,2025-05-08,True,True,55.5,0.97,-13.0,False
-SHP-700367,CTR-2025367,SO-500367,MAT-1002,RBD Palm Olein,4911.5,Westport,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-04,2026-04-10,4780.1,,,True,False,-131.4,-2.68,,False
-SHP-700368,CTR-2025368,SO-500368,MAT-1002,RBD Palm Olein,4711.1,Westport,"West Port, Malaysia",Malaysia,Land,,2025-10,2025-10-25,4759.4,LC-90368,2025-10-02,True,True,48.3,1.03,-23.0,False
-SHP-700369,CTR-2025369,SO-500369,MAT-1002,RBD Palm Olein,6687.9,Bintulu,Chennai,India,Sea,MT Sabahan Pride,2026-02,,,,,False,False,,,,False
-SHP-700370,CTR-2025370,SO-500370,MAT-1005,Palm Kernel Oil (PKO),3006.8,Pasir Gudang,Kandla,India,Sea,MT Labuan Wave,2025-11,2025-11-18,2994.4,LC-90370,2025-10-22,True,True,-12.4,-0.41,-27.0,False
-SHP-700371,CTR-2025371,SO-500371,MAT-1005,Palm Kernel Oil (PKO),1605.9,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Selangor Star,2026-03,2026-02-27,1575.4,LC-90371,2026-03-01,True,True,-30.5,-1.9,2.0,True
-SHP-700372,CTR-2025372,SO-500372,MAT-1002,RBD Palm Olein,6017.5,Bintulu,Alexandria,Egypt,Sea,MT Selangor Star,2026-03,2026-03-05,6030.3,,,True,False,12.8,0.21,,False
-SHP-700373,CTR-2025373,SO-500373,MAT-1004,RBD Palm Oil,5271.3,Bintulu,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2025-10,,,,,False,False,,,,False
-SHP-700374,CTR-2025374,SO-500374,MAT-1002,RBD Palm Olein,6798.5,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-10,2025-10-14,6794.3,,,True,False,-4.2,-0.06,,False
-SHP-700375,CTR-2025375,SO-500375,MAT-1004,RBD Palm Oil,3216.8,Kuantan,Lagos,Nigeria,Sea,MT Selangor Star,2025-04,,,,,False,False,,,,False
-SHP-700376,CTR-2025376,SO-500376,MAT-1001,Crude Palm Oil (CPO),6737.7,Westport,Alexandria,Egypt,Sea,MT Perak Navigator,2025-07,2025-08-06,6636.2,,,True,False,-101.5,-1.51,,False
-SHP-700377,CTR-2025377,SO-500377,MAT-1005,Palm Kernel Oil (PKO),2444.7,Port Klang,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-01,2026-01-26,2474.3,,,True,False,29.6,1.21,,False
-SHP-700378,CTR-2025378,SO-500378,MAT-1002,RBD Palm Olein,6519.8,Port Klang,Kandla,India,Sea,MT Pahang Voyager,2025-11,2025-10-14,6367.7,,,True,False,-152.1,-2.33,,False
-SHP-700379,CTR-2025379,SO-500379,MAT-1003,RBD Palm Stearin,5959.5,Westport,Guangzhou,China,Sea,MT Sabahan Pride,2026-06,2026-06-08,6008.8,LC-90379,2026-05-18,True,True,49.3,0.83,-21.0,False
-SHP-700380,CTR-2025380,SO-500380,MAT-1003,RBD Palm Stearin,5076.7,Westport,Istanbul,Turkey,Sea,MT Selangor Star,2025-09,2025-10-17,5091.2,,,True,False,14.5,0.29,,False
-SHP-700381,CTR-2025381,SO-500381,MAT-1008,Palm Kernel Expeller (PKE),1017.2,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-08,2025-09-30,1000.0,,,True,False,-17.2,-1.69,,False
-SHP-700382,CTR-2025382,SO-500382,MAT-1008,Palm Kernel Expeller (PKE),7296.9,Port Klang,Chennai,India,Sea,MT Sarawak Trader,2026-06,2026-05-27,7242.1,LC-90382,2026-04-29,True,True,-54.8,-0.75,-28.0,False
-SHP-700383,CTR-2025383,SO-500383,MAT-1007,Palm Methyl Ester Biodiesel (B100),990.2,Pasir Gudang,Guangzhou,China,Sea,MT Melaka Horizon,2025-07,,,,,False,False,,,,False
-SHP-700384,CTR-2025384,SO-500384,MAT-1006,Palm Fatty Acid Distillate (PFAD),7298.3,Kuantan,Los Angeles,USA,Sea,MT Pahang Voyager,2026-01,2026-01-16,7206.1,LC-90384,2025-12-21,True,True,-92.2,-1.26,-26.0,False
-SHP-700385,CTR-2025385,SO-500385,MAT-1003,RBD Palm Stearin,663.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Perak Navigator,2025-09,2025-08-27,662.4,,,True,False,-1.3,-0.2,,False
-SHP-700386,CTR-2025386,SO-500386,MAT-1004,RBD Palm Oil,891.9,Bintulu,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2026-05,2026-05-29,908.9,LC-90386,2026-05-01,True,True,17.0,1.91,-28.0,False
-SHP-700387,CTR-2025387,SO-500387,MAT-1001,Crude Palm Oil (CPO),5406.3,Westport,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-06,2025-07-05,5369.5,,,True,False,-36.8,-0.68,,False
-SHP-700388,CTR-2025388,SO-500388,MAT-1005,Palm Kernel Oil (PKO),5064.0,Kuantan,Alexandria,Egypt,Sea,MT Pahang Voyager,2025-02,,,LC-90388,2025-02-13,False,True,,,,False
-SHP-700389,CTR-2025389,SO-500389,MAT-1005,Palm Kernel Oil (PKO),2189.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-07,2025-08-14,2181.5,LC-90389,2025-07-23,True,True,-8.4,-0.38,-22.0,False
-SHP-700390,CTR-2025390,SO-500390,MAT-1004,RBD Palm Oil,6951.0,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Labuan Wave,2025-02,,,,,False,False,,,,False
-SHP-700391,CTR-2025391,SO-500391,MAT-1002,RBD Palm Olein,4576.5,Westport,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2025-06,2025-06-08,4477.1,LC-90391,2025-05-28,True,True,-99.4,-2.17,-11.0,False
-SHP-700392,CTR-2025392,SO-500392,MAT-1004,RBD Palm Oil,6874.8,Kuantan,Lagos,Nigeria,Sea,MT Melaka Horizon,2026-04,2026-04-08,6810.1,,,True,False,-64.7,-0.94,,False
-SHP-700393,CTR-2025393,SO-500393,MAT-1002,RBD Palm Olein,4590.7,Lahad Datu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-09,2025-09-11,4638.1,,,True,False,47.4,1.03,,False
-SHP-700394,CTR-2025394,SO-500394,MAT-1001,Crude Palm Oil (CPO),889.7,Westport,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-06,2025-05-25,870.3,LC-90394,2025-05-02,True,True,-19.4,-2.18,-23.0,False
-SHP-700395,CTR-2025395,SO-500395,MAT-1005,Palm Kernel Oil (PKO),6175.6,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-10,2025-10-15,6261.4,,,True,False,85.8,1.39,,False
-SHP-700396,CTR-2025396,SO-500396,MAT-1003,RBD Palm Stearin,7029.3,Lahad Datu,Istanbul,Turkey,Sea,MT Perak Navigator,2026-06,2026-06-19,7164.6,,,True,False,135.3,1.92,,False
-SHP-700397,CTR-2025397,SO-500397,MAT-1004,RBD Palm Oil,703.8,Bintulu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-05,2025-06-07,701.6,LC-90397,2025-05-03,True,True,-2.2,-0.31,-35.0,False
-SHP-700398,CTR-2025398,SO-500398,MAT-1003,RBD Palm Stearin,1291.1,Port Klang,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2025-04,2025-03-15,1276.9,,,True,False,-14.2,-1.1,,False
-SHP-700399,CTR-2025399,SO-500399,MAT-1006,Palm Fatty Acid Distillate (PFAD),7733.6,Port Klang,Chittagong,Bangladesh,Sea,MT Sarawak Trader,2025-09,2025-09-03,7808.2,LC-90399,2025-07-31,True,True,74.6,0.96,-34.0,False
-SHP-700400,CTR-2025400,SO-500400,MAT-1001,Crude Palm Oil (CPO),5259.4,Bintulu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2026-05,2026-04-20,5342.3,,,True,False,82.9,1.58,,False
-SHP-700401,CTR-2025401,SO-500401,MAT-1004,RBD Palm Oil,1684.7,Westport,Chennai,India,Sea,MT Perak Navigator,2026-02,2026-02-13,1660.8,,,True,False,-23.9,-1.42,,False
-SHP-700402,CTR-2025402,SO-500402,MAT-1001,Crude Palm Oil (CPO),7296.1,Port Klang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-08,2025-08-31,7128.5,,,True,False,-167.6,-2.3,,False
-SHP-700403,CTR-2025403,SO-500403,MAT-1008,Palm Kernel Expeller (PKE),1881.7,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2025-08,2025-09-04,1839.6,,,True,False,-42.1,-2.24,,False
-SHP-700404,CTR-2025404,SO-500404,MAT-1005,Palm Kernel Oil (PKO),5114.7,Lahad Datu,Kandla,India,Sea,MT Labuan Wave,2025-04,2025-04-24,5166.8,,,True,False,52.1,1.02,,False
-SHP-700405,CTR-2025405,SO-500405,MAT-1006,Palm Fatty Acid Distillate (PFAD),7753.4,Bintulu,Lagos,Nigeria,Sea,MT Labuan Wave,2025-09,2025-09-29,7779.7,,,True,False,26.3,0.34,,False
-SHP-700406,CTR-2025406,SO-500406,MAT-1004,RBD Palm Oil,1744.7,Westport,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2026-02,2026-02-27,1693.5,LC-90406,2026-02-10,True,True,-51.2,-2.93,-17.0,False
-SHP-700407,CTR-2025407,SO-500407,MAT-1006,Palm Fatty Acid Distillate (PFAD),4455.5,Westport,Istanbul,Turkey,Sea,MT Pahang Voyager,2026-03,2026-03-17,4339.5,,,True,False,-116.0,-2.6,,False
-SHP-700408,CTR-2025408,SO-500408,MAT-1004,RBD Palm Oil,1905.6,Westport,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-06,2026-06-25,1900.0,,,True,False,-5.6,-0.29,,False
-SHP-700409,CTR-2025409,SO-500409,MAT-1002,RBD Palm Olein,2857.6,Port Klang,Singapore,Singapore,Sea,MT Kinabalu Spirit,2025-06,2025-07-24,2837.5,,,True,False,-20.1,-0.7,,False
-SHP-700410,CTR-2025410,SO-500410,MAT-1008,Palm Kernel Expeller (PKE),4206.6,Lahad Datu,Singapore,Singapore,Sea,MT Sarawak Trader,2025-12,2025-12-29,4230.2,LC-90410,2025-12-12,True,True,23.6,0.56,-17.0,False
-SHP-700411,CTR-2025411,SO-500411,MAT-1007,Palm Methyl Ester Biodiesel (B100),1254.8,Port Klang,Istanbul,Turkey,Sea,MT Labuan Wave,2025-03,2025-03-19,1245.4,LC-90411,2025-02-15,True,True,-9.4,-0.75,-32.0,False
-SHP-700412,CTR-2025412,SO-500412,MAT-1001,Crude Palm Oil (CPO),5383.6,Westport,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-12,2025-12-28,5448.6,,,True,False,65.0,1.21,,False
-SHP-700413,CTR-2025413,SO-500413,MAT-1005,Palm Kernel Oil (PKO),7843.3,Kuantan,Karachi,Pakistan,Sea,MT Labuan Wave,2025-08,2025-08-22,7873.2,,,True,False,29.9,0.38,,False
-SHP-700414,CTR-2025414,SO-500414,MAT-1006,Palm Fatty Acid Distillate (PFAD),5647.5,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2026-02,2026-02-07,5719.7,,,True,False,72.2,1.28,,False
-SHP-700415,CTR-2025415,SO-500415,MAT-1007,Palm Methyl Ester Biodiesel (B100),6777.8,Westport,Guangzhou,China,Sea,MT Kinabalu Spirit,2025-10,2025-09-25,6809.7,,,True,False,31.9,0.47,,False
-SHP-700416,CTR-2025416,SO-500416,MAT-1006,Palm Fatty Acid Distillate (PFAD),2789.8,Pasir Gudang,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-05,,,,,False,False,,,,False
-SHP-700417,CTR-2025417,SO-500417,MAT-1004,RBD Palm Oil,5398.7,Kuantan,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-04,2025-04-10,5449.6,LC-90417,2025-03-20,True,True,50.9,0.94,-21.0,False
-SHP-700418,CTR-2025418,SO-500418,MAT-1006,Palm Fatty Acid Distillate (PFAD),2452.2,Port Klang,Guangzhou,China,Sea,MT Selangor Star,2025-10,2025-10-24,2447.3,,,True,False,-4.9,-0.2,,False
-SHP-700419,CTR-2025419,SO-500419,MAT-1008,Palm Kernel Expeller (PKE),3852.9,Kuantan,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2026-07,2026-07-01,3842.6,,,True,False,-10.3,-0.27,,False
+SHP-700000,CTR-2025000,SO-500000,MAT-1001,Acrylic Acid,7630.4,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-05,2025-06-06,7461.0,,,True,False,-169.4,-2.22,,False
+SHP-700001,CTR-2025001,SO-500001,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),935.6,Lahad Datu,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-04,2025-05-05,940.7,,,True,False,5.1,0.55,,False
+SHP-700002,CTR-2025002,SO-500002,MAT-1001,Acrylic Acid,7774.3,Westport,Los Angeles,USA,Sea,MT Pahang Voyager,2025-10,2025-11-17,7611.7,,,True,False,-162.6,-2.09,,False
+SHP-700003,CTR-2025003,SO-500003,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2781.8,Pasir Gudang,"West Port, Malaysia",Malaysia,Land,,2026-03,2026-02-16,2783.4,LC-90003,2026-01-25,True,True,1.6,0.06,-22.0,False
+SHP-700004,CTR-2025004,SO-500004,MAT-1006,Anionic Surfactant,2691.1,Bintulu,Alexandria,Egypt,Sea,MT Sarawak Trader,2025-11,2025-11-17,2637.2,LC-90004,2025-10-31,True,True,-53.9,-2.0,-17.0,False
+SHP-700005,CTR-2025005,SO-500005,MAT-1008,Crop Protection Herbicide Formulation,4943.1,Pasir Gudang,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-13,4837.0,,,True,False,-106.1,-2.15,,False
+SHP-700006,CTR-2025006,SO-500006,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7616.6,Kuantan,Lagos,Nigeria,Sea,MT Pahang Voyager,2025-07,2025-07-12,7504.1,,,True,False,-112.5,-1.48,,False
+SHP-700007,CTR-2025007,SO-500007,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5631.7,Lahad Datu,Singapore,Singapore,Sea,MT Labuan Wave,2025-11,2025-10-26,5472.4,LC-90007,2025-10-08,True,True,-159.3,-2.83,-18.0,False
+SHP-700008,CTR-2025008,SO-500008,MAT-1007,Battery-Grade Lithium Hydroxide,2440.8,Kuantan,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-10,2025-10-17,2431.0,,,True,False,-9.8,-0.4,,False
+SHP-700009,CTR-2025009,SO-500009,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1886.4,Kuantan,Colombo,Sri Lanka,Sea,MT Labuan Wave,2025-07,2025-07-24,1914.2,LC-90009,2025-07-06,True,True,27.8,1.47,-18.0,False
+SHP-700010,CTR-2025010,SO-500010,MAT-1005,Thermoplastic Polyurethane (TPU),7414.1,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-06,2025-06-11,7208.4,,,True,False,-205.7,-2.77,,False
+SHP-700011,CTR-2025011,SO-500011,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3415.1,Port Klang,Singapore,Singapore,Sea,MT Selangor Star,2026-06,2026-07-05,3373.6,,,True,False,-41.5,-1.22,,False
+SHP-700012,CTR-2025012,SO-500012,MAT-1001,Acrylic Acid,4570.2,Kuantan,Shanghai,China,Sea,MT Sarawak Trader,2026-07,2026-07-28,4658.6,LC-90012,2026-07-30,True,True,88.4,1.93,2.0,True
+SHP-700013,CTR-2025013,SO-500013,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1990.4,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-05,2025-04-22,2001.0,,,True,False,10.6,0.53,,False
+SHP-700014,CTR-2025014,SO-500014,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6284.5,Bintulu,Istanbul,Turkey,Sea,MT Perak Navigator,2026-04,2026-04-22,6132.4,,,True,False,-152.1,-2.42,,False
+SHP-700015,CTR-2025015,SO-500015,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5174.7,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-06,,,,,False,False,,,,False
+SHP-700016,CTR-2025016,SO-500016,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),2938.9,Port Klang,Singapore,Singapore,Sea,MT Pahang Voyager,2025-04,2025-04-03,2920.1,LC-90016,2025-03-03,True,True,-18.8,-0.64,-31.0,False
+SHP-700017,CTR-2025017,SO-500017,MAT-1008,Crop Protection Herbicide Formulation,5849.3,Kuantan,Los Angeles,USA,Sea,MT Melaka Horizon,2025-06,2025-06-22,5818.2,LC-90017,2025-05-30,True,True,-31.1,-0.53,-23.0,False
+SHP-700018,CTR-2025018,SO-500018,MAT-1002,2-Ethylhexanoic Acid (2-EHA),3706.6,Bintulu,Guangzhou,China,Sea,MT Pahang Voyager,2025-03,,,LC-90018,2025-03-19,False,True,,,,False
+SHP-700019,CTR-2025019,SO-500019,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5273.1,Westport,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2026-03,2026-04-27,5354.2,,,True,False,81.1,1.54,,False
+SHP-700020,CTR-2025020,SO-500020,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3577.9,Kuantan,Lagos,Nigeria,Sea,MT Selangor Star,2025-09,2025-10-09,3522.4,LC-90020,2025-10-10,True,True,-55.5,-1.55,1.0,True
+SHP-700021,CTR-2025021,SO-500021,MAT-1005,Thermoplastic Polyurethane (TPU),7472.7,Bintulu,Jeddah,Saudi Arabia,Sea,MT Sarawak Trader,2026-05,2026-05-09,7574.1,,,True,False,101.4,1.36,,False
+SHP-700022,CTR-2025022,SO-500022,MAT-1006,Anionic Surfactant,1899.3,Lahad Datu,Chennai,India,Sea,MT Selangor Star,2025-04,2025-03-22,1919.0,,,True,False,19.7,1.04,,False
+SHP-700023,CTR-2025023,SO-500023,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2885.0,Bintulu,Kandla,India,Sea,MT Pahang Voyager,2025-07,2025-07-27,2916.4,LC-90023,2025-06-28,True,True,31.4,1.09,-29.0,False
+SHP-700024,CTR-2025024,SO-500024,MAT-1006,Anionic Surfactant,552.1,Westport,Karachi,Pakistan,Sea,MT Melaka Horizon,2026-07,2026-07-13,541.7,,,True,False,-10.4,-1.88,,False
+SHP-700025,CTR-2025025,SO-500025,MAT-1006,Anionic Surfactant,3032.1,Port Klang,Los Angeles,USA,Sea,MT Sabahan Pride,2026-04,2026-06-02,3019.8,,,True,False,-12.3,-0.41,,False
+SHP-700026,CTR-2025026,SO-500026,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3227.2,Port Klang,Shanghai,China,Sea,MT Selangor Star,2025-10,2025-11-11,3171.0,,,True,False,-56.2,-1.74,,False
+SHP-700027,CTR-2025027,SO-500027,MAT-1001,Acrylic Acid,2756.6,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2026-07,,,LC-90027,2026-07-18,False,True,,,,False
+SHP-700028,CTR-2025028,SO-500028,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4270.1,Westport,Shanghai,China,Sea,MT Sarawak Trader,2025-11,2025-11-03,4335.9,,,True,False,65.8,1.54,,False
+SHP-700029,CTR-2025029,SO-500029,MAT-1001,Acrylic Acid,1586.7,Westport,Shanghai,China,Sea,MT Melaka Horizon,2025-11,2025-11-30,1558.3,,,True,False,-28.4,-1.79,,False
+SHP-700030,CTR-2025030,SO-500030,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6212.1,Pasir Gudang,Chennai,India,Sea,MT Kinabalu Spirit,2025-04,2025-04-22,6222.1,LC-90030,2025-04-01,True,True,10.0,0.16,-21.0,False
+SHP-700031,CTR-2025031,SO-500031,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4518.3,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-08,2025-08-29,4455.2,,,True,False,-63.1,-1.4,,False
+SHP-700032,CTR-2025032,SO-500032,MAT-1003,2-Ethylhexanol (Oxo Alcohol),805.8,Pasir Gudang,Singapore,Singapore,Sea,MT Selangor Star,2025-02,2025-02-16,782.3,,,True,False,-23.5,-2.92,,False
+SHP-700033,CTR-2025033,SO-500033,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),2198.7,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Kinabalu Spirit,2026-05,2026-05-24,2208.7,,,True,False,10.0,0.45,,False
+SHP-700034,CTR-2025034,SO-500034,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7525.5,Pasir Gudang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-11,2025-11-04,7342.4,,,True,False,-183.1,-2.43,,False
+SHP-700035,CTR-2025035,SO-500035,MAT-1001,Acrylic Acid,7080.0,Kuantan,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-11,2025-11-07,7156.9,,,True,False,76.9,1.09,,False
+SHP-700036,CTR-2025036,SO-500036,MAT-1001,Acrylic Acid,4472.4,Port Klang,Guangzhou,China,Sea,MT Sabahan Pride,2025-10,,,,,False,False,,,,False
+SHP-700037,CTR-2025037,SO-500037,MAT-1005,Thermoplastic Polyurethane (TPU),7253.1,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-06,2025-06-27,7162.1,,,True,False,-91.0,-1.25,,False
+SHP-700038,CTR-2025038,SO-500038,MAT-1007,Battery-Grade Lithium Hydroxide,7228.3,Westport,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2026-04,2026-04-10,7041.9,LC-90038,2026-03-22,True,True,-186.4,-2.58,-19.0,False
+SHP-700039,CTR-2025039,SO-500039,MAT-1008,Crop Protection Herbicide Formulation,7239.2,Bintulu,Lagos,Nigeria,Sea,MT Selangor Star,2026-01,,,,,False,False,,,,False
+SHP-700040,CTR-2025040,SO-500040,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5476.3,Westport,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-12,2025-12-27,5462.3,,,True,False,-14.0,-0.26,,False
+SHP-700041,CTR-2025041,SO-500041,MAT-1008,Crop Protection Herbicide Formulation,5389.7,Bintulu,Singapore,Singapore,Sea,MT Melaka Horizon,2025-04,2025-04-15,5315.7,LC-90041,2025-04-01,True,True,-74.0,-1.37,-14.0,False
+SHP-700042,CTR-2025042,SO-500042,MAT-1007,Battery-Grade Lithium Hydroxide,5372.2,Bintulu,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-06,2025-05-12,5236.2,LC-90042,2025-04-18,True,True,-136.0,-2.53,-24.0,False
+SHP-700043,CTR-2025043,SO-500043,MAT-1006,Anionic Surfactant,2489.0,Kuantan,Singapore,Singapore,Sea,MT Selangor Star,2026-08,2026-08-12,2463.3,,,True,False,-25.7,-1.03,,False
+SHP-700044,CTR-2025044,SO-500044,MAT-1005,Thermoplastic Polyurethane (TPU),5233.5,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2025-10,2025-09-30,5227.5,,,True,False,-6.0,-0.11,,False
+SHP-700045,CTR-2025045,SO-500045,MAT-1005,Thermoplastic Polyurethane (TPU),1964.3,Lahad Datu,Shanghai,China,Sea,MT Pahang Voyager,2025-09,2025-10-07,1907.8,,,True,False,-56.5,-2.88,,False
+SHP-700046,CTR-2025046,SO-500046,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1828.3,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2025-08,2025-09-18,1807.3,LC-90046,2025-08-27,True,True,-21.0,-1.15,-22.0,False
+SHP-700047,CTR-2025047,SO-500047,MAT-1008,Crop Protection Herbicide Formulation,7462.4,Pasir Gudang,Shanghai,China,Sea,MT Pahang Voyager,2026-03,2026-03-12,7598.1,,,True,False,135.7,1.82,,False
+SHP-700048,CTR-2025048,SO-500048,MAT-1008,Crop Protection Herbicide Formulation,2708.4,Pasir Gudang,Guangzhou,China,Sea,MT Selangor Star,2026-05,2026-05-11,2670.1,,,True,False,-38.3,-1.41,,False
+SHP-700049,CTR-2025049,SO-500049,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4676.0,Westport,Guangzhou,China,Sea,MT Sarawak Trader,2025-02,2025-03-08,4669.0,,,True,False,-7.0,-0.15,,False
+SHP-700050,CTR-2025050,SO-500050,MAT-1006,Anionic Surfactant,5112.6,Kuantan,Los Angeles,USA,Sea,MT Labuan Wave,2026-04,2026-04-27,5091.7,,,True,False,-20.9,-0.41,,False
+SHP-700051,CTR-2025051,SO-500051,MAT-1006,Anionic Surfactant,6055.8,Port Klang,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2025-03,2025-03-11,5963.0,LC-90051,2025-02-10,True,True,-92.8,-1.53,-29.0,False
+SHP-700052,CTR-2025052,SO-500052,MAT-1008,Crop Protection Herbicide Formulation,6575.9,Lahad Datu,Kandla,India,Sea,MT Perak Navigator,2025-06,2025-06-04,6543.5,LC-90052,2025-05-06,True,True,-32.4,-0.49,-29.0,False
+SHP-700053,CTR-2025053,SO-500053,MAT-1005,Thermoplastic Polyurethane (TPU),5374.7,Port Klang,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-07,2025-07-14,5452.6,,,True,False,77.9,1.45,,False
+SHP-700054,CTR-2025054,SO-500054,MAT-1002,2-Ethylhexanoic Acid (2-EHA),3316.9,Pasir Gudang,Los Angeles,USA,Sea,MT Perak Navigator,2025-09,2025-10-25,3223.4,,,True,False,-93.5,-2.82,,False
+SHP-700055,CTR-2025055,SO-500055,MAT-1006,Anionic Surfactant,4569.8,Kuantan,"West Port, Malaysia",Malaysia,Land,,2025-04,2025-04-25,4441.2,LC-90055,2025-04-30,True,True,-128.6,-2.81,5.0,True
+SHP-700056,CTR-2025056,SO-500056,MAT-1005,Thermoplastic Polyurethane (TPU),3201.4,Lahad Datu,Los Angeles,USA,Sea,MT Sarawak Trader,2026-07,2026-07-24,3139.9,LC-90056,2026-07-07,True,True,-61.5,-1.92,-17.0,False
+SHP-700057,CTR-2025057,SO-500057,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1140.1,Lahad Datu,Lagos,Nigeria,Sea,MT Labuan Wave,2026-04,2026-05-12,1136.7,,,True,False,-3.4,-0.3,,False
+SHP-700058,CTR-2025058,SO-500058,MAT-1006,Anionic Surfactant,5945.7,Pasir Gudang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-09-23,5863.3,,,True,False,-82.4,-1.39,,False
+SHP-700059,CTR-2025059,SO-500059,MAT-1007,Battery-Grade Lithium Hydroxide,2531.2,Westport,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-10,,,LC-90059,2025-09-19,False,True,,,,False
+SHP-700060,CTR-2025060,SO-500060,MAT-1005,Thermoplastic Polyurethane (TPU),7719.9,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-10,2025-10-14,7555.2,LC-90060,2025-09-12,True,True,-164.7,-2.13,-32.0,False
+SHP-700061,CTR-2025061,SO-500061,MAT-1005,Thermoplastic Polyurethane (TPU),2376.8,Bintulu,Kandla,India,Sea,MT Selangor Star,2025-11,2025-12-07,2384.0,,,True,False,7.2,0.3,,False
+SHP-700062,CTR-2025062,SO-500062,MAT-1005,Thermoplastic Polyurethane (TPU),7661.5,Westport,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-14,7666.0,,,True,False,4.5,0.06,,False
+SHP-700063,CTR-2025063,SO-500063,MAT-1005,Thermoplastic Polyurethane (TPU),2358.0,Lahad Datu,Chennai,India,Sea,MT Sabahan Pride,2025-06,2025-05-25,2289.0,,,True,False,-69.0,-2.93,,False
+SHP-700064,CTR-2025064,SO-500064,MAT-1008,Crop Protection Herbicide Formulation,845.0,Westport,Shanghai,China,Sea,MT Sabahan Pride,2026-05,2026-06-05,839.7,LC-90064,2026-05-11,True,True,-5.3,-0.63,-25.0,False
+SHP-700065,CTR-2025065,SO-500065,MAT-1003,2-Ethylhexanol (Oxo Alcohol),4187.1,Lahad Datu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-03,2025-03-25,4152.3,,,True,False,-34.8,-0.83,,False
+SHP-700066,CTR-2025066,SO-500066,MAT-1008,Crop Protection Herbicide Formulation,5118.9,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2026-04,,,,,False,False,,,,False
+SHP-700067,CTR-2025067,SO-500067,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5193.9,Port Klang,Istanbul,Turkey,Sea,MT Labuan Wave,2025-07,2025-07-25,5080.4,LC-90067,2025-07-06,True,True,-113.5,-2.19,-19.0,False
+SHP-700068,CTR-2025068,SO-500068,MAT-1005,Thermoplastic Polyurethane (TPU),5318.1,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-11,2025-12-11,5408.6,,,True,False,90.5,1.7,,False
+SHP-700069,CTR-2025069,SO-500069,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3411.3,Westport,Chennai,India,Sea,MT Labuan Wave,2025-10,2025-10-22,3402.0,,,True,False,-9.3,-0.27,,False
+SHP-700070,CTR-2025070,SO-500070,MAT-1005,Thermoplastic Polyurethane (TPU),3395.8,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-03,2026-03-24,3305.7,LC-90070,2026-02-23,True,True,-90.1,-2.65,-29.0,False
+SHP-700071,CTR-2025071,SO-500071,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),636.7,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Labuan Wave,2025-04,2025-05-22,619.9,,,True,False,-16.8,-2.64,,False
+SHP-700072,CTR-2025072,SO-500072,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6836.6,Bintulu,Guangzhou,China,Sea,MT Perak Navigator,2025-11,2025-11-22,6671.9,LC-90072,2025-11-02,True,True,-164.7,-2.41,-20.0,False
+SHP-700073,CTR-2025073,SO-500073,MAT-1006,Anionic Surfactant,5217.1,Kuantan,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-07,2025-07-28,5134.2,LC-90073,2025-07-16,True,True,-82.9,-1.59,-12.0,False
+SHP-700074,CTR-2025074,SO-500074,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6129.6,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2026-01,2025-12-16,6072.2,,,True,False,-57.4,-0.94,,False
+SHP-700075,CTR-2025075,SO-500075,MAT-1008,Crop Protection Herbicide Formulation,6323.1,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2026-02,2026-02-08,6404.8,,,True,False,81.7,1.29,,False
+SHP-700076,CTR-2025076,SO-500076,MAT-1001,Acrylic Acid,6131.5,Westport,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-06,,,,,False,False,,,,False
+SHP-700077,CTR-2025077,SO-500077,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4289.4,Bintulu,Kandla,India,Sea,MT Sarawak Trader,2025-09,2025-09-29,4244.2,LC-90077,2025-09-04,True,True,-45.2,-1.05,-25.0,False
+SHP-700078,CTR-2025078,SO-500078,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7290.4,Lahad Datu,Alexandria,Egypt,Sea,MT Perak Navigator,2026-05,2026-05-30,7418.0,,,True,False,127.6,1.75,,False
+SHP-700079,CTR-2025079,SO-500079,MAT-1005,Thermoplastic Polyurethane (TPU),4800.8,Lahad Datu,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-11,2025-11-23,4727.2,,,True,False,-73.6,-1.53,,False
+SHP-700080,CTR-2025080,SO-500080,MAT-1008,Crop Protection Herbicide Formulation,5543.9,Westport,Shanghai,China,Sea,MT Pahang Voyager,2026-02,2026-03-04,5596.5,,,True,False,52.6,0.95,,False
+SHP-700081,CTR-2025081,SO-500081,MAT-1007,Battery-Grade Lithium Hydroxide,4208.2,Bintulu,Colombo,Sri Lanka,Sea,MT Perak Navigator,2026-05,2026-05-21,4268.7,LC-90081,2026-04-27,True,True,60.5,1.44,-24.0,False
+SHP-700082,CTR-2025082,SO-500082,MAT-1001,Acrylic Acid,1378.0,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-05,2026-05-19,1343.6,LC-90082,2026-04-20,True,True,-34.4,-2.5,-29.0,False
+SHP-700083,CTR-2025083,SO-500083,MAT-1006,Anionic Surfactant,5757.3,Lahad Datu,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-05,2025-04-12,5608.0,LC-90083,2025-03-26,True,True,-149.3,-2.59,-17.0,False
+SHP-700084,CTR-2025084,SO-500084,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7899.8,Bintulu,Kandla,India,Sea,MT Kinabalu Spirit,2025-09,2025-09-07,7983.9,,,True,False,84.1,1.06,,False
+SHP-700085,CTR-2025085,SO-500085,MAT-1006,Anionic Surfactant,7895.0,Westport,Guangzhou,China,Sea,MT Selangor Star,2025-12,2025-11-22,7691.1,,,True,False,-203.9,-2.58,,False
+SHP-700086,CTR-2025086,SO-500086,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4688.0,Lahad Datu,Singapore,Singapore,Sea,MT Sarawak Trader,2026-03,2026-03-12,4573.4,,,True,False,-114.6,-2.44,,False
+SHP-700087,CTR-2025087,SO-500087,MAT-1005,Thermoplastic Polyurethane (TPU),585.2,Westport,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-05,,,LC-90087,2026-05-05,False,True,,,,False
+SHP-700088,CTR-2025088,SO-500088,MAT-1007,Battery-Grade Lithium Hydroxide,1381.4,Port Klang,Lagos,Nigeria,Sea,MT Sarawak Trader,2025-08,2025-08-25,1380.3,,,True,False,-1.1,-0.08,,False
+SHP-700089,CTR-2025089,SO-500089,MAT-1001,Acrylic Acid,3311.5,Bintulu,"West Port, Malaysia",Malaysia,Land,,2025-11,2025-11-07,3249.2,,,True,False,-62.3,-1.88,,False
+SHP-700090,CTR-2025090,SO-500090,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),591.2,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-08,,,LC-90090,2025-08-19,False,True,,,,False
+SHP-700091,CTR-2025091,SO-500091,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4457.8,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-06,,,,,False,False,,,,False
+SHP-700092,CTR-2025092,SO-500092,MAT-1005,Thermoplastic Polyurethane (TPU),7769.8,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2026-06,2026-07-12,7807.0,,,True,False,37.2,0.48,,False
+SHP-700093,CTR-2025093,SO-500093,MAT-1007,Battery-Grade Lithium Hydroxide,5206.7,Lahad Datu,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-09,2025-09-20,5123.6,LC-90093,2025-10-08,True,True,-83.1,-1.6,18.0,True
+SHP-700094,CTR-2025094,SO-500094,MAT-1005,Thermoplastic Polyurethane (TPU),7177.0,Bintulu,Guangzhou,China,Sea,MT Labuan Wave,2026-02,2026-01-29,7029.2,LC-90094,2025-12-31,True,True,-147.8,-2.06,-29.0,False
+SHP-700095,CTR-2025095,SO-500095,MAT-1002,2-Ethylhexanoic Acid (2-EHA),3150.1,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Kinabalu Spirit,2025-09,,,LC-90095,2025-08-29,False,True,,,,False
+SHP-700096,CTR-2025096,SO-500096,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7896.6,Westport,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-05,2025-05-04,7981.0,LC-90096,2025-04-11,True,True,84.4,1.07,-23.0,False
+SHP-700097,CTR-2025097,SO-500097,MAT-1007,Battery-Grade Lithium Hydroxide,1719.6,Bintulu,Chennai,India,Sea,MT Labuan Wave,2026-06,2026-06-16,1749.7,,,True,False,30.1,1.75,,False
+SHP-700098,CTR-2025098,SO-500098,MAT-1006,Anionic Surfactant,5100.6,Pasir Gudang,Guangzhou,China,Sea,MT Sabahan Pride,2026-02,2026-02-09,4959.1,LC-90098,2026-01-10,True,True,-141.5,-2.77,-30.0,False
+SHP-700099,CTR-2025099,SO-500099,MAT-1001,Acrylic Acid,3323.5,Westport,Shanghai,China,Sea,MT Pahang Voyager,2025-03,2025-02-19,3322.5,LC-90099,2025-02-02,True,True,-1.0,-0.03,-17.0,False
+SHP-700100,CTR-2025100,SO-500100,MAT-1005,Thermoplastic Polyurethane (TPU),7774.4,Westport,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-01,2025-01-26,7723.4,,,True,False,-51.0,-0.66,,False
+SHP-700101,CTR-2025101,SO-500101,MAT-1006,Anionic Surfactant,2550.6,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2025-10,2025-09-20,2577.8,,,True,False,27.2,1.07,,False
+SHP-700102,CTR-2025102,SO-500102,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7974.8,Westport,Istanbul,Turkey,Sea,MT Labuan Wave,2026-02,2026-01-22,8112.3,,,True,False,137.5,1.72,,False
+SHP-700103,CTR-2025103,SO-500103,MAT-1007,Battery-Grade Lithium Hydroxide,2355.1,Kuantan,Kandla,India,Sea,MT Perak Navigator,2026-03,2026-03-12,2355.8,LC-90103,2026-02-28,True,True,0.7,0.03,-12.0,False
+SHP-700104,CTR-2025104,SO-500104,MAT-1007,Battery-Grade Lithium Hydroxide,5537.8,Pasir Gudang,Istanbul,Turkey,Sea,MT Sabahan Pride,2026-01,2025-12-21,5403.1,,,True,False,-134.7,-2.43,,False
+SHP-700105,CTR-2025105,SO-500105,MAT-1007,Battery-Grade Lithium Hydroxide,4402.3,Westport,Singapore,Singapore,Sea,MT Melaka Horizon,2025-09,2025-09-19,4457.8,,,True,False,55.5,1.26,,False
+SHP-700106,CTR-2025106,SO-500106,MAT-1007,Battery-Grade Lithium Hydroxide,4707.0,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-12,2025-12-07,4597.3,,,True,False,-109.7,-2.33,,False
+SHP-700107,CTR-2025107,SO-500107,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6163.5,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2026-05,2026-04-10,6044.2,,,True,False,-119.3,-1.94,,False
+SHP-700108,CTR-2025108,SO-500108,MAT-1001,Acrylic Acid,609.1,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Pahang Voyager,2026-04,2026-04-03,604.2,LC-90108,2026-03-03,True,True,-4.9,-0.8,-31.0,False
+SHP-700109,CTR-2025109,SO-500109,MAT-1006,Anionic Surfactant,3111.9,Pasir Gudang,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-05,2025-06-10,3080.2,,,True,False,-31.7,-1.02,,False
+SHP-700110,CTR-2025110,SO-500110,MAT-1005,Thermoplastic Polyurethane (TPU),6967.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-02,2025-02-22,7081.5,,,True,False,113.8,1.63,,False
+SHP-700111,CTR-2025111,SO-500111,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2436.8,Bintulu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-03,2026-03-26,2403.8,LC-90111,2026-03-03,True,True,-33.0,-1.35,-23.0,False
+SHP-700112,CTR-2025112,SO-500112,MAT-1006,Anionic Surfactant,2301.1,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-06,2025-06-29,2249.5,LC-90112,2025-07-02,True,True,-51.6,-2.24,3.0,True
+SHP-700113,CTR-2025113,SO-500113,MAT-1008,Crop Protection Herbicide Formulation,5306.6,Kuantan,Lagos,Nigeria,Sea,MT Sabahan Pride,2026-04,2026-04-17,5385.3,,,True,False,78.7,1.48,,False
+SHP-700114,CTR-2025114,SO-500114,MAT-1008,Crop Protection Herbicide Formulation,5506.7,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-11,2025-11-02,5352.8,,,True,False,-153.9,-2.79,,False
+SHP-700115,CTR-2025115,SO-500115,MAT-1003,2-Ethylhexanol (Oxo Alcohol),2589.4,Pasir Gudang,Karachi,Pakistan,Sea,MT Labuan Wave,2025-08,,,LC-90115,2025-08-15,False,True,,,,False
+SHP-700116,CTR-2025116,SO-500116,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),3955.8,Bintulu,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2026-08,2026-08-11,3973.7,LC-90116,2026-08-01,True,True,17.9,0.45,-10.0,False
+SHP-700117,CTR-2025117,SO-500117,MAT-1007,Battery-Grade Lithium Hydroxide,6495.6,Bintulu,Guangzhou,China,Sea,MT Kinabalu Spirit,2025-12,,,LC-90117,2025-11-27,False,True,,,,False
+SHP-700118,CTR-2025118,SO-500118,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7406.5,Port Klang,"West Port, Malaysia",Malaysia,Land,,2026-02,2026-01-26,7461.4,LC-90118,2026-01-04,True,True,54.9,0.74,-22.0,False
+SHP-700119,CTR-2025119,SO-500119,MAT-1006,Anionic Surfactant,2070.1,Port Klang,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-09,2025-09-21,2072.0,,,True,False,1.9,0.09,,False
+SHP-700120,CTR-2025120,SO-500120,MAT-1002,2-Ethylhexanoic Acid (2-EHA),3969.0,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-09,,,,,False,False,,,,False
+SHP-700121,CTR-2025121,SO-500121,MAT-1008,Crop Protection Herbicide Formulation,5850.1,Lahad Datu,Singapore,Singapore,Sea,MT Labuan Wave,2026-05,2026-05-10,5830.2,,,True,False,-19.9,-0.34,,False
+SHP-700122,CTR-2025122,SO-500122,MAT-1005,Thermoplastic Polyurethane (TPU),3855.6,Pasir Gudang,Chennai,India,Sea,MT Kinabalu Spirit,2025-12,2025-11-25,3812.7,LC-90122,2025-11-04,True,True,-42.9,-1.11,-21.0,False
+SHP-700123,CTR-2025123,SO-500123,MAT-1007,Battery-Grade Lithium Hydroxide,2915.6,Lahad Datu,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-04,2025-05-18,2845.6,,,True,False,-70.0,-2.4,,False
+SHP-700124,CTR-2025124,SO-500124,MAT-1008,Crop Protection Herbicide Formulation,4951.9,Pasir Gudang,Los Angeles,USA,Sea,MT Kinabalu Spirit,2025-03,2025-04-04,4926.8,,,True,False,-25.1,-0.51,,False
+SHP-700125,CTR-2025125,SO-500125,MAT-1003,2-Ethylhexanol (Oxo Alcohol),4528.3,Pasir Gudang,Shanghai,China,Sea,MT Perak Navigator,2026-04,2026-04-14,4490.2,,,True,False,-38.1,-0.84,,False
+SHP-700126,CTR-2025126,SO-500126,MAT-1005,Thermoplastic Polyurethane (TPU),2628.3,Bintulu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2026-02,2026-03-09,2624.5,,,True,False,-3.8,-0.14,,False
+SHP-700127,CTR-2025127,SO-500127,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7898.9,Kuantan,Istanbul,Turkey,Sea,MT Sabahan Pride,2025-06,2025-06-24,7702.1,,,True,False,-196.8,-2.49,,False
+SHP-700128,CTR-2025128,SO-500128,MAT-1006,Anionic Surfactant,2344.7,Westport,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-02,2025-02-11,2294.7,LC-90128,2025-01-28,True,True,-50.0,-2.13,-14.0,False
+SHP-700129,CTR-2025129,SO-500129,MAT-1001,Acrylic Acid,1101.8,Lahad Datu,Shanghai,China,Sea,MT Selangor Star,2025-05,2025-05-09,1122.9,,,True,False,21.1,1.92,,False
+SHP-700130,CTR-2025130,SO-500130,MAT-1008,Crop Protection Herbicide Formulation,3483.9,Pasir Gudang,Guangzhou,China,Sea,MT Labuan Wave,2025-07,2025-07-18,3521.7,,,True,False,37.8,1.08,,False
+SHP-700131,CTR-2025131,SO-500131,MAT-1008,Crop Protection Herbicide Formulation,1781.7,Westport,"West Port, Malaysia",Malaysia,Land,,2025-12,2025-12-16,1777.8,,,True,False,-3.9,-0.22,,False
+SHP-700132,CTR-2025132,SO-500132,MAT-1007,Battery-Grade Lithium Hydroxide,2599.8,Westport,"West Port, Malaysia",Malaysia,Sea,MT Perak Navigator,2026-08,2026-08-14,2563.9,,,True,False,-35.9,-1.38,,False
+SHP-700133,CTR-2025133,SO-500133,MAT-1005,Thermoplastic Polyurethane (TPU),4307.1,Westport,Los Angeles,USA,Sea,MT Selangor Star,2025-06,,,LC-90133,2025-05-15,False,True,,,,False
+SHP-700134,CTR-2025134,SO-500134,MAT-1001,Acrylic Acid,2664.7,Kuantan,Chennai,India,Sea,MT Sabahan Pride,2026-01,2026-01-31,2648.9,,,True,False,-15.8,-0.59,,False
+SHP-700135,CTR-2025135,SO-500135,MAT-1002,2-Ethylhexanoic Acid (2-EHA),888.7,Bintulu,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-12,2025-12-26,864.9,,,True,False,-23.8,-2.68,,False
+SHP-700136,CTR-2025136,SO-500136,MAT-1008,Crop Protection Herbicide Formulation,2917.7,Port Klang,Chennai,India,Sea,MT Selangor Star,2026-05,2026-06-15,2929.6,,,True,False,11.9,0.41,,False
+SHP-700137,CTR-2025137,SO-500137,MAT-1007,Battery-Grade Lithium Hydroxide,4967.3,Pasir Gudang,Los Angeles,USA,Sea,MT Kinabalu Spirit,2026-07,2026-07-25,4904.9,,,True,False,-62.4,-1.26,,False
+SHP-700138,CTR-2025138,SO-500138,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6729.6,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Sarawak Trader,2026-05,2026-05-26,6773.6,,,True,False,44.0,0.65,,False
+SHP-700139,CTR-2025139,SO-500139,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1859.2,Westport,Guangzhou,China,Sea,MT Sabahan Pride,2026-01,2026-02-14,1856.8,,,True,False,-2.4,-0.13,,False
+SHP-700140,CTR-2025140,SO-500140,MAT-1001,Acrylic Acid,1548.3,Kuantan,"West Port, Malaysia",Malaysia,Land,,2026-06,2026-06-20,1514.6,LC-90140,2026-05-30,True,True,-33.7,-2.18,-21.0,False
+SHP-700141,CTR-2025141,SO-500141,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5489.0,Bintulu,Chittagong,Bangladesh,Sea,MT Perak Navigator,2025-09,2025-10-23,5565.1,,,True,False,76.1,1.39,,False
+SHP-700142,CTR-2025142,SO-500142,MAT-1008,Crop Protection Herbicide Formulation,6624.5,Westport,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-05,2026-05-18,6525.6,LC-90142,2026-05-07,True,True,-98.9,-1.49,-11.0,False
+SHP-700143,CTR-2025143,SO-500143,MAT-1005,Thermoplastic Polyurethane (TPU),4270.4,Lahad Datu,Guangzhou,China,Sea,MT Pahang Voyager,2025-12,2025-12-23,4224.3,,,True,False,-46.1,-1.08,,False
+SHP-700144,CTR-2025144,SO-500144,MAT-1005,Thermoplastic Polyurethane (TPU),7298.5,Pasir Gudang,Los Angeles,USA,Sea,MT Melaka Horizon,2026-01,,,LC-90144,2025-12-16,False,True,,,,False
+SHP-700145,CTR-2025145,SO-500145,MAT-1005,Thermoplastic Polyurethane (TPU),5207.8,Bintulu,Kandla,India,Sea,MT Selangor Star,2026-02,2026-03-02,5213.0,LC-90145,2026-02-11,True,True,5.2,0.1,-19.0,False
+SHP-700146,CTR-2025146,SO-500146,MAT-1006,Anionic Surfactant,7204.2,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-04,2025-05-05,7100.4,,,True,False,-103.8,-1.44,,False
+SHP-700147,CTR-2025147,SO-500147,MAT-1006,Anionic Surfactant,6079.6,Pasir Gudang,Guangzhou,China,Sea,MT Perak Navigator,2025-03,2025-04-01,6163.7,LC-90147,2025-02-25,True,True,84.1,1.38,-35.0,False
+SHP-700148,CTR-2025148,SO-500148,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6659.4,Bintulu,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-02,2025-03-03,6591.9,LC-90148,2025-03-15,True,True,-67.5,-1.01,12.0,True
+SHP-700149,CTR-2025149,SO-500149,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1624.4,Pasir Gudang,Lagos,Nigeria,Sea,MT Selangor Star,2025-02,2025-03-23,1627.7,LC-90149,2025-03-02,True,True,3.3,0.2,-21.0,False
+SHP-700150,CTR-2025150,SO-500150,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4570.4,Bintulu,Chennai,India,Sea,MT Melaka Horizon,2025-11,2025-12-02,4640.9,LC-90150,2025-11-19,True,True,70.5,1.54,-13.0,False
+SHP-700151,CTR-2025151,SO-500151,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),3506.4,Bintulu,Karachi,Pakistan,Sea,MT Selangor Star,2026-04,2026-04-21,3428.1,,,True,False,-78.3,-2.23,,False
+SHP-700152,CTR-2025152,SO-500152,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4294.2,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Sarawak Trader,2026-05,,,LC-90152,2026-04-11,False,True,,,,False
+SHP-700153,CTR-2025153,SO-500153,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7490.9,Westport,Alexandria,Egypt,Sea,MT Perak Navigator,2026-01,2026-02-25,7531.1,LC-90153,2026-01-28,True,True,40.2,0.54,-28.0,False
+SHP-700154,CTR-2025154,SO-500154,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4822.2,Kuantan,Karachi,Pakistan,Sea,MT Melaka Horizon,2025-06,2025-06-01,4855.1,,,True,False,32.9,0.68,,False
+SHP-700155,CTR-2025155,SO-500155,MAT-1008,Crop Protection Herbicide Formulation,7441.8,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-05,,,,,False,False,,,,False
+SHP-700156,CTR-2025156,SO-500156,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6791.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Pahang Voyager,2025-03,2025-04-04,6883.4,,,True,False,91.7,1.35,,False
+SHP-700157,CTR-2025157,SO-500157,MAT-1005,Thermoplastic Polyurethane (TPU),4934.6,Lahad Datu,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-04,,,,,False,False,,,,False
+SHP-700158,CTR-2025158,SO-500158,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6521.4,Bintulu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-06,2025-06-27,6455.6,,,True,False,-65.8,-1.01,,False
+SHP-700159,CTR-2025159,SO-500159,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7398.9,Kuantan,Chittagong,Bangladesh,Sea,MT Sarawak Trader,2025-11,2025-11-02,7344.2,LC-90159,2025-10-08,True,True,-54.7,-0.74,-25.0,False
+SHP-700160,CTR-2025160,SO-500160,MAT-1008,Crop Protection Herbicide Formulation,3893.3,Port Klang,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2025-12,2025-12-15,3858.1,LC-90160,2025-11-29,True,True,-35.2,-0.9,-16.0,False
+SHP-700161,CTR-2025161,SO-500161,MAT-1006,Anionic Surfactant,3218.0,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-06,2025-07-14,3228.2,LC-90161,2025-08-01,True,True,10.2,0.32,18.0,True
+SHP-700162,CTR-2025162,SO-500162,MAT-1008,Crop Protection Herbicide Formulation,7708.0,Kuantan,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-10-08,7509.7,,,True,False,-198.3,-2.57,,False
+SHP-700163,CTR-2025163,SO-500163,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4266.5,Westport,Singapore,Singapore,Sea,MT Pahang Voyager,2026-04,,,,,False,False,,,,False
+SHP-700164,CTR-2025164,SO-500164,MAT-1008,Crop Protection Herbicide Formulation,2074.3,Kuantan,Karachi,Pakistan,Sea,MT Labuan Wave,2026-05,2026-05-24,2015.9,LC-90164,2026-05-08,True,True,-58.4,-2.82,-16.0,False
+SHP-700165,CTR-2025165,SO-500165,MAT-1001,Acrylic Acid,4736.3,Lahad Datu,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2025-04,2025-03-12,4701.6,,,True,False,-34.7,-0.73,,False
+SHP-700166,CTR-2025166,SO-500166,MAT-1006,Anionic Surfactant,3805.7,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2025-10,2025-11-05,3726.1,LC-90166,2025-10-09,True,True,-79.6,-2.09,-27.0,False
+SHP-700167,CTR-2025167,SO-500167,MAT-1008,Crop Protection Herbicide Formulation,7595.9,Pasir Gudang,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-02,2026-03-10,7612.6,,,True,False,16.7,0.22,,False
+SHP-700168,CTR-2025168,SO-500168,MAT-1003,2-Ethylhexanol (Oxo Alcohol),690.4,Lahad Datu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2026-01,2026-01-27,692.4,,,True,False,2.0,0.29,,False
+SHP-700169,CTR-2025169,SO-500169,MAT-1008,Crop Protection Herbicide Formulation,2164.8,Lahad Datu,Chittagong,Bangladesh,Sea,MT Selangor Star,2026-05,2026-06-10,2102.0,,,True,False,-62.8,-2.9,,False
+SHP-700170,CTR-2025170,SO-500170,MAT-1008,Crop Protection Herbicide Formulation,6499.4,Pasir Gudang,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2026-01,2026-01-21,6381.8,,,True,False,-117.6,-1.81,,False
+SHP-700171,CTR-2025171,SO-500171,MAT-1008,Crop Protection Herbicide Formulation,2323.8,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-03,2025-03-17,2350.5,,,True,False,26.7,1.15,,False
+SHP-700172,CTR-2025172,SO-500172,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5510.6,Westport,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2026-02,2026-02-10,5592.2,,,True,False,81.6,1.48,,False
+SHP-700173,CTR-2025173,SO-500173,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1141.3,Westport,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-03,,,LC-90173,2026-03-20,False,True,,,,False
+SHP-700174,CTR-2025174,SO-500174,MAT-1007,Battery-Grade Lithium Hydroxide,4872.8,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-07,2026-08-07,4925.8,,,True,False,53.0,1.09,,False
+SHP-700175,CTR-2025175,SO-500175,MAT-1005,Thermoplastic Polyurethane (TPU),2445.7,Pasir Gudang,Karachi,Pakistan,Sea,MT Labuan Wave,2025-11,2025-11-19,2448.7,LC-90175,2025-10-23,True,True,3.0,0.12,-27.0,False
+SHP-700176,CTR-2025176,SO-500176,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4640.4,Lahad Datu,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-11,2025-11-24,4678.4,LC-90176,2025-11-13,True,True,38.0,0.82,-11.0,False
+SHP-700177,CTR-2025177,SO-500177,MAT-1008,Crop Protection Herbicide Formulation,7013.5,Bintulu,Karachi,Pakistan,Sea,MT Sarawak Trader,2026-01,2026-02-09,7083.6,,,True,False,70.1,1.0,,False
+SHP-700178,CTR-2025178,SO-500178,MAT-1002,2-Ethylhexanoic Acid (2-EHA),668.5,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-06,2025-06-19,669.6,,,True,False,1.1,0.16,,False
+SHP-700179,CTR-2025179,SO-500179,MAT-1006,Anionic Surfactant,1545.2,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2026-04,2026-04-10,1512.1,LC-90179,2026-03-11,True,True,-33.1,-2.14,-30.0,False
+SHP-700180,CTR-2025180,SO-500180,MAT-1005,Thermoplastic Polyurethane (TPU),637.9,Bintulu,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-08,,,LC-90180,2025-08-11,False,True,,,,False
+SHP-700181,CTR-2025181,SO-500181,MAT-1008,Crop Protection Herbicide Formulation,2555.4,Bintulu,Singapore,Singapore,Sea,MT Sarawak Trader,2026-02,2026-03-04,2505.1,LC-90181,2026-02-12,True,True,-50.3,-1.97,-20.0,False
+SHP-700182,CTR-2025182,SO-500182,MAT-1008,Crop Protection Herbicide Formulation,1526.6,Lahad Datu,Rotterdam,Netherlands,Sea,MT Perak Navigator,2026-07,2026-07-16,1526.4,,,True,False,-0.2,-0.01,,False
+SHP-700183,CTR-2025183,SO-500183,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5487.8,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-10,2025-10-31,5438.1,,,True,False,-49.7,-0.91,,False
+SHP-700184,CTR-2025184,SO-500184,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4391.9,Port Klang,Colombo,Sri Lanka,Sea,MT Perak Navigator,2026-01,2026-01-01,4422.2,,,True,False,30.3,0.69,,False
+SHP-700185,CTR-2025185,SO-500185,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5023.6,Pasir Gudang,Los Angeles,USA,Sea,MT Sarawak Trader,2026-02,2026-03-07,4945.4,,,True,False,-78.2,-1.56,,False
+SHP-700186,CTR-2025186,SO-500186,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5892.8,Westport,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-04,2025-04-07,5856.3,,,True,False,-36.5,-0.62,,False
+SHP-700187,CTR-2025187,SO-500187,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7526.2,Westport,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-09,2025-10-04,7312.1,,,True,False,-214.1,-2.84,,False
+SHP-700188,CTR-2025188,SO-500188,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4963.1,Lahad Datu,Los Angeles,USA,Sea,MT Perak Navigator,2025-09,2025-08-31,4962.3,,,True,False,-0.8,-0.02,,False
+SHP-700189,CTR-2025189,SO-500189,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6281.8,Westport,Istanbul,Turkey,Sea,MT Labuan Wave,2025-04,,,,,False,False,,,,False
+SHP-700190,CTR-2025190,SO-500190,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4216.2,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2026-06,2026-06-29,4262.4,LC-90190,2026-06-01,True,True,46.2,1.1,-28.0,False
+SHP-700191,CTR-2025191,SO-500191,MAT-1005,Thermoplastic Polyurethane (TPU),5710.2,Kuantan,Chennai,India,Sea,MT Sabahan Pride,2026-05,2026-05-06,5565.0,LC-90191,2026-04-13,True,True,-145.2,-2.54,-23.0,False
+SHP-700192,CTR-2025192,SO-500192,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1526.1,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-03,2025-04-13,1521.7,LC-90192,2025-03-23,True,True,-4.4,-0.29,-21.0,False
+SHP-700193,CTR-2025193,SO-500193,MAT-1007,Battery-Grade Lithium Hydroxide,5991.7,Bintulu,Colombo,Sri Lanka,Sea,MT Selangor Star,2026-02,2026-03-12,6019.3,,,True,False,27.6,0.46,,False
+SHP-700194,CTR-2025194,SO-500194,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),2372.5,Port Klang,Chennai,India,Sea,MT Melaka Horizon,2025-06,2025-06-29,2413.3,LC-90194,2025-06-07,True,True,40.8,1.72,-22.0,False
+SHP-700195,CTR-2025195,SO-500195,MAT-1006,Anionic Surfactant,5791.8,Westport,Karachi,Pakistan,Sea,MT Pahang Voyager,2026-04,2026-05-15,5883.2,LC-90195,2026-05-03,True,True,91.4,1.58,-12.0,False
+SHP-700196,CTR-2025196,SO-500196,MAT-1008,Crop Protection Herbicide Formulation,5730.7,Bintulu,Colombo,Sri Lanka,Sea,MT Labuan Wave,2025-03,2025-03-05,5829.3,LC-90196,2025-02-06,True,True,98.6,1.72,-27.0,False
+SHP-700197,CTR-2025197,SO-500197,MAT-1005,Thermoplastic Polyurethane (TPU),6965.3,Bintulu,"West Port, Malaysia",Malaysia,Land,,2025-06,2025-06-27,7045.0,,,True,False,79.7,1.14,,False
+SHP-700198,CTR-2025198,SO-500198,MAT-1007,Battery-Grade Lithium Hydroxide,4972.0,Port Klang,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-09,2025-09-21,4842.0,,,True,False,-130.0,-2.61,,False
+SHP-700199,CTR-2025199,SO-500199,MAT-1006,Anionic Surfactant,3049.1,Kuantan,Guangzhou,China,Sea,MT Selangor Star,2026-07,,,,,False,False,,,,False
+SHP-700200,CTR-2025200,SO-500200,MAT-1005,Thermoplastic Polyurethane (TPU),4546.2,Westport,Jeddah,Saudi Arabia,Sea,MT Melaka Horizon,2025-10,2025-09-29,4611.2,LC-90200,2025-09-02,True,True,65.0,1.43,-27.0,False
+SHP-700201,CTR-2025201,SO-500201,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),2247.2,Pasir Gudang,Alexandria,Egypt,Sea,MT Sabahan Pride,2026-03,2026-03-23,2278.1,LC-90201,2026-03-30,True,True,30.9,1.38,7.0,True
+SHP-700202,CTR-2025202,SO-500202,MAT-1001,Acrylic Acid,7543.0,Westport,Kandla,India,Sea,MT Perak Navigator,2026-02,2026-02-25,7606.1,LC-90202,2026-02-15,True,True,63.1,0.84,-10.0,False
+SHP-700203,CTR-2025203,SO-500203,MAT-1008,Crop Protection Herbicide Formulation,4099.1,Bintulu,Alexandria,Egypt,Sea,MT Perak Navigator,2025-05,2025-06-03,4133.6,LC-90203,2025-05-12,True,True,34.5,0.84,-22.0,False
+SHP-700204,CTR-2025204,SO-500204,MAT-1005,Thermoplastic Polyurethane (TPU),3660.2,Lahad Datu,Shanghai,China,Sea,MT Labuan Wave,2026-01,2026-02-07,3615.3,LC-90204,2026-02-14,True,True,-44.9,-1.23,7.0,True
+SHP-700205,CTR-2025205,SO-500205,MAT-1001,Acrylic Acid,2722.3,Westport,"West Port, Malaysia",Malaysia,Land,,2026-04,,,LC-90205,2026-03-14,False,True,,,,False
+SHP-700206,CTR-2025206,SO-500206,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7907.9,Westport,Chittagong,Bangladesh,Sea,MT Labuan Wave,2026-01,2026-01-17,7939.4,,,True,False,31.5,0.4,,False
+SHP-700207,CTR-2025207,SO-500207,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7624.7,Kuantan,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-07,,,,,False,False,,,,False
+SHP-700208,CTR-2025208,SO-500208,MAT-1007,Battery-Grade Lithium Hydroxide,7093.4,Bintulu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2025-01,2025-02-23,6939.8,LC-90208,2025-01-30,True,True,-153.6,-2.17,-24.0,False
+SHP-700209,CTR-2025209,SO-500209,MAT-1008,Crop Protection Herbicide Formulation,2237.5,Lahad Datu,Chennai,India,Sea,MT Sarawak Trader,2026-05,2026-06-28,2227.7,LC-90209,2026-06-09,True,True,-9.8,-0.44,-19.0,False
+SHP-700210,CTR-2025210,SO-500210,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1824.0,Port Klang,Singapore,Singapore,Sea,MT Sarawak Trader,2026-04,2026-04-23,1840.4,,,True,False,16.4,0.9,,False
+SHP-700211,CTR-2025211,SO-500211,MAT-1006,Anionic Surfactant,933.8,Lahad Datu,Lagos,Nigeria,Sea,MT Sabahan Pride,2025-04,2025-04-08,949.1,,,True,False,15.3,1.64,,False
+SHP-700212,CTR-2025212,SO-500212,MAT-1007,Battery-Grade Lithium Hydroxide,1804.2,Port Klang,Lagos,Nigeria,Sea,MT Labuan Wave,2026-02,2026-03-07,1812.9,,,True,False,8.7,0.48,,False
+SHP-700213,CTR-2025213,SO-500213,MAT-1001,Acrylic Acid,6618.7,Bintulu,Alexandria,Egypt,Sea,MT Sabahan Pride,2025-04,2025-05-10,6597.8,,,True,False,-20.9,-0.32,,False
+SHP-700214,CTR-2025214,SO-500214,MAT-1003,2-Ethylhexanol (Oxo Alcohol),4850.6,Pasir Gudang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-03,2025-03-09,4769.5,,,True,False,-81.1,-1.67,,False
+SHP-700215,CTR-2025215,SO-500215,MAT-1007,Battery-Grade Lithium Hydroxide,7165.6,Lahad Datu,Singapore,Singapore,Sea,MT Sabahan Pride,2025-09,2025-10-21,7185.4,LC-90215,2025-09-18,True,True,19.8,0.28,-33.0,False
+SHP-700216,CTR-2025216,SO-500216,MAT-1007,Battery-Grade Lithium Hydroxide,1152.4,Port Klang,"West Port, Malaysia",Malaysia,Land,,2025-05,2025-04-27,1132.8,,,True,False,-19.6,-1.7,,False
+SHP-700217,CTR-2025217,SO-500217,MAT-1008,Crop Protection Herbicide Formulation,4219.1,Lahad Datu,Shanghai,China,Sea,MT Melaka Horizon,2026-04,2026-04-27,4108.6,LC-90217,2026-03-24,True,True,-110.5,-2.62,-34.0,False
+SHP-700218,CTR-2025218,SO-500218,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4213.6,Westport,Karachi,Pakistan,Sea,MT Perak Navigator,2025-10,2025-10-18,4260.9,,,True,False,47.3,1.12,,False
+SHP-700219,CTR-2025219,SO-500219,MAT-1005,Thermoplastic Polyurethane (TPU),5585.1,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2025-01,2025-02-17,5662.9,,,True,False,77.8,1.39,,False
+SHP-700220,CTR-2025220,SO-500220,MAT-1007,Battery-Grade Lithium Hydroxide,5438.4,Port Klang,Chennai,India,Sea,MT Perak Navigator,2026-06,2026-07-18,5467.9,,,True,False,29.5,0.54,,False
+SHP-700221,CTR-2025221,SO-500221,MAT-1007,Battery-Grade Lithium Hydroxide,5731.0,Bintulu,Kandla,India,Sea,MT Selangor Star,2026-04,2026-04-08,5774.8,,,True,False,43.8,0.76,,False
+SHP-700222,CTR-2025222,SO-500222,MAT-1005,Thermoplastic Polyurethane (TPU),7106.5,Westport,Lagos,Nigeria,Sea,MT Sarawak Trader,2025-11,,,,,False,False,,,,False
+SHP-700223,CTR-2025223,SO-500223,MAT-1006,Anionic Surfactant,1466.5,Bintulu,Alexandria,Egypt,Sea,MT Labuan Wave,2025-04,2025-04-10,1434.3,,,True,False,-32.2,-2.2,,False
+SHP-700224,CTR-2025224,SO-500224,MAT-1007,Battery-Grade Lithium Hydroxide,6741.0,Lahad Datu,"West Port, Malaysia",Malaysia,Land,,2025-02,,,,,False,False,,,,False
+SHP-700225,CTR-2025225,SO-500225,MAT-1005,Thermoplastic Polyurethane (TPU),5127.0,Bintulu,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-06,2025-06-29,5135.7,LC-90225,2025-06-09,True,True,8.7,0.17,-20.0,False
+SHP-700226,CTR-2025226,SO-500226,MAT-1006,Anionic Surfactant,6348.8,Kuantan,Karachi,Pakistan,Sea,MT Selangor Star,2025-09,2025-10-26,6464.0,LC-90226,2025-10-16,True,True,115.2,1.81,-10.0,False
+SHP-700227,CTR-2025227,SO-500227,MAT-1008,Crop Protection Herbicide Formulation,5244.7,Bintulu,Karachi,Pakistan,Sea,MT Selangor Star,2025-09,,,LC-90227,2025-08-15,False,True,,,,False
+SHP-700228,CTR-2025228,SO-500228,MAT-1007,Battery-Grade Lithium Hydroxide,5659.1,Lahad Datu,Lagos,Nigeria,Sea,MT Melaka Horizon,2026-04,2026-04-28,5689.7,,,True,False,30.6,0.54,,False
+SHP-700229,CTR-2025229,SO-500229,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4866.3,Bintulu,Alexandria,Egypt,Sea,MT Melaka Horizon,2025-04,2025-05-04,4731.4,,,True,False,-134.9,-2.77,,False
+SHP-700230,CTR-2025230,SO-500230,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7801.2,Lahad Datu,Alexandria,Egypt,Sea,MT Melaka Horizon,2025-02,2025-02-24,7862.9,LC-90230,2025-03-15,True,True,61.7,0.79,19.0,True
+SHP-700231,CTR-2025231,SO-500231,MAT-1006,Anionic Surfactant,665.9,Port Klang,Lagos,Nigeria,Sea,MT Selangor Star,2025-06,2025-07-11,668.7,LC-90231,2025-06-22,True,True,2.8,0.42,-19.0,False
+SHP-700232,CTR-2025232,SO-500232,MAT-1008,Crop Protection Herbicide Formulation,2552.2,Port Klang,Lagos,Nigeria,Sea,MT Sabahan Pride,2025-08,2025-09-03,2496.5,LC-90232,2025-08-23,True,True,-55.7,-2.18,-11.0,False
+SHP-700233,CTR-2025233,SO-500233,MAT-1006,Anionic Surfactant,5702.6,Bintulu,Kandla,India,Sea,MT Selangor Star,2025-03,,,,,False,False,,,,False
+SHP-700234,CTR-2025234,SO-500234,MAT-1008,Crop Protection Herbicide Formulation,5408.8,Kuantan,Los Angeles,USA,Sea,MT Melaka Horizon,2026-04,2026-03-29,5287.4,,,True,False,-121.4,-2.24,,False
+SHP-700235,CTR-2025235,SO-500235,MAT-1008,Crop Protection Herbicide Formulation,7577.1,Kuantan,Guangzhou,China,Sea,MT Sarawak Trader,2025-08,2025-08-10,7500.4,,,True,False,-76.7,-1.01,,False
+SHP-700236,CTR-2025236,SO-500236,MAT-1006,Anionic Surfactant,7879.8,Kuantan,Alexandria,Egypt,Sea,MT Perak Navigator,2025-08,2025-08-19,7734.0,,,True,False,-145.8,-1.85,,False
+SHP-700237,CTR-2025237,SO-500237,MAT-1006,Anionic Surfactant,733.5,Kuantan,"West Port, Malaysia",Malaysia,Sea,MT Perak Navigator,2025-05,2025-05-19,743.2,,,True,False,9.7,1.32,,False
+SHP-700238,CTR-2025238,SO-500238,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7761.5,Westport,Jeddah,Saudi Arabia,Sea,MT Melaka Horizon,2025-05,2025-06-11,7827.8,LC-90238,2025-05-27,True,True,66.3,0.85,-15.0,False
+SHP-700239,CTR-2025239,SO-500239,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6207.7,Westport,Karachi,Pakistan,Sea,MT Kinabalu Spirit,2025-08,2025-08-03,6031.6,,,True,False,-176.1,-2.84,,False
+SHP-700240,CTR-2025240,SO-500240,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5124.9,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2025-06,2025-07-02,5003.2,LC-90240,2025-07-18,True,True,-121.7,-2.37,16.0,True
+SHP-700241,CTR-2025241,SO-500241,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),3727.3,Pasir Gudang,Chennai,India,Sea,MT Selangor Star,2025-03,2025-03-17,3627.4,,,True,False,-99.9,-2.68,,False
+SHP-700242,CTR-2025242,SO-500242,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2517.5,Pasir Gudang,Kandla,India,Sea,MT Labuan Wave,2026-06,2026-07-27,2499.3,,,True,False,-18.2,-0.72,,False
+SHP-700243,CTR-2025243,SO-500243,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1043.4,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-05,2025-05-15,1043.4,,,True,False,0.0,0.0,,False
+SHP-700244,CTR-2025244,SO-500244,MAT-1007,Battery-Grade Lithium Hydroxide,5712.4,Westport,Chittagong,Bangladesh,Sea,MT Perak Navigator,2026-01,2026-02-13,5552.3,,,True,False,-160.1,-2.8,,False
+SHP-700245,CTR-2025245,SO-500245,MAT-1006,Anionic Surfactant,1287.0,Pasir Gudang,Karachi,Pakistan,Sea,MT Selangor Star,2025-07,2025-08-02,1257.6,,,True,False,-29.4,-2.28,,False
+SHP-700246,CTR-2025246,SO-500246,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5136.2,Bintulu,Rotterdam,Netherlands,Sea,MT Labuan Wave,2025-06,2025-06-03,4984.6,,,True,False,-151.6,-2.95,,False
+SHP-700247,CTR-2025247,SO-500247,MAT-1007,Battery-Grade Lithium Hydroxide,4382.8,Bintulu,Kandla,India,Sea,MT Sarawak Trader,2026-04,2026-04-08,4268.5,LC-90247,2026-04-23,True,True,-114.3,-2.61,15.0,True
+SHP-700248,CTR-2025248,SO-500248,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1495.4,Bintulu,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-02,2025-01-31,1465.5,LC-90248,2025-01-08,True,True,-29.9,-2.0,-23.0,False
+SHP-700249,CTR-2025249,SO-500249,MAT-1006,Anionic Surfactant,1284.3,Pasir Gudang,Karachi,Pakistan,Sea,MT Perak Navigator,2025-11,2025-10-20,1247.8,,,True,False,-36.5,-2.84,,False
+SHP-700250,CTR-2025250,SO-500250,MAT-1001,Acrylic Acid,889.8,Westport,Singapore,Singapore,Sea,MT Melaka Horizon,2026-04,2026-05-13,894.9,LC-90250,2026-04-11,True,True,5.1,0.57,-32.0,False
+SHP-700251,CTR-2025251,SO-500251,MAT-1005,Thermoplastic Polyurethane (TPU),3045.9,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-07,,,LC-90251,2025-06-29,False,True,,,,False
+SHP-700252,CTR-2025252,SO-500252,MAT-1007,Battery-Grade Lithium Hydroxide,4606.9,Bintulu,Kandla,India,Sea,MT Labuan Wave,2025-09,2025-09-16,4589.9,LC-90252,2025-09-02,True,True,-17.0,-0.37,-14.0,False
+SHP-700253,CTR-2025253,SO-500253,MAT-1008,Crop Protection Herbicide Formulation,1112.2,Bintulu,Chennai,India,Sea,MT Selangor Star,2026-07,2026-07-31,1127.3,LC-90253,2026-07-19,True,True,15.1,1.36,-12.0,False
+SHP-700254,CTR-2025254,SO-500254,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7819.0,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2025-05,2025-04-26,7893.2,,,True,False,74.2,0.95,,False
+SHP-700255,CTR-2025255,SO-500255,MAT-1003,2-Ethylhexanol (Oxo Alcohol),4236.5,Bintulu,Shanghai,China,Sea,MT Labuan Wave,2025-02,2025-02-06,4157.8,,,True,False,-78.7,-1.86,,False
+SHP-700256,CTR-2025256,SO-500256,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7810.9,Kuantan,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-06,2025-06-23,7604.8,LC-90256,2025-06-05,True,True,-206.1,-2.64,-18.0,False
+SHP-700257,CTR-2025257,SO-500257,MAT-1005,Thermoplastic Polyurethane (TPU),2432.6,Port Klang,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-10,2025-10-22,2448.1,,,True,False,15.5,0.64,,False
+SHP-700258,CTR-2025258,SO-500258,MAT-1008,Crop Protection Herbicide Formulation,3691.2,Westport,Kandla,India,Sea,MT Kinabalu Spirit,2025-09,2025-10-11,3762.7,,,True,False,71.5,1.94,,False
+SHP-700259,CTR-2025259,SO-500259,MAT-1007,Battery-Grade Lithium Hydroxide,7002.7,Bintulu,Istanbul,Turkey,Sea,MT Sabahan Pride,2026-02,2026-02-16,6963.0,LC-90259,2026-01-29,True,True,-39.7,-0.57,-18.0,False
+SHP-700260,CTR-2025260,SO-500260,MAT-1007,Battery-Grade Lithium Hydroxide,7255.3,Bintulu,Karachi,Pakistan,Sea,MT Sabahan Pride,2025-04,2025-04-21,7368.6,LC-90260,2025-03-25,True,True,113.3,1.56,-27.0,False
+SHP-700261,CTR-2025261,SO-500261,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5172.2,Lahad Datu,Kandla,India,Sea,MT Perak Navigator,2025-11,2025-11-21,5051.1,,,True,False,-121.1,-2.34,,False
+SHP-700262,CTR-2025262,SO-500262,MAT-1007,Battery-Grade Lithium Hydroxide,7317.7,Westport,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-12,2025-12-28,7453.6,,,True,False,135.9,1.86,,False
+SHP-700263,CTR-2025263,SO-500263,MAT-1005,Thermoplastic Polyurethane (TPU),6907.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-03,2025-03-13,6854.5,LC-90263,2025-02-26,True,True,-53.4,-0.77,-15.0,False
+SHP-700264,CTR-2025264,SO-500264,MAT-1005,Thermoplastic Polyurethane (TPU),3194.3,Westport,Shanghai,China,Sea,MT Perak Navigator,2026-07,2026-08-01,3253.3,LC-90264,2026-07-14,True,True,59.0,1.85,-18.0,False
+SHP-700265,CTR-2025265,SO-500265,MAT-1002,2-Ethylhexanoic Acid (2-EHA),5425.5,Lahad Datu,Lagos,Nigeria,Sea,MT Selangor Star,2025-11,2025-11-04,5525.8,LC-90265,2025-11-10,True,True,100.3,1.85,6.0,True
+SHP-700266,CTR-2025266,SO-500266,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),2270.4,Port Klang,Istanbul,Turkey,Sea,MT Kinabalu Spirit,2025-05,2025-06-13,2240.5,LC-90266,2025-05-23,True,True,-29.9,-1.32,-21.0,False
+SHP-700267,CTR-2025267,SO-500267,MAT-1001,Acrylic Acid,3731.7,Bintulu,Los Angeles,USA,Sea,MT Pahang Voyager,2025-08,2025-08-13,3751.6,,,True,False,19.9,0.53,,False
+SHP-700268,CTR-2025268,SO-500268,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1757.1,Port Klang,Shanghai,China,Sea,MT Kinabalu Spirit,2025-10,2025-11-14,1762.7,,,True,False,5.6,0.32,,False
+SHP-700269,CTR-2025269,SO-500269,MAT-1005,Thermoplastic Polyurethane (TPU),6831.3,Lahad Datu,Kandla,India,Sea,MT Pahang Voyager,2025-11,2025-11-19,6696.7,LC-90269,2025-10-22,True,True,-134.6,-1.97,-28.0,False
+SHP-700270,CTR-2025270,SO-500270,MAT-1008,Crop Protection Herbicide Formulation,2523.1,Kuantan,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-09,2025-09-22,2565.6,,,True,False,42.5,1.68,,False
+SHP-700271,CTR-2025271,SO-500271,MAT-1001,Acrylic Acid,1415.8,Bintulu,Chennai,India,Sea,MT Pahang Voyager,2026-01,2026-01-31,1409.2,LC-90271,2026-01-06,True,True,-6.6,-0.47,-25.0,False
+SHP-700272,CTR-2025272,SO-500272,MAT-1002,2-Ethylhexanoic Acid (2-EHA),1612.6,Westport,Singapore,Singapore,Sea,MT Sabahan Pride,2025-10,2025-11-30,1641.0,LC-90272,2025-12-05,True,True,28.4,1.76,5.0,True
+SHP-700273,CTR-2025273,SO-500273,MAT-1001,Acrylic Acid,7009.4,Westport,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-04,2025-04-27,6970.4,,,True,False,-39.0,-0.56,,False
+SHP-700274,CTR-2025274,SO-500274,MAT-1008,Crop Protection Herbicide Formulation,1547.4,Port Klang,Alexandria,Egypt,Sea,MT Selangor Star,2025-12,2025-12-13,1555.5,,,True,False,8.1,0.52,,False
+SHP-700275,CTR-2025275,SO-500275,MAT-1006,Anionic Surfactant,5550.7,Lahad Datu,Kandla,India,Sea,MT Sarawak Trader,2026-05,,,,,False,False,,,,False
+SHP-700276,CTR-2025276,SO-500276,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3828.1,Pasir Gudang,Colombo,Sri Lanka,Sea,MT Selangor Star,2025-05,2025-04-23,3845.8,,,True,False,17.7,0.46,,False
+SHP-700277,CTR-2025277,SO-500277,MAT-1007,Battery-Grade Lithium Hydroxide,7584.6,Bintulu,Chennai,India,Sea,MT Kinabalu Spirit,2026-01,2026-02-09,7591.4,,,True,False,6.8,0.09,,False
+SHP-700278,CTR-2025278,SO-500278,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4779.6,Westport,Kandla,India,Sea,MT Pahang Voyager,2025-09,2025-10-06,4797.9,LC-90278,2025-09-20,True,True,18.3,0.38,-16.0,False
+SHP-700279,CTR-2025279,SO-500279,MAT-1005,Thermoplastic Polyurethane (TPU),5441.6,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Selangor Star,2025-05,2025-04-17,5457.3,LC-90279,2025-04-28,True,True,15.7,0.29,11.0,True
+SHP-700280,CTR-2025280,SO-500280,MAT-1001,Acrylic Acid,861.6,Lahad Datu,Singapore,Singapore,Sea,MT Kinabalu Spirit,2026-05,2026-05-27,869.5,LC-90280,2026-04-26,True,True,7.9,0.92,-31.0,False
+SHP-700281,CTR-2025281,SO-500281,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6038.4,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2026-01,2026-01-28,6058.8,LC-90281,2025-12-29,True,True,20.4,0.34,-30.0,False
+SHP-700282,CTR-2025282,SO-500282,MAT-1008,Crop Protection Herbicide Formulation,6217.1,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2026-04,2026-04-15,6284.8,,,True,False,67.7,1.09,,False
+SHP-700283,CTR-2025283,SO-500283,MAT-1007,Battery-Grade Lithium Hydroxide,4583.7,Pasir Gudang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-03,2025-03-08,4530.2,,,True,False,-53.5,-1.17,,False
+SHP-700284,CTR-2025284,SO-500284,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5716.0,Lahad Datu,Shanghai,China,Sea,MT Kinabalu Spirit,2025-10,2025-11-18,5651.2,LC-90284,2025-10-23,True,True,-64.8,-1.13,-26.0,False
+SHP-700285,CTR-2025285,SO-500285,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1049.0,Bintulu,Alexandria,Egypt,Sea,MT Kinabalu Spirit,2025-10,2025-09-25,1050.0,,,True,False,1.0,0.1,,False
+SHP-700286,CTR-2025286,SO-500286,MAT-1003,2-Ethylhexanol (Oxo Alcohol),3348.4,Lahad Datu,Alexandria,Egypt,Sea,MT Perak Navigator,2026-01,2026-01-23,3328.2,,,True,False,-20.2,-0.6,,False
+SHP-700287,CTR-2025287,SO-500287,MAT-1005,Thermoplastic Polyurethane (TPU),3059.4,Port Klang,Lagos,Nigeria,Sea,MT Kinabalu Spirit,2026-06,2026-07-07,3056.4,,,True,False,-3.0,-0.1,,False
+SHP-700288,CTR-2025288,SO-500288,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5059.3,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-12,2025-12-30,5089.2,,,True,False,29.9,0.59,,False
+SHP-700289,CTR-2025289,SO-500289,MAT-1006,Anionic Surfactant,636.7,Bintulu,Shanghai,China,Sea,MT Perak Navigator,2025-05,,,,,False,False,,,,False
+SHP-700290,CTR-2025290,SO-500290,MAT-1007,Battery-Grade Lithium Hydroxide,7235.2,Kuantan,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-07,2025-07-10,7039.9,,,True,False,-195.3,-2.7,,False
+SHP-700291,CTR-2025291,SO-500291,MAT-1007,Battery-Grade Lithium Hydroxide,3137.2,Bintulu,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2025-07,2025-08-08,3083.4,,,True,False,-53.8,-1.71,,False
+SHP-700292,CTR-2025292,SO-500292,MAT-1006,Anionic Surfactant,2804.7,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2025-07,2025-07-30,2764.2,,,True,False,-40.5,-1.44,,False
+SHP-700293,CTR-2025293,SO-500293,MAT-1006,Anionic Surfactant,5871.1,Bintulu,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2025-10,2025-10-02,5730.7,,,True,False,-140.4,-2.39,,False
+SHP-700294,CTR-2025294,SO-500294,MAT-1006,Anionic Surfactant,5608.4,Port Klang,Los Angeles,USA,Sea,MT Labuan Wave,2025-04,2025-04-21,5470.1,LC-90294,2025-04-06,True,True,-138.3,-2.47,-15.0,False
+SHP-700295,CTR-2025295,SO-500295,MAT-1006,Anionic Surfactant,2424.2,Port Klang,Guangzhou,China,Sea,MT Selangor Star,2026-02,2026-03-07,2449.2,,,True,False,25.0,1.03,,False
+SHP-700296,CTR-2025296,SO-500296,MAT-1001,Acrylic Acid,825.6,Port Klang,Karachi,Pakistan,Sea,MT Melaka Horizon,2025-11,2025-11-23,825.7,,,True,False,0.1,0.01,,False
+SHP-700297,CTR-2025297,SO-500297,MAT-1006,Anionic Surfactant,7131.5,Kuantan,Chittagong,Bangladesh,Sea,MT Melaka Horizon,2025-04,2025-05-01,7064.1,LC-90297,2025-04-20,True,True,-67.4,-0.95,-11.0,False
+SHP-700298,CTR-2025298,SO-500298,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7250.2,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-08,2025-08-20,7315.6,,,True,False,65.4,0.9,,False
+SHP-700299,CTR-2025299,SO-500299,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6669.6,Port Klang,Shanghai,China,Sea,MT Labuan Wave,2026-06,2026-06-14,6677.6,LC-90299,2026-06-18,True,True,8.0,0.12,4.0,True
+SHP-700300,CTR-2025300,SO-500300,MAT-1005,Thermoplastic Polyurethane (TPU),4899.6,Port Klang,Lagos,Nigeria,Sea,MT Labuan Wave,2025-08,2025-07-25,4805.7,LC-90300,2025-07-13,True,True,-93.9,-1.92,-12.0,False
+SHP-700301,CTR-2025301,SO-500301,MAT-1003,2-Ethylhexanol (Oxo Alcohol),677.3,Kuantan,Singapore,Singapore,Sea,MT Sarawak Trader,2026-02,2026-03-16,664.8,LC-90301,2026-02-20,True,True,-12.5,-1.85,-24.0,False
+SHP-700302,CTR-2025302,SO-500302,MAT-1001,Acrylic Acid,4958.6,Bintulu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-11,2025-11-01,4982.2,LC-90302,2025-11-19,True,True,23.6,0.48,18.0,True
+SHP-700303,CTR-2025303,SO-500303,MAT-1007,Battery-Grade Lithium Hydroxide,3711.5,Kuantan,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-07,2026-07-30,3624.0,LC-90303,2026-06-28,True,True,-87.5,-2.36,-32.0,False
+SHP-700304,CTR-2025304,SO-500304,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5932.5,Kuantan,Los Angeles,USA,Sea,MT Selangor Star,2026-07,2026-07-01,5778.1,,,True,False,-154.4,-2.6,,False
+SHP-700305,CTR-2025305,SO-500305,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),7206.4,Westport,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2026-04,2026-05-11,7118.1,LC-90305,2026-04-19,True,True,-88.3,-1.23,-22.0,False
+SHP-700306,CTR-2025306,SO-500306,MAT-1008,Crop Protection Herbicide Formulation,4392.9,Port Klang,"West Port, Malaysia",Malaysia,Sea,MT Sabahan Pride,2025-10,2025-10-31,4379.7,LC-90306,2025-10-03,True,True,-13.2,-0.3,-28.0,False
+SHP-700307,CTR-2025307,SO-500307,MAT-1007,Battery-Grade Lithium Hydroxide,5381.6,Bintulu,Guangzhou,China,Sea,MT Kinabalu Spirit,2026-01,2026-01-14,5309.8,,,True,False,-71.8,-1.33,,False
+SHP-700308,CTR-2025308,SO-500308,MAT-1007,Battery-Grade Lithium Hydroxide,7956.0,Pasir Gudang,Guangzhou,China,Sea,MT Sarawak Trader,2025-07,2025-07-05,7902.4,LC-90308,2025-06-25,True,True,-53.6,-0.67,-10.0,False
+SHP-700309,CTR-2025309,SO-500309,MAT-1005,Thermoplastic Polyurethane (TPU),4717.2,Bintulu,Lagos,Nigeria,Sea,MT Labuan Wave,2025-12,2025-12-20,4738.4,,,True,False,21.2,0.45,,False
+SHP-700310,CTR-2025310,SO-500310,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4518.7,Kuantan,Alexandria,Egypt,Sea,MT Kinabalu Spirit,2025-05,2025-05-19,4554.0,,,True,False,35.3,0.78,,False
+SHP-700311,CTR-2025311,SO-500311,MAT-1007,Battery-Grade Lithium Hydroxide,5486.8,Lahad Datu,Los Angeles,USA,Sea,MT Pahang Voyager,2025-12,2025-12-03,5386.6,,,True,False,-100.2,-1.83,,False
+SHP-700312,CTR-2025312,SO-500312,MAT-1001,Acrylic Acid,1643.1,Bintulu,Shanghai,China,Sea,MT Labuan Wave,2026-05,2026-05-30,1638.2,,,True,False,-4.9,-0.3,,False
+SHP-700313,CTR-2025313,SO-500313,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),4407.2,Lahad Datu,Lagos,Nigeria,Sea,MT Perak Navigator,2025-03,,,,,False,False,,,,False
+SHP-700314,CTR-2025314,SO-500314,MAT-1005,Thermoplastic Polyurethane (TPU),1457.9,Port Klang,Guangzhou,China,Sea,MT Pahang Voyager,2025-04,2025-05-02,1465.8,,,True,False,7.9,0.54,,False
+SHP-700315,CTR-2025315,SO-500315,MAT-1007,Battery-Grade Lithium Hydroxide,2773.5,Bintulu,Chennai,India,Sea,MT Kinabalu Spirit,2025-10,2025-11-01,2702.4,,,True,False,-71.1,-2.56,,False
+SHP-700316,CTR-2025316,SO-500316,MAT-1005,Thermoplastic Polyurethane (TPU),4653.5,Kuantan,Singapore,Singapore,Sea,MT Pahang Voyager,2025-12,2025-12-23,4653.6,LC-90316,2025-12-04,True,True,0.1,0.0,-19.0,False
+SHP-700317,CTR-2025317,SO-500317,MAT-1002,2-Ethylhexanoic Acid (2-EHA),7395.4,Bintulu,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-03,2026-03-04,7488.4,,,True,False,93.0,1.26,,False
+SHP-700318,CTR-2025318,SO-500318,MAT-1005,Thermoplastic Polyurethane (TPU),7479.5,Pasir Gudang,Shanghai,China,Sea,MT Selangor Star,2026-01,2026-01-28,7397.5,,,True,False,-82.0,-1.1,,False
+SHP-700319,CTR-2025319,SO-500319,MAT-1006,Anionic Surfactant,7010.4,Bintulu,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2026-03,2026-03-31,6828.5,LC-90319,2026-03-09,True,True,-181.9,-2.59,-22.0,False
+SHP-700320,CTR-2025320,SO-500320,MAT-1006,Anionic Surfactant,1801.4,Westport,Jeddah,Saudi Arabia,Sea,MT Sarawak Trader,2025-08,2025-08-08,1835.2,,,True,False,33.8,1.88,,False
+SHP-700321,CTR-2025321,SO-500321,MAT-1005,Thermoplastic Polyurethane (TPU),6668.6,Westport,Lagos,Nigeria,Sea,MT Perak Navigator,2025-07,2025-07-25,6776.2,,,True,False,107.6,1.61,,False
+SHP-700322,CTR-2025322,SO-500322,MAT-1005,Thermoplastic Polyurethane (TPU),5046.9,Pasir Gudang,Los Angeles,USA,Sea,MT Labuan Wave,2025-09,2025-09-08,5022.3,,,True,False,-24.6,-0.49,,False
+SHP-700323,CTR-2025323,SO-500323,MAT-1008,Crop Protection Herbicide Formulation,1597.8,Lahad Datu,Alexandria,Egypt,Sea,MT Sarawak Trader,2025-04,,,LC-90323,2025-03-20,False,True,,,,False
+SHP-700324,CTR-2025324,SO-500324,MAT-1006,Anionic Surfactant,1513.7,Kuantan,Chittagong,Bangladesh,Sea,MT Labuan Wave,2025-08,2025-08-30,1541.4,,,True,False,27.7,1.83,,False
+SHP-700325,CTR-2025325,SO-500325,MAT-1001,Acrylic Acid,2838.6,Pasir Gudang,Lagos,Nigeria,Sea,MT Labuan Wave,2025-12,2025-12-07,2768.4,,,True,False,-70.2,-2.47,,False
+SHP-700326,CTR-2025326,SO-500326,MAT-1007,Battery-Grade Lithium Hydroxide,2120.3,Kuantan,Guangzhou,China,Sea,MT Pahang Voyager,2026-04,2026-04-28,2063.2,LC-90326,2026-04-18,True,True,-57.1,-2.69,-10.0,False
+SHP-700327,CTR-2025327,SO-500327,MAT-1001,Acrylic Acid,3948.5,Bintulu,Chennai,India,Sea,MT Sarawak Trader,2025-08,2025-08-07,3841.5,,,True,False,-107.0,-2.71,,False
+SHP-700328,CTR-2025328,SO-500328,MAT-1005,Thermoplastic Polyurethane (TPU),7877.6,Port Klang,Kandla,India,Sea,MT Perak Navigator,2026-07,2026-07-12,7689.1,,,True,False,-188.5,-2.39,,False
+SHP-700329,CTR-2025329,SO-500329,MAT-1008,Crop Protection Herbicide Formulation,1257.8,Westport,Los Angeles,USA,Sea,MT Pahang Voyager,2025-12,,,LC-90329,2025-12-26,False,True,,,,False
+SHP-700330,CTR-2025330,SO-500330,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7975.2,Bintulu,Shanghai,China,Sea,MT Kinabalu Spirit,2026-06,2026-06-19,7984.7,LC-90330,2026-05-19,True,True,9.5,0.12,-31.0,False
+SHP-700331,CTR-2025331,SO-500331,MAT-1002,2-Ethylhexanoic Acid (2-EHA),3695.6,Kuantan,Lagos,Nigeria,Sea,MT Labuan Wave,2025-03,2025-03-15,3667.8,,,True,False,-27.8,-0.75,,False
+SHP-700332,CTR-2025332,SO-500332,MAT-1007,Battery-Grade Lithium Hydroxide,3258.2,Bintulu,Kandla,India,Sea,MT Melaka Horizon,2025-11,2025-11-26,3280.0,,,True,False,21.8,0.67,,False
+SHP-700333,CTR-2025333,SO-500333,MAT-1005,Thermoplastic Polyurethane (TPU),582.7,Port Klang,Los Angeles,USA,Sea,MT Sarawak Trader,2025-05,2025-06-18,565.8,,,True,False,-16.9,-2.9,,False
+SHP-700334,CTR-2025334,SO-500334,MAT-1005,Thermoplastic Polyurethane (TPU),6202.2,Lahad Datu,Chennai,India,Sea,MT Perak Navigator,2026-04,2026-03-26,6082.9,,,True,False,-119.3,-1.92,,False
+SHP-700335,CTR-2025335,SO-500335,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2309.0,Bintulu,Chittagong,Bangladesh,Sea,MT Sabahan Pride,2025-05,2025-04-23,2296.1,LC-90335,2025-04-05,True,True,-12.9,-0.56,-18.0,False
+SHP-700336,CTR-2025336,SO-500336,MAT-1005,Thermoplastic Polyurethane (TPU),4609.7,Port Klang,Lagos,Nigeria,Sea,MT Perak Navigator,2026-05,2026-05-18,4583.9,LC-90336,2026-06-01,True,True,-25.8,-0.56,14.0,True
+SHP-700337,CTR-2025337,SO-500337,MAT-1001,Acrylic Acid,2935.1,Westport,"West Port, Malaysia",Malaysia,Land,,2025-05,2025-05-10,2902.2,,,True,False,-32.9,-1.12,,False
+SHP-700338,CTR-2025338,SO-500338,MAT-1006,Anionic Surfactant,3945.9,Kuantan,Kandla,India,Sea,MT Melaka Horizon,2026-02,2026-03-03,3982.8,LC-90338,2026-01-27,True,True,36.9,0.94,-35.0,False
+SHP-700339,CTR-2025339,SO-500339,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5661.0,Port Klang,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2025-06,2025-06-08,5502.0,LC-90339,2025-05-24,True,True,-159.0,-2.81,-15.0,False
+SHP-700340,CTR-2025340,SO-500340,MAT-1001,Acrylic Acid,3961.1,Bintulu,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-02,2026-02-13,3968.4,LC-90340,2026-01-20,True,True,7.3,0.18,-24.0,False
+SHP-700341,CTR-2025341,SO-500341,MAT-1006,Anionic Surfactant,999.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Sabahan Pride,2025-11,2025-11-06,1006.8,,,True,False,6.9,0.69,,False
+SHP-700342,CTR-2025342,SO-500342,MAT-1006,Anionic Surfactant,5601.7,Bintulu,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2026-06,,,,,False,False,,,,False
+SHP-700343,CTR-2025343,SO-500343,MAT-1008,Crop Protection Herbicide Formulation,1040.6,Westport,Lagos,Nigeria,Sea,MT Pahang Voyager,2026-07,,,LC-90343,2026-06-15,False,True,,,,False
+SHP-700344,CTR-2025344,SO-500344,MAT-1007,Battery-Grade Lithium Hydroxide,6031.3,Westport,"West Port, Malaysia",Malaysia,Land,,2025-09,2025-09-06,6084.0,LC-90344,2025-08-12,True,True,52.7,0.87,-25.0,False
+SHP-700345,CTR-2025345,SO-500345,MAT-1008,Crop Protection Herbicide Formulation,1889.0,Port Klang,Colombo,Sri Lanka,Sea,MT Kinabalu Spirit,2025-06,,,LC-90345,2025-05-24,False,True,,,,False
+SHP-700346,CTR-2025346,SO-500346,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6232.8,Kuantan,Colombo,Sri Lanka,Sea,MT Pahang Voyager,2025-11,,,,,False,False,,,,False
+SHP-700347,CTR-2025347,SO-500347,MAT-1006,Anionic Surfactant,7759.0,Port Klang,Lagos,Nigeria,Sea,MT Perak Navigator,2026-05,2026-06-02,7674.4,LC-90347,2026-05-06,True,True,-84.6,-1.09,-27.0,False
+SHP-700348,CTR-2025348,SO-500348,MAT-1001,Acrylic Acid,1410.4,Kuantan,Rotterdam,Netherlands,Sea,MT Sarawak Trader,2025-05,2025-05-16,1405.5,LC-90348,2025-04-30,True,True,-4.9,-0.35,-16.0,False
+SHP-700349,CTR-2025349,SO-500349,MAT-1008,Crop Protection Herbicide Formulation,7763.7,Westport,Los Angeles,USA,Sea,MT Sabahan Pride,2025-08,2025-09-21,7764.4,LC-90349,2025-08-28,True,True,0.7,0.01,-24.0,False
+SHP-700350,CTR-2025350,SO-500350,MAT-1003,2-Ethylhexanol (Oxo Alcohol),6110.5,Lahad Datu,Chennai,India,Sea,MT Labuan Wave,2026-07,2026-07-18,5966.3,,,True,False,-144.2,-2.36,,False
+SHP-700351,CTR-2025351,SO-500351,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7460.6,Bintulu,Guangzhou,China,Sea,MT Melaka Horizon,2025-07,2025-07-27,7398.0,,,True,False,-62.6,-0.84,,False
+SHP-700352,CTR-2025352,SO-500352,MAT-1005,Thermoplastic Polyurethane (TPU),5097.0,Westport,Los Angeles,USA,Sea,MT Sarawak Trader,2026-01,2026-02-06,4994.4,LC-90352,2026-02-17,True,True,-102.6,-2.01,11.0,True
+SHP-700353,CTR-2025353,SO-500353,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5343.6,Bintulu,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-08,2025-09-27,5413.4,,,True,False,69.8,1.31,,False
+SHP-700354,CTR-2025354,SO-500354,MAT-1006,Anionic Surfactant,7391.9,Lahad Datu,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-05,2025-05-14,7340.4,,,True,False,-51.5,-0.7,,False
+SHP-700355,CTR-2025355,SO-500355,MAT-1007,Battery-Grade Lithium Hydroxide,5963.7,Bintulu,Chennai,India,Sea,MT Selangor Star,2025-02,2025-02-28,5837.7,,,True,False,-126.0,-2.11,,False
+SHP-700356,CTR-2025356,SO-500356,MAT-1001,Acrylic Acid,7885.0,Pasir Gudang,Los Angeles,USA,Sea,MT Perak Navigator,2025-06,,,,,False,False,,,,False
+SHP-700357,CTR-2025357,SO-500357,MAT-1007,Battery-Grade Lithium Hydroxide,1488.0,Bintulu,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-09,2025-09-28,1481.0,LC-90357,2025-08-24,True,True,-7.0,-0.47,-35.0,False
+SHP-700358,CTR-2025358,SO-500358,MAT-1001,Acrylic Acid,5996.0,Westport,Karachi,Pakistan,Sea,MT Pahang Voyager,2025-03,2025-03-24,5968.5,,,True,False,-27.5,-0.46,,False
+SHP-700359,CTR-2025359,SO-500359,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4737.7,Bintulu,Rotterdam,Netherlands,Sea,MT Melaka Horizon,2025-07,2025-08-02,4775.9,LC-90359,2025-07-06,True,True,38.2,0.81,-27.0,False
+SHP-700360,CTR-2025360,SO-500360,MAT-1005,Thermoplastic Polyurethane (TPU),3961.7,Kuantan,Shanghai,China,Sea,MT Perak Navigator,2025-07,2025-07-02,4039.3,LC-90360,2025-05-29,True,True,77.6,1.96,-34.0,False
+SHP-700361,CTR-2025361,SO-500361,MAT-1008,Crop Protection Herbicide Formulation,3511.2,Lahad Datu,Chittagong,Bangladesh,Sea,MT Pahang Voyager,2025-12,2025-12-01,3503.3,,,True,False,-7.9,-0.22,,False
+SHP-700362,CTR-2025362,SO-500362,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5119.9,Lahad Datu,Istanbul,Turkey,Sea,MT Pahang Voyager,2026-07,2026-06-30,5108.2,LC-90362,2026-05-30,True,True,-11.7,-0.23,-31.0,False
+SHP-700363,CTR-2025363,SO-500363,MAT-1005,Thermoplastic Polyurethane (TPU),6207.4,Lahad Datu,Los Angeles,USA,Sea,MT Labuan Wave,2026-02,2026-02-04,6318.5,LC-90363,2026-01-05,True,True,111.1,1.79,-30.0,False
+SHP-700364,CTR-2025364,SO-500364,MAT-1001,Acrylic Acid,2952.0,Pasir Gudang,Singapore,Singapore,Sea,MT Sarawak Trader,2025-10,2025-10-26,3010.5,LC-90364,2025-09-23,True,True,58.5,1.98,-33.0,False
+SHP-700365,CTR-2025365,SO-500365,MAT-1006,Anionic Surfactant,3864.6,Lahad Datu,Los Angeles,USA,Sea,MT Sarawak Trader,2026-06,2026-07-11,3824.3,LC-90365,2026-06-21,True,True,-40.3,-1.04,-20.0,False
+SHP-700366,CTR-2025366,SO-500366,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5717.1,Lahad Datu,Istanbul,Turkey,Sea,MT Pahang Voyager,2025-05,2025-05-21,5772.6,LC-90366,2025-05-08,True,True,55.5,0.97,-13.0,False
+SHP-700367,CTR-2025367,SO-500367,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4911.5,Westport,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2026-04,2026-04-10,4780.1,,,True,False,-131.4,-2.68,,False
+SHP-700368,CTR-2025368,SO-500368,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4711.1,Westport,"West Port, Malaysia",Malaysia,Land,,2025-10,2025-10-25,4759.4,LC-90368,2025-10-02,True,True,48.3,1.03,-23.0,False
+SHP-700369,CTR-2025369,SO-500369,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6687.9,Bintulu,Chennai,India,Sea,MT Sabahan Pride,2026-02,,,,,False,False,,,,False
+SHP-700370,CTR-2025370,SO-500370,MAT-1005,Thermoplastic Polyurethane (TPU),3006.8,Pasir Gudang,Kandla,India,Sea,MT Labuan Wave,2025-11,2025-11-18,2994.4,LC-90370,2025-10-22,True,True,-12.4,-0.41,-27.0,False
+SHP-700371,CTR-2025371,SO-500371,MAT-1005,Thermoplastic Polyurethane (TPU),1605.9,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Selangor Star,2026-03,2026-02-27,1575.4,LC-90371,2026-03-01,True,True,-30.5,-1.9,2.0,True
+SHP-700372,CTR-2025372,SO-500372,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6017.5,Bintulu,Alexandria,Egypt,Sea,MT Selangor Star,2026-03,2026-03-05,6030.3,,,True,False,12.8,0.21,,False
+SHP-700373,CTR-2025373,SO-500373,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5271.3,Bintulu,Rotterdam,Netherlands,Sea,MT Sabahan Pride,2025-10,,,,,False,False,,,,False
+SHP-700374,CTR-2025374,SO-500374,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6798.5,Lahad Datu,Jeddah,Saudi Arabia,Sea,MT Selangor Star,2025-10,2025-10-14,6794.3,,,True,False,-4.2,-0.06,,False
+SHP-700375,CTR-2025375,SO-500375,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),3216.8,Kuantan,Lagos,Nigeria,Sea,MT Selangor Star,2025-04,,,,,False,False,,,,False
+SHP-700376,CTR-2025376,SO-500376,MAT-1001,Acrylic Acid,6737.7,Westport,Alexandria,Egypt,Sea,MT Perak Navigator,2025-07,2025-08-06,6636.2,,,True,False,-101.5,-1.51,,False
+SHP-700377,CTR-2025377,SO-500377,MAT-1005,Thermoplastic Polyurethane (TPU),2444.7,Port Klang,Istanbul,Turkey,Sea,MT Sarawak Trader,2026-01,2026-01-26,2474.3,,,True,False,29.6,1.21,,False
+SHP-700378,CTR-2025378,SO-500378,MAT-1002,2-Ethylhexanoic Acid (2-EHA),6519.8,Port Klang,Kandla,India,Sea,MT Pahang Voyager,2025-11,2025-10-14,6367.7,,,True,False,-152.1,-2.33,,False
+SHP-700379,CTR-2025379,SO-500379,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5959.5,Westport,Guangzhou,China,Sea,MT Sabahan Pride,2026-06,2026-06-08,6008.8,LC-90379,2026-05-18,True,True,49.3,0.83,-21.0,False
+SHP-700380,CTR-2025380,SO-500380,MAT-1003,2-Ethylhexanol (Oxo Alcohol),5076.7,Westport,Istanbul,Turkey,Sea,MT Selangor Star,2025-09,2025-10-17,5091.2,,,True,False,14.5,0.29,,False
+SHP-700381,CTR-2025381,SO-500381,MAT-1008,Crop Protection Herbicide Formulation,1017.2,Pasir Gudang,Kandla,India,Sea,MT Pahang Voyager,2025-08,2025-09-30,1000.0,,,True,False,-17.2,-1.69,,False
+SHP-700382,CTR-2025382,SO-500382,MAT-1008,Crop Protection Herbicide Formulation,7296.9,Port Klang,Chennai,India,Sea,MT Sarawak Trader,2026-06,2026-05-27,7242.1,LC-90382,2026-04-29,True,True,-54.8,-0.75,-28.0,False
+SHP-700383,CTR-2025383,SO-500383,MAT-1007,Battery-Grade Lithium Hydroxide,990.2,Pasir Gudang,Guangzhou,China,Sea,MT Melaka Horizon,2025-07,,,,,False,False,,,,False
+SHP-700384,CTR-2025384,SO-500384,MAT-1006,Anionic Surfactant,7298.3,Kuantan,Los Angeles,USA,Sea,MT Pahang Voyager,2026-01,2026-01-16,7206.1,LC-90384,2025-12-21,True,True,-92.2,-1.26,-26.0,False
+SHP-700385,CTR-2025385,SO-500385,MAT-1003,2-Ethylhexanol (Oxo Alcohol),663.7,Pasir Gudang,Rotterdam,Netherlands,Sea,MT Perak Navigator,2025-09,2025-08-27,662.4,,,True,False,-1.3,-0.2,,False
+SHP-700386,CTR-2025386,SO-500386,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),891.9,Bintulu,Rotterdam,Netherlands,Sea,MT Kinabalu Spirit,2026-05,2026-05-29,908.9,LC-90386,2026-05-01,True,True,17.0,1.91,-28.0,False
+SHP-700387,CTR-2025387,SO-500387,MAT-1001,Acrylic Acid,5406.3,Westport,Chittagong,Bangladesh,Sea,MT Selangor Star,2025-06,2025-07-05,5369.5,,,True,False,-36.8,-0.68,,False
+SHP-700388,CTR-2025388,SO-500388,MAT-1005,Thermoplastic Polyurethane (TPU),5064.0,Kuantan,Alexandria,Egypt,Sea,MT Pahang Voyager,2025-02,,,LC-90388,2025-02-13,False,True,,,,False
+SHP-700389,CTR-2025389,SO-500389,MAT-1005,Thermoplastic Polyurethane (TPU),2189.9,Bintulu,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2025-07,2025-08-14,2181.5,LC-90389,2025-07-23,True,True,-8.4,-0.38,-22.0,False
+SHP-700390,CTR-2025390,SO-500390,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6951.0,Lahad Datu,"West Port, Malaysia",Malaysia,Sea,MT Labuan Wave,2025-02,,,,,False,False,,,,False
+SHP-700391,CTR-2025391,SO-500391,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4576.5,Westport,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2025-06,2025-06-08,4477.1,LC-90391,2025-05-28,True,True,-99.4,-2.17,-11.0,False
+SHP-700392,CTR-2025392,SO-500392,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),6874.8,Kuantan,Lagos,Nigeria,Sea,MT Melaka Horizon,2026-04,2026-04-08,6810.1,,,True,False,-64.7,-0.94,,False
+SHP-700393,CTR-2025393,SO-500393,MAT-1002,2-Ethylhexanoic Acid (2-EHA),4590.7,Lahad Datu,Chittagong,Bangladesh,Sea,MT Kinabalu Spirit,2025-09,2025-09-11,4638.1,,,True,False,47.4,1.03,,False
+SHP-700394,CTR-2025394,SO-500394,MAT-1001,Acrylic Acid,889.7,Westport,Colombo,Sri Lanka,Sea,MT Sabahan Pride,2025-06,2025-05-25,870.3,LC-90394,2025-05-02,True,True,-19.4,-2.18,-23.0,False
+SHP-700395,CTR-2025395,SO-500395,MAT-1005,Thermoplastic Polyurethane (TPU),6175.6,Kuantan,Istanbul,Turkey,Sea,MT Melaka Horizon,2025-10,2025-10-15,6261.4,,,True,False,85.8,1.39,,False
+SHP-700396,CTR-2025396,SO-500396,MAT-1003,2-Ethylhexanol (Oxo Alcohol),7029.3,Lahad Datu,Istanbul,Turkey,Sea,MT Perak Navigator,2026-06,2026-06-19,7164.6,,,True,False,135.3,1.92,,False
+SHP-700397,CTR-2025397,SO-500397,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),703.8,Bintulu,Los Angeles,USA,Sea,MT Melaka Horizon,2025-05,2025-06-07,701.6,LC-90397,2025-05-03,True,True,-2.2,-0.31,-35.0,False
+SHP-700398,CTR-2025398,SO-500398,MAT-1003,2-Ethylhexanol (Oxo Alcohol),1291.1,Port Klang,Colombo,Sri Lanka,Sea,MT Melaka Horizon,2025-04,2025-03-15,1276.9,,,True,False,-14.2,-1.1,,False
+SHP-700399,CTR-2025399,SO-500399,MAT-1006,Anionic Surfactant,7733.6,Port Klang,Chittagong,Bangladesh,Sea,MT Sarawak Trader,2025-09,2025-09-03,7808.2,LC-90399,2025-07-31,True,True,74.6,0.96,-34.0,False
+SHP-700400,CTR-2025400,SO-500400,MAT-1001,Acrylic Acid,5259.4,Bintulu,"West Port, Malaysia",Malaysia,Sea,MT Pahang Voyager,2026-05,2026-04-20,5342.3,,,True,False,82.9,1.58,,False
+SHP-700401,CTR-2025401,SO-500401,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1684.7,Westport,Chennai,India,Sea,MT Perak Navigator,2026-02,2026-02-13,1660.8,,,True,False,-23.9,-1.42,,False
+SHP-700402,CTR-2025402,SO-500402,MAT-1001,Acrylic Acid,7296.1,Port Klang,Jeddah,Saudi Arabia,Sea,MT Perak Navigator,2025-08,2025-08-31,7128.5,,,True,False,-167.6,-2.3,,False
+SHP-700403,CTR-2025403,SO-500403,MAT-1008,Crop Protection Herbicide Formulation,1881.7,Lahad Datu,Guangzhou,China,Sea,MT Melaka Horizon,2025-08,2025-09-04,1839.6,,,True,False,-42.1,-2.24,,False
+SHP-700404,CTR-2025404,SO-500404,MAT-1005,Thermoplastic Polyurethane (TPU),5114.7,Lahad Datu,Kandla,India,Sea,MT Labuan Wave,2025-04,2025-04-24,5166.8,,,True,False,52.1,1.02,,False
+SHP-700405,CTR-2025405,SO-500405,MAT-1006,Anionic Surfactant,7753.4,Bintulu,Lagos,Nigeria,Sea,MT Labuan Wave,2025-09,2025-09-29,7779.7,,,True,False,26.3,0.34,,False
+SHP-700406,CTR-2025406,SO-500406,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1744.7,Westport,Jeddah,Saudi Arabia,Sea,MT Kinabalu Spirit,2026-02,2026-02-27,1693.5,LC-90406,2026-02-10,True,True,-51.2,-2.93,-17.0,False
+SHP-700407,CTR-2025407,SO-500407,MAT-1006,Anionic Surfactant,4455.5,Westport,Istanbul,Turkey,Sea,MT Pahang Voyager,2026-03,2026-03-17,4339.5,,,True,False,-116.0,-2.6,,False
+SHP-700408,CTR-2025408,SO-500408,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),1905.6,Westport,Jeddah,Saudi Arabia,Sea,MT Pahang Voyager,2026-06,2026-06-25,1900.0,,,True,False,-5.6,-0.29,,False
+SHP-700409,CTR-2025409,SO-500409,MAT-1002,2-Ethylhexanoic Acid (2-EHA),2857.6,Port Klang,Singapore,Singapore,Sea,MT Kinabalu Spirit,2025-06,2025-07-24,2837.5,,,True,False,-20.1,-0.7,,False
+SHP-700410,CTR-2025410,SO-500410,MAT-1008,Crop Protection Herbicide Formulation,4206.6,Lahad Datu,Singapore,Singapore,Sea,MT Sarawak Trader,2025-12,2025-12-29,4230.2,LC-90410,2025-12-12,True,True,23.6,0.56,-17.0,False
+SHP-700411,CTR-2025411,SO-500411,MAT-1007,Battery-Grade Lithium Hydroxide,1254.8,Port Klang,Istanbul,Turkey,Sea,MT Labuan Wave,2025-03,2025-03-19,1245.4,LC-90411,2025-02-15,True,True,-9.4,-0.75,-32.0,False
+SHP-700412,CTR-2025412,SO-500412,MAT-1001,Acrylic Acid,5383.6,Westport,Colombo,Sri Lanka,Sea,MT Perak Navigator,2025-12,2025-12-28,5448.6,,,True,False,65.0,1.21,,False
+SHP-700413,CTR-2025413,SO-500413,MAT-1005,Thermoplastic Polyurethane (TPU),7843.3,Kuantan,Karachi,Pakistan,Sea,MT Labuan Wave,2025-08,2025-08-22,7873.2,,,True,False,29.9,0.38,,False
+SHP-700414,CTR-2025414,SO-500414,MAT-1006,Anionic Surfactant,5647.5,Pasir Gudang,Guangzhou,China,Sea,MT Pahang Voyager,2026-02,2026-02-07,5719.7,,,True,False,72.2,1.28,,False
+SHP-700415,CTR-2025415,SO-500415,MAT-1007,Battery-Grade Lithium Hydroxide,6777.8,Westport,Guangzhou,China,Sea,MT Kinabalu Spirit,2025-10,2025-09-25,6809.7,,,True,False,31.9,0.47,,False
+SHP-700416,CTR-2025416,SO-500416,MAT-1006,Anionic Surfactant,2789.8,Pasir Gudang,Lagos,Nigeria,Sea,MT Melaka Horizon,2025-05,,,,,False,False,,,,False
+SHP-700417,CTR-2025417,SO-500417,MAT-1004,Highly Reactive Polyisobutene (HR-PIB),5398.7,Kuantan,Karachi,Pakistan,Sea,MT Sarawak Trader,2025-04,2025-04-10,5449.6,LC-90417,2025-03-20,True,True,50.9,0.94,-21.0,False
+SHP-700418,CTR-2025418,SO-500418,MAT-1006,Anionic Surfactant,2452.2,Port Klang,Guangzhou,China,Sea,MT Selangor Star,2025-10,2025-10-24,2447.3,,,True,False,-4.9,-0.2,,False
+SHP-700419,CTR-2025419,SO-500419,MAT-1008,Crop Protection Herbicide Formulation,3852.9,Kuantan,Jeddah,Saudi Arabia,Sea,MT Labuan Wave,2026-07,2026-07-01,3842.6,,,True,False,-10.3,-0.27,,False

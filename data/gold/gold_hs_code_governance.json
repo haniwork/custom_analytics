@@ -4,20 +4,20 @@
   "products_hs_expired": 6,
   "high_volume_products_missing_hs": [
     {
-      "product": "Palm Methyl Ester Biodiesel (B100)",
-      "quantity_mt": 232702.7
+      "product": "2-Ethylhexanoic Acid (2-EHA)",
+      "quantity_mt": 273025.7
     },
     {
-      "product": "RBD Palm Olein",
-      "quantity_mt": 273025.7
+      "product": "Battery-Grade Lithium Hydroxide",
+      "quantity_mt": 232702.7
     }
   ],
   "detail": [
     {
       "material_code": "MAT-1001",
-      "product": "Crude Palm Oil (CPO)",
-      "product_group": "Crude Oils",
-      "commodity_code_hs": "1511.10",
+      "product": "Acrylic Acid",
+      "product_group": "Industrial Solutions \u2013 Dispersions & Resins",
+      "commodity_code_hs": "2916.11",
       "hs_valid_from": "2024-01-07",
       "hs_valid_to": "2025-02-10",
       "reclassification_date": "",
@@ -29,11 +29,11 @@
     },
     {
       "material_code": "MAT-1002",
-      "product": "RBD Palm Olein",
-      "product_group": "Refined Oils",
+      "product": "2-Ethylhexanoic Acid (2-EHA)",
+      "product_group": "Chemicals \u2013 Petrochemicals",
       "commodity_code_hs": "",
       "hs_valid_from": "",
-      "hs_valid_to": NaN,
+      "hs_valid_to": "",
       "reclassification_date": "",
       "created_by": "SYS-BATCH",
       "changed_by": "analyst02",
@@ -43,9 +43,9 @@
     },
     {
       "material_code": "MAT-1003",
-      "product": "RBD Palm Stearin",
-      "product_group": "Refined Oils",
-      "commodity_code_hs": "1511.90",
+      "product": "2-Ethylhexanol (Oxo Alcohol)",
+      "product_group": "Chemicals \u2013 Petrochemicals",
+      "commodity_code_hs": "2905.16",
       "hs_valid_from": "2023-06-03",
       "hs_valid_to": "2025-01-15",
       "reclassification_date": "",
@@ -57,9 +57,9 @@
     },
     {
       "material_code": "MAT-1004",
-      "product": "RBD Palm Oil",
-      "product_group": "Refined Oils",
-      "commodity_code_hs": "1511.90",
+      "product": "Highly Reactive Polyisobutene (HR-PIB)",
+      "product_group": "Materials \u2013 Performance Materials",
+      "commodity_code_hs": "3902.20",
       "hs_valid_from": "2023-01-12",
       "hs_valid_to": "2024-10-20",
       "reclassification_date": "",
@@ -71,9 +71,9 @@
     },
     {
       "material_code": "MAT-1005",
-      "product": "Palm Kernel Oil (PKO)",
-      "product_group": "Kernel Oils",
-      "commodity_code_hs": "1513.29",
+      "product": "Thermoplastic Polyurethane (TPU)",
+      "product_group": "Materials \u2013 Performance Materials",
+      "commodity_code_hs": "3909.50",
       "hs_valid_from": "2023-10-12",
       "hs_valid_to": "2025-03-18",
       "reclassification_date": "2023-12-29",
@@ -85,9 +85,9 @@
     },
     {
       "material_code": "MAT-1006",
-      "product": "Palm Fatty Acid Distillate (PFAD)",
-      "product_group": "By-Products",
-      "commodity_code_hs": "3823.19",
+      "product": "Anionic Surfactant",
+      "product_group": "Nutrition & Care \u2013 Care Chemicals",
+      "commodity_code_hs": "3402.11",
       "hs_valid_from": "2023-07-02",
       "hs_valid_to": "2024-12-07",
       "reclassification_date": "2023-10-10",
@@ -99,11 +99,11 @@
     },
     {
       "material_code": "MAT-1007",
-      "product": "Palm Methyl Ester Biodiesel (B100)",
-      "product_group": "Biofuels",
+      "product": "Battery-Grade Lithium Hydroxide",
+      "product_group": "Surface Technologies \u2013 Battery Materials",
       "commodity_code_hs": "",
       "hs_valid_from": "",
-      "hs_valid_to": NaN,
+      "hs_valid_to": "",
       "reclassification_date": "2024-03-23",
       "created_by": "SYS-BATCH",
       "changed_by": "analyst02",
@@ -113,9 +113,9 @@
     },
     {
       "material_code": "MAT-1008",
-      "product": "Palm Kernel Expeller (PKE)",
-      "product_group": "By-Products",
-      "commodity_code_hs": "2306.60",
+      "product": "Crop Protection Herbicide Formulation",
+      "product_group": "Agricultural Solutions",
+      "commodity_code_hs": "3808.93",
       "hs_valid_from": "2023-02-17",
       "hs_valid_to": "2025-04-01",
       "reclassification_date": "2023-07-08",

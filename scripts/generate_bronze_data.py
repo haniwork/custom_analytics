@@ -2,16 +2,23 @@
 generate_bronze_data.py
 
 Generates fully SYNTHETIC "bronze" (raw) extracts that mimic the shape and
-field names of a palm-oil trading group's source systems:
+field names of a specialty-chemicals trading group's source systems:
 
   - trading.csv       -> mimics a trading/contract system (SPOT-style)
   - logistics_doc.csv -> mimics a logistics document control tower (LCT-style)
   - product_master.csv-> mimics ERP commodity-code / product master data (SAP-style)
   - risk_position.csv -> mimics a trading risk platform (RAVE-style)
 
-IMPORTANT: All company names, counterparties, vessels, values and IDs below
-are randomly generated for portfolio/demo purposes. Nothing here is drawn
-from, or represents, any real company's production data, credentials, or
+Product names/segments below are modeled on BASF's real, publicly disclosed
+business segments (Chemicals, Materials, Industrial Solutions, Nutrition &
+Care, Surface Technologies, Agricultural Solutions) and on the real,
+publicly announced product lines of BASF's Kuantan (Malaysia) Verbund site
+(acrylic monomers, oxo products, polyisobutene) -- all public information
+from basf.com. Everything else -- counterparties, contract values,
+shipments, quantities, prices, tariff/FTA figures, risk scores -- is
+randomly generated and does NOT represent any real BASF customer, contract,
+transaction, or business relationship. Nothing here is drawn from, or
+represents, any real company's production data, credentials, or
 infrastructure.
 """
 
@@ -34,33 +41,39 @@ N_SHIPMENTS = 420
 # Reference lists (synthetic)
 # ---------------------------------------------------------------------------
 
+# Product names/segments reflect BASF's real public business segments and,
+# for the first four, the real publicly-announced product lines of BASF's
+# Kuantan (Malaysia) Verbund site. HS codes are illustrative best-fit
+# classifications for the product category, not verified customs rulings.
 PRODUCTS = [
-    ("MAT-1001", "Crude Palm Oil (CPO)", "Crude Oils", "1511.10"),
-    ("MAT-1002", "RBD Palm Olein", "Refined Oils", "1511.90"),
-    ("MAT-1003", "RBD Palm Stearin", "Refined Oils", "1511.90"),
-    ("MAT-1004", "RBD Palm Oil", "Refined Oils", "1511.90"),
-    ("MAT-1005", "Palm Kernel Oil (PKO)", "Kernel Oils", "1513.29"),
-    ("MAT-1006", "Palm Fatty Acid Distillate (PFAD)", "By-Products", "3823.19"),
-    ("MAT-1007", "Palm Methyl Ester Biodiesel (B100)", "Biofuels", "3826.00"),
-    ("MAT-1008", "Palm Kernel Expeller (PKE)", "By-Products", "2306.60"),
+    ("MAT-1001", "Acrylic Acid", "Industrial Solutions – Dispersions & Resins", "2916.11"),
+    ("MAT-1002", "2-Ethylhexanoic Acid (2-EHA)", "Chemicals – Petrochemicals", "2915.90"),
+    ("MAT-1003", "2-Ethylhexanol (Oxo Alcohol)", "Chemicals – Petrochemicals", "2905.16"),
+    ("MAT-1004", "Highly Reactive Polyisobutene (HR-PIB)", "Materials – Performance Materials", "3902.20"),
+    ("MAT-1005", "Thermoplastic Polyurethane (TPU)", "Materials – Performance Materials", "3909.50"),
+    ("MAT-1006", "Anionic Surfactant", "Nutrition & Care – Care Chemicals", "3402.11"),
+    ("MAT-1007", "Battery-Grade Lithium Hydroxide", "Surface Technologies – Battery Materials", "2825.20"),
+    ("MAT-1008", "Crop Protection Herbicide Formulation", "Agricultural Solutions", "3808.93"),
 ]
 
+# Fictional counterparties (buyers/distributors) -- names, countries and
+# brokers are randomly generated and do not represent any real company.
 COUNTERPARTIES = [
-    ("CP-01", "Ganga Agro Traders", "India", "Broker-A"),
-    ("CP-02", "Meridian Oleo Pvt Ltd", "India", "Broker-A"),
-    ("CP-03", "Rotterdam Fats & Oils BV", "Netherlands", "Broker-B"),
-    ("CP-04", "Nile Delta Vegetable Oils", "Egypt", "Broker-C"),
-    ("CP-05", "Karachi Edible Oil Co.", "Pakistan", "Broker-C"),
-    ("CP-06", "Shanghai Huifeng Trading", "China", "Broker-D"),
-    ("CP-07", "Guangzhou Oleochem Ltd", "China", "Broker-D"),
-    ("CP-08", "EuroFat Amsterdam", "Netherlands", "Broker-B"),
-    ("CP-09", "Lagos Vegetable Oil Ltd", "Nigeria", "Broker-E"),
-    ("CP-10", "Istanbul Bitkisel Yag", "Turkey", "Broker-E"),
-    ("CP-11", "Chittagong Oil Refinery", "Bangladesh", "Broker-C"),
-    ("CP-12", "PT Nusantara Lipid", "Indonesia", "Broker-F"),
-    ("CP-13", "California Biofuels Inc", "USA", "Broker-G"),
-    ("CP-14", "Colombo Fats Trading", "Sri Lanka", "Broker-C"),
-    ("CP-15", "Jeddah Oils & Fats Co", "Saudi Arabia", "Broker-E"),
+    ("CP-01", "Ganga Polymer Traders", "India", "Broker-A"),
+    ("CP-02", "Meridian Specialty Chemicals Pvt Ltd", "India", "Broker-A"),
+    ("CP-03", "Rotterdam ChemTrade BV", "Netherlands", "Broker-B"),
+    ("CP-04", "Nile Delta Industrial Chemicals", "Egypt", "Broker-C"),
+    ("CP-05", "Karachi Polymer Co.", "Pakistan", "Broker-C"),
+    ("CP-06", "Shanghai Huifeng Chemicals", "China", "Broker-D"),
+    ("CP-07", "Guangzhou Performance Materials Ltd", "China", "Broker-D"),
+    ("CP-08", "EuroChem Amsterdam", "Netherlands", "Broker-B"),
+    ("CP-09", "Lagos Industrial Chemicals Ltd", "Nigeria", "Broker-E"),
+    ("CP-10", "Istanbul Kimya Sanayi", "Turkey", "Broker-E"),
+    ("CP-11", "Chittagong Specialty Chemicals", "Bangladesh", "Broker-C"),
+    ("CP-12", "PT Nusantara Polymer", "Indonesia", "Broker-F"),
+    ("CP-13", "California Advanced Materials Inc", "USA", "Broker-G"),
+    ("CP-14", "Colombo Chemtrade", "Sri Lanka", "Broker-C"),
+    ("CP-15", "Jeddah Petrochemicals Co", "Saudi Arabia", "Broker-E"),
 ]
 
 LOAD_PORTS = ["Port Klang", "Westport", "Pasir Gudang", "Kuantan", "Lahad Datu", "Bintulu"]
@@ -161,7 +174,7 @@ def gen_trading():
             "sales_order": f"SO-{500000+i}",
             "shipment_id": f"SHP-{700000+i}",
             "contract_date": contract_date.date().isoformat(),
-            "profit_center": random.choice(["PC-Trading-MY", "PC-Trading-SG", "PC-Refining-MY"]),
+            "profit_center": random.choice(["PC-Trading-MY", "PC-Trading-SG", "PC-Manufacturing-MY"]),
             "counterparty_id": counterparty[0],
             "counterparty_name": counterparty[1],
             "broker": counterparty[3],

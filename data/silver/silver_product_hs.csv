@@ -1,9 +1,9 @@
 material_code,product,product_group,commodity_code_hs,hs_valid_from,hs_valid_to,reclassification_date,created_by,changed_by,last_changed_date,has_hs_code,hs_expired
-MAT-1001,Crude Palm Oil (CPO),Crude Oils,1511.10,2024-01-07,2025-02-10,,SYS-BATCH,analyst02,2024-01-16,True,True
-MAT-1002,RBD Palm Olein,Refined Oils,,,,,SYS-BATCH,analyst02,2023-09-27,False,False
-MAT-1003,RBD Palm Stearin,Refined Oils,1511.90,2023-06-03,2025-01-15,,SYS-BATCH,analyst01,2023-11-12,True,True
-MAT-1004,RBD Palm Oil,Refined Oils,1511.90,2023-01-12,2024-10-20,,SYS-BATCH,trade.compliance,2023-10-01,True,True
-MAT-1005,Palm Kernel Oil (PKO),Kernel Oils,1513.29,2023-10-12,2025-03-18,2023-12-29,SYS-BATCH,analyst01,2024-06-04,True,True
-MAT-1006,Palm Fatty Acid Distillate (PFAD),By-Products,3823.19,2023-07-02,2024-12-07,2023-10-10,SYS-BATCH,analyst02,2024-01-06,True,True
-MAT-1007,Palm Methyl Ester Biodiesel (B100),Biofuels,,,,2024-03-23,SYS-BATCH,analyst02,2024-03-28,False,False
-MAT-1008,Palm Kernel Expeller (PKE),By-Products,2306.60,2023-02-17,2025-04-01,2023-07-08,SYS-BATCH,trade.compliance,2023-03-29,True,True
+MAT-1001,Acrylic Acid,Industrial Solutions – Dispersions & Resins,2916.11,2024-01-07,2025-02-10,,SYS-BATCH,analyst02,2024-01-16,True,True
+MAT-1002,2-Ethylhexanoic Acid (2-EHA),Chemicals – Petrochemicals,,,,,SYS-BATCH,analyst02,2023-09-27,False,False
+MAT-1003,2-Ethylhexanol (Oxo Alcohol),Chemicals – Petrochemicals,2905.16,2023-06-03,2025-01-15,,SYS-BATCH,analyst01,2023-11-12,True,True
+MAT-1004,Highly Reactive Polyisobutene (HR-PIB),Materials – Performance Materials,3902.20,2023-01-12,2024-10-20,,SYS-BATCH,trade.compliance,2023-10-01,True,True
+MAT-1005,Thermoplastic Polyurethane (TPU),Materials – Performance Materials,3909.50,2023-10-12,2025-03-18,2023-12-29,SYS-BATCH,analyst01,2024-06-04,True,True
+MAT-1006,Anionic Surfactant,Nutrition & Care – Care Chemicals,3402.11,2023-07-02,2024-12-07,2023-10-10,SYS-BATCH,analyst02,2024-01-06,True,True
+MAT-1007,Battery-Grade Lithium Hydroxide,Surface Technologies – Battery Materials,,,,2024-03-23,SYS-BATCH,analyst02,2024-03-28,False,False
+MAT-1008,Crop Protection Herbicide Formulation,Agricultural Solutions,3808.93,2023-02-17,2025-04-01,2023-07-08,SYS-BATCH,trade.compliance,2023-03-29,True,True

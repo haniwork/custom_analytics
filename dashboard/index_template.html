@@ -248,7 +248,7 @@
   <p class="subtitle">A KPI scorecard &amp; customs analytics control tower — one set of dashboards for documentation compliance, HS code governance, duty &amp; FTA optimization, and trade risk performance.</p>
 </header>
 <div class="disclaimer">
-  <strong>Portfolio disclaimer:</strong> All figures, counterparties, contracts, vessels, tariff rates and FTA schemes shown on this dashboard are <strong>synthetically generated</strong> for demonstration purposes only. This project does not use, reference, or expose any real employer data, credentials, or infrastructure, and it is not a substitute for validated customs/duty data (e.g. SAP GTS). Duty and FTA figures are illustrative proxies only and require SME validation before any business use.
+  <strong>Portfolio disclaimer:</strong> Product categories are modeled on BASF's real, publicly disclosed business segments (basf.com) for realism. Everything else on this dashboard, including all counterparties, contracts, vessels, quantities, prices, tariff rates and FTA schemes, is <strong>synthetically generated</strong> for demonstration purposes only and does not represent any real BASF customer, transaction, shipment, or business relationship. This project does not use, reference, or expose any real employer data, credentials, or infrastructure, and it is not a substitute for validated customs/duty data (e.g. SAP GTS). Duty and FTA figures are illustrative proxies only and require SME validation before any business use.
 </div>
 
 <nav class="tabs" id="tabNav"></nav>
@@ -390,7 +390,7 @@ function buildOverview(container) {
   const d = DATA.trade_overview;
   container.appendChild(el("div", {class: "panel"}, [
     el("h2", {}, "Project narrative"),
-    el("p", {}, "Illustrative, Oil Palm Company-style data pulled from four typical trade-org source systems and rolled up into one set of KPI scorecards:"),
+    el("p", {}, "Illustrative data, using BASF's real public business segments as product categories, pulled from four typical trade-org source systems and rolled up into one set of KPI scorecards:"),
     el("ul", {class: "source-list"}, [
       el("li", {}, [el("span", {class: "src-name"}, "Trading / Contract system"), el("span", {class: "src-desc"}, "commercial backbone — counterparties, product, pricing, contract terms")]),
       el("li", {}, [el("span", {class: "src-name"}, "Logistics Control Tower"), el("span", {class: "src-desc"}, "customs & document compliance tracking — K2, COO, BL, stage gates")]),

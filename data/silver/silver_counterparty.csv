@@ -1,16 +1,16 @@
 counterparty_id,counterparty_name,broker
-CP-12,PT Nusantara Lipid,Broker-F
-CP-04,Nile Delta Vegetable Oils,Broker-C
-CP-13,California Biofuels Inc,Broker-G
-CP-06,Shanghai Huifeng Trading,Broker-D
-CP-10,Istanbul Bitkisel Yag,Broker-E
-CP-11,Chittagong Oil Refinery,Broker-C
-CP-03,Rotterdam Fats & Oils BV,Broker-B
-CP-15,Jeddah Oils & Fats Co,Broker-E
-CP-09,Lagos Vegetable Oil Ltd,Broker-E
-CP-02,Meridian Oleo Pvt Ltd,Broker-A
-CP-01,Ganga Agro Traders,Broker-A
-CP-05,Karachi Edible Oil Co.,Broker-C
-CP-07,Guangzhou Oleochem Ltd,Broker-D
-CP-08,EuroFat Amsterdam,Broker-B
-CP-14,Colombo Fats Trading,Broker-C
+CP-12,PT Nusantara Polymer,Broker-F
+CP-04,Nile Delta Industrial Chemicals,Broker-C
+CP-13,California Advanced Materials Inc,Broker-G
+CP-06,Shanghai Huifeng Chemicals,Broker-D
+CP-10,Istanbul Kimya Sanayi,Broker-E
+CP-11,Chittagong Specialty Chemicals,Broker-C
+CP-03,Rotterdam ChemTrade BV,Broker-B
+CP-15,Jeddah Petrochemicals Co,Broker-E
+CP-09,Lagos Industrial Chemicals Ltd,Broker-E
+CP-02,Meridian Specialty Chemicals Pvt Ltd,Broker-A
+CP-01,Ganga Polymer Traders,Broker-A
+CP-05,Karachi Polymer Co.,Broker-C
+CP-07,Guangzhou Performance Materials Ltd,Broker-D
+CP-08,EuroChem Amsterdam,Broker-B
+CP-14,Colombo Chemtrade,Broker-C

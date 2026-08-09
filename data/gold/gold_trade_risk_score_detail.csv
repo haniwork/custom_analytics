@@ -1,421 +1,421 @@
 shipment_id,contract_ref,counterparty_name,product,discharge_port,lc_number,payment_terms_id,k2_flag,k2_chit_flag,customs_release_flag,customs_official_receipt_flag,certificate_of_origin_flag,bill_of_lading_flag,shipment_tender_flag,loi_flag,has_hs_code,limit_utilisation_pct,risk_score,rag
-SHP-700000,CTR-2025000,PT Nusantara Lipid,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,140.0,2,Amber
-SHP-700001,CTR-2025001,Nile Delta Vegetable Oils,RBD Palm Oil,Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700002,CTR-2025002,California Biofuels Inc,Crude Palm Oil (CPO),Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,38.8,0,Green
-SHP-700003,CTR-2025003,Shanghai Huifeng Trading,RBD Palm Olein,"West Port, Malaysia",LC-90003,LC at sight,Y,N,Y,Y,N/A,Y,Y,N,False,,2,Amber
-SHP-700004,CTR-2025004,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Alexandria,LC-90004,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700005,CTR-2025005,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT 60 days,N,Y,Y,N,N/A,Y,Y,N,True,28.3,1,Green
-SHP-700006,CTR-2025006,Rotterdam Fats & Oils BV,RBD Palm Oil,Lagos,,TT 60 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700007,CTR-2025007,Nile Delta Vegetable Oils,RBD Palm Olein,Singapore,LC-90007,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700008,CTR-2025008,Jeddah Oils & Fats Co,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,18.6,1,Green
-SHP-700009,CTR-2025009,California Biofuels Inc,RBD Palm Stearin,Colombo,LC-90009,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,24.3,1,Green
-SHP-700010,CTR-2025010,California Biofuels Inc,Palm Kernel Oil (PKO),Colombo,,TT 60 days,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
-SHP-700011,CTR-2025011,Lagos Vegetable Oil Ltd,RBD Palm Stearin,Singapore,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700012,CTR-2025012,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),Shanghai,LC-90012,LC at sight,Y,N,Y,N,N,Y,Y,N,True,,2,Amber
-SHP-700013,CTR-2025013,PT Nusantara Lipid,RBD Palm Olein,Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700014,CTR-2025014,Jeddah Oils & Fats Co,RBD Palm Oil,Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700015,CTR-2025015,Nile Delta Vegetable Oils,RBD Palm Oil,Kandla,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,136.1,2,Amber
-SHP-700016,CTR-2025016,Meridian Oleo Pvt Ltd,RBD Palm Oil,Singapore,LC-90016,LC at sight,Y,Y,Y,N,N,Y,N,N,True,,1,Green
-SHP-700017,CTR-2025017,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Los Angeles,LC-90017,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700018,CTR-2025018,Ganga Agro Traders,RBD Palm Olein,Guangzhou,LC-90018,LC at sight,N,N,Y,Y,Y,N,Y,Y,False,,4,Red
-SHP-700019,CTR-2025019,Karachi Edible Oil Co.,RBD Palm Stearin,Lagos,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,34.8,1,Green
-SHP-700020,CTR-2025020,Guangzhou Oleochem Ltd,RBD Palm Stearin,Lagos,LC-90020,LC 90 days,N,Y,N,Y,N,Y,Y,N,True,,2,Amber
-SHP-700021,CTR-2025021,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Jeddah,,TT 30 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700022,CTR-2025022,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Chennai,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,14.7,1,Green
-SHP-700023,CTR-2025023,Istanbul Bitkisel Yag,RBD Palm Olein,Kandla,LC-90023,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700024,CTR-2025024,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Karachi,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
-SHP-700025,CTR-2025025,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700026,CTR-2025026,Jeddah Oils & Fats Co,RBD Palm Stearin,Shanghai,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700027,CTR-2025027,Chittagong Oil Refinery,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90027,LC at sight,N,Y,Y,N,Y,N,Y,N,True,,2,Amber
-SHP-700028,CTR-2025028,PT Nusantara Lipid,RBD Palm Oil,Shanghai,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700029,CTR-2025029,Ganga Agro Traders,Crude Palm Oil (CPO),Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,56.9,0,Green
-SHP-700030,CTR-2025030,Lagos Vegetable Oil Ltd,RBD Palm Stearin,Chennai,LC-90030,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700031,CTR-2025031,Chittagong Oil Refinery,RBD Palm Oil,Kandla,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700032,CTR-2025032,PT Nusantara Lipid,RBD Palm Stearin,Singapore,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,11.5,1,Green
-SHP-700033,CTR-2025033,Nile Delta Vegetable Oils,RBD Palm Oil,"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700034,CTR-2025034,California Biofuels Inc,RBD Palm Olein,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700035,CTR-2025035,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Chittagong,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700036,CTR-2025036,PT Nusantara Lipid,Crude Palm Oil (CPO),Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700037,CTR-2025037,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700038,CTR-2025038,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Jeddah,LC-90038,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
-SHP-700039,CTR-2025039,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Lagos,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700040,CTR-2025040,Colombo Fats Trading,RBD Palm Olein,Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
-SHP-700041,CTR-2025041,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Singapore,LC-90041,LC 90 days,Y,N,N,Y,Y,Y,Y,Y,True,58.4,1,Green
-SHP-700042,CTR-2025042,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),Rotterdam,LC-90042,LC at sight,N,Y,Y,N,Y,Y,Y,Y,False,,2,Amber
-SHP-700043,CTR-2025043,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Singapore,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700044,CTR-2025044,California Biofuels Inc,Palm Kernel Oil (PKO),Los Angeles,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700045,CTR-2025045,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Shanghai,,TT 30 days,Y,N,Y,Y,Y,Y,N,N,True,,1,Green
-SHP-700046,CTR-2025046,Guangzhou Oleochem Ltd,RBD Palm Olein,Guangzhou,LC-90046,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,79.3,1,Green
-SHP-700047,CTR-2025047,Ganga Agro Traders,Palm Kernel Expeller (PKE),Shanghai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700048,CTR-2025048,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700049,CTR-2025049,Chittagong Oil Refinery,RBD Palm Olein,Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700050,CTR-2025050,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT 60 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
-SHP-700051,CTR-2025051,Nile Delta Vegetable Oils,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90051,LC at sight,Y,N,Y,N,N,Y,N,Y,True,,2,Amber
-SHP-700052,CTR-2025052,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Kandla,LC-90052,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,81.5,2,Amber
-SHP-700053,CTR-2025053,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700054,CTR-2025054,PT Nusantara Lipid,RBD Palm Olein,Los Angeles,,TT advance,Y,Y,N,N,Y,Y,Y,Y,False,,1,Green
-SHP-700055,CTR-2025055,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",LC-90055,LC at sight,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700056,CTR-2025056,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Los Angeles,LC-90056,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700057,CTR-2025057,California Biofuels Inc,RBD Palm Oil,Lagos,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700058,CTR-2025058,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,41.9,1,Green
-SHP-700059,CTR-2025059,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90059,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,False,,2,Amber
-SHP-700060,CTR-2025060,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Chittagong,LC-90060,LC 90 days,Y,N,Y,Y,N,Y,N,Y,True,,2,Amber
-SHP-700061,CTR-2025061,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Kandla,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700062,CTR-2025062,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 30 days,N,Y,Y,Y,N/A,Y,Y,Y,True,,1,Green
-SHP-700063,CTR-2025063,Ganga Agro Traders,Palm Kernel Oil (PKO),Chennai,,TT 30 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
-SHP-700064,CTR-2025064,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Shanghai,LC-90064,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700065,CTR-2025065,Rotterdam Fats & Oils BV,RBD Palm Stearin,Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700066,CTR-2025066,Karachi Edible Oil Co.,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,Y,N,Y,N,True,28.4,1,Green
-SHP-700067,CTR-2025067,Rotterdam Fats & Oils BV,RBD Palm Oil,Istanbul,LC-90067,LC at sight,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700068,CTR-2025068,PT Nusantara Lipid,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT 60 days,N,Y,Y,N,N,Y,Y,Y,True,,2,Amber
-SHP-700069,CTR-2025069,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Chennai,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700070,CTR-2025070,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Istanbul,LC-90070,LC at sight,Y,Y,Y,N,Y,Y,N,N,True,132.3,1,Green
-SHP-700071,CTR-2025071,Chittagong Oil Refinery,RBD Palm Oil,"West Port, Malaysia",,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700072,CTR-2025072,Istanbul Bitkisel Yag,RBD Palm Stearin,Guangzhou,LC-90072,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
-SHP-700073,CTR-2025073,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Jeddah,LC-90073,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700074,CTR-2025074,California Biofuels Inc,RBD Palm Olein,Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700075,CTR-2025075,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Lagos,,TT 60 days,Y,N,Y,N,Y,Y,Y,Y,True,,1,Green
-SHP-700076,CTR-2025076,Chittagong Oil Refinery,Crude Palm Oil (CPO),Chittagong,,TT 60 days,Y,Y,Y,N,Y,N,Y,N,True,48.0,1,Green
-SHP-700077,CTR-2025077,EuroFat Amsterdam,RBD Palm Olein,Kandla,LC-90077,LC 90 days,Y,Y,Y,Y,N,Y,N,N,False,,2,Amber
-SHP-700078,CTR-2025078,Guangzhou Oleochem Ltd,RBD Palm Stearin,Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,80.6,2,Amber
-SHP-700079,CTR-2025079,Colombo Fats Trading,Palm Kernel Oil (PKO),Chittagong,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700080,CTR-2025080,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Shanghai,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700081,CTR-2025081,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,LC-90081,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700082,CTR-2025082,PT Nusantara Lipid,Crude Palm Oil (CPO),Rotterdam,LC-90082,LC at sight,Y,N,N,Y,Y,Y,N,N,True,,1,Green
-SHP-700083,CTR-2025083,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Colombo,LC-90083,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700084,CTR-2025084,Guangzhou Oleochem Ltd,RBD Palm Olein,Kandla,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,73.1,1,Green
-SHP-700085,CTR-2025085,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,Y,N,N,Y,Y,N,True,93.0,2,Amber
-SHP-700086,CTR-2025086,EuroFat Amsterdam,RBD Palm Oil,Singapore,,TT 30 days,N,N,Y,Y,Y,Y,Y,Y,True,32.0,2,Amber
-SHP-700087,CTR-2025087,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Istanbul,LC-90087,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700088,CTR-2025088,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Lagos,,TT advance,N,N,N,Y,Y,Y,N,N,False,,3,Amber
-SHP-700089,CTR-2025089,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700090,CTR-2025090,Istanbul Bitkisel Yag,RBD Palm Oil,Karachi,LC-90090,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700091,CTR-2025091,Jeddah Oils & Fats Co,RBD Palm Olein,Karachi,,TT 30 days,Y,N,Y,Y,Y,N,Y,Y,False,,3,Amber
-SHP-700092,CTR-2025092,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700093,CTR-2025093,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Los Angeles,LC-90093,LC at sight,Y,N,Y,Y,N,Y,Y,Y,False,,3,Amber
-SHP-700094,CTR-2025094,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Guangzhou,LC-90094,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700095,CTR-2025095,Chittagong Oil Refinery,RBD Palm Olein,"West Port, Malaysia",LC-90095,LC 90 days,Y,Y,Y,Y,Y,N,Y,Y,False,27.7,2,Amber
-SHP-700096,CTR-2025096,Jeddah Oils & Fats Co,RBD Palm Oil,Istanbul,LC-90096,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
-SHP-700097,CTR-2025097,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Chennai,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,19.6,2,Amber
-SHP-700098,CTR-2025098,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90098,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700099,CTR-2025099,California Biofuels Inc,Crude Palm Oil (CPO),Shanghai,LC-90099,LC at sight,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
-SHP-700100,CTR-2025100,Colombo Fats Trading,Palm Kernel Oil (PKO),Rotterdam,,TT 30 days,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700101,CTR-2025101,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700102,CTR-2025102,EuroFat Amsterdam,RBD Palm Olein,Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700103,CTR-2025103,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90103,LC at sight,N,Y,Y,Y,Y,Y,N,N,False,,2,Amber
-SHP-700104,CTR-2025104,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Istanbul,,TT advance,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
-SHP-700105,CTR-2025105,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Singapore,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,False,72.8,1,Green
-SHP-700106,CTR-2025106,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,54.6,2,Amber
-SHP-700107,CTR-2025107,PT Nusantara Lipid,RBD Palm Olein,Jeddah,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700108,CTR-2025108,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Chittagong,LC-90108,LC at sight,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700109,CTR-2025109,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Istanbul,,TT 60 days,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700110,CTR-2025110,Ganga Agro Traders,Palm Kernel Oil (PKO),Rotterdam,,TT 60 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
-SHP-700111,CTR-2025111,Rotterdam Fats & Oils BV,RBD Palm Olein,Jeddah,LC-90111,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700112,CTR-2025112,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Jeddah,LC-90112,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700113,CTR-2025113,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Lagos,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,140.0,3,Amber
-SHP-700114,CTR-2025114,Lagos Vegetable Oil Ltd,Palm Kernel Expeller (PKE),Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700115,CTR-2025115,California Biofuels Inc,RBD Palm Stearin,Karachi,LC-90115,LC at sight,Y,Y,N,Y,Y,N,Y,N,True,,1,Green
-SHP-700116,CTR-2025116,Lagos Vegetable Oil Ltd,RBD Palm Oil,Istanbul,LC-90116,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,22.4,1,Green
-SHP-700117,CTR-2025117,Istanbul Bitkisel Yag,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90117,LC at sight,Y,Y,Y,Y,Y,N,Y,Y,False,,2,Amber
-SHP-700118,CTR-2025118,Guangzhou Oleochem Ltd,RBD Palm Olein,"West Port, Malaysia",LC-90118,LC 90 days,Y,N,Y,Y,N/A,Y,Y,N,False,,2,Amber
-SHP-700119,CTR-2025119,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700120,CTR-2025120,Rotterdam Fats & Oils BV,RBD Palm Olein,Karachi,,TT advance,Y,Y,Y,N,Y,N,Y,Y,False,,2,Amber
-SHP-700121,CTR-2025121,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Singapore,,TT 60 days,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700122,CTR-2025122,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Chennai,LC-90122,LC 90 days,Y,Y,Y,N,N,Y,Y,N,True,26.8,1,Green
-SHP-700123,CTR-2025123,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT advance,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
-SHP-700124,CTR-2025124,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700125,CTR-2025125,Shanghai Huifeng Trading,RBD Palm Stearin,Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,76.0,0,Green
-SHP-700126,CTR-2025126,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700127,CTR-2025127,Karachi Edible Oil Co.,RBD Palm Olein,Istanbul,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700128,CTR-2025128,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90128,LC 90 days,N,Y,Y,N,Y,Y,N,N,True,,1,Green
-SHP-700129,CTR-2025129,Chittagong Oil Refinery,Crude Palm Oil (CPO),Shanghai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700130,CTR-2025130,Ganga Agro Traders,Palm Kernel Expeller (PKE),Guangzhou,,TT advance,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700131,CTR-2025131,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
-SHP-700132,CTR-2025132,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
-SHP-700133,CTR-2025133,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,LC-90133,LC 90 days,Y,N,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700134,CTR-2025134,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Chennai,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,67.3,1,Green
-SHP-700135,CTR-2025135,Colombo Fats Trading,RBD Palm Olein,Jeddah,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700136,CTR-2025136,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Chennai,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700137,CTR-2025137,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,False,,3,Amber
-SHP-700138,CTR-2025138,Meridian Oleo Pvt Ltd,RBD Palm Olein,"West Port, Malaysia",,TT advance,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700139,CTR-2025139,Istanbul Bitkisel Yag,RBD Palm Oil,Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700140,CTR-2025140,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90140,LC 90 days,Y,N,Y,Y,N/A,Y,N,N,True,,1,Green
-SHP-700141,CTR-2025141,California Biofuels Inc,RBD Palm Olein,Chittagong,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700142,CTR-2025142,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Rotterdam,LC-90142,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,140.0,2,Amber
-SHP-700143,CTR-2025143,Lagos Vegetable Oil Ltd,Palm Kernel Oil (PKO),Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,27.8,0,Green
-SHP-700144,CTR-2025144,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,LC-90144,LC 90 days,N,Y,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700145,CTR-2025145,California Biofuels Inc,Palm Kernel Oil (PKO),Kandla,LC-90145,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,45.5,0,Green
-SHP-700146,CTR-2025146,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700147,CTR-2025147,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90147,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700148,CTR-2025148,Colombo Fats Trading,RBD Palm Stearin,Chittagong,LC-90148,LC at sight,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700149,CTR-2025149,Chittagong Oil Refinery,RBD Palm Stearin,Lagos,LC-90149,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700150,CTR-2025150,Meridian Oleo Pvt Ltd,RBD Palm Oil,Chennai,LC-90150,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700151,CTR-2025151,Istanbul Bitkisel Yag,RBD Palm Oil,Karachi,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700152,CTR-2025152,California Biofuels Inc,RBD Palm Olein,Colombo,LC-90152,LC at sight,Y,Y,Y,N,N,N,Y,N,False,,3,Amber
-SHP-700153,CTR-2025153,Meridian Oleo Pvt Ltd,RBD Palm Oil,Alexandria,LC-90153,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700154,CTR-2025154,Meridian Oleo Pvt Ltd,RBD Palm Olein,Karachi,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700155,CTR-2025155,EuroFat Amsterdam,Palm Kernel Expeller (PKE),Colombo,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700156,CTR-2025156,Lagos Vegetable Oil Ltd,RBD Palm Olein,Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700157,CTR-2025157,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Colombo,,TT 30 days,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
-SHP-700158,CTR-2025158,Chittagong Oil Refinery,RBD Palm Stearin,Chittagong,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700159,CTR-2025159,California Biofuels Inc,RBD Palm Oil,Chittagong,LC-90159,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700160,CTR-2025160,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Jeddah,LC-90160,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700161,CTR-2025161,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Jeddah,LC-90161,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700162,CTR-2025162,Meridian Oleo Pvt Ltd,Palm Kernel Expeller (PKE),Karachi,,TT 30 days,N,N,N,Y,Y,Y,Y,Y,True,,2,Amber
-SHP-700163,CTR-2025163,Colombo Fats Trading,RBD Palm Oil,Singapore,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700164,CTR-2025164,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Karachi,LC-90164,LC at sight,N,Y,Y,Y,Y,Y,N,Y,True,,1,Green
-SHP-700165,CTR-2025165,Karachi Edible Oil Co.,Crude Palm Oil (CPO),Lagos,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700166,CTR-2025166,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Guangzhou,LC-90166,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,45.2,0,Green
-SHP-700167,CTR-2025167,California Biofuels Inc,Palm Kernel Expeller (PKE),Istanbul,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700168,CTR-2025168,Nile Delta Vegetable Oils,RBD Palm Stearin,Chittagong,,TT advance,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700169,CTR-2025169,Rotterdam Fats & Oils BV,Palm Kernel Expeller (PKE),Chittagong,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700170,CTR-2025170,PT Nusantara Lipid,Palm Kernel Expeller (PKE),Chittagong,,TT 60 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
-SHP-700171,CTR-2025171,Karachi Edible Oil Co.,Palm Kernel Expeller (PKE),Colombo,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700172,CTR-2025172,Colombo Fats Trading,RBD Palm Stearin,Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700173,CTR-2025173,Guangzhou Oleochem Ltd,RBD Palm Stearin,Jeddah,LC-90173,LC at sight,Y,N,Y,Y,Y,N,Y,N,True,,2,Amber
-SHP-700174,CTR-2025174,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Rotterdam,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700175,CTR-2025175,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Karachi,LC-90175,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700176,CTR-2025176,Istanbul Bitkisel Yag,RBD Palm Olein,Colombo,LC-90176,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,False,22.3,2,Amber
-SHP-700177,CTR-2025177,Chittagong Oil Refinery,Palm Kernel Expeller (PKE),Karachi,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700178,CTR-2025178,Istanbul Bitkisel Yag,RBD Palm Olein,Jeddah,,TT 30 days,N,Y,Y,N,Y,Y,Y,Y,False,5.4,2,Amber
-SHP-700179,CTR-2025179,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90179,LC at sight,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
-SHP-700180,CTR-2025180,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Karachi,LC-90180,LC at sight,N,Y,N,Y,Y,N,N,Y,True,10.4,2,Amber
-SHP-700181,CTR-2025181,Rotterdam Fats & Oils BV,Palm Kernel Expeller (PKE),Singapore,LC-90181,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700182,CTR-2025182,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700183,CTR-2025183,Ganga Agro Traders,RBD Palm Stearin,Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700184,CTR-2025184,Guangzhou Oleochem Ltd,RBD Palm Olein,Colombo,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700185,CTR-2025185,EuroFat Amsterdam,RBD Palm Oil,Los Angeles,,TT advance,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700186,CTR-2025186,EuroFat Amsterdam,RBD Palm Olein,Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700187,CTR-2025187,Rotterdam Fats & Oils BV,RBD Palm Oil,Lagos,,TT advance,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700188,CTR-2025188,Chittagong Oil Refinery,RBD Palm Oil,Los Angeles,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,57.1,1,Green
-SHP-700189,CTR-2025189,Istanbul Bitkisel Yag,RBD Palm Oil,Istanbul,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700190,CTR-2025190,Jeddah Oils & Fats Co,RBD Palm Olein,Istanbul,LC-90190,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
-SHP-700191,CTR-2025191,PT Nusantara Lipid,Palm Kernel Oil (PKO),Chennai,LC-90191,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,112.1,1,Green
-SHP-700192,CTR-2025192,Jeddah Oils & Fats Co,RBD Palm Olein,Lagos,LC-90192,LC 90 days,N,N,Y,Y,Y,Y,Y,N,False,,3,Amber
-SHP-700193,CTR-2025193,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700194,CTR-2025194,Colombo Fats Trading,RBD Palm Oil,Chennai,LC-90194,LC 90 days,N,N,Y,Y,N,Y,Y,N,True,,3,Amber
-SHP-700195,CTR-2025195,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Karachi,LC-90195,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700196,CTR-2025196,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Colombo,LC-90196,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,118.4,2,Amber
-SHP-700197,CTR-2025197,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),"West Port, Malaysia",,TT advance,Y,N,N,Y,N/A,Y,Y,Y,True,,1,Green
-SHP-700198,CTR-2025198,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700199,CTR-2025199,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT 60 days,N,Y,N,Y,Y,N,Y,N,True,,2,Amber
-SHP-700200,CTR-2025200,Colombo Fats Trading,Palm Kernel Oil (PKO),Jeddah,LC-90200,LC at sight,Y,N,Y,N,Y,Y,Y,Y,True,,1,Green
-SHP-700201,CTR-2025201,Karachi Edible Oil Co.,RBD Palm Oil,Alexandria,LC-90201,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700202,CTR-2025202,Colombo Fats Trading,Crude Palm Oil (CPO),Kandla,LC-90202,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700203,CTR-2025203,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Alexandria,LC-90203,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700204,CTR-2025204,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Shanghai,LC-90204,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700205,CTR-2025205,Istanbul Bitkisel Yag,Crude Palm Oil (CPO),"West Port, Malaysia",LC-90205,LC at sight,Y,Y,Y,Y,N/A,N,Y,N,True,,1,Green
-SHP-700206,CTR-2025206,Guangzhou Oleochem Ltd,RBD Palm Oil,Chittagong,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700207,CTR-2025207,PT Nusantara Lipid,RBD Palm Stearin,Istanbul,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,140.0,2,Amber
-SHP-700208,CTR-2025208,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90208,LC at sight,Y,Y,Y,Y,N,Y,Y,N,False,71.2,2,Amber
-SHP-700209,CTR-2025209,Ganga Agro Traders,Palm Kernel Expeller (PKE),Chennai,LC-90209,LC at sight,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
-SHP-700210,CTR-2025210,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Singapore,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700211,CTR-2025211,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Lagos,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700212,CTR-2025212,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700213,CTR-2025213,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),Alexandria,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700214,CTR-2025214,Jeddah Oils & Fats Co,RBD Palm Stearin,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700215,CTR-2025215,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Singapore,LC-90215,LC 90 days,Y,N,N,Y,N,Y,Y,Y,False,63.2,3,Amber
-SHP-700216,CTR-2025216,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,False,,1,Green
-SHP-700217,CTR-2025217,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Shanghai,LC-90217,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700218,CTR-2025218,Meridian Oleo Pvt Ltd,RBD Palm Olein,Karachi,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,25.8,1,Green
-SHP-700219,CTR-2025219,EuroFat Amsterdam,Palm Kernel Oil (PKO),Shanghai,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
-SHP-700220,CTR-2025220,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,,TT advance,N,Y,Y,Y,N,Y,Y,N,False,,3,Amber
-SHP-700221,CTR-2025221,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Kandla,,TT advance,Y,Y,N,Y,N,Y,N,N,False,,2,Amber
-SHP-700222,CTR-2025222,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Lagos,,TT 30 days,N,Y,N,Y,Y,N,Y,N,True,,2,Amber
-SHP-700223,CTR-2025223,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Alexandria,,TT advance,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
-SHP-700224,CTR-2025224,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N/A,N,Y,Y,False,,2,Amber
-SHP-700225,CTR-2025225,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Chittagong,LC-90225,LC 90 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
-SHP-700226,CTR-2025226,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Karachi,LC-90226,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700227,CTR-2025227,California Biofuels Inc,Palm Kernel Expeller (PKE),Karachi,LC-90227,LC 90 days,N,N,Y,Y,N,N,N,Y,True,,4,Red
-SHP-700228,CTR-2025228,Meridian Oleo Pvt Ltd,Palm Methyl Ester Biodiesel (B100),Lagos,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700229,CTR-2025229,California Biofuels Inc,RBD Palm Olein,Alexandria,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,95.6,3,Amber
-SHP-700230,CTR-2025230,Karachi Edible Oil Co.,RBD Palm Olein,Alexandria,LC-90230,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700231,CTR-2025231,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90231,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700232,CTR-2025232,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Lagos,LC-90232,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,20.3,0,Green
-SHP-700233,CTR-2025233,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Kandla,,TT 30 days,Y,Y,Y,N,Y,N,N,Y,True,,1,Green
-SHP-700234,CTR-2025234,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Los Angeles,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700235,CTR-2025235,Istanbul Bitkisel Yag,Palm Kernel Expeller (PKE),Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
-SHP-700236,CTR-2025236,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700237,CTR-2025237,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),"West Port, Malaysia",,TT 60 days,Y,N,N,Y,N,Y,N,Y,True,,2,Amber
-SHP-700238,CTR-2025238,Shanghai Huifeng Trading,RBD Palm Stearin,Jeddah,LC-90238,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700239,CTR-2025239,EuroFat Amsterdam,RBD Palm Stearin,Karachi,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700240,CTR-2025240,Colombo Fats Trading,RBD Palm Oil,Guangzhou,LC-90240,LC 90 days,N,Y,Y,Y,Y,Y,N,N,True,46.2,1,Green
-SHP-700241,CTR-2025241,Karachi Edible Oil Co.,RBD Palm Oil,Chennai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700242,CTR-2025242,Istanbul Bitkisel Yag,RBD Palm Olein,Kandla,,TT advance,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
-SHP-700243,CTR-2025243,Karachi Edible Oil Co.,RBD Palm Oil,"West Port, Malaysia",,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700244,CTR-2025244,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Chittagong,,TT 30 days,Y,Y,N,Y,N,Y,Y,Y,False,,2,Amber
-SHP-700245,CTR-2025245,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
-SHP-700246,CTR-2025246,Nile Delta Vegetable Oils,RBD Palm Stearin,Rotterdam,,TT 30 days,N,Y,Y,Y,Y,Y,N,N,True,,1,Green
-SHP-700247,CTR-2025247,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90247,LC 90 days,Y,Y,Y,N,Y,Y,N,N,False,,1,Green
-SHP-700248,CTR-2025248,PT Nusantara Lipid,RBD Palm Olein,Lagos,LC-90248,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700249,CTR-2025249,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,11.9,0,Green
-SHP-700250,CTR-2025250,Meridian Oleo Pvt Ltd,Crude Palm Oil (CPO),Singapore,LC-90250,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700251,CTR-2025251,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Colombo,LC-90251,LC at sight,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700252,CTR-2025252,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,LC-90252,LC at sight,Y,N,Y,Y,Y,Y,N,N,False,,2,Amber
-SHP-700253,CTR-2025253,Ganga Agro Traders,Palm Kernel Expeller (PKE),Chennai,LC-90253,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700254,CTR-2025254,Meridian Oleo Pvt Ltd,RBD Palm Olein,Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700255,CTR-2025255,EuroFat Amsterdam,RBD Palm Stearin,Shanghai,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,30.2,1,Green
-SHP-700256,CTR-2025256,Istanbul Bitkisel Yag,RBD Palm Olein,Jeddah,LC-90256,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,False,140.0,3,Amber
-SHP-700257,CTR-2025257,California Biofuels Inc,Palm Kernel Oil (PKO),Jeddah,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,40.5,0,Green
-SHP-700258,CTR-2025258,Guangzhou Oleochem Ltd,Palm Kernel Expeller (PKE),Kandla,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700259,CTR-2025259,Shanghai Huifeng Trading,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90259,LC at sight,Y,N,Y,Y,Y,Y,Y,Y,False,46.3,2,Amber
-SHP-700260,CTR-2025260,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Karachi,LC-90260,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700261,CTR-2025261,Karachi Edible Oil Co.,RBD Palm Olein,Kandla,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,False,40.8,1,Green
-SHP-700262,CTR-2025262,PT Nusantara Lipid,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700263,CTR-2025263,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Jeddah,LC-90263,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700264,CTR-2025264,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Shanghai,LC-90264,LC at sight,Y,N,Y,Y,Y,Y,N,Y,True,140.0,2,Amber
-SHP-700265,CTR-2025265,EuroFat Amsterdam,RBD Palm Olein,Lagos,LC-90265,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,21.6,1,Green
-SHP-700266,CTR-2025266,PT Nusantara Lipid,RBD Palm Oil,Istanbul,LC-90266,LC at sight,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700267,CTR-2025267,Lagos Vegetable Oil Ltd,Crude Palm Oil (CPO),Los Angeles,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700268,CTR-2025268,Istanbul Bitkisel Yag,RBD Palm Olein,Shanghai,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700269,CTR-2025269,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Kandla,LC-90269,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700270,CTR-2025270,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Chittagong,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700271,CTR-2025271,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Chennai,LC-90271,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700272,CTR-2025272,Ganga Agro Traders,RBD Palm Olein,Singapore,LC-90272,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
-SHP-700273,CTR-2025273,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Colombo,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700274,CTR-2025274,Karachi Edible Oil Co.,Palm Kernel Expeller (PKE),Alexandria,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700275,CTR-2025275,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Kandla,,TT 30 days,N,N,Y,Y,N,N,N,Y,True,49.7,4,Red
-SHP-700276,CTR-2025276,California Biofuels Inc,RBD Palm Stearin,Colombo,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
-SHP-700277,CTR-2025277,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
-SHP-700278,CTR-2025278,EuroFat Amsterdam,RBD Palm Olein,Kandla,LC-90278,LC at sight,N,Y,Y,Y,Y,Y,N,N,False,,2,Amber
-SHP-700279,CTR-2025279,Jeddah Oils & Fats Co,Palm Kernel Oil (PKO),"West Port, Malaysia",LC-90279,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,139.5,3,Amber
-SHP-700280,CTR-2025280,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Singapore,LC-90280,LC 90 days,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
-SHP-700281,CTR-2025281,Jeddah Oils & Fats Co,RBD Palm Oil,Rotterdam,LC-90281,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700282,CTR-2025282,Ganga Agro Traders,Palm Kernel Expeller (PKE),Kandla,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700283,CTR-2025283,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
-SHP-700284,CTR-2025284,Ganga Agro Traders,RBD Palm Stearin,Shanghai,LC-90284,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700285,CTR-2025285,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Alexandria,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700286,CTR-2025286,Rotterdam Fats & Oils BV,RBD Palm Stearin,Alexandria,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700287,CTR-2025287,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Lagos,,TT 30 days,Y,N,N,Y,Y,Y,Y,Y,True,29.6,1,Green
-SHP-700288,CTR-2025288,California Biofuels Inc,RBD Palm Oil,Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700289,CTR-2025289,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Shanghai,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,,1,Green
-SHP-700290,CTR-2025290,California Biofuels Inc,Palm Methyl Ester Biodiesel (B100),Colombo,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700291,CTR-2025291,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Jeddah,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,False,20.8,1,Green
-SHP-700292,CTR-2025292,Jeddah Oils & Fats Co,Palm Fatty Acid Distillate (PFAD),Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,25.2,0,Green
-SHP-700293,CTR-2025293,Shanghai Huifeng Trading,Palm Fatty Acid Distillate (PFAD),Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700294,CTR-2025294,Karachi Edible Oil Co.,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90294,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
-SHP-700295,CTR-2025295,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,17.4,0,Green
-SHP-700296,CTR-2025296,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,21.2,0,Green
-SHP-700297,CTR-2025297,Istanbul Bitkisel Yag,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90297,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700298,CTR-2025298,Guangzhou Oleochem Ltd,RBD Palm Oil,Jeddah,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700299,CTR-2025299,Ganga Agro Traders,RBD Palm Stearin,Shanghai,LC-90299,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700300,CTR-2025300,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Lagos,LC-90300,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700301,CTR-2025301,Shanghai Huifeng Trading,RBD Palm Stearin,Singapore,LC-90301,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700302,CTR-2025302,Rotterdam Fats & Oils BV,Crude Palm Oil (CPO),Los Angeles,LC-90302,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700303,CTR-2025303,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Colombo,LC-90303,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,False,,3,Amber
-SHP-700304,CTR-2025304,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Los Angeles,,TT 30 days,Y,Y,N,Y,Y,Y,Y,Y,True,37.6,0,Green
-SHP-700305,CTR-2025305,Colombo Fats Trading,RBD Palm Oil,Colombo,LC-90305,LC at sight,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700306,CTR-2025306,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),"West Port, Malaysia",LC-90306,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700307,CTR-2025307,Karachi Edible Oil Co.,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700308,CTR-2025308,Ganga Agro Traders,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90308,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
-SHP-700309,CTR-2025309,Colombo Fats Trading,Palm Kernel Oil (PKO),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700310,CTR-2025310,EuroFat Amsterdam,RBD Palm Oil,Alexandria,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,58.6,0,Green
-SHP-700311,CTR-2025311,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Los Angeles,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,80.1,3,Amber
-SHP-700312,CTR-2025312,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Shanghai,,TT 60 days,Y,Y,N,N,Y,Y,Y,N,True,13.2,0,Green
-SHP-700313,CTR-2025313,Shanghai Huifeng Trading,RBD Palm Oil,Lagos,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700314,CTR-2025314,Ganga Agro Traders,Palm Kernel Oil (PKO),Guangzhou,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700315,CTR-2025315,Lagos Vegetable Oil Ltd,Palm Methyl Ester Biodiesel (B100),Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700316,CTR-2025316,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Singapore,LC-90316,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700317,CTR-2025317,Ganga Agro Traders,RBD Palm Olein,Istanbul,,TT advance,Y,N,Y,Y,N,Y,Y,Y,False,41.8,3,Amber
-SHP-700318,CTR-2025318,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Shanghai,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,48.7,1,Green
-SHP-700319,CTR-2025319,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Rotterdam,LC-90319,LC 90 days,Y,Y,N,Y,N,Y,N,N,True,42.7,1,Green
-SHP-700320,CTR-2025320,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700321,CTR-2025321,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Lagos,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700322,CTR-2025322,Guangzhou Oleochem Ltd,Palm Kernel Oil (PKO),Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,77.5,0,Green
-SHP-700323,CTR-2025323,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Alexandria,LC-90323,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700324,CTR-2025324,Guangzhou Oleochem Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,,TT 30 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
-SHP-700325,CTR-2025325,Ganga Agro Traders,Crude Palm Oil (CPO),Lagos,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700326,CTR-2025326,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),Guangzhou,LC-90326,LC at sight,Y,N,N,Y,Y,Y,N,N,False,,2,Amber
-SHP-700327,CTR-2025327,Chittagong Oil Refinery,Crude Palm Oil (CPO),Chennai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
-SHP-700328,CTR-2025328,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Kandla,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700329,CTR-2025329,Shanghai Huifeng Trading,Palm Kernel Expeller (PKE),Los Angeles,LC-90329,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,10.6,1,Green
-SHP-700330,CTR-2025330,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Shanghai,LC-90330,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,140.0,2,Amber
-SHP-700331,CTR-2025331,Guangzhou Oleochem Ltd,RBD Palm Olein,Lagos,,TT advance,N,Y,N,Y,Y,Y,Y,Y,False,29.2,2,Amber
-SHP-700332,CTR-2025332,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Kandla,,TT advance,N,N,Y,N,Y,Y,Y,Y,False,,3,Amber
-SHP-700333,CTR-2025333,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700334,CTR-2025334,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Chennai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,32.9,0,Green
-SHP-700335,CTR-2025335,Colombo Fats Trading,RBD Palm Olein,Chittagong,LC-90335,LC at sight,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
-SHP-700336,CTR-2025336,Karachi Edible Oil Co.,Palm Kernel Oil (PKO),Lagos,LC-90336,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,30.3,0,Green
-SHP-700337,CTR-2025337,Ganga Agro Traders,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 60 days,Y,N,Y,Y,N/A,Y,N,Y,True,32.0,1,Green
-SHP-700338,CTR-2025338,Rotterdam Fats & Oils BV,Palm Fatty Acid Distillate (PFAD),Kandla,LC-90338,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700339,CTR-2025339,PT Nusantara Lipid,RBD Palm Stearin,Jeddah,LC-90339,LC at sight,N,Y,Y,N,N,Y,Y,N,True,,2,Amber
-SHP-700340,CTR-2025340,Colombo Fats Trading,Crude Palm Oil (CPO),Colombo,LC-90340,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,28.8,1,Green
-SHP-700341,CTR-2025341,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Jeddah,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700342,CTR-2025342,Chittagong Oil Refinery,Palm Fatty Acid Distillate (PFAD),Colombo,,TT 30 days,Y,Y,Y,Y,N,N,Y,N,True,,2,Amber
-SHP-700343,CTR-2025343,Colombo Fats Trading,Palm Kernel Expeller (PKE),Lagos,LC-90343,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700344,CTR-2025344,Guangzhou Oleochem Ltd,Palm Methyl Ester Biodiesel (B100),"West Port, Malaysia",LC-90344,LC 90 days,Y,Y,Y,Y,N/A,Y,Y,Y,False,,1,Green
-SHP-700345,CTR-2025345,PT Nusantara Lipid,Palm Kernel Expeller (PKE),Colombo,LC-90345,LC 90 days,Y,Y,Y,Y,Y,N,N,N,True,28.0,1,Green
-SHP-700346,CTR-2025346,Chittagong Oil Refinery,RBD Palm Oil,Colombo,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700347,CTR-2025347,PT Nusantara Lipid,Palm Fatty Acid Distillate (PFAD),Lagos,LC-90347,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700348,CTR-2025348,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Rotterdam,LC-90348,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700349,CTR-2025349,Colombo Fats Trading,Palm Kernel Expeller (PKE),Los Angeles,LC-90349,LC 90 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
-SHP-700350,CTR-2025350,EuroFat Amsterdam,RBD Palm Stearin,Chennai,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700351,CTR-2025351,Meridian Oleo Pvt Ltd,RBD Palm Stearin,Guangzhou,,TT advance,Y,N,N,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700352,CTR-2025352,EuroFat Amsterdam,Palm Kernel Oil (PKO),Los Angeles,LC-90352,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700353,CTR-2025353,Nile Delta Vegetable Oils,RBD Palm Oil,Chittagong,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700354,CTR-2025354,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,60.6,0,Green
-SHP-700355,CTR-2025355,Rotterdam Fats & Oils BV,Palm Methyl Ester Biodiesel (B100),Chennai,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,False,,2,Amber
-SHP-700356,CTR-2025356,PT Nusantara Lipid,Crude Palm Oil (CPO),Los Angeles,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
-SHP-700357,CTR-2025357,Nile Delta Vegetable Oils,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90357,LC at sight,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700358,CTR-2025358,PT Nusantara Lipid,Crude Palm Oil (CPO),Karachi,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700359,CTR-2025359,Rotterdam Fats & Oils BV,RBD Palm Olein,Rotterdam,LC-90359,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
-SHP-700360,CTR-2025360,Ganga Agro Traders,Palm Kernel Oil (PKO),Shanghai,LC-90360,LC at sight,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
-SHP-700361,CTR-2025361,California Biofuels Inc,Palm Kernel Expeller (PKE),Chittagong,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,26.4,1,Green
-SHP-700362,CTR-2025362,Guangzhou Oleochem Ltd,RBD Palm Stearin,Istanbul,LC-90362,LC at sight,N,Y,Y,Y,N,Y,N,Y,True,,2,Amber
-SHP-700363,CTR-2025363,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Los Angeles,LC-90363,LC at sight,N,N,Y,N,N,Y,Y,N,True,,3,Amber
-SHP-700364,CTR-2025364,Chittagong Oil Refinery,Crude Palm Oil (CPO),Singapore,LC-90364,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,18.1,1,Green
-SHP-700365,CTR-2025365,Lagos Vegetable Oil Ltd,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90365,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,True,23.1,2,Amber
-SHP-700366,CTR-2025366,California Biofuels Inc,RBD Palm Stearin,Istanbul,LC-90366,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700367,CTR-2025367,PT Nusantara Lipid,RBD Palm Olein,Colombo,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700368,CTR-2025368,Istanbul Bitkisel Yag,RBD Palm Olein,"West Port, Malaysia",LC-90368,LC 90 days,Y,Y,Y,N,N/A,Y,Y,N,False,39.7,1,Green
-SHP-700369,CTR-2025369,Lagos Vegetable Oil Ltd,RBD Palm Olein,Chennai,,TT advance,Y,N,Y,Y,Y,N,Y,N,False,140.0,4,Red
-SHP-700370,CTR-2025370,Istanbul Bitkisel Yag,Palm Kernel Oil (PKO),Kandla,LC-90370,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700371,CTR-2025371,Chittagong Oil Refinery,Palm Kernel Oil (PKO),Rotterdam,LC-90371,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700372,CTR-2025372,Karachi Edible Oil Co.,RBD Palm Olein,Alexandria,,TT 30 days,Y,N,Y,N,Y,Y,Y,Y,False,,2,Amber
-SHP-700373,CTR-2025373,Meridian Oleo Pvt Ltd,RBD Palm Oil,Rotterdam,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,82.9,2,Amber
-SHP-700374,CTR-2025374,Nile Delta Vegetable Oils,RBD Palm Olein,Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700375,CTR-2025375,Shanghai Huifeng Trading,RBD Palm Oil,Lagos,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
-SHP-700376,CTR-2025376,Shanghai Huifeng Trading,Crude Palm Oil (CPO),Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700377,CTR-2025377,EuroFat Amsterdam,Palm Kernel Oil (PKO),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700378,CTR-2025378,PT Nusantara Lipid,RBD Palm Olein,Kandla,,TT advance,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
-SHP-700379,CTR-2025379,Shanghai Huifeng Trading,RBD Palm Stearin,Guangzhou,LC-90379,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,40.7,1,Green
-SHP-700380,CTR-2025380,California Biofuels Inc,RBD Palm Stearin,Istanbul,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,23.4,1,Green
-SHP-700381,CTR-2025381,Nile Delta Vegetable Oils,Palm Kernel Expeller (PKE),Kandla,,TT 30 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
-SHP-700382,CTR-2025382,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Chennai,LC-90382,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700383,CTR-2025383,Chittagong Oil Refinery,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT advance,Y,Y,Y,Y,Y,N,Y,N,False,,2,Amber
-SHP-700384,CTR-2025384,EuroFat Amsterdam,Palm Fatty Acid Distillate (PFAD),Los Angeles,LC-90384,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700385,CTR-2025385,Rotterdam Fats & Oils BV,RBD Palm Stearin,Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700386,CTR-2025386,Istanbul Bitkisel Yag,RBD Palm Oil,Rotterdam,LC-90386,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700387,CTR-2025387,Jeddah Oils & Fats Co,Crude Palm Oil (CPO),Chittagong,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700388,CTR-2025388,Meridian Oleo Pvt Ltd,Palm Kernel Oil (PKO),Alexandria,LC-90388,LC 90 days,N,Y,Y,N,Y,N,Y,N,True,,2,Amber
-SHP-700389,CTR-2025389,Rotterdam Fats & Oils BV,Palm Kernel Oil (PKO),Jeddah,LC-90389,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,True,55.5,0,Green
-SHP-700390,CTR-2025390,Lagos Vegetable Oil Ltd,RBD Palm Oil,"West Port, Malaysia",,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
-SHP-700391,CTR-2025391,EuroFat Amsterdam,RBD Palm Olein,Colombo,LC-90391,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
-SHP-700392,CTR-2025392,California Biofuels Inc,RBD Palm Oil,Lagos,,TT advance,Y,Y,Y,N,Y,Y,N,N,True,,0,Green
-SHP-700393,CTR-2025393,Karachi Edible Oil Co.,RBD Palm Olein,Chittagong,,TT 60 days,Y,Y,Y,N,N,Y,Y,N,False,,2,Amber
-SHP-700394,CTR-2025394,Guangzhou Oleochem Ltd,Crude Palm Oil (CPO),Colombo,LC-90394,LC 90 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
-SHP-700395,CTR-2025395,Colombo Fats Trading,Palm Kernel Oil (PKO),Istanbul,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
-SHP-700396,CTR-2025396,Shanghai Huifeng Trading,RBD Palm Stearin,Istanbul,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
-SHP-700397,CTR-2025397,EuroFat Amsterdam,RBD Palm Oil,Los Angeles,LC-90397,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700398,CTR-2025398,Guangzhou Oleochem Ltd,RBD Palm Stearin,Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
-SHP-700399,CTR-2025399,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Chittagong,LC-90399,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700400,CTR-2025400,Nile Delta Vegetable Oils,Crude Palm Oil (CPO),"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,109.7,1,Green
-SHP-700401,CTR-2025401,Chittagong Oil Refinery,RBD Palm Oil,Chennai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700402,CTR-2025402,PT Nusantara Lipid,Crude Palm Oil (CPO),Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700403,CTR-2025403,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
-SHP-700404,CTR-2025404,Shanghai Huifeng Trading,Palm Kernel Oil (PKO),Kandla,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
-SHP-700405,CTR-2025405,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,73.1,0,Green
-SHP-700406,CTR-2025406,Chittagong Oil Refinery,RBD Palm Oil,Jeddah,LC-90406,LC 90 days,Y,N,Y,Y,Y,Y,N,Y,True,43.1,1,Green
-SHP-700407,CTR-2025407,Meridian Oleo Pvt Ltd,Palm Fatty Acid Distillate (PFAD),Istanbul,,TT 60 days,Y,N,Y,N,N,Y,Y,N,True,,2,Amber
-SHP-700408,CTR-2025408,Nile Delta Vegetable Oils,RBD Palm Oil,Jeddah,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
-SHP-700409,CTR-2025409,Meridian Oleo Pvt Ltd,RBD Palm Olein,Singapore,,TT advance,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
-SHP-700410,CTR-2025410,Jeddah Oils & Fats Co,Palm Kernel Expeller (PKE),Singapore,LC-90410,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700411,CTR-2025411,EuroFat Amsterdam,Palm Methyl Ester Biodiesel (B100),Istanbul,LC-90411,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,False,,3,Amber
-SHP-700412,CTR-2025412,Ganga Agro Traders,Crude Palm Oil (CPO),Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700413,CTR-2025413,Nile Delta Vegetable Oils,Palm Kernel Oil (PKO),Karachi,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
-SHP-700414,CTR-2025414,Colombo Fats Trading,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700415,CTR-2025415,Colombo Fats Trading,Palm Methyl Ester Biodiesel (B100),Guangzhou,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
-SHP-700416,CTR-2025416,California Biofuels Inc,Palm Fatty Acid Distillate (PFAD),Lagos,,TT advance,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
-SHP-700417,CTR-2025417,Colombo Fats Trading,RBD Palm Oil,Karachi,LC-90417,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
-SHP-700418,CTR-2025418,Ganga Agro Traders,Palm Fatty Acid Distillate (PFAD),Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
-SHP-700419,CTR-2025419,California Biofuels Inc,Palm Kernel Expeller (PKE),Jeddah,,TT advance,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700000,CTR-2025000,PT Nusantara Polymer,Acrylic Acid,Karachi,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,140.0,2,Amber
+SHP-700001,CTR-2025001,Nile Delta Industrial Chemicals,Highly Reactive Polyisobutene (HR-PIB),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700002,CTR-2025002,California Advanced Materials Inc,Acrylic Acid,Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,38.8,0,Green
+SHP-700003,CTR-2025003,Shanghai Huifeng Chemicals,2-Ethylhexanoic Acid (2-EHA),"West Port, Malaysia",LC-90003,LC at sight,Y,N,Y,Y,N/A,Y,Y,N,False,,2,Amber
+SHP-700004,CTR-2025004,Istanbul Kimya Sanayi,Anionic Surfactant,Alexandria,LC-90004,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700005,CTR-2025005,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,"West Port, Malaysia",,TT 60 days,N,Y,Y,N,N/A,Y,Y,N,True,28.3,1,Green
+SHP-700006,CTR-2025006,Rotterdam ChemTrade BV,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT 60 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700007,CTR-2025007,Nile Delta Industrial Chemicals,2-Ethylhexanoic Acid (2-EHA),Singapore,LC-90007,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700008,CTR-2025008,Jeddah Petrochemicals Co,Battery-Grade Lithium Hydroxide,Chittagong,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,18.6,1,Green
+SHP-700009,CTR-2025009,California Advanced Materials Inc,2-Ethylhexanol (Oxo Alcohol),Colombo,LC-90009,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,24.3,1,Green
+SHP-700010,CTR-2025010,California Advanced Materials Inc,Thermoplastic Polyurethane (TPU),Colombo,,TT 60 days,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
+SHP-700011,CTR-2025011,Lagos Industrial Chemicals Ltd,2-Ethylhexanol (Oxo Alcohol),Singapore,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700012,CTR-2025012,Istanbul Kimya Sanayi,Acrylic Acid,Shanghai,LC-90012,LC at sight,Y,N,Y,N,N,Y,Y,N,True,,2,Amber
+SHP-700013,CTR-2025013,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700014,CTR-2025014,Jeddah Petrochemicals Co,Highly Reactive Polyisobutene (HR-PIB),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700015,CTR-2025015,Nile Delta Industrial Chemicals,Highly Reactive Polyisobutene (HR-PIB),Kandla,,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,136.1,2,Amber
+SHP-700016,CTR-2025016,Meridian Specialty Chemicals Pvt Ltd,Highly Reactive Polyisobutene (HR-PIB),Singapore,LC-90016,LC at sight,Y,Y,Y,N,N,Y,N,N,True,,1,Green
+SHP-700017,CTR-2025017,Nile Delta Industrial Chemicals,Crop Protection Herbicide Formulation,Los Angeles,LC-90017,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700018,CTR-2025018,Ganga Polymer Traders,2-Ethylhexanoic Acid (2-EHA),Guangzhou,LC-90018,LC at sight,N,N,Y,Y,Y,N,Y,Y,False,,4,Red
+SHP-700019,CTR-2025019,Karachi Polymer Co.,2-Ethylhexanol (Oxo Alcohol),Lagos,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,34.8,1,Green
+SHP-700020,CTR-2025020,Guangzhou Performance Materials Ltd,2-Ethylhexanol (Oxo Alcohol),Lagos,LC-90020,LC 90 days,N,Y,N,Y,N,Y,Y,N,True,,2,Amber
+SHP-700021,CTR-2025021,Guangzhou Performance Materials Ltd,Thermoplastic Polyurethane (TPU),Jeddah,,TT 30 days,N,N,Y,Y,Y,Y,Y,Y,True,,2,Amber
+SHP-700022,CTR-2025022,Ganga Polymer Traders,Anionic Surfactant,Chennai,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,14.7,1,Green
+SHP-700023,CTR-2025023,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Kandla,LC-90023,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700024,CTR-2025024,Jeddah Petrochemicals Co,Anionic Surfactant,Karachi,,TT 30 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
+SHP-700025,CTR-2025025,Jeddah Petrochemicals Co,Anionic Surfactant,Los Angeles,,TT advance,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700026,CTR-2025026,Jeddah Petrochemicals Co,2-Ethylhexanol (Oxo Alcohol),Shanghai,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700027,CTR-2025027,Chittagong Specialty Chemicals,Acrylic Acid,"West Port, Malaysia",LC-90027,LC at sight,N,Y,Y,N,Y,N,Y,N,True,,2,Amber
+SHP-700028,CTR-2025028,PT Nusantara Polymer,Highly Reactive Polyisobutene (HR-PIB),Shanghai,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700029,CTR-2025029,Ganga Polymer Traders,Acrylic Acid,Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,56.9,0,Green
+SHP-700030,CTR-2025030,Lagos Industrial Chemicals Ltd,2-Ethylhexanol (Oxo Alcohol),Chennai,LC-90030,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700031,CTR-2025031,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),Kandla,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700032,CTR-2025032,PT Nusantara Polymer,2-Ethylhexanol (Oxo Alcohol),Singapore,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,11.5,1,Green
+SHP-700033,CTR-2025033,Nile Delta Industrial Chemicals,Highly Reactive Polyisobutene (HR-PIB),"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700034,CTR-2025034,California Advanced Materials Inc,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700035,CTR-2025035,Meridian Specialty Chemicals Pvt Ltd,Acrylic Acid,Chittagong,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700036,CTR-2025036,PT Nusantara Polymer,Acrylic Acid,Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700037,CTR-2025037,Lagos Industrial Chemicals Ltd,Thermoplastic Polyurethane (TPU),Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700038,CTR-2025038,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Jeddah,LC-90038,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
+SHP-700039,CTR-2025039,EuroChem Amsterdam,Crop Protection Herbicide Formulation,Lagos,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
+SHP-700040,CTR-2025040,Colombo Chemtrade,2-Ethylhexanoic Acid (2-EHA),Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
+SHP-700041,CTR-2025041,Guangzhou Performance Materials Ltd,Crop Protection Herbicide Formulation,Singapore,LC-90041,LC 90 days,Y,N,N,Y,Y,Y,Y,Y,True,58.4,1,Green
+SHP-700042,CTR-2025042,Nile Delta Industrial Chemicals,Battery-Grade Lithium Hydroxide,Rotterdam,LC-90042,LC at sight,N,Y,Y,N,Y,Y,Y,Y,False,,2,Amber
+SHP-700043,CTR-2025043,California Advanced Materials Inc,Anionic Surfactant,Singapore,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700044,CTR-2025044,California Advanced Materials Inc,Thermoplastic Polyurethane (TPU),Los Angeles,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700045,CTR-2025045,Shanghai Huifeng Chemicals,Thermoplastic Polyurethane (TPU),Shanghai,,TT 30 days,Y,N,Y,Y,Y,Y,N,N,True,,1,Green
+SHP-700046,CTR-2025046,Guangzhou Performance Materials Ltd,2-Ethylhexanoic Acid (2-EHA),Guangzhou,LC-90046,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,79.3,1,Green
+SHP-700047,CTR-2025047,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Shanghai,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700048,CTR-2025048,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700049,CTR-2025049,Chittagong Specialty Chemicals,2-Ethylhexanoic Acid (2-EHA),Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700050,CTR-2025050,Shanghai Huifeng Chemicals,Anionic Surfactant,Los Angeles,,TT 60 days,Y,Y,Y,N,N,Y,Y,Y,True,,1,Green
+SHP-700051,CTR-2025051,Nile Delta Industrial Chemicals,Anionic Surfactant,Colombo,LC-90051,LC at sight,Y,N,Y,N,N,Y,N,Y,True,,2,Amber
+SHP-700052,CTR-2025052,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,Kandla,LC-90052,LC 90 days,Y,Y,Y,Y,N,Y,Y,Y,True,81.5,2,Amber
+SHP-700053,CTR-2025053,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Chittagong,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700054,CTR-2025054,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Los Angeles,,TT advance,Y,Y,N,N,Y,Y,Y,Y,False,,1,Green
+SHP-700055,CTR-2025055,Ganga Polymer Traders,Anionic Surfactant,"West Port, Malaysia",LC-90055,LC at sight,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700056,CTR-2025056,Istanbul Kimya Sanayi,Thermoplastic Polyurethane (TPU),Los Angeles,LC-90056,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700057,CTR-2025057,California Advanced Materials Inc,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700058,CTR-2025058,California Advanced Materials Inc,Anionic Surfactant,Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,41.9,1,Green
+SHP-700059,CTR-2025059,EuroChem Amsterdam,Battery-Grade Lithium Hydroxide,Istanbul,LC-90059,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,False,,2,Amber
+SHP-700060,CTR-2025060,Chittagong Specialty Chemicals,Thermoplastic Polyurethane (TPU),Chittagong,LC-90060,LC 90 days,Y,N,Y,Y,N,Y,N,Y,True,,2,Amber
+SHP-700061,CTR-2025061,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),Kandla,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700062,CTR-2025062,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),"West Port, Malaysia",,TT 30 days,N,Y,Y,Y,N/A,Y,Y,Y,True,,1,Green
+SHP-700063,CTR-2025063,Ganga Polymer Traders,Thermoplastic Polyurethane (TPU),Chennai,,TT 30 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700064,CTR-2025064,EuroChem Amsterdam,Crop Protection Herbicide Formulation,Shanghai,LC-90064,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700065,CTR-2025065,Rotterdam ChemTrade BV,2-Ethylhexanol (Oxo Alcohol),Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700066,CTR-2025066,Karachi Polymer Co.,Crop Protection Herbicide Formulation,"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,Y,N,Y,N,True,28.4,1,Green
+SHP-700067,CTR-2025067,Rotterdam ChemTrade BV,Highly Reactive Polyisobutene (HR-PIB),Istanbul,LC-90067,LC at sight,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700068,CTR-2025068,PT Nusantara Polymer,Thermoplastic Polyurethane (TPU),"West Port, Malaysia",,TT 60 days,N,Y,Y,N,N,Y,Y,Y,True,,2,Amber
+SHP-700069,CTR-2025069,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Chennai,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700070,CTR-2025070,Lagos Industrial Chemicals Ltd,Thermoplastic Polyurethane (TPU),Istanbul,LC-90070,LC at sight,Y,Y,Y,N,Y,Y,N,N,True,132.3,1,Green
+SHP-700071,CTR-2025071,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),"West Port, Malaysia",,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700072,CTR-2025072,Istanbul Kimya Sanayi,2-Ethylhexanol (Oxo Alcohol),Guangzhou,LC-90072,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
+SHP-700073,CTR-2025073,Guangzhou Performance Materials Ltd,Anionic Surfactant,Jeddah,LC-90073,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700074,CTR-2025074,California Advanced Materials Inc,2-Ethylhexanoic Acid (2-EHA),Guangzhou,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700075,CTR-2025075,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,Lagos,,TT 60 days,Y,N,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700076,CTR-2025076,Chittagong Specialty Chemicals,Acrylic Acid,Chittagong,,TT 60 days,Y,Y,Y,N,Y,N,Y,N,True,48.0,1,Green
+SHP-700077,CTR-2025077,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Kandla,LC-90077,LC 90 days,Y,Y,Y,Y,N,Y,N,N,False,,2,Amber
+SHP-700078,CTR-2025078,Guangzhou Performance Materials Ltd,2-Ethylhexanol (Oxo Alcohol),Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,80.6,2,Amber
+SHP-700079,CTR-2025079,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Chittagong,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700080,CTR-2025080,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Shanghai,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700081,CTR-2025081,Guangzhou Performance Materials Ltd,Battery-Grade Lithium Hydroxide,Colombo,LC-90081,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700082,CTR-2025082,PT Nusantara Polymer,Acrylic Acid,Rotterdam,LC-90082,LC at sight,Y,N,N,Y,Y,Y,N,N,True,,1,Green
+SHP-700083,CTR-2025083,Colombo Chemtrade,Anionic Surfactant,Colombo,LC-90083,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700084,CTR-2025084,Guangzhou Performance Materials Ltd,2-Ethylhexanoic Acid (2-EHA),Kandla,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,73.1,1,Green
+SHP-700085,CTR-2025085,Shanghai Huifeng Chemicals,Anionic Surfactant,Guangzhou,,TT advance,Y,Y,Y,N,N,Y,Y,N,True,93.0,2,Amber
+SHP-700086,CTR-2025086,EuroChem Amsterdam,Highly Reactive Polyisobutene (HR-PIB),Singapore,,TT 30 days,N,N,Y,Y,Y,Y,Y,Y,True,32.0,2,Amber
+SHP-700087,CTR-2025087,Chittagong Specialty Chemicals,Thermoplastic Polyurethane (TPU),Istanbul,LC-90087,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700088,CTR-2025088,Colombo Chemtrade,Battery-Grade Lithium Hydroxide,Lagos,,TT advance,N,N,N,Y,Y,Y,N,N,False,,3,Amber
+SHP-700089,CTR-2025089,Istanbul Kimya Sanayi,Acrylic Acid,"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700090,CTR-2025090,Istanbul Kimya Sanayi,Highly Reactive Polyisobutene (HR-PIB),Karachi,LC-90090,LC at sight,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700091,CTR-2025091,Jeddah Petrochemicals Co,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT 30 days,Y,N,Y,Y,Y,N,Y,Y,False,,3,Amber
+SHP-700092,CTR-2025092,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Rotterdam,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700093,CTR-2025093,Colombo Chemtrade,Battery-Grade Lithium Hydroxide,Los Angeles,LC-90093,LC at sight,Y,N,Y,Y,N,Y,Y,Y,False,,3,Amber
+SHP-700094,CTR-2025094,Istanbul Kimya Sanayi,Thermoplastic Polyurethane (TPU),Guangzhou,LC-90094,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700095,CTR-2025095,Chittagong Specialty Chemicals,2-Ethylhexanoic Acid (2-EHA),"West Port, Malaysia",LC-90095,LC 90 days,Y,Y,Y,Y,Y,N,Y,Y,False,27.7,2,Amber
+SHP-700096,CTR-2025096,Jeddah Petrochemicals Co,Highly Reactive Polyisobutene (HR-PIB),Istanbul,LC-90096,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
+SHP-700097,CTR-2025097,Karachi Polymer Co.,Battery-Grade Lithium Hydroxide,Chennai,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,19.6,2,Amber
+SHP-700098,CTR-2025098,Ganga Polymer Traders,Anionic Surfactant,Guangzhou,LC-90098,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700099,CTR-2025099,California Advanced Materials Inc,Acrylic Acid,Shanghai,LC-90099,LC at sight,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700100,CTR-2025100,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Rotterdam,,TT 30 days,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700101,CTR-2025101,Ganga Polymer Traders,Anionic Surfactant,Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700102,CTR-2025102,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700103,CTR-2025103,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Kandla,LC-90103,LC at sight,N,Y,Y,Y,Y,Y,N,N,False,,2,Amber
+SHP-700104,CTR-2025104,Istanbul Kimya Sanayi,Battery-Grade Lithium Hydroxide,Istanbul,,TT advance,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
+SHP-700105,CTR-2025105,EuroChem Amsterdam,Battery-Grade Lithium Hydroxide,Singapore,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,False,72.8,1,Green
+SHP-700106,CTR-2025106,Shanghai Huifeng Chemicals,Battery-Grade Lithium Hydroxide,Colombo,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,54.6,2,Amber
+SHP-700107,CTR-2025107,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Jeddah,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
+SHP-700108,CTR-2025108,Karachi Polymer Co.,Acrylic Acid,Chittagong,LC-90108,LC at sight,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700109,CTR-2025109,Colombo Chemtrade,Anionic Surfactant,Istanbul,,TT 60 days,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700110,CTR-2025110,Ganga Polymer Traders,Thermoplastic Polyurethane (TPU),Rotterdam,,TT 60 days,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700111,CTR-2025111,Rotterdam ChemTrade BV,2-Ethylhexanoic Acid (2-EHA),Jeddah,LC-90111,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700112,CTR-2025112,Karachi Polymer Co.,Anionic Surfactant,Jeddah,LC-90112,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700113,CTR-2025113,Istanbul Kimya Sanayi,Crop Protection Herbicide Formulation,Lagos,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,140.0,3,Amber
+SHP-700114,CTR-2025114,Lagos Industrial Chemicals Ltd,Crop Protection Herbicide Formulation,Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700115,CTR-2025115,California Advanced Materials Inc,2-Ethylhexanol (Oxo Alcohol),Karachi,LC-90115,LC at sight,Y,Y,N,Y,Y,N,Y,N,True,,1,Green
+SHP-700116,CTR-2025116,Lagos Industrial Chemicals Ltd,Highly Reactive Polyisobutene (HR-PIB),Istanbul,LC-90116,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,22.4,1,Green
+SHP-700117,CTR-2025117,Istanbul Kimya Sanayi,Battery-Grade Lithium Hydroxide,Guangzhou,LC-90117,LC at sight,Y,Y,Y,Y,Y,N,Y,Y,False,,2,Amber
+SHP-700118,CTR-2025118,Guangzhou Performance Materials Ltd,2-Ethylhexanoic Acid (2-EHA),"West Port, Malaysia",LC-90118,LC 90 days,Y,N,Y,Y,N/A,Y,Y,N,False,,2,Amber
+SHP-700119,CTR-2025119,California Advanced Materials Inc,Anionic Surfactant,Rotterdam,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700120,CTR-2025120,Rotterdam ChemTrade BV,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT advance,Y,Y,Y,N,Y,N,Y,Y,False,,2,Amber
+SHP-700121,CTR-2025121,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,Singapore,,TT 60 days,N,Y,N,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700122,CTR-2025122,Istanbul Kimya Sanayi,Thermoplastic Polyurethane (TPU),Chennai,LC-90122,LC 90 days,Y,Y,Y,N,N,Y,Y,N,True,26.8,1,Green
+SHP-700123,CTR-2025123,EuroChem Amsterdam,Battery-Grade Lithium Hydroxide,Chittagong,,TT advance,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
+SHP-700124,CTR-2025124,Meridian Specialty Chemicals Pvt Ltd,Crop Protection Herbicide Formulation,Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700125,CTR-2025125,Shanghai Huifeng Chemicals,2-Ethylhexanol (Oxo Alcohol),Shanghai,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,76.0,0,Green
+SHP-700126,CTR-2025126,Karachi Polymer Co.,Thermoplastic Polyurethane (TPU),Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700127,CTR-2025127,Karachi Polymer Co.,2-Ethylhexanoic Acid (2-EHA),Istanbul,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700128,CTR-2025128,Karachi Polymer Co.,Anionic Surfactant,Rotterdam,LC-90128,LC 90 days,N,Y,Y,N,Y,Y,N,N,True,,1,Green
+SHP-700129,CTR-2025129,Chittagong Specialty Chemicals,Acrylic Acid,Shanghai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700130,CTR-2025130,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Guangzhou,,TT advance,N,Y,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700131,CTR-2025131,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,True,,0,Green
+SHP-700132,CTR-2025132,Rotterdam ChemTrade BV,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
+SHP-700133,CTR-2025133,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Los Angeles,LC-90133,LC 90 days,Y,N,Y,Y,Y,N,Y,N,True,,2,Amber
+SHP-700134,CTR-2025134,Guangzhou Performance Materials Ltd,Acrylic Acid,Chennai,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,67.3,1,Green
+SHP-700135,CTR-2025135,Colombo Chemtrade,2-Ethylhexanoic Acid (2-EHA),Jeddah,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700136,CTR-2025136,Istanbul Kimya Sanayi,Crop Protection Herbicide Formulation,Chennai,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700137,CTR-2025137,Meridian Specialty Chemicals Pvt Ltd,Battery-Grade Lithium Hydroxide,Los Angeles,,TT 60 days,Y,N,Y,Y,N,Y,Y,N,False,,3,Amber
+SHP-700138,CTR-2025138,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanoic Acid (2-EHA),"West Port, Malaysia",,TT advance,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
+SHP-700139,CTR-2025139,Istanbul Kimya Sanayi,Highly Reactive Polyisobutene (HR-PIB),Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700140,CTR-2025140,Guangzhou Performance Materials Ltd,Acrylic Acid,"West Port, Malaysia",LC-90140,LC 90 days,Y,N,Y,Y,N/A,Y,N,N,True,,1,Green
+SHP-700141,CTR-2025141,California Advanced Materials Inc,2-Ethylhexanoic Acid (2-EHA),Chittagong,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
+SHP-700142,CTR-2025142,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,Rotterdam,LC-90142,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,140.0,2,Amber
+SHP-700143,CTR-2025143,Lagos Industrial Chemicals Ltd,Thermoplastic Polyurethane (TPU),Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,27.8,0,Green
+SHP-700144,CTR-2025144,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Los Angeles,LC-90144,LC 90 days,N,Y,Y,Y,Y,N,Y,N,True,,2,Amber
+SHP-700145,CTR-2025145,California Advanced Materials Inc,Thermoplastic Polyurethane (TPU),Kandla,LC-90145,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,45.5,0,Green
+SHP-700146,CTR-2025146,Chittagong Specialty Chemicals,Anionic Surfactant,Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700147,CTR-2025147,Istanbul Kimya Sanayi,Anionic Surfactant,Guangzhou,LC-90147,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700148,CTR-2025148,Colombo Chemtrade,2-Ethylhexanol (Oxo Alcohol),Chittagong,LC-90148,LC at sight,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700149,CTR-2025149,Chittagong Specialty Chemicals,2-Ethylhexanol (Oxo Alcohol),Lagos,LC-90149,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700150,CTR-2025150,Meridian Specialty Chemicals Pvt Ltd,Highly Reactive Polyisobutene (HR-PIB),Chennai,LC-90150,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700151,CTR-2025151,Istanbul Kimya Sanayi,Highly Reactive Polyisobutene (HR-PIB),Karachi,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700152,CTR-2025152,California Advanced Materials Inc,2-Ethylhexanoic Acid (2-EHA),Colombo,LC-90152,LC at sight,Y,Y,Y,N,N,N,Y,N,False,,3,Amber
+SHP-700153,CTR-2025153,Meridian Specialty Chemicals Pvt Ltd,Highly Reactive Polyisobutene (HR-PIB),Alexandria,LC-90153,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700154,CTR-2025154,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
+SHP-700155,CTR-2025155,EuroChem Amsterdam,Crop Protection Herbicide Formulation,Colombo,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700156,CTR-2025156,Lagos Industrial Chemicals Ltd,2-Ethylhexanoic Acid (2-EHA),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
+SHP-700157,CTR-2025157,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),Colombo,,TT 30 days,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
+SHP-700158,CTR-2025158,Chittagong Specialty Chemicals,2-Ethylhexanol (Oxo Alcohol),Chittagong,,TT advance,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700159,CTR-2025159,California Advanced Materials Inc,Highly Reactive Polyisobutene (HR-PIB),Chittagong,LC-90159,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700160,CTR-2025160,Meridian Specialty Chemicals Pvt Ltd,Crop Protection Herbicide Formulation,Jeddah,LC-90160,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700161,CTR-2025161,Colombo Chemtrade,Anionic Surfactant,Jeddah,LC-90161,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700162,CTR-2025162,Meridian Specialty Chemicals Pvt Ltd,Crop Protection Herbicide Formulation,Karachi,,TT 30 days,N,N,N,Y,Y,Y,Y,Y,True,,2,Amber
+SHP-700163,CTR-2025163,Colombo Chemtrade,Highly Reactive Polyisobutene (HR-PIB),Singapore,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700164,CTR-2025164,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Karachi,LC-90164,LC at sight,N,Y,Y,Y,Y,Y,N,Y,True,,1,Green
+SHP-700165,CTR-2025165,Karachi Polymer Co.,Acrylic Acid,Lagos,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700166,CTR-2025166,California Advanced Materials Inc,Anionic Surfactant,Guangzhou,LC-90166,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,45.2,0,Green
+SHP-700167,CTR-2025167,California Advanced Materials Inc,Crop Protection Herbicide Formulation,Istanbul,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700168,CTR-2025168,Nile Delta Industrial Chemicals,2-Ethylhexanol (Oxo Alcohol),Chittagong,,TT advance,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700169,CTR-2025169,Rotterdam ChemTrade BV,Crop Protection Herbicide Formulation,Chittagong,,TT advance,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700170,CTR-2025170,PT Nusantara Polymer,Crop Protection Herbicide Formulation,Chittagong,,TT 60 days,N,Y,N,Y,Y,Y,Y,N,True,,1,Green
+SHP-700171,CTR-2025171,Karachi Polymer Co.,Crop Protection Herbicide Formulation,Colombo,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700172,CTR-2025172,Colombo Chemtrade,2-Ethylhexanol (Oxo Alcohol),Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700173,CTR-2025173,Guangzhou Performance Materials Ltd,2-Ethylhexanol (Oxo Alcohol),Jeddah,LC-90173,LC at sight,Y,N,Y,Y,Y,N,Y,N,True,,2,Amber
+SHP-700174,CTR-2025174,Shanghai Huifeng Chemicals,Battery-Grade Lithium Hydroxide,Rotterdam,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700175,CTR-2025175,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),Karachi,LC-90175,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700176,CTR-2025176,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Colombo,LC-90176,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,False,22.3,2,Amber
+SHP-700177,CTR-2025177,Chittagong Specialty Chemicals,Crop Protection Herbicide Formulation,Karachi,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700178,CTR-2025178,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Jeddah,,TT 30 days,N,Y,Y,N,Y,Y,Y,Y,False,5.4,2,Amber
+SHP-700179,CTR-2025179,PT Nusantara Polymer,Anionic Surfactant,Lagos,LC-90179,LC at sight,Y,Y,N,Y,N,Y,Y,Y,True,,1,Green
+SHP-700180,CTR-2025180,Shanghai Huifeng Chemicals,Thermoplastic Polyurethane (TPU),Karachi,LC-90180,LC at sight,N,Y,N,Y,Y,N,N,Y,True,10.4,2,Amber
+SHP-700181,CTR-2025181,Rotterdam ChemTrade BV,Crop Protection Herbicide Formulation,Singapore,LC-90181,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700182,CTR-2025182,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700183,CTR-2025183,Ganga Polymer Traders,2-Ethylhexanol (Oxo Alcohol),Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700184,CTR-2025184,Guangzhou Performance Materials Ltd,2-Ethylhexanoic Acid (2-EHA),Colombo,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
+SHP-700185,CTR-2025185,EuroChem Amsterdam,Highly Reactive Polyisobutene (HR-PIB),Los Angeles,,TT advance,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700186,CTR-2025186,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
+SHP-700187,CTR-2025187,Rotterdam ChemTrade BV,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT advance,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700188,CTR-2025188,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),Los Angeles,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,57.1,1,Green
+SHP-700189,CTR-2025189,Istanbul Kimya Sanayi,Highly Reactive Polyisobutene (HR-PIB),Istanbul,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700190,CTR-2025190,Jeddah Petrochemicals Co,2-Ethylhexanoic Acid (2-EHA),Istanbul,LC-90190,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
+SHP-700191,CTR-2025191,PT Nusantara Polymer,Thermoplastic Polyurethane (TPU),Chennai,LC-90191,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,112.1,1,Green
+SHP-700192,CTR-2025192,Jeddah Petrochemicals Co,2-Ethylhexanoic Acid (2-EHA),Lagos,LC-90192,LC 90 days,N,N,Y,Y,Y,Y,Y,N,False,,3,Amber
+SHP-700193,CTR-2025193,Meridian Specialty Chemicals Pvt Ltd,Battery-Grade Lithium Hydroxide,Colombo,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
+SHP-700194,CTR-2025194,Colombo Chemtrade,Highly Reactive Polyisobutene (HR-PIB),Chennai,LC-90194,LC 90 days,N,N,Y,Y,N,Y,Y,N,True,,3,Amber
+SHP-700195,CTR-2025195,Rotterdam ChemTrade BV,Anionic Surfactant,Karachi,LC-90195,LC 90 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700196,CTR-2025196,Istanbul Kimya Sanayi,Crop Protection Herbicide Formulation,Colombo,LC-90196,LC at sight,Y,N,Y,Y,Y,Y,Y,N,True,118.4,2,Amber
+SHP-700197,CTR-2025197,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),"West Port, Malaysia",,TT advance,Y,N,N,Y,N/A,Y,Y,Y,True,,1,Green
+SHP-700198,CTR-2025198,Karachi Polymer Co.,Battery-Grade Lithium Hydroxide,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
+SHP-700199,CTR-2025199,PT Nusantara Polymer,Anionic Surfactant,Guangzhou,,TT 60 days,N,Y,N,Y,Y,N,Y,N,True,,2,Amber
+SHP-700200,CTR-2025200,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Jeddah,LC-90200,LC at sight,Y,N,Y,N,Y,Y,Y,Y,True,,1,Green
+SHP-700201,CTR-2025201,Karachi Polymer Co.,Highly Reactive Polyisobutene (HR-PIB),Alexandria,LC-90201,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700202,CTR-2025202,Colombo Chemtrade,Acrylic Acid,Kandla,LC-90202,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700203,CTR-2025203,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Alexandria,LC-90203,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700204,CTR-2025204,Karachi Polymer Co.,Thermoplastic Polyurethane (TPU),Shanghai,LC-90204,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700205,CTR-2025205,Istanbul Kimya Sanayi,Acrylic Acid,"West Port, Malaysia",LC-90205,LC at sight,Y,Y,Y,Y,N/A,N,Y,N,True,,1,Green
+SHP-700206,CTR-2025206,Guangzhou Performance Materials Ltd,Highly Reactive Polyisobutene (HR-PIB),Chittagong,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700207,CTR-2025207,PT Nusantara Polymer,2-Ethylhexanol (Oxo Alcohol),Istanbul,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,140.0,2,Amber
+SHP-700208,CTR-2025208,Rotterdam ChemTrade BV,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",LC-90208,LC at sight,Y,Y,Y,Y,N,Y,Y,N,False,71.2,2,Amber
+SHP-700209,CTR-2025209,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Chennai,LC-90209,LC at sight,Y,Y,N,Y,N,Y,Y,N,True,,1,Green
+SHP-700210,CTR-2025210,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Singapore,,TT 30 days,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700211,CTR-2025211,Guangzhou Performance Materials Ltd,Anionic Surfactant,Lagos,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700212,CTR-2025212,Lagos Industrial Chemicals Ltd,Battery-Grade Lithium Hydroxide,Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
+SHP-700213,CTR-2025213,Nile Delta Industrial Chemicals,Acrylic Acid,Alexandria,,TT 60 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700214,CTR-2025214,Jeddah Petrochemicals Co,2-Ethylhexanol (Oxo Alcohol),"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700215,CTR-2025215,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Singapore,LC-90215,LC 90 days,Y,N,N,Y,N,Y,Y,Y,False,63.2,3,Amber
+SHP-700216,CTR-2025216,Nile Delta Industrial Chemicals,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",,TT advance,Y,Y,Y,Y,N/A,Y,Y,N,False,,1,Green
+SHP-700217,CTR-2025217,Nile Delta Industrial Chemicals,Crop Protection Herbicide Formulation,Shanghai,LC-90217,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700218,CTR-2025218,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanoic Acid (2-EHA),Karachi,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,25.8,1,Green
+SHP-700219,CTR-2025219,EuroChem Amsterdam,Thermoplastic Polyurethane (TPU),Shanghai,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
+SHP-700220,CTR-2025220,Meridian Specialty Chemicals Pvt Ltd,Battery-Grade Lithium Hydroxide,Chennai,,TT advance,N,Y,Y,Y,N,Y,Y,N,False,,3,Amber
+SHP-700221,CTR-2025221,California Advanced Materials Inc,Battery-Grade Lithium Hydroxide,Kandla,,TT advance,Y,Y,N,Y,N,Y,N,N,False,,2,Amber
+SHP-700222,CTR-2025222,Karachi Polymer Co.,Thermoplastic Polyurethane (TPU),Lagos,,TT 30 days,N,Y,N,Y,Y,N,Y,N,True,,2,Amber
+SHP-700223,CTR-2025223,Karachi Polymer Co.,Anionic Surfactant,Alexandria,,TT advance,Y,Y,Y,Y,N,Y,N,N,True,,1,Green
+SHP-700224,CTR-2025224,Shanghai Huifeng Chemicals,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",,TT 60 days,Y,Y,Y,Y,N/A,N,Y,Y,False,,2,Amber
+SHP-700225,CTR-2025225,Shanghai Huifeng Chemicals,Thermoplastic Polyurethane (TPU),Chittagong,LC-90225,LC 90 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
+SHP-700226,CTR-2025226,Guangzhou Performance Materials Ltd,Anionic Surfactant,Karachi,LC-90226,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700227,CTR-2025227,California Advanced Materials Inc,Crop Protection Herbicide Formulation,Karachi,LC-90227,LC 90 days,N,N,Y,Y,N,N,N,Y,True,,4,Red
+SHP-700228,CTR-2025228,Meridian Specialty Chemicals Pvt Ltd,Battery-Grade Lithium Hydroxide,Lagos,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,,2,Amber
+SHP-700229,CTR-2025229,California Advanced Materials Inc,2-Ethylhexanoic Acid (2-EHA),Alexandria,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,False,95.6,3,Amber
+SHP-700230,CTR-2025230,Karachi Polymer Co.,2-Ethylhexanoic Acid (2-EHA),Alexandria,LC-90230,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700231,CTR-2025231,Ganga Polymer Traders,Anionic Surfactant,Lagos,LC-90231,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700232,CTR-2025232,Shanghai Huifeng Chemicals,Crop Protection Herbicide Formulation,Lagos,LC-90232,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,20.3,0,Green
+SHP-700233,CTR-2025233,Chittagong Specialty Chemicals,Anionic Surfactant,Kandla,,TT 30 days,Y,Y,Y,N,Y,N,N,Y,True,,1,Green
+SHP-700234,CTR-2025234,Nile Delta Industrial Chemicals,Crop Protection Herbicide Formulation,Los Angeles,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700235,CTR-2025235,Istanbul Kimya Sanayi,Crop Protection Herbicide Formulation,Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,140.0,1,Green
+SHP-700236,CTR-2025236,Shanghai Huifeng Chemicals,Anionic Surfactant,Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700237,CTR-2025237,Shanghai Huifeng Chemicals,Anionic Surfactant,"West Port, Malaysia",,TT 60 days,Y,N,N,Y,N,Y,N,Y,True,,2,Amber
+SHP-700238,CTR-2025238,Shanghai Huifeng Chemicals,2-Ethylhexanol (Oxo Alcohol),Jeddah,LC-90238,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700239,CTR-2025239,EuroChem Amsterdam,2-Ethylhexanol (Oxo Alcohol),Karachi,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700240,CTR-2025240,Colombo Chemtrade,Highly Reactive Polyisobutene (HR-PIB),Guangzhou,LC-90240,LC 90 days,N,Y,Y,Y,Y,Y,N,N,True,46.2,1,Green
+SHP-700241,CTR-2025241,Karachi Polymer Co.,Highly Reactive Polyisobutene (HR-PIB),Chennai,,TT advance,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700242,CTR-2025242,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Kandla,,TT advance,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
+SHP-700243,CTR-2025243,Karachi Polymer Co.,Highly Reactive Polyisobutene (HR-PIB),"West Port, Malaysia",,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700244,CTR-2025244,Rotterdam ChemTrade BV,Battery-Grade Lithium Hydroxide,Chittagong,,TT 30 days,Y,Y,N,Y,N,Y,Y,Y,False,,2,Amber
+SHP-700245,CTR-2025245,PT Nusantara Polymer,Anionic Surfactant,Karachi,,TT advance,Y,Y,N,N,Y,Y,Y,Y,True,,0,Green
+SHP-700246,CTR-2025246,Nile Delta Industrial Chemicals,2-Ethylhexanol (Oxo Alcohol),Rotterdam,,TT 30 days,N,Y,Y,Y,Y,Y,N,N,True,,1,Green
+SHP-700247,CTR-2025247,EuroChem Amsterdam,Battery-Grade Lithium Hydroxide,Kandla,LC-90247,LC 90 days,Y,Y,Y,N,Y,Y,N,N,False,,1,Green
+SHP-700248,CTR-2025248,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Lagos,LC-90248,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700249,CTR-2025249,Colombo Chemtrade,Anionic Surfactant,Karachi,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,11.9,0,Green
+SHP-700250,CTR-2025250,Meridian Specialty Chemicals Pvt Ltd,Acrylic Acid,Singapore,LC-90250,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700251,CTR-2025251,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Colombo,LC-90251,LC at sight,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
+SHP-700252,CTR-2025252,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Kandla,LC-90252,LC at sight,Y,N,Y,Y,Y,Y,N,N,False,,2,Amber
+SHP-700253,CTR-2025253,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Chennai,LC-90253,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700254,CTR-2025254,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanoic Acid (2-EHA),Shanghai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700255,CTR-2025255,EuroChem Amsterdam,2-Ethylhexanol (Oxo Alcohol),Shanghai,,TT 30 days,Y,Y,Y,Y,N,Y,Y,N,True,30.2,1,Green
+SHP-700256,CTR-2025256,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Jeddah,LC-90256,LC 90 days,Y,N,Y,Y,Y,Y,Y,Y,False,140.0,3,Amber
+SHP-700257,CTR-2025257,California Advanced Materials Inc,Thermoplastic Polyurethane (TPU),Jeddah,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,40.5,0,Green
+SHP-700258,CTR-2025258,Guangzhou Performance Materials Ltd,Crop Protection Herbicide Formulation,Kandla,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700259,CTR-2025259,Shanghai Huifeng Chemicals,Battery-Grade Lithium Hydroxide,Istanbul,LC-90259,LC at sight,Y,N,Y,Y,Y,Y,Y,Y,False,46.3,2,Amber
+SHP-700260,CTR-2025260,Lagos Industrial Chemicals Ltd,Battery-Grade Lithium Hydroxide,Karachi,LC-90260,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700261,CTR-2025261,Karachi Polymer Co.,2-Ethylhexanoic Acid (2-EHA),Kandla,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,False,40.8,1,Green
+SHP-700262,CTR-2025262,PT Nusantara Polymer,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700263,CTR-2025263,Chittagong Specialty Chemicals,Thermoplastic Polyurethane (TPU),Jeddah,LC-90263,LC at sight,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700264,CTR-2025264,Rotterdam ChemTrade BV,Thermoplastic Polyurethane (TPU),Shanghai,LC-90264,LC at sight,Y,N,Y,Y,Y,Y,N,Y,True,140.0,2,Amber
+SHP-700265,CTR-2025265,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Lagos,LC-90265,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,False,21.6,1,Green
+SHP-700266,CTR-2025266,PT Nusantara Polymer,Highly Reactive Polyisobutene (HR-PIB),Istanbul,LC-90266,LC at sight,N,Y,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700267,CTR-2025267,Lagos Industrial Chemicals Ltd,Acrylic Acid,Los Angeles,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700268,CTR-2025268,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),Shanghai,,TT 30 days,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
+SHP-700269,CTR-2025269,Shanghai Huifeng Chemicals,Thermoplastic Polyurethane (TPU),Kandla,LC-90269,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700270,CTR-2025270,Shanghai Huifeng Chemicals,Crop Protection Herbicide Formulation,Chittagong,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700271,CTR-2025271,Shanghai Huifeng Chemicals,Acrylic Acid,Chennai,LC-90271,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700272,CTR-2025272,Ganga Polymer Traders,2-Ethylhexanoic Acid (2-EHA),Singapore,LC-90272,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,False,,1,Green
+SHP-700273,CTR-2025273,Guangzhou Performance Materials Ltd,Acrylic Acid,Colombo,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700274,CTR-2025274,Karachi Polymer Co.,Crop Protection Herbicide Formulation,Alexandria,,TT 30 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700275,CTR-2025275,Guangzhou Performance Materials Ltd,Anionic Surfactant,Kandla,,TT 30 days,N,N,Y,Y,N,N,N,Y,True,49.7,4,Red
+SHP-700276,CTR-2025276,California Advanced Materials Inc,2-Ethylhexanol (Oxo Alcohol),Colombo,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,True,,1,Green
+SHP-700277,CTR-2025277,Lagos Industrial Chemicals Ltd,Battery-Grade Lithium Hydroxide,Chennai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,False,,1,Green
+SHP-700278,CTR-2025278,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Kandla,LC-90278,LC at sight,N,Y,Y,Y,Y,Y,N,N,False,,2,Amber
+SHP-700279,CTR-2025279,Jeddah Petrochemicals Co,Thermoplastic Polyurethane (TPU),"West Port, Malaysia",LC-90279,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,139.5,3,Amber
+SHP-700280,CTR-2025280,Rotterdam ChemTrade BV,Acrylic Acid,Singapore,LC-90280,LC 90 days,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
+SHP-700281,CTR-2025281,Jeddah Petrochemicals Co,Highly Reactive Polyisobutene (HR-PIB),Rotterdam,LC-90281,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700282,CTR-2025282,Ganga Polymer Traders,Crop Protection Herbicide Formulation,Kandla,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700283,CTR-2025283,California Advanced Materials Inc,Battery-Grade Lithium Hydroxide,Jeddah,,TT advance,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
+SHP-700284,CTR-2025284,Ganga Polymer Traders,2-Ethylhexanol (Oxo Alcohol),Shanghai,LC-90284,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700285,CTR-2025285,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Alexandria,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700286,CTR-2025286,Rotterdam ChemTrade BV,2-Ethylhexanol (Oxo Alcohol),Alexandria,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700287,CTR-2025287,Rotterdam ChemTrade BV,Thermoplastic Polyurethane (TPU),Lagos,,TT 30 days,Y,N,N,Y,Y,Y,Y,Y,True,29.6,1,Green
+SHP-700288,CTR-2025288,California Advanced Materials Inc,Highly Reactive Polyisobutene (HR-PIB),Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700289,CTR-2025289,Meridian Specialty Chemicals Pvt Ltd,Anionic Surfactant,Shanghai,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,,1,Green
+SHP-700290,CTR-2025290,California Advanced Materials Inc,Battery-Grade Lithium Hydroxide,Colombo,,TT 30 days,N,Y,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700291,CTR-2025291,Karachi Polymer Co.,Battery-Grade Lithium Hydroxide,Jeddah,,TT 30 days,Y,Y,Y,N,Y,Y,Y,Y,False,20.8,1,Green
+SHP-700292,CTR-2025292,Jeddah Petrochemicals Co,Anionic Surfactant,Los Angeles,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,25.2,0,Green
+SHP-700293,CTR-2025293,Shanghai Huifeng Chemicals,Anionic Surfactant,Rotterdam,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700294,CTR-2025294,Karachi Polymer Co.,Anionic Surfactant,Los Angeles,LC-90294,LC at sight,N,N,Y,Y,Y,Y,Y,N,True,,2,Amber
+SHP-700295,CTR-2025295,Lagos Industrial Chemicals Ltd,Anionic Surfactant,Guangzhou,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,17.4,0,Green
+SHP-700296,CTR-2025296,Shanghai Huifeng Chemicals,Acrylic Acid,Karachi,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,Y,True,21.2,0,Green
+SHP-700297,CTR-2025297,Istanbul Kimya Sanayi,Anionic Surfactant,Chittagong,LC-90297,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700298,CTR-2025298,Guangzhou Performance Materials Ltd,Highly Reactive Polyisobutene (HR-PIB),Jeddah,,TT 60 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700299,CTR-2025299,Ganga Polymer Traders,2-Ethylhexanol (Oxo Alcohol),Shanghai,LC-90299,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700300,CTR-2025300,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Lagos,LC-90300,LC 90 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700301,CTR-2025301,Shanghai Huifeng Chemicals,2-Ethylhexanol (Oxo Alcohol),Singapore,LC-90301,LC 90 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700302,CTR-2025302,Rotterdam ChemTrade BV,Acrylic Acid,Los Angeles,LC-90302,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700303,CTR-2025303,Lagos Industrial Chemicals Ltd,Battery-Grade Lithium Hydroxide,Colombo,LC-90303,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,False,,3,Amber
+SHP-700304,CTR-2025304,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Los Angeles,,TT 30 days,Y,Y,N,Y,Y,Y,Y,Y,True,37.6,0,Green
+SHP-700305,CTR-2025305,Colombo Chemtrade,Highly Reactive Polyisobutene (HR-PIB),Colombo,LC-90305,LC at sight,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700306,CTR-2025306,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,"West Port, Malaysia",LC-90306,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700307,CTR-2025307,Karachi Polymer Co.,Battery-Grade Lithium Hydroxide,Guangzhou,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,False,,2,Amber
+SHP-700308,CTR-2025308,Ganga Polymer Traders,Battery-Grade Lithium Hydroxide,Guangzhou,LC-90308,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,False,,1,Green
+SHP-700309,CTR-2025309,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Lagos,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700310,CTR-2025310,EuroChem Amsterdam,Highly Reactive Polyisobutene (HR-PIB),Alexandria,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,58.6,0,Green
+SHP-700311,CTR-2025311,Rotterdam ChemTrade BV,Battery-Grade Lithium Hydroxide,Los Angeles,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,80.1,3,Amber
+SHP-700312,CTR-2025312,Jeddah Petrochemicals Co,Acrylic Acid,Shanghai,,TT 60 days,Y,Y,N,N,Y,Y,Y,N,True,13.2,0,Green
+SHP-700313,CTR-2025313,Shanghai Huifeng Chemicals,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT 30 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700314,CTR-2025314,Ganga Polymer Traders,Thermoplastic Polyurethane (TPU),Guangzhou,,TT advance,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700315,CTR-2025315,Lagos Industrial Chemicals Ltd,Battery-Grade Lithium Hydroxide,Chennai,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700316,CTR-2025316,Guangzhou Performance Materials Ltd,Thermoplastic Polyurethane (TPU),Singapore,LC-90316,LC 90 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700317,CTR-2025317,Ganga Polymer Traders,2-Ethylhexanoic Acid (2-EHA),Istanbul,,TT advance,Y,N,Y,Y,N,Y,Y,Y,False,41.8,3,Amber
+SHP-700318,CTR-2025318,Chittagong Specialty Chemicals,Thermoplastic Polyurethane (TPU),Shanghai,,TT 60 days,N,Y,Y,N,Y,Y,Y,N,True,48.7,1,Green
+SHP-700319,CTR-2025319,Chittagong Specialty Chemicals,Anionic Surfactant,Rotterdam,LC-90319,LC 90 days,Y,Y,N,Y,N,Y,N,N,True,42.7,1,Green
+SHP-700320,CTR-2025320,PT Nusantara Polymer,Anionic Surfactant,Jeddah,,TT 60 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700321,CTR-2025321,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Lagos,,TT advance,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700322,CTR-2025322,Guangzhou Performance Materials Ltd,Thermoplastic Polyurethane (TPU),Los Angeles,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,77.5,0,Green
+SHP-700323,CTR-2025323,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Alexandria,LC-90323,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700324,CTR-2025324,Guangzhou Performance Materials Ltd,Anionic Surfactant,Chittagong,,TT 30 days,Y,N,Y,Y,N,Y,Y,N,True,,2,Amber
+SHP-700325,CTR-2025325,Ganga Polymer Traders,Acrylic Acid,Lagos,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700326,CTR-2025326,Guangzhou Performance Materials Ltd,Battery-Grade Lithium Hydroxide,Guangzhou,LC-90326,LC at sight,Y,N,N,Y,Y,Y,N,N,False,,2,Amber
+SHP-700327,CTR-2025327,Chittagong Specialty Chemicals,Acrylic Acid,Chennai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,,0,Green
+SHP-700328,CTR-2025328,Rotterdam ChemTrade BV,Thermoplastic Polyurethane (TPU),Kandla,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700329,CTR-2025329,Shanghai Huifeng Chemicals,Crop Protection Herbicide Formulation,Los Angeles,LC-90329,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,10.6,1,Green
+SHP-700330,CTR-2025330,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Shanghai,LC-90330,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,140.0,2,Amber
+SHP-700331,CTR-2025331,Guangzhou Performance Materials Ltd,2-Ethylhexanoic Acid (2-EHA),Lagos,,TT advance,N,Y,N,Y,Y,Y,Y,Y,False,29.2,2,Amber
+SHP-700332,CTR-2025332,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Kandla,,TT advance,N,N,Y,N,Y,Y,Y,Y,False,,3,Amber
+SHP-700333,CTR-2025333,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Los Angeles,,TT 30 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700334,CTR-2025334,Rotterdam ChemTrade BV,Thermoplastic Polyurethane (TPU),Chennai,,TT 30 days,Y,Y,N,Y,Y,Y,Y,N,True,32.9,0,Green
+SHP-700335,CTR-2025335,Colombo Chemtrade,2-Ethylhexanoic Acid (2-EHA),Chittagong,LC-90335,LC at sight,N,Y,Y,N,Y,Y,Y,N,False,,2,Amber
+SHP-700336,CTR-2025336,Karachi Polymer Co.,Thermoplastic Polyurethane (TPU),Lagos,LC-90336,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,30.3,0,Green
+SHP-700337,CTR-2025337,Ganga Polymer Traders,Acrylic Acid,"West Port, Malaysia",,TT 60 days,Y,N,Y,Y,N/A,Y,N,Y,True,32.0,1,Green
+SHP-700338,CTR-2025338,Rotterdam ChemTrade BV,Anionic Surfactant,Kandla,LC-90338,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700339,CTR-2025339,PT Nusantara Polymer,2-Ethylhexanol (Oxo Alcohol),Jeddah,LC-90339,LC at sight,N,Y,Y,N,N,Y,Y,N,True,,2,Amber
+SHP-700340,CTR-2025340,Colombo Chemtrade,Acrylic Acid,Colombo,LC-90340,LC 90 days,Y,N,Y,Y,Y,Y,Y,N,True,28.8,1,Green
+SHP-700341,CTR-2025341,Ganga Polymer Traders,Anionic Surfactant,Jeddah,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700342,CTR-2025342,Chittagong Specialty Chemicals,Anionic Surfactant,Colombo,,TT 30 days,Y,Y,Y,Y,N,N,Y,N,True,,2,Amber
+SHP-700343,CTR-2025343,Colombo Chemtrade,Crop Protection Herbicide Formulation,Lagos,LC-90343,LC 90 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700344,CTR-2025344,Guangzhou Performance Materials Ltd,Battery-Grade Lithium Hydroxide,"West Port, Malaysia",LC-90344,LC 90 days,Y,Y,Y,Y,N/A,Y,Y,Y,False,,1,Green
+SHP-700345,CTR-2025345,PT Nusantara Polymer,Crop Protection Herbicide Formulation,Colombo,LC-90345,LC 90 days,Y,Y,Y,Y,Y,N,N,N,True,28.0,1,Green
+SHP-700346,CTR-2025346,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),Colombo,,TT 60 days,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700347,CTR-2025347,PT Nusantara Polymer,Anionic Surfactant,Lagos,LC-90347,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700348,CTR-2025348,Jeddah Petrochemicals Co,Acrylic Acid,Rotterdam,LC-90348,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700349,CTR-2025349,Colombo Chemtrade,Crop Protection Herbicide Formulation,Los Angeles,LC-90349,LC 90 days,Y,N,Y,Y,N,Y,Y,Y,True,,2,Amber
+SHP-700350,CTR-2025350,EuroChem Amsterdam,2-Ethylhexanol (Oxo Alcohol),Chennai,,TT advance,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700351,CTR-2025351,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanol (Oxo Alcohol),Guangzhou,,TT advance,Y,N,N,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700352,CTR-2025352,EuroChem Amsterdam,Thermoplastic Polyurethane (TPU),Los Angeles,LC-90352,LC 90 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700353,CTR-2025353,Nile Delta Industrial Chemicals,Highly Reactive Polyisobutene (HR-PIB),Chittagong,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700354,CTR-2025354,Lagos Industrial Chemicals Ltd,Anionic Surfactant,Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,60.6,0,Green
+SHP-700355,CTR-2025355,Rotterdam ChemTrade BV,Battery-Grade Lithium Hydroxide,Chennai,,TT 30 days,Y,Y,Y,N,N,Y,Y,N,False,,2,Amber
+SHP-700356,CTR-2025356,PT Nusantara Polymer,Acrylic Acid,Los Angeles,,TT advance,Y,N,Y,Y,Y,N,Y,Y,True,,2,Amber
+SHP-700357,CTR-2025357,Nile Delta Industrial Chemicals,Battery-Grade Lithium Hydroxide,Istanbul,LC-90357,LC at sight,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700358,CTR-2025358,PT Nusantara Polymer,Acrylic Acid,Karachi,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700359,CTR-2025359,Rotterdam ChemTrade BV,2-Ethylhexanoic Acid (2-EHA),Rotterdam,LC-90359,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,False,,1,Green
+SHP-700360,CTR-2025360,Ganga Polymer Traders,Thermoplastic Polyurethane (TPU),Shanghai,LC-90360,LC at sight,N,Y,Y,N,Y,Y,Y,N,True,,1,Green
+SHP-700361,CTR-2025361,California Advanced Materials Inc,Crop Protection Herbicide Formulation,Chittagong,,TT 60 days,N,Y,Y,Y,Y,Y,Y,N,True,26.4,1,Green
+SHP-700362,CTR-2025362,Guangzhou Performance Materials Ltd,2-Ethylhexanol (Oxo Alcohol),Istanbul,LC-90362,LC at sight,N,Y,Y,Y,N,Y,N,Y,True,,2,Amber
+SHP-700363,CTR-2025363,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),Los Angeles,LC-90363,LC at sight,N,N,Y,N,N,Y,Y,N,True,,3,Amber
+SHP-700364,CTR-2025364,Chittagong Specialty Chemicals,Acrylic Acid,Singapore,LC-90364,LC at sight,Y,Y,Y,Y,N,Y,Y,N,True,18.1,1,Green
+SHP-700365,CTR-2025365,Lagos Industrial Chemicals Ltd,Anionic Surfactant,Los Angeles,LC-90365,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,True,23.1,2,Amber
+SHP-700366,CTR-2025366,California Advanced Materials Inc,2-Ethylhexanol (Oxo Alcohol),Istanbul,LC-90366,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700367,CTR-2025367,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Colombo,,TT 60 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700368,CTR-2025368,Istanbul Kimya Sanayi,2-Ethylhexanoic Acid (2-EHA),"West Port, Malaysia",LC-90368,LC 90 days,Y,Y,Y,N,N/A,Y,Y,N,False,39.7,1,Green
+SHP-700369,CTR-2025369,Lagos Industrial Chemicals Ltd,2-Ethylhexanoic Acid (2-EHA),Chennai,,TT advance,Y,N,Y,Y,Y,N,Y,N,False,140.0,4,Red
+SHP-700370,CTR-2025370,Istanbul Kimya Sanayi,Thermoplastic Polyurethane (TPU),Kandla,LC-90370,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700371,CTR-2025371,Chittagong Specialty Chemicals,Thermoplastic Polyurethane (TPU),Rotterdam,LC-90371,LC at sight,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700372,CTR-2025372,Karachi Polymer Co.,2-Ethylhexanoic Acid (2-EHA),Alexandria,,TT 30 days,Y,N,Y,N,Y,Y,Y,Y,False,,2,Amber
+SHP-700373,CTR-2025373,Meridian Specialty Chemicals Pvt Ltd,Highly Reactive Polyisobutene (HR-PIB),Rotterdam,,TT advance,Y,Y,Y,N,Y,N,Y,N,True,82.9,2,Amber
+SHP-700374,CTR-2025374,Nile Delta Industrial Chemicals,2-Ethylhexanoic Acid (2-EHA),Jeddah,,TT 60 days,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
+SHP-700375,CTR-2025375,Shanghai Huifeng Chemicals,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT advance,Y,Y,Y,Y,Y,N,Y,N,True,,1,Green
+SHP-700376,CTR-2025376,Shanghai Huifeng Chemicals,Acrylic Acid,Alexandria,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700377,CTR-2025377,EuroChem Amsterdam,Thermoplastic Polyurethane (TPU),Istanbul,,TT advance,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700378,CTR-2025378,PT Nusantara Polymer,2-Ethylhexanoic Acid (2-EHA),Kandla,,TT advance,Y,N,Y,Y,Y,Y,Y,Y,False,,2,Amber
+SHP-700379,CTR-2025379,Shanghai Huifeng Chemicals,2-Ethylhexanol (Oxo Alcohol),Guangzhou,LC-90379,LC 90 days,Y,Y,N,Y,N,Y,Y,N,True,40.7,1,Green
+SHP-700380,CTR-2025380,California Advanced Materials Inc,2-Ethylhexanol (Oxo Alcohol),Istanbul,,TT 30 days,Y,N,Y,N,Y,Y,Y,N,True,23.4,1,Green
+SHP-700381,CTR-2025381,Nile Delta Industrial Chemicals,Crop Protection Herbicide Formulation,Kandla,,TT 30 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
+SHP-700382,CTR-2025382,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Chennai,LC-90382,LC at sight,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700383,CTR-2025383,Chittagong Specialty Chemicals,Battery-Grade Lithium Hydroxide,Guangzhou,,TT advance,Y,Y,Y,Y,Y,N,Y,N,False,,2,Amber
+SHP-700384,CTR-2025384,EuroChem Amsterdam,Anionic Surfactant,Los Angeles,LC-90384,LC 90 days,N,Y,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700385,CTR-2025385,Rotterdam ChemTrade BV,2-Ethylhexanol (Oxo Alcohol),Rotterdam,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700386,CTR-2025386,Istanbul Kimya Sanayi,Highly Reactive Polyisobutene (HR-PIB),Rotterdam,LC-90386,LC at sight,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700387,CTR-2025387,Jeddah Petrochemicals Co,Acrylic Acid,Chittagong,,TT 30 days,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700388,CTR-2025388,Meridian Specialty Chemicals Pvt Ltd,Thermoplastic Polyurethane (TPU),Alexandria,LC-90388,LC 90 days,N,Y,Y,N,Y,N,Y,N,True,,2,Amber
+SHP-700389,CTR-2025389,Rotterdam ChemTrade BV,Thermoplastic Polyurethane (TPU),Jeddah,LC-90389,LC 90 days,Y,Y,N,Y,Y,Y,Y,N,True,55.5,0,Green
+SHP-700390,CTR-2025390,Lagos Industrial Chemicals Ltd,Highly Reactive Polyisobutene (HR-PIB),"West Port, Malaysia",,TT advance,Y,Y,Y,Y,Y,N,Y,Y,True,,1,Green
+SHP-700391,CTR-2025391,EuroChem Amsterdam,2-Ethylhexanoic Acid (2-EHA),Colombo,LC-90391,LC 90 days,Y,Y,Y,Y,Y,Y,Y,Y,False,,1,Green
+SHP-700392,CTR-2025392,California Advanced Materials Inc,Highly Reactive Polyisobutene (HR-PIB),Lagos,,TT advance,Y,Y,Y,N,Y,Y,N,N,True,,0,Green
+SHP-700393,CTR-2025393,Karachi Polymer Co.,2-Ethylhexanoic Acid (2-EHA),Chittagong,,TT 60 days,Y,Y,Y,N,N,Y,Y,N,False,,2,Amber
+SHP-700394,CTR-2025394,Guangzhou Performance Materials Ltd,Acrylic Acid,Colombo,LC-90394,LC 90 days,Y,Y,N,Y,Y,Y,N,Y,True,,0,Green
+SHP-700395,CTR-2025395,Colombo Chemtrade,Thermoplastic Polyurethane (TPU),Istanbul,,TT advance,Y,Y,Y,Y,N,Y,Y,Y,True,,1,Green
+SHP-700396,CTR-2025396,Shanghai Huifeng Chemicals,2-Ethylhexanol (Oxo Alcohol),Istanbul,,TT 60 days,Y,Y,Y,N,Y,Y,Y,Y,True,,0,Green
+SHP-700397,CTR-2025397,EuroChem Amsterdam,Highly Reactive Polyisobutene (HR-PIB),Los Angeles,LC-90397,LC at sight,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700398,CTR-2025398,Guangzhou Performance Materials Ltd,2-Ethylhexanol (Oxo Alcohol),Colombo,,TT 30 days,Y,N,Y,Y,Y,Y,Y,Y,True,,1,Green
+SHP-700399,CTR-2025399,Meridian Specialty Chemicals Pvt Ltd,Anionic Surfactant,Chittagong,LC-90399,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700400,CTR-2025400,Nile Delta Industrial Chemicals,Acrylic Acid,"West Port, Malaysia",,TT 30 days,Y,Y,Y,Y,Y,Y,Y,Y,True,109.7,1,Green
+SHP-700401,CTR-2025401,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),Chennai,,TT 60 days,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700402,CTR-2025402,PT Nusantara Polymer,Acrylic Acid,Jeddah,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700403,CTR-2025403,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Guangzhou,,TT 60 days,Y,Y,Y,Y,Y,Y,N,N,True,,0,Green
+SHP-700404,CTR-2025404,Shanghai Huifeng Chemicals,Thermoplastic Polyurethane (TPU),Kandla,,TT advance,Y,Y,Y,N,Y,Y,Y,N,True,,0,Green
+SHP-700405,CTR-2025405,California Advanced Materials Inc,Anionic Surfactant,Lagos,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,73.1,0,Green
+SHP-700406,CTR-2025406,Chittagong Specialty Chemicals,Highly Reactive Polyisobutene (HR-PIB),Jeddah,LC-90406,LC 90 days,Y,N,Y,Y,Y,Y,N,Y,True,43.1,1,Green
+SHP-700407,CTR-2025407,Meridian Specialty Chemicals Pvt Ltd,Anionic Surfactant,Istanbul,,TT 60 days,Y,N,Y,N,N,Y,Y,N,True,,2,Amber
+SHP-700408,CTR-2025408,Nile Delta Industrial Chemicals,Highly Reactive Polyisobutene (HR-PIB),Jeddah,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,True,,1,Green
+SHP-700409,CTR-2025409,Meridian Specialty Chemicals Pvt Ltd,2-Ethylhexanoic Acid (2-EHA),Singapore,,TT advance,Y,Y,Y,Y,Y,Y,N,N,False,,1,Green
+SHP-700410,CTR-2025410,Jeddah Petrochemicals Co,Crop Protection Herbicide Formulation,Singapore,LC-90410,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700411,CTR-2025411,EuroChem Amsterdam,Battery-Grade Lithium Hydroxide,Istanbul,LC-90411,LC 90 days,N,Y,Y,Y,N,Y,Y,Y,False,,3,Amber
+SHP-700412,CTR-2025412,Ganga Polymer Traders,Acrylic Acid,Colombo,,TT advance,Y,Y,Y,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700413,CTR-2025413,Nile Delta Industrial Chemicals,Thermoplastic Polyurethane (TPU),Karachi,,TT 60 days,Y,Y,Y,Y,N,Y,Y,N,True,,1,Green
+SHP-700414,CTR-2025414,Colombo Chemtrade,Anionic Surfactant,Guangzhou,,TT 30 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700415,CTR-2025415,Colombo Chemtrade,Battery-Grade Lithium Hydroxide,Guangzhou,,TT 30 days,Y,N,Y,Y,Y,Y,Y,N,False,,2,Amber
+SHP-700416,CTR-2025416,California Advanced Materials Inc,Anionic Surfactant,Lagos,,TT advance,Y,Y,Y,Y,N,N,Y,Y,True,,2,Amber
+SHP-700417,CTR-2025417,Colombo Chemtrade,Highly Reactive Polyisobutene (HR-PIB),Karachi,LC-90417,LC 90 days,Y,Y,Y,Y,Y,Y,Y,N,True,,0,Green
+SHP-700418,CTR-2025418,Ganga Polymer Traders,Anionic Surfactant,Guangzhou,,TT advance,Y,Y,N,Y,Y,Y,Y,Y,True,,0,Green
+SHP-700419,CTR-2025419,California Advanced Materials Inc,Crop Protection Herbicide Formulation,Jeddah,,TT advance,N,Y,Y,N,Y,Y,Y,Y,True,,1,Green

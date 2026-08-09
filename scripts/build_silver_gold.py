@@ -221,12 +221,18 @@ high_vol_missing_hs = [
     if p in prod_hs.index and not prod_hs.loc[p, "has_hs_code"]
 ]
 
+hs_detail = silver_product_hs.copy()
+# hs_valid_to is a real datetime64 column here; fillna("") on a datetime
+# dtype is a no-op (NaT survives and later prints as "NaN"), so format to a
+# plain string first, same fix already applied to bl_date/lc_issue_date.
+hs_detail["hs_valid_to"] = hs_detail["hs_valid_to"].dt.strftime("%Y-%m-%d")
+
 gold_hs_code_governance = {
     "hs_coverage_pct": hs_coverage_pct,
     "products_missing_hs": int((~silver_product_hs["has_hs_code"]).sum()),
     "products_hs_expired": int(silver_product_hs["hs_expired"].fillna(False).sum()),
     "high_volume_products_missing_hs": high_vol_missing_hs,
-    "detail": silver_product_hs.fillna("").astype(str).to_dict("records"),
+    "detail": hs_detail.fillna("").astype(str).to_dict("records"),
 }
 with open(os.path.join(GOLD, "gold_hs_code_governance.json"), "w") as f:
     json.dump(gold_hs_code_governance, f, indent=2, default=str)

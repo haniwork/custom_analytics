@@ -5,77 +5,77 @@
   "open_contracts": 94,
   "by_product": [
     {
-      "product": "Palm Kernel Oil (PKO)",
+      "product": "Thermoplastic Polyurethane (TPU)",
       "invoice_amount_usd": 298495898.49
     },
     {
-      "product": "RBD Palm Olein",
+      "product": "2-Ethylhexanoic Acid (2-EHA)",
       "invoice_amount_usd": 256658629.8
     },
     {
-      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "product": "Battery-Grade Lithium Hydroxide",
       "invoice_amount_usd": 228922739.25
     },
     {
-      "product": "Palm Kernel Expeller (PKE)",
+      "product": "Crop Protection Herbicide Formulation",
       "invoice_amount_usd": 222975313.14
     },
     {
-      "product": "Palm Fatty Acid Distillate (PFAD)",
+      "product": "Anionic Surfactant",
       "invoice_amount_usd": 218665582.95
     },
     {
-      "product": "RBD Palm Oil",
+      "product": "Highly Reactive Polyisobutene (HR-PIB)",
       "invoice_amount_usd": 200740382.52
     },
     {
-      "product": "RBD Palm Stearin",
+      "product": "2-Ethylhexanol (Oxo Alcohol)",
       "invoice_amount_usd": 181064302.69
     },
     {
-      "product": "Crude Palm Oil (CPO)",
+      "product": "Acrylic Acid",
       "invoice_amount_usd": 153066796.04
     }
   ],
   "by_counterparty": [
     {
-      "counterparty_name": "Meridian Oleo Pvt Ltd",
+      "counterparty_name": "Meridian Specialty Chemicals Pvt Ltd",
       "invoice_amount_usd": 168702028.1
     },
     {
-      "counterparty_name": "Chittagong Oil Refinery",
+      "counterparty_name": "Chittagong Specialty Chemicals",
       "invoice_amount_usd": 156875924.15
     },
     {
-      "counterparty_name": "California Biofuels Inc",
+      "counterparty_name": "California Advanced Materials Inc",
       "invoice_amount_usd": 151982041.61
     },
     {
-      "counterparty_name": "Colombo Fats Trading",
+      "counterparty_name": "Colombo Chemtrade",
       "invoice_amount_usd": 128536500.95
     },
     {
-      "counterparty_name": "Shanghai Huifeng Trading",
+      "counterparty_name": "Shanghai Huifeng Chemicals",
       "invoice_amount_usd": 117774653.01
     },
     {
-      "counterparty_name": "Guangzhou Oleochem Ltd",
+      "counterparty_name": "Guangzhou Performance Materials Ltd",
       "invoice_amount_usd": 116514738.74
     },
     {
-      "counterparty_name": "Rotterdam Fats & Oils BV",
+      "counterparty_name": "Rotterdam ChemTrade BV",
       "invoice_amount_usd": 113533601.03
     },
     {
-      "counterparty_name": "PT Nusantara Lipid",
+      "counterparty_name": "PT Nusantara Polymer",
       "invoice_amount_usd": 109848543.33
     },
     {
-      "counterparty_name": "Istanbul Bitkisel Yag",
+      "counterparty_name": "Istanbul Kimya Sanayi",
       "invoice_amount_usd": 106284026.15
     },
     {
-      "counterparty_name": "EuroFat Amsterdam",
+      "counterparty_name": "EuroChem Amsterdam",
       "invoice_amount_usd": 105636251.53
     }
   ],
