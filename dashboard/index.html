@@ -209,6 +209,21 @@
   }
   .panel h2 { margin-top: 0; font-size: 16px; color: var(--navy); }
   .panel.caveat { background: #fff8e6; border-color: #f0d38a; color: #6b4e00; font-size: 12.5px; }
+  .source-list { list-style: none; margin: 10px 0 4px; padding: 0; display: grid; gap: 8px; }
+  .source-list li {
+    display: grid;
+    grid-template-columns: 168px 1fr;
+    gap: 10px;
+    align-items: baseline;
+    padding: 8px 10px;
+    background: var(--bg);
+    border-radius: 7px;
+  }
+  .source-list .src-name { font-weight: 700; color: var(--navy); font-size: 12.5px; }
+  .source-list .src-desc { color: #34424f; }
+  @media (max-width: 640px) {
+    .source-list li { grid-template-columns: 1fr; }
+  }
   .table-wrap { background: var(--card-bg); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
   .table-wrap h3 { font-size: 13.5px; color: var(--navy); margin: 2px 0 10px; }
   .table-controls { display:flex; gap:10px; margin-bottom:10px; align-items:center; }
@@ -237,7 +252,7 @@
 
 <header class="top">
   <h1>🧭 Trade Compliance &amp; Customs Analytics Control Tower</h1>
-  <p class="subtitle">A KPI scorecard &amp; reporting MVP demonstrating how fragmented trading, logistics, ERP/commodity-code and trading-risk data can be consolidated into customs KPI monitoring, dashboards and scorecards — covering documentation compliance, HS code governance, duty analysis, FTA/duty optimization and trade risk performance.</p>
+  <p class="subtitle">A KPI scorecard &amp; customs analytics control tower — one set of dashboards for documentation compliance, HS code governance, duty &amp; FTA optimization, and trade risk performance.</p>
 </header>
 <div class="disclaimer">
   <strong>Portfolio disclaimer:</strong> All figures, counterparties, contracts, vessels, tariff rates and FTA schemes shown on this dashboard are <strong>synthetically generated</strong> for demonstration purposes only. This project does not use, reference, or expose any real employer data, credentials, or infrastructure, and it is not a substitute for validated customs/duty data (e.g. SAP GTS). Duty and FTA figures are illustrative proxies only and require SME validation before any business use.
@@ -382,7 +397,14 @@ function buildOverview(container) {
   const d = DATA.trade_overview;
   container.appendChild(el("div", {class: "panel"}, [
     el("h2", {}, "Project narrative"),
-    el("p", {}, `"This dashboard is a customs KPI scorecard & analytics MVP built from illustrative, Oil Palm Company-style trade systems. A trading/contract system provides the commercial backbone, a logistics control tower provides customs and document compliance tracking, an ERP/commodity-code system provides product classification governance, and a trading-risk platform provides exposure monitoring. The dashboard does not claim to replace a dedicated customs platform (e.g. SAP GTS) — it demonstrates how fragmented source data can be validated, reconciled and rolled up into KPI monitoring, scorecards and management reporting for customs readiness, document completeness, HS code governance, duty analysis, FTA/duty optimization and trade risk performance."`),
+    el("p", {}, "Illustrative, Oil Palm Company-style data pulled from four typical trade-org source systems and rolled up into one set of KPI scorecards:"),
+    el("ul", {class: "source-list"}, [
+      el("li", {}, [el("span", {class: "src-name"}, "Trading / Contract system"), el("span", {class: "src-desc"}, "commercial backbone — counterparties, product, pricing, contract terms")]),
+      el("li", {}, [el("span", {class: "src-name"}, "Logistics Control Tower"), el("span", {class: "src-desc"}, "customs & document compliance tracking — K2, COO, BL, stage gates")]),
+      el("li", {}, [el("span", {class: "src-name"}, "ERP / Commodity-Code system"), el("span", {class: "src-desc"}, "product classification governance — HS codes, validity windows")]),
+      el("li", {}, [el("span", {class: "src-name"}, "Trading-Risk platform"), el("span", {class: "src-desc"}, "exposure monitoring — open position, M2M, VaR, limit utilization")]),
+    ]),
+    el("p", {}, "Not a replacement for a dedicated customs platform (e.g. SAP GTS) — this demonstrates validating, reconciling and rolling up fragmented source data into customs readiness, HS governance, duty/FTA optimization and trade risk performance."),
   ]));
 
   // -------------------------------------------------------------------
