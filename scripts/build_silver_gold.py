@@ -29,9 +29,13 @@ os.makedirs(GOLD, exist_ok=True)
 
 trading = pd.read_csv(os.path.join(BRONZE, "trading_spot_extract.csv"))
 logistics = pd.read_csv(os.path.join(BRONZE, "logistics_lct_extract.csv"), keep_default_na=False, na_values=[])
-product = pd.read_csv(os.path.join(BRONZE, "product_master_sap_extract.csv"))
+# HS codes (e.g. "1511.10") look numeric but must stay strings — read as float64
+# they'd silently drop significant trailing zeros ("1511.10" -> 1511.1).
+product = pd.read_csv(os.path.join(BRONZE, "product_master_sap_extract.csv"), dtype={"commodity_code_hs": str})
 risk = pd.read_csv(os.path.join(BRONZE, "risk_position_rave_extract.csv"))
 cost = pd.read_csv(os.path.join(BRONZE, "freight_duty_cost_extract.csv"))
+mfn_master = pd.read_csv(os.path.join(BRONZE, "mfn_duty_rate_master.csv"), dtype={"hs_code": str})
+fta_pref_master = pd.read_csv(os.path.join(BRONZE, "fta_preferential_rate_master.csv"), dtype={"hs_code": str})
 
 # ---------------------------------------------------------------------------
 # SILVER: standardize field names / types (mirrors the ETL mapping table:
@@ -98,6 +102,8 @@ silver_tables = {
     "silver_rave_position": silver_rave_position,
     "silver_cost": silver_cost,
     "silver_counterparty": silver_counterparty,
+    "silver_mfn_duty_master": mfn_master,
+    "silver_fta_preferential_master": fta_pref_master,
 }
 for name, df in silver_tables.items():
     df.to_csv(os.path.join(SILVER, f"{name}.csv"), index=False)
@@ -293,6 +299,74 @@ gold_fta_opportunity = {
     "total_potential_saving_usd": total_potential_savings,
     "by_country_opportunity": by_country_opportunity,
 }
+
+# ---------------------------------------------------------------------------
+# GOLD 6b: HS Code + FTA Optimization (Page 6) — shipment-level, code- and
+# origin-specific analysis, looked up from a Customs FTA/tariff-schedule master
+# keyed by (country of origin, destination, HS code). ILLUSTRATIVE ONLY.
+# ---------------------------------------------------------------------------
+
+hs_fta = trading[[
+    "shipment_id", "contract_ref", "counterparty_name", "product", "material_code",
+    "country_of_origin", "discharge_port_country", "invoice_amount_usd",
+]].rename(columns={"discharge_port_country": "destination_country"}).copy()
+
+hs_fta = hs_fta.merge(product[["material_code", "commodity_code_hs"]], on="material_code", how="left")
+hs_fta = hs_fta.rename(columns={"commodity_code_hs": "hs_code"})
+hs_fta["hs_code"] = hs_fta["hs_code"].fillna("").astype(str)
+hs_fta["hs_code_known"] = hs_fta["hs_code"].str.len() > 0
+
+hs_fta = hs_fta.merge(
+    silver_lct_document[["shipment_id", "certificate_of_origin_flag"]], on="shipment_id", how="left"
+)
+hs_fta["coo_present"] = hs_fta["certificate_of_origin_flag"].isin(["Y"])
+
+# Standard (MFN) rate — owed by everyone, regardless of origin, keyed by destination + HS code
+hs_fta = hs_fta.merge(mfn_master, on=["destination_country", "hs_code"], how="left")
+# Preferential rate — only exists in the master if this exact (origin, destination, HS
+# code) combination is covered by an FTA; a missing match IS the "not available" signal
+hs_fta = hs_fta.merge(
+    fta_pref_master, on=["country_of_origin", "destination_country", "hs_code"], how="left"
+)
+hs_fta["fta_rate_found"] = hs_fta["preferential_duty_rate_pct"].notna()
+
+def _fta_status(r):
+    if not r["hs_code_known"]:
+        return "Unknown (No HS Code)"
+    return "Yes" if r["fta_rate_found"] else "No"
+
+hs_fta["is_fta_available"] = hs_fta.apply(_fta_status, axis=1)
+
+# Duty paid today: assume preferential rate only where FTA is available AND the COO
+# needed to claim it is actually on file; otherwise everyone pays the standard/MFN
+# rate (or it's unknown, if the HS code itself isn't known).
+claimed = (hs_fta["is_fta_available"] == "Yes") & (hs_fta["coo_present"])
+hs_fta["duty_paid_usd"] = np.where(
+    claimed,
+    hs_fta["invoice_amount_usd"] * hs_fta["preferential_duty_rate_pct"] / 100,
+    np.where(hs_fta["hs_code_known"], hs_fta["invoice_amount_usd"] * hs_fta["standard_duty_rate_pct"] / 100, np.nan),
+).round(2)
+
+# Saving opportunity: FTA exists but isn't being claimed (COO not on file)
+missed = (hs_fta["is_fta_available"] == "Yes") & (~hs_fta["coo_present"])
+hs_fta["saving_opportunity_usd"] = np.where(
+    missed,
+    (hs_fta["standard_duty_rate_pct"] - hs_fta["preferential_duty_rate_pct"]) / 100 * hs_fta["invoice_amount_usd"],
+    0.0,
+).round(2)
+
+gold_fta_opportunity["hs_fta_optimization"] = {
+    "note": "Duty paid assumes the standard/MFN rate unless a Certificate of Origin is on file for an FTA-eligible shipment (in which case the preferential rate is assumed claimed). Saving opportunity = FTA available in the master table but not currently being claimed.",
+    "total_saving_opportunity_usd": round(hs_fta["saving_opportunity_usd"].sum(), 2),
+    "shipments_with_missed_saving": int((hs_fta["saving_opportunity_usd"] > 0).sum()),
+    "shipments_fta_available": int((hs_fta["is_fta_available"] == "Yes").sum()),
+    "shipments_unknown_hs": int((hs_fta["is_fta_available"] == "Unknown (No HS Code)").sum()),
+    "detail": hs_fta[[
+        "shipment_id", "contract_ref", "product", "country_of_origin", "destination_country",
+        "hs_code", "duty_paid_usd", "is_fta_available", "saving_opportunity_usd",
+    ]].fillna("").to_dict("records"),
+}
+
 with open(os.path.join(GOLD, "gold_fta_opportunity.json"), "w") as f:
     json.dump(gold_fta_opportunity, f, indent=2)
 

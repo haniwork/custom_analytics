@@ -1,76 +1,76 @@
 {
   "label": "Duty Exposure Proxy / Illustrative Tariff Exposure (not actual customs duty data)",
-  "avg_freight_cost_per_mt": 56.53,
-  "avg_export_duty_per_mt": 82.1,
-  "avg_port_cost_per_mt": 7.76,
-  "avg_freight_duty_pct_of_invoice": 14.92,
-  "total_estimated_landed_cost_usd": 1894358008.22,
+  "avg_freight_cost_per_mt": 55.73,
+  "avg_export_duty_per_mt": 84.27,
+  "avg_port_cost_per_mt": 7.41,
+  "avg_freight_duty_pct_of_invoice": 15.01,
+  "total_estimated_landed_cost_usd": 2034475759.6,
   "top_products_by_burden": [
     {
-      "product": "RBD Palm Stearin",
-      "freight_duty_pct_of_invoice": 15.72
-    },
-    {
-      "product": "RBD Palm Olein",
-      "freight_duty_pct_of_invoice": 15.43
-    },
-    {
-      "product": "Palm Fatty Acid Distillate (PFAD)",
-      "freight_duty_pct_of_invoice": 15.41
-    },
-    {
       "product": "RBD Palm Oil",
-      "freight_duty_pct_of_invoice": 15.14
-    },
-    {
-      "product": "Palm Methyl Ester Biodiesel (B100)",
-      "freight_duty_pct_of_invoice": 15.04
-    },
-    {
-      "product": "Palm Kernel Oil (PKO)",
-      "freight_duty_pct_of_invoice": 14.75
+      "freight_duty_pct_of_invoice": 15.94
     },
     {
       "product": "Palm Kernel Expeller (PKE)",
-      "freight_duty_pct_of_invoice": 14.04
+      "freight_duty_pct_of_invoice": 15.32
     },
     {
       "product": "Crude Palm Oil (CPO)",
-      "freight_duty_pct_of_invoice": 13.51
+      "freight_duty_pct_of_invoice": 15.27
+    },
+    {
+      "product": "RBD Palm Stearin",
+      "freight_duty_pct_of_invoice": 15.15
+    },
+    {
+      "product": "RBD Palm Olein",
+      "freight_duty_pct_of_invoice": 14.94
+    },
+    {
+      "product": "Palm Fatty Acid Distillate (PFAD)",
+      "freight_duty_pct_of_invoice": 14.86
+    },
+    {
+      "product": "Palm Kernel Oil (PKO)",
+      "freight_duty_pct_of_invoice": 14.54
+    },
+    {
+      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "freight_duty_pct_of_invoice": 14.27
     }
   ],
   "top_lanes_by_burden": [
     {
-      "discharge_country": "Saudi Arabia",
-      "freight_duty_pct_of_invoice": 15.44
+      "discharge_country": "Malaysia",
+      "freight_duty_pct_of_invoice": 15.89
     },
     {
       "discharge_country": "China",
-      "freight_duty_pct_of_invoice": 15.43
+      "freight_duty_pct_of_invoice": 15.74
     },
     {
-      "discharge_country": "Sri Lanka",
-      "freight_duty_pct_of_invoice": 15.35
-    },
-    {
-      "discharge_country": "Turkey",
-      "freight_duty_pct_of_invoice": 15.14
-    },
-    {
-      "discharge_country": "Singapore",
-      "freight_duty_pct_of_invoice": 15.1
-    },
-    {
-      "discharge_country": "Nigeria",
-      "freight_duty_pct_of_invoice": 14.94
-    },
-    {
-      "discharge_country": "India",
-      "freight_duty_pct_of_invoice": 14.91
+      "discharge_country": "Netherlands",
+      "freight_duty_pct_of_invoice": 15.66
     },
     {
       "discharge_country": "Bangladesh",
-      "freight_duty_pct_of_invoice": 14.89
+      "freight_duty_pct_of_invoice": 15.56
+    },
+    {
+      "discharge_country": "Saudi Arabia",
+      "freight_duty_pct_of_invoice": 15.54
+    },
+    {
+      "discharge_country": "Egypt",
+      "freight_duty_pct_of_invoice": 15.06
+    },
+    {
+      "discharge_country": "Nigeria",
+      "freight_duty_pct_of_invoice": 14.97
+    },
+    {
+      "discharge_country": "Pakistan",
+      "freight_duty_pct_of_invoice": 14.92
     }
   ]
 }

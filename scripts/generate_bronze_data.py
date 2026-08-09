@@ -99,6 +99,14 @@ VESSEL_NAMES = [
     "MT Sarawak Trader", "MT Perak Navigator", "MT Melaka Horizon", "MT Labuan Wave",
 ]
 
+HS_CODES = sorted(set(p[3] for p in PRODUCTS))
+DEST_COUNTRIES = sorted(set(c for _, c in DISCHARGE))
+
+# ~12% of shipments fail the Rules-of-Origin test for a Malaysia-origin FTA claim
+# even though they physically load from a Malaysian port (e.g. re-exported /
+# transshipped cargo with insufficient local processing / non-originating inputs).
+NON_QUALIFYING_ORIGINS = ["Indonesia (transshipped)", "Non-Qualifying (Mixed Origin)"]
+
 
 def rand_date(start, end):
     delta = end - start
@@ -115,6 +123,13 @@ def gen_trading():
         counterparty = random.choice(COUNTERPARTIES)
         discharge_port, discharge_country = random.choice(DISCHARGE)
         load_port = random.choice(LOAD_PORTS)
+        # Country of origin per Rules of Origin — NOT the ship-from/load port.
+        # All cargo physically loads from a Malaysian port, but ~12% doesn't
+        # actually qualify as Malaysia-originating (re-exported / transshipped /
+        # insufficient local processing), so it can't be claimed under a
+        # Malaysia-origin FTA even though it shipped from Malaysia.
+        origin_qualifies = np.random.rand() > 0.12
+        country_of_origin = "Malaysia" if origin_qualifies else random.choice(NON_QUALIFYING_ORIGINS)
         qty = round(np.random.uniform(500, 8000), 1)
         price = round(np.random.uniform(650, 1250), 2)  # USD/MT, illustrative
         invoice_amount = round(qty * price, 2)
@@ -158,6 +173,7 @@ def gen_trading():
             "payment_terms_id": payment_term,
             "incoterms": incoterm,
             "load_port": load_port,
+            "country_of_origin": country_of_origin,
             "discharge_port": discharge_port,
             "discharge_port_country": discharge_country,
             "mode_of_transport": mode,
@@ -295,18 +311,66 @@ def gen_cost_freight(trading_df):
     return pd.DataFrame(rows)
 
 
+def gen_mfn_duty_master():
+    """Reference table: standard (MFN) duty rate by destination country + HS code.
+    This is what's owed regardless of origin — the baseline everyone pays unless
+    a preferential (FTA) rate is successfully claimed."""
+    rows = []
+    for dest in DEST_COUNTRIES:
+        for hs in HS_CODES:
+            rows.append({
+                "destination_country": dest,
+                "hs_code": hs,
+                "standard_duty_rate_pct": round(np.random.uniform(3, 15), 1),
+            })
+    return pd.DataFrame(rows)
+
+
+def gen_fta_preferential_master(mfn_df):
+    """Reference table: preferential duty rate by (country of origin, destination,
+    HS code) — mimics a Customs FTA/tariff-schedule master. A row only exists where
+    a Malaysia-origin FTA scheme actually covers that HS chapter for that
+    destination; absence of a row means no preferential rate is available (either
+    no FTA scheme with that destination, or that HS chapter isn't covered under it).
+    Only "Malaysia" appears as a qualifying country_of_origin here, since that's
+    the only origin under which these FTA schemes could ever apply."""
+    rows = []
+    for _, m in mfn_df.iterrows():
+        dest = m["destination_country"]
+        hs = m["hs_code"]
+        scheme = FTA_SCHEMES.get(dest, "None")
+        if scheme == "None":
+            continue
+        if np.random.rand() >= 0.75:  # ~25% of HS chapters not covered under the scheme
+            continue
+        pref_rate = round(m["standard_duty_rate_pct"] * np.random.uniform(0.15, 0.6), 1)
+        rows.append({
+            "country_of_origin": "Malaysia",
+            "destination_country": dest,
+            "hs_code": hs,
+            "fta_scheme": scheme,
+            "preferential_duty_rate_pct": pref_rate,
+        })
+    return pd.DataFrame(rows)
+
+
 if __name__ == "__main__":
     trading_df = gen_trading()
     logistics_df = gen_logistics_docs(trading_df)
     product_df = gen_product_master()
     risk_df = gen_risk_position(trading_df)
     cost_df = gen_cost_freight(trading_df)
+    mfn_master_df = gen_mfn_duty_master()
+    fta_pref_master_df = gen_fta_preferential_master(mfn_master_df)
 
     trading_df.to_csv(os.path.join(OUT_DIR, "trading_spot_extract.csv"), index=False)
     logistics_df.to_csv(os.path.join(OUT_DIR, "logistics_lct_extract.csv"), index=False)
     product_df.to_csv(os.path.join(OUT_DIR, "product_master_sap_extract.csv"), index=False)
     risk_df.to_csv(os.path.join(OUT_DIR, "risk_position_rave_extract.csv"), index=False)
     cost_df.to_csv(os.path.join(OUT_DIR, "freight_duty_cost_extract.csv"), index=False)
+    mfn_master_df.to_csv(os.path.join(OUT_DIR, "mfn_duty_rate_master.csv"), index=False)
+    fta_pref_master_df.to_csv(os.path.join(OUT_DIR, "fta_preferential_rate_master.csv"), index=False)
 
     print(f"Generated {len(trading_df)} trading rows, {len(logistics_df)} doc rows, "
-          f"{len(product_df)} product rows, {len(risk_df)} risk rows, {len(cost_df)} cost rows.")
+          f"{len(product_df)} product rows, {len(risk_df)} risk rows, {len(cost_df)} cost rows, "
+          f"{len(mfn_master_df)} MFN master rows, {len(fta_pref_master_df)} FTA preferential master rows.")

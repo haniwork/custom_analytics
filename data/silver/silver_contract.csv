@@ -1,421 +1,421 @@
 contract_ref,contract_date,profit_center,counterparty_id,counterparty_name,broker,incoterm,payment_term,status
 CTR-2025000,2025-04-25,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 30 days,Open
 CTR-2025001,2025-04-06,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,TT advance,Cancelled
-CTR-2025002,2025-10-12,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT 60 days,Open
-CTR-2025003,2025-04-05,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC at sight,Fulfilled
-CTR-2025004,2026-01-06,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 60 days,Fulfilled
-CTR-2025005,2026-04-10,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 60 days,Fulfilled
-CTR-2025006,2025-06-17,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 60 days,Fulfilled
-CTR-2025007,2025-10-02,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Fulfilled
-CTR-2025008,2025-05-23,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT advance,Fulfilled
-CTR-2025009,2026-06-06,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT 30 days,Fulfilled
-CTR-2025010,2026-04-25,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT advance,Fulfilled
-CTR-2025011,2025-06-11,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Cancelled
-CTR-2025012,2025-07-23,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT advance,Fulfilled
-CTR-2025013,2025-11-11,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CIF,LC at sight,Fulfilled
-CTR-2025014,2026-05-02,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 30 days,Fulfilled
-CTR-2025015,2026-03-25,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT 60 days,Open
-CTR-2025016,2025-03-02,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC at sight,Cancelled
-CTR-2025017,2025-05-16,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT 30 days,Fulfilled
-CTR-2025018,2026-02-25,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025019,2026-04-05,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT 30 days,Open
-CTR-2025020,2025-01-16,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,LC 90 days,Fulfilled
-CTR-2025021,2026-01-24,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Fulfilled
-CTR-2025022,2025-03-01,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Open
+CTR-2025002,2025-10-12,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT 60 days,Open
+CTR-2025003,2026-01-25,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,LC at sight,Cancelled
+CTR-2025004,2025-10-28,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC at sight,Fulfilled
+CTR-2025005,2025-10-12,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 60 days,Open
+CTR-2025006,2025-06-25,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 60 days,Fulfilled
+CTR-2025007,2025-10-02,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,LC 90 days,Fulfilled
+CTR-2025008,2025-09-27,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,TT 30 days,Open
+CTR-2025009,2025-06-06,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Open
+CTR-2025010,2025-04-28,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT 60 days,Fulfilled
+CTR-2025011,2026-05-28,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,TT advance,Cancelled
+CTR-2025012,2026-06-28,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC at sight,Cancelled
+CTR-2025013,2025-03-22,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 30 days,Cancelled
+CTR-2025014,2026-03-10,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 60 days,Fulfilled
+CTR-2025015,2025-05-04,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,TT advance,Open
+CTR-2025016,2025-03-02,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC at sight,Fulfilled
+CTR-2025017,2025-05-16,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,LC at sight,Fulfilled
+CTR-2025018,2025-02-25,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,LC at sight,Fulfilled
+CTR-2025019,2026-03-09,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT advance,Open
+CTR-2025020,2025-08-31,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC 90 days,Fulfilled
+CTR-2025021,2026-04-11,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT 30 days,Cancelled
+CTR-2025022,2025-03-04,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Open
 CTR-2025023,2025-07-10,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC 90 days,Fulfilled
 CTR-2025024,2026-06-20,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,TT 30 days,Fulfilled
-CTR-2025025,2026-04-14,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025026,2025-05-16,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,TT 60 days,Fulfilled
-CTR-2025027,2026-06-26,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC at sight,Fulfilled
-CTR-2025028,2025-10-06,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,TT 30 days,Open
-CTR-2025029,2026-03-10,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT 60 days,Fulfilled
-CTR-2025030,2025-01-10,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT advance,Fulfilled
-CTR-2025031,2025-05-11,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Fulfilled
-CTR-2025032,2025-06-08,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
-CTR-2025033,2025-10-01,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,LC at sight,Fulfilled
-CTR-2025034,2025-08-22,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,DAP,TT 60 days,Cancelled
-CTR-2025035,2026-02-14,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT advance,Fulfilled
-CTR-2025036,2025-12-20,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC 90 days,Cancelled
-CTR-2025037,2025-07-21,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT advance,Fulfilled
-CTR-2025038,2026-02-23,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 30 days,Cancelled
-CTR-2025039,2025-11-05,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,TT 60 days,Fulfilled
-CTR-2025040,2025-08-07,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,FOB,LC at sight,Fulfilled
-CTR-2025041,2025-08-19,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC 90 days,Fulfilled
-CTR-2025042,2026-01-29,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC at sight,Cancelled
-CTR-2025043,2026-04-21,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Cancelled
-CTR-2025044,2026-03-13,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,LC 90 days,Fulfilled
-CTR-2025045,2025-09-02,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT 30 days,Open
-CTR-2025046,2025-05-22,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,TT 30 days,Cancelled
-CTR-2025047,2026-04-23,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Fulfilled
-CTR-2025048,2025-11-02,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,LC 90 days,Fulfilled
-CTR-2025049,2025-12-11,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Cancelled
-CTR-2025050,2025-01-28,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 30 days,Fulfilled
-CTR-2025051,2026-04-11,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,LC 90 days,Cancelled
-CTR-2025052,2025-02-23,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025053,2025-05-10,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC 90 days,Open
-CTR-2025054,2025-06-17,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Cancelled
-CTR-2025055,2025-09-06,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Fulfilled
-CTR-2025056,2025-03-12,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Fulfilled
-CTR-2025057,2025-06-30,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC 90 days,Fulfilled
-CTR-2025058,2026-04-07,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,DAP,TT 60 days,Fulfilled
-CTR-2025059,2025-08-06,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Open
-CTR-2025060,2025-09-05,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,LC 90 days,Fulfilled
-CTR-2025061,2025-09-07,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT advance,Cancelled
-CTR-2025062,2025-12-05,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT 60 days,Open
-CTR-2025063,2025-07-09,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT advance,Fulfilled
-CTR-2025064,2025-08-21,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 60 days,Fulfilled
-CTR-2025065,2026-05-18,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC 90 days,Fulfilled
-CTR-2025066,2026-05-05,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Open
-CTR-2025067,2025-09-12,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,TT advance,Cancelled
-CTR-2025068,2026-03-16,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 30 days,Fulfilled
-CTR-2025069,2025-06-27,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,TT advance,Fulfilled
-CTR-2025070,2025-10-17,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
-CTR-2025071,2025-06-02,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT 30 days,Fulfilled
-CTR-2025072,2025-11-08,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,LC 90 days,Cancelled
-CTR-2025073,2025-09-14,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT 60 days,Fulfilled
-CTR-2025074,2025-10-12,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC at sight,Open
-CTR-2025075,2025-06-14,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Fulfilled
-CTR-2025076,2025-11-28,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Cancelled
-CTR-2025077,2026-01-06,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 60 days,Fulfilled
-CTR-2025078,2025-05-05,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 60 days,Open
-CTR-2025079,2025-08-19,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC 90 days,Fulfilled
-CTR-2025080,2026-04-13,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC at sight,Open
-CTR-2025081,2025-10-17,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 30 days,Cancelled
-CTR-2025082,2026-01-22,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT advance,Fulfilled
-CTR-2025083,2026-04-30,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC 90 days,Open
-CTR-2025084,2026-03-27,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 30 days,Fulfilled
-CTR-2025085,2025-12-13,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025086,2025-08-21,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC 90 days,Open
-CTR-2025087,2025-10-28,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,TT advance,Open
-CTR-2025088,2026-01-27,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 30 days,Open
-CTR-2025089,2026-04-22,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Fulfilled
-CTR-2025090,2025-11-06,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT 30 days,Fulfilled
-CTR-2025091,2025-01-23,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT advance,Fulfilled
-CTR-2025092,2025-08-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC at sight,Fulfilled
-CTR-2025093,2025-05-15,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,TT 30 days,Cancelled
-CTR-2025094,2026-05-29,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025095,2025-08-20,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC at sight,Fulfilled
-CTR-2025096,2026-01-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC at sight,Fulfilled
-CTR-2025097,2025-08-15,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Open
-CTR-2025098,2025-04-10,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,LC 90 days,Open
-CTR-2025099,2026-05-17,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Open
-CTR-2025100,2026-01-12,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
-CTR-2025101,2025-01-22,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT advance,Cancelled
-CTR-2025102,2025-08-10,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
-CTR-2025103,2025-04-23,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Open
-CTR-2025104,2025-05-10,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025105,2026-05-31,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
-CTR-2025106,2026-05-18,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Cancelled
-CTR-2025107,2025-11-29,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT advance,Cancelled
-CTR-2025108,2025-08-09,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT 60 days,Open
-CTR-2025109,2025-11-17,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 30 days,Open
-CTR-2025110,2026-03-19,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Fulfilled
-CTR-2025111,2026-03-10,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC at sight,Fulfilled
-CTR-2025112,2025-04-21,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT 60 days,Cancelled
-CTR-2025113,2025-01-27,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,TT 60 days,Cancelled
-CTR-2025114,2026-02-15,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC at sight,Fulfilled
-CTR-2025115,2025-06-11,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025116,2026-03-30,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT 60 days,Open
-CTR-2025117,2025-10-18,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 30 days,Fulfilled
-CTR-2025118,2025-08-05,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,LC at sight,Fulfilled
-CTR-2025119,2026-06-30,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,LC at sight,Open
-CTR-2025120,2025-11-17,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT 60 days,Fulfilled
-CTR-2025121,2026-04-17,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,LC 90 days,Fulfilled
-CTR-2025122,2025-08-15,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Fulfilled
-CTR-2025123,2025-08-30,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Fulfilled
-CTR-2025124,2026-04-21,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT 60 days,Fulfilled
-CTR-2025125,2025-11-07,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 60 days,Fulfilled
-CTR-2025126,2025-10-21,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,LC 90 days,Cancelled
-CTR-2025127,2025-06-04,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT advance,Fulfilled
-CTR-2025128,2026-03-26,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC 90 days,Open
-CTR-2025129,2026-01-31,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 60 days,Fulfilled
-CTR-2025130,2025-05-13,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Fulfilled
-CTR-2025131,2025-01-19,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC 90 days,Fulfilled
-CTR-2025132,2025-04-14,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT advance,Cancelled
-CTR-2025133,2025-06-19,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,LC 90 days,Fulfilled
-CTR-2025134,2026-04-26,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC 90 days,Fulfilled
-CTR-2025135,2025-07-24,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025136,2025-03-27,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,LC 90 days,Fulfilled
-CTR-2025137,2025-02-24,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,LC at sight,Fulfilled
-CTR-2025138,2025-05-30,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,FOB,LC 90 days,Fulfilled
-CTR-2025139,2025-06-03,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Cancelled
-CTR-2025140,2026-04-14,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT advance,Cancelled
-CTR-2025141,2025-12-28,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT advance,Cancelled
-CTR-2025142,2026-06-04,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC 90 days,Fulfilled
-CTR-2025143,2025-09-04,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Fulfilled
-CTR-2025144,2026-04-21,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Open
-CTR-2025145,2025-11-20,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 60 days,Open
-CTR-2025146,2025-12-06,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Fulfilled
-CTR-2025147,2026-01-12,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,LC at sight,Open
-CTR-2025148,2025-03-23,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT advance,Fulfilled
-CTR-2025149,2025-02-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC at sight,Fulfilled
-CTR-2025150,2025-02-01,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
-CTR-2025151,2026-01-28,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT 60 days,Fulfilled
-CTR-2025152,2026-06-27,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 30 days,Cancelled
-CTR-2025153,2026-02-01,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 30 days,Fulfilled
-CTR-2025154,2025-03-17,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,LC at sight,Fulfilled
-CTR-2025155,2025-11-04,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 60 days,Fulfilled
-CTR-2025156,2025-08-31,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,LC 90 days,Fulfilled
-CTR-2025157,2026-05-06,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT 30 days,Cancelled
-CTR-2025158,2025-12-19,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 30 days,Cancelled
-CTR-2025159,2025-06-06,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 60 days,Fulfilled
-CTR-2025160,2025-10-09,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT advance,Cancelled
-CTR-2025161,2025-12-12,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC at sight,Open
-CTR-2025162,2026-05-25,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC 90 days,Fulfilled
-CTR-2025163,2026-03-27,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT advance,Fulfilled
-CTR-2025164,2026-02-13,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT 60 days,Fulfilled
-CTR-2025165,2025-09-11,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Cancelled
-CTR-2025166,2025-11-17,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,LC 90 days,Cancelled
-CTR-2025167,2026-04-14,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,LC at sight,Open
-CTR-2025168,2025-04-21,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC 90 days,Cancelled
-CTR-2025169,2025-07-19,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT advance,Open
-CTR-2025170,2026-02-08,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Open
-CTR-2025171,2025-02-09,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 30 days,Fulfilled
-CTR-2025172,2025-06-16,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,TT advance,Open
-CTR-2025173,2026-01-13,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC at sight,Cancelled
-CTR-2025174,2026-05-07,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Open
-CTR-2025175,2026-03-28,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC 90 days,Cancelled
-CTR-2025176,2025-08-01,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 60 days,Cancelled
-CTR-2025177,2025-12-29,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,TT 60 days,Fulfilled
-CTR-2025178,2025-08-01,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 60 days,Fulfilled
-CTR-2025179,2025-10-25,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC 90 days,Fulfilled
-CTR-2025180,2025-10-06,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Open
-CTR-2025181,2026-02-28,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,FOB,LC at sight,Fulfilled
-CTR-2025182,2025-07-24,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,LC at sight,Open
-CTR-2025183,2026-02-11,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC at sight,Fulfilled
-CTR-2025184,2026-06-21,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,TT 60 days,Fulfilled
-CTR-2025185,2025-09-21,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Cancelled
-CTR-2025186,2025-12-02,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 30 days,Fulfilled
-CTR-2025187,2026-01-28,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT 60 days,Fulfilled
-CTR-2025188,2025-03-05,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT advance,Cancelled
-CTR-2025189,2025-08-15,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,TT advance,Cancelled
-CTR-2025190,2025-08-12,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT advance,Open
-CTR-2025191,2025-03-05,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,TT 60 days,Fulfilled
-CTR-2025192,2026-05-16,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Cancelled
-CTR-2025193,2026-04-19,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,LC at sight,Open
-CTR-2025194,2025-03-03,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC 90 days,Fulfilled
-CTR-2025195,2026-01-22,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Cancelled
-CTR-2025196,2025-05-11,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC 90 days,Fulfilled
-CTR-2025197,2026-04-17,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC at sight,Open
-CTR-2025198,2025-02-04,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 30 days,Cancelled
-CTR-2025199,2025-08-11,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Fulfilled
-CTR-2025200,2026-06-18,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT advance,Open
-CTR-2025201,2025-12-19,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,DAP,LC 90 days,Fulfilled
-CTR-2025202,2025-09-04,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,LC 90 days,Fulfilled
-CTR-2025203,2026-02-02,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC 90 days,Open
-CTR-2025204,2025-10-02,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025205,2025-01-16,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025206,2025-10-17,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT 60 days,Fulfilled
-CTR-2025207,2025-04-11,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT 60 days,Fulfilled
-CTR-2025208,2025-05-30,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025209,2025-09-09,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,TT 60 days,Fulfilled
-CTR-2025210,2025-06-23,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Open
-CTR-2025211,2025-01-07,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC at sight,Open
-CTR-2025212,2026-05-10,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Cancelled
-CTR-2025213,2026-03-17,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Fulfilled
-CTR-2025214,2025-03-22,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 30 days,Fulfilled
-CTR-2025215,2026-01-24,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 30 days,Fulfilled
-CTR-2025216,2025-04-08,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT 60 days,Cancelled
-CTR-2025217,2025-02-03,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,TT 30 days,Cancelled
-CTR-2025218,2025-09-04,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Open
-CTR-2025219,2025-04-11,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT advance,Fulfilled
-CTR-2025220,2026-04-07,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,LC 90 days,Fulfilled
-CTR-2025221,2025-09-10,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT 30 days,Open
-CTR-2025222,2025-01-06,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT 30 days,Cancelled
-CTR-2025223,2026-06-09,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
-CTR-2025224,2026-02-28,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT advance,Fulfilled
-CTR-2025225,2025-10-03,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT 30 days,Fulfilled
-CTR-2025226,2025-03-20,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT advance,Fulfilled
-CTR-2025227,2025-01-07,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Cancelled
-CTR-2025228,2025-05-20,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Fulfilled
-CTR-2025229,2025-09-06,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC at sight,Fulfilled
-CTR-2025230,2025-08-03,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Fulfilled
-CTR-2025231,2026-03-10,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Fulfilled
-CTR-2025232,2025-03-29,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Open
-CTR-2025233,2025-01-11,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,LC 90 days,Cancelled
-CTR-2025234,2026-05-28,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
-CTR-2025235,2025-12-23,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Fulfilled
-CTR-2025236,2025-11-23,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC at sight,Cancelled
-CTR-2025237,2025-06-28,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 30 days,Fulfilled
-CTR-2025238,2026-02-10,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT advance,Fulfilled
-CTR-2025239,2025-07-30,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Fulfilled
-CTR-2025240,2025-04-27,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT advance,Fulfilled
-CTR-2025241,2026-04-14,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,TT advance,Fulfilled
-CTR-2025242,2025-11-09,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Fulfilled
-CTR-2025243,2026-03-10,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT advance,Fulfilled
-CTR-2025244,2025-11-19,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025245,2026-02-23,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT 30 days,Open
-CTR-2025246,2025-10-09,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT advance,Cancelled
-CTR-2025247,2026-01-11,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,FOB,LC 90 days,Fulfilled
-CTR-2025248,2025-12-23,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 30 days,Fulfilled
-CTR-2025249,2025-07-31,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Fulfilled
-CTR-2025250,2025-10-24,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT 30 days,Fulfilled
-CTR-2025251,2025-05-16,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC 90 days,Fulfilled
-CTR-2025252,2026-04-08,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT advance,Fulfilled
-CTR-2025253,2025-01-03,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,LC at sight,Fulfilled
-CTR-2025254,2025-10-02,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,TT advance,Open
-CTR-2025255,2026-04-16,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Fulfilled
-CTR-2025256,2025-06-12,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC at sight,Fulfilled
-CTR-2025257,2025-08-28,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025258,2026-06-16,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,LC at sight,Fulfilled
-CTR-2025259,2025-04-02,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT 30 days,Cancelled
-CTR-2025260,2025-01-09,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 30 days,Open
-CTR-2025261,2025-05-24,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
-CTR-2025262,2025-09-12,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Open
-CTR-2025263,2025-09-03,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT advance,Fulfilled
-CTR-2025264,2026-02-01,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Fulfilled
-CTR-2025265,2025-02-10,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Cancelled
-CTR-2025266,2025-06-06,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Open
-CTR-2025267,2025-11-14,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT 30 days,Cancelled
-CTR-2025268,2025-02-26,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC at sight,Fulfilled
-CTR-2025269,2026-06-20,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC at sight,Open
-CTR-2025270,2025-09-27,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CFR,LC at sight,Open
-CTR-2025271,2025-04-29,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,LC at sight,Fulfilled
-CTR-2025272,2025-07-03,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Fulfilled
-CTR-2025273,2025-10-05,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 30 days,Fulfilled
-CTR-2025274,2025-10-17,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC at sight,Cancelled
-CTR-2025275,2025-09-06,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,TT advance,Open
-CTR-2025276,2025-08-27,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT 60 days,Cancelled
-CTR-2025277,2025-09-01,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,LC at sight,Fulfilled
-CTR-2025278,2026-04-15,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC 90 days,Fulfilled
-CTR-2025279,2025-10-26,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,TT 60 days,Fulfilled
-CTR-2025280,2025-05-20,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,LC 90 days,Fulfilled
-CTR-2025281,2026-04-08,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT 30 days,Fulfilled
-CTR-2025282,2025-04-04,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
-CTR-2025283,2025-09-13,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,LC at sight,Fulfilled
-CTR-2025284,2025-03-28,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC at sight,Open
-CTR-2025285,2026-04-18,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,LC 90 days,Fulfilled
-CTR-2025286,2025-12-29,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC 90 days,Fulfilled
-CTR-2025287,2026-02-26,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT 30 days,Cancelled
-CTR-2025288,2025-01-20,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled
-CTR-2025289,2025-10-04,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
-CTR-2025290,2025-08-27,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Fulfilled
-CTR-2025291,2025-12-30,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,TT 60 days,Fulfilled
-CTR-2025292,2026-05-20,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC at sight,Open
-CTR-2025293,2025-12-06,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT 60 days,Fulfilled
-CTR-2025294,2025-04-24,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Fulfilled
-CTR-2025295,2025-06-11,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Cancelled
-CTR-2025296,2025-06-29,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Open
-CTR-2025297,2025-07-06,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT advance,Open
-CTR-2025298,2025-09-01,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
-CTR-2025299,2025-03-11,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC at sight,Fulfilled
-CTR-2025300,2026-01-23,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT advance,Open
-CTR-2025301,2025-10-29,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Open
-CTR-2025302,2025-04-06,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025303,2025-07-30,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 60 days,Fulfilled
-CTR-2025304,2026-05-18,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Fulfilled
-CTR-2025305,2025-06-24,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC 90 days,Cancelled
-CTR-2025306,2026-02-01,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 30 days,Fulfilled
-CTR-2025307,2025-09-27,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT 30 days,Fulfilled
-CTR-2025308,2025-08-21,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,TT advance,Open
-CTR-2025309,2026-02-09,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,LC at sight,Fulfilled
-CTR-2025310,2025-02-13,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Fulfilled
-CTR-2025311,2026-02-11,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
-CTR-2025312,2025-04-13,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,TT advance,Fulfilled
-CTR-2025313,2026-04-30,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Fulfilled
-CTR-2025314,2025-02-20,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,TT 60 days,Open
-CTR-2025315,2025-08-22,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 60 days,Fulfilled
-CTR-2025316,2026-02-21,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Cancelled
-CTR-2025317,2026-02-18,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT 30 days,Fulfilled
-CTR-2025318,2025-02-21,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,LC 90 days,Fulfilled
-CTR-2025319,2026-01-17,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT advance,Fulfilled
-CTR-2025320,2025-04-03,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT advance,Fulfilled
-CTR-2025321,2025-10-03,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,LC 90 days,Cancelled
-CTR-2025322,2025-11-09,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Cancelled
-CTR-2025323,2026-02-11,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Open
-CTR-2025324,2025-12-11,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT 60 days,Open
-CTR-2025325,2026-02-18,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Open
-CTR-2025326,2025-07-14,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 60 days,Cancelled
-CTR-2025327,2025-07-05,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
-CTR-2025328,2025-08-17,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 60 days,Open
-CTR-2025329,2025-03-14,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Fulfilled
-CTR-2025330,2025-07-25,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 60 days,Fulfilled
-CTR-2025331,2025-11-17,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT 30 days,Cancelled
-CTR-2025332,2026-03-21,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC at sight,Cancelled
-CTR-2025333,2025-07-15,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 30 days,Fulfilled
-CTR-2025334,2026-05-31,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,TT 60 days,Fulfilled
-CTR-2025335,2025-12-17,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Fulfilled
-CTR-2025336,2025-01-23,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,LC 90 days,Open
-CTR-2025337,2025-02-19,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT advance,Open
-CTR-2025338,2025-11-05,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT advance,Cancelled
-CTR-2025339,2025-05-01,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT 30 days,Fulfilled
-CTR-2025340,2026-02-24,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,TT 30 days,Open
-CTR-2025341,2025-04-02,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 30 days,Fulfilled
-CTR-2025342,2026-04-13,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT 30 days,Fulfilled
-CTR-2025343,2026-03-13,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT 30 days,Fulfilled
-CTR-2025344,2025-04-06,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC 90 days,Fulfilled
-CTR-2025345,2026-03-08,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT 30 days,Fulfilled
-CTR-2025346,2025-07-05,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT 30 days,Fulfilled
-CTR-2025347,2025-02-17,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT advance,Cancelled
-CTR-2025348,2025-04-08,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 60 days,Open
-CTR-2025349,2025-01-12,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Fulfilled
-CTR-2025350,2025-02-21,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Fulfilled
-CTR-2025351,2025-04-01,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,LC at sight,Cancelled
-CTR-2025352,2025-01-01,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Fulfilled
-CTR-2025353,2025-02-25,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025354,2025-01-03,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT advance,Fulfilled
-CTR-2025355,2025-05-24,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Fulfilled
-CTR-2025356,2025-12-13,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Open
-CTR-2025357,2026-03-20,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 30 days,Fulfilled
-CTR-2025358,2026-03-05,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC 90 days,Cancelled
-CTR-2025359,2025-11-03,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 30 days,Fulfilled
-CTR-2025360,2025-07-02,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT advance,Cancelled
-CTR-2025361,2025-04-20,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT 30 days,Fulfilled
-CTR-2025362,2025-05-30,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Cancelled
-CTR-2025363,2025-08-18,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,LC at sight,Fulfilled
-CTR-2025364,2025-02-25,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 30 days,Fulfilled
-CTR-2025365,2025-07-01,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC 90 days,Fulfilled
-CTR-2025366,2025-06-14,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
-CTR-2025367,2025-11-05,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,LC at sight,Cancelled
-CTR-2025368,2025-06-13,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 60 days,Fulfilled
-CTR-2025369,2025-10-28,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled
-CTR-2025370,2025-09-07,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,LC at sight,Open
-CTR-2025371,2026-06-14,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,LC 90 days,Open
-CTR-2025372,2025-04-09,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,LC at sight,Cancelled
-CTR-2025373,2026-03-22,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,LC 90 days,Fulfilled
-CTR-2025374,2025-09-15,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
-CTR-2025375,2026-02-03,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT advance,Open
-CTR-2025376,2025-10-24,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC 90 days,Fulfilled
-CTR-2025377,2025-05-20,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Cancelled
-CTR-2025378,2025-05-25,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Fulfilled
-CTR-2025379,2025-08-05,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 30 days,Open
-CTR-2025380,2025-07-05,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,TT advance,Open
-CTR-2025381,2025-07-22,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC at sight,Fulfilled
-CTR-2025382,2025-12-03,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT 60 days,Fulfilled
-CTR-2025383,2025-08-15,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 60 days,Fulfilled
-CTR-2025384,2026-05-14,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 60 days,Open
-CTR-2025385,2025-03-19,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT advance,Fulfilled
-CTR-2025386,2026-04-29,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 30 days,Cancelled
-CTR-2025387,2025-01-11,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,TT advance,Cancelled
-CTR-2025388,2025-05-30,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 30 days,Open
-CTR-2025389,2025-07-31,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC at sight,Fulfilled
-CTR-2025390,2025-06-28,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT advance,Fulfilled
-CTR-2025391,2025-12-28,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT advance,Open
-CTR-2025392,2026-06-11,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,TT 60 days,Open
-CTR-2025393,2026-05-09,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC 90 days,Cancelled
-CTR-2025394,2025-06-14,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC at sight,Cancelled
-CTR-2025395,2025-01-20,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Cancelled
-CTR-2025396,2025-07-06,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC 90 days,Open
-CTR-2025397,2025-01-17,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Cancelled
-CTR-2025398,2025-05-01,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,LC 90 days,Cancelled
-CTR-2025399,2026-03-16,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Fulfilled
-CTR-2025400,2025-08-27,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 60 days,Cancelled
-CTR-2025401,2025-05-01,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Cancelled
-CTR-2025402,2025-09-17,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,CFR,TT advance,Cancelled
-CTR-2025403,2026-05-10,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Fulfilled
-CTR-2025404,2025-05-02,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC at sight,Open
-CTR-2025405,2025-06-14,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC 90 days,Fulfilled
-CTR-2025406,2025-03-23,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT advance,Open
-CTR-2025407,2025-07-26,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,TT advance,Open
-CTR-2025408,2025-06-11,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC 90 days,Open
-CTR-2025409,2025-04-03,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT 60 days,Fulfilled
-CTR-2025410,2025-01-05,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT advance,Cancelled
-CTR-2025411,2025-09-21,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 30 days,Open
-CTR-2025412,2026-05-09,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 30 days,Cancelled
-CTR-2025413,2025-01-10,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT 60 days,Fulfilled
-CTR-2025414,2025-08-12,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC 90 days,Fulfilled
-CTR-2025415,2025-07-27,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,LC at sight,Cancelled
-CTR-2025416,2025-02-13,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT advance,Fulfilled
-CTR-2025417,2026-02-12,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Cancelled
-CTR-2025418,2025-12-22,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
-CTR-2025419,2026-01-24,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 30 days,Fulfilled
+CTR-2025025,2026-04-14,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,TT advance,Cancelled
+CTR-2025026,2025-09-29,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 60 days,Fulfilled
+CTR-2025027,2026-06-26,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC at sight,Fulfilled
+CTR-2025028,2025-10-16,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT advance,Fulfilled
+CTR-2025029,2025-10-11,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,TT 30 days,Open
+CTR-2025030,2025-03-19,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,LC 90 days,Fulfilled
+CTR-2025031,2025-08-04,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025032,2025-01-26,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 30 days,Open
+CTR-2025033,2026-04-27,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 60 days,Fulfilled
+CTR-2025034,2025-10-13,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled
+CTR-2025035,2025-09-29,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT 60 days,Fulfilled
+CTR-2025036,2025-09-18,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 60 days,Fulfilled
+CTR-2025037,2025-05-08,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 60 days,Fulfilled
+CTR-2025038,2026-03-07,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025039,2025-11-26,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT advance,Cancelled
+CTR-2025040,2025-12-10,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025041,2025-03-16,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC 90 days,Open
+CTR-2025042,2025-04-20,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,LC at sight,Fulfilled
+CTR-2025043,2026-06-28,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled
+CTR-2025044,2025-09-11,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,DAP,TT 30 days,Fulfilled
+CTR-2025045,2025-08-29,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 30 days,Fulfilled
+CTR-2025046,2025-08-08,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC 90 days,Open
+CTR-2025047,2026-01-25,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025048,2026-03-23,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT 30 days,Fulfilled
+CTR-2025049,2025-01-28,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 30 days,Fulfilled
+CTR-2025050,2026-04-11,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Cancelled
+CTR-2025051,2025-02-23,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,LC at sight,Fulfilled
+CTR-2025052,2025-05-10,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC 90 days,Open
+CTR-2025053,2025-06-17,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Cancelled
+CTR-2025054,2025-09-06,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Fulfilled
+CTR-2025055,2025-03-12,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Fulfilled
+CTR-2025056,2026-06-19,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC 90 days,Fulfilled
+CTR-2025057,2026-04-07,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,DAP,TT 60 days,Fulfilled
+CTR-2025058,2025-08-06,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Open
+CTR-2025059,2025-09-05,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,LC 90 days,Fulfilled
+CTR-2025060,2025-09-07,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025061,2025-11-10,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,TT 60 days,Fulfilled
+CTR-2025062,2025-10-11,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT 30 days,Cancelled
+CTR-2025063,2025-05-10,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,TT 30 days,Fulfilled
+CTR-2025064,2026-04-26,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,LC 90 days,Cancelled
+CTR-2025065,2025-02-24,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 30 days,Fulfilled
+CTR-2025066,2026-04-07,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 60 days,Open
+CTR-2025067,2025-06-10,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC at sight,Fulfilled
+CTR-2025068,2025-10-23,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 60 days,Fulfilled
+CTR-2025069,2025-09-30,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
+CTR-2025070,2026-02-17,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,LC at sight,Open
+CTR-2025071,2025-04-04,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT advance,Fulfilled
+CTR-2025072,2025-10-12,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC at sight,Open
+CTR-2025073,2025-06-14,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Fulfilled
+CTR-2025074,2025-11-28,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Cancelled
+CTR-2025075,2026-01-06,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 60 days,Fulfilled
+CTR-2025076,2025-05-05,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 60 days,Open
+CTR-2025077,2025-08-19,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC 90 days,Fulfilled
+CTR-2025078,2026-04-13,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT 60 days,Open
+CTR-2025079,2025-10-17,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 30 days,Cancelled
+CTR-2025080,2026-01-22,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT advance,Fulfilled
+CTR-2025081,2026-04-30,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC at sight,Cancelled
+CTR-2025082,2026-04-13,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,LC at sight,Fulfilled
+CTR-2025083,2025-03-24,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025084,2025-08-21,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT 30 days,Open
+CTR-2025085,2025-10-28,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,TT advance,Open
+CTR-2025086,2026-01-27,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 30 days,Open
+CTR-2025087,2026-04-22,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Fulfilled
+CTR-2025088,2025-07-23,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025089,2025-10-09,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT advance,Fulfilled
+CTR-2025090,2025-08-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC at sight,Fulfilled
+CTR-2025091,2025-05-15,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,TT 30 days,Cancelled
+CTR-2025092,2026-05-29,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 60 days,Fulfilled
+CTR-2025093,2025-08-20,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC at sight,Fulfilled
+CTR-2025094,2026-01-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC at sight,Fulfilled
+CTR-2025095,2025-08-15,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Open
+CTR-2025096,2025-04-10,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,DAP,LC 90 days,Open
+CTR-2025097,2026-05-17,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Open
+CTR-2025098,2026-01-12,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
+CTR-2025099,2025-01-22,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,FOB,LC at sight,Fulfilled
+CTR-2025100,2025-01-03,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025101,2025-09-01,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CIF,TT 30 days,Fulfilled
+CTR-2025102,2026-01-06,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT advance,Fulfilled
+CTR-2025103,2026-02-16,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,LC at sight,Fulfilled
+CTR-2025104,2025-11-29,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT advance,Cancelled
+CTR-2025105,2025-08-09,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT 60 days,Open
+CTR-2025106,2025-11-17,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 30 days,Open
+CTR-2025107,2026-03-19,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Fulfilled
+CTR-2025108,2026-03-10,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC at sight,Fulfilled
+CTR-2025109,2025-04-21,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,TT 60 days,Cancelled
+CTR-2025110,2025-01-27,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,TT 60 days,Cancelled
+CTR-2025111,2026-02-15,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC at sight,Fulfilled
+CTR-2025112,2025-06-11,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC at sight,Fulfilled
+CTR-2025113,2026-03-11,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,TT 30 days,Open
+CTR-2025114,2025-10-18,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 30 days,Fulfilled
+CTR-2025115,2025-08-05,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CFR,LC at sight,Fulfilled
+CTR-2025116,2026-06-30,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,LC at sight,Open
+CTR-2025117,2025-11-17,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC at sight,Fulfilled
+CTR-2025118,2026-01-06,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,LC 90 days,Fulfilled
+CTR-2025119,2025-08-15,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT advance,Fulfilled
+CTR-2025120,2025-08-30,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT advance,Fulfilled
+CTR-2025121,2026-04-21,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT 60 days,Fulfilled
+CTR-2025122,2025-11-07,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
+CTR-2025123,2025-04-03,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT advance,Fulfilled
+CTR-2025124,2025-03-05,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT advance,Fulfilled
+CTR-2025125,2026-03-26,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Open
+CTR-2025126,2026-01-31,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 60 days,Fulfilled
+CTR-2025127,2025-05-13,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025128,2025-01-19,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025129,2025-04-14,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT advance,Cancelled
+CTR-2025130,2025-06-19,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025131,2025-11-13,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,TT advance,Cancelled
+CTR-2025132,2026-06-25,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 60 days,Cancelled
+CTR-2025133,2025-05-08,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC 90 days,Fulfilled
+CTR-2025134,2025-12-24,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 30 days,Open
+CTR-2025135,2025-11-23,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025136,2026-04-26,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 60 days,Cancelled
+CTR-2025137,2026-06-25,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Cancelled
+CTR-2025138,2026-04-14,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT advance,Cancelled
+CTR-2025139,2025-12-28,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT advance,Cancelled
+CTR-2025140,2026-06-04,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC 90 days,Fulfilled
+CTR-2025141,2025-09-04,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Fulfilled
+CTR-2025142,2026-04-21,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Open
+CTR-2025143,2025-11-20,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 60 days,Open
+CTR-2025144,2025-12-06,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Fulfilled
+CTR-2025145,2026-01-12,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,LC at sight,Open
+CTR-2025146,2025-03-23,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025147,2025-02-13,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC at sight,Fulfilled
+CTR-2025148,2025-02-01,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
+CTR-2025149,2025-02-03,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025150,2025-10-13,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,LC 90 days,Fulfilled
+CTR-2025151,2026-04-02,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,TT 30 days,Fulfilled
+CTR-2025152,2026-04-01,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,LC at sight,Fulfilled
+CTR-2025153,2026-01-06,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,LC 90 days,Fulfilled
+CTR-2025154,2025-05-13,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025155,2025-03-17,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT 30 days,Cancelled
+CTR-2025156,2025-02-26,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,TT 30 days,Fulfilled
+CTR-2025157,2025-03-22,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025158,2025-06-07,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT advance,Cancelled
+CTR-2025159,2025-09-29,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Fulfilled
+CTR-2025160,2025-11-01,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,LC 90 days,Cancelled
+CTR-2025161,2025-05-28,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025162,2025-09-05,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Cancelled
+CTR-2025163,2026-03-05,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,CFR,TT advance,Cancelled
+CTR-2025164,2026-04-24,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC at sight,Fulfilled
+CTR-2025165,2025-02-19,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 60 days,Fulfilled
+CTR-2025166,2025-09-28,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Open
+CTR-2025167,2026-01-31,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,TT 30 days,Cancelled
+CTR-2025168,2026-01-10,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025169,2026-05-01,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,TT advance,Fulfilled
+CTR-2025170,2025-12-11,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT 60 days,Fulfilled
+CTR-2025171,2025-01-28,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT advance,Cancelled
+CTR-2025172,2026-01-25,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,CIF,TT advance,Fulfilled
+CTR-2025173,2026-03-05,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC at sight,Fulfilled
+CTR-2025174,2026-06-23,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT advance,Fulfilled
+CTR-2025175,2025-10-13,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,LC 90 days,Fulfilled
+CTR-2025176,2025-10-22,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC 90 days,Open
+CTR-2025177,2025-12-21,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 30 days,Fulfilled
+CTR-2025178,2025-05-21,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,TT 30 days,Open
+CTR-2025179,2026-02-28,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,FOB,LC at sight,Fulfilled
+CTR-2025180,2025-07-24,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,LC at sight,Open
+CTR-2025181,2026-02-11,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC at sight,Fulfilled
+CTR-2025182,2026-06-21,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,TT 30 days,Fulfilled
+CTR-2025183,2025-09-21,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Cancelled
+CTR-2025184,2025-12-02,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 30 days,Fulfilled
+CTR-2025185,2026-01-28,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,TT advance,Fulfilled
+CTR-2025186,2025-03-05,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT advance,Cancelled
+CTR-2025187,2025-08-15,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,TT advance,Cancelled
+CTR-2025188,2025-08-12,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT advance,Open
+CTR-2025189,2025-03-05,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,TT 60 days,Fulfilled
+CTR-2025190,2026-05-16,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Cancelled
+CTR-2025191,2026-04-19,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CFR,LC at sight,Open
+CTR-2025192,2025-03-03,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC 90 days,Fulfilled
+CTR-2025193,2026-01-22,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Cancelled
+CTR-2025194,2025-05-11,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC 90 days,Fulfilled
+CTR-2025195,2026-04-17,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC 90 days,Cancelled
+CTR-2025196,2025-02-04,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC at sight,Open
+CTR-2025197,2025-05-24,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT advance,Cancelled
+CTR-2025198,2025-08-15,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025199,2026-06-22,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT 60 days,Fulfilled
+CTR-2025200,2025-08-19,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,LC at sight,Fulfilled
+CTR-2025201,2026-02-02,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC 90 days,Fulfilled
+CTR-2025202,2026-01-22,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,LC 90 days,Fulfilled
+CTR-2025203,2025-05-01,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,LC 90 days,Cancelled
+CTR-2025204,2026-01-03,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,LC 90 days,Fulfilled
+CTR-2025205,2026-02-28,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,FOB,LC at sight,Fulfilled
+CTR-2025206,2025-12-04,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 60 days,Fulfilled
+CTR-2025207,2025-06-23,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Open
+CTR-2025208,2025-01-07,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,LC at sight,Open
+CTR-2025209,2026-05-10,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Cancelled
+CTR-2025210,2026-03-17,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Fulfilled
+CTR-2025211,2025-03-22,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 30 days,Fulfilled
+CTR-2025212,2026-01-24,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT 30 days,Fulfilled
+CTR-2025213,2025-04-08,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT 60 days,Cancelled
+CTR-2025214,2025-02-03,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,TT 30 days,Cancelled
+CTR-2025215,2025-09-04,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Open
+CTR-2025216,2025-04-11,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT advance,Fulfilled
+CTR-2025217,2026-04-07,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,LC 90 days,Fulfilled
+CTR-2025218,2025-09-10,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT 30 days,Open
+CTR-2025219,2025-01-06,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT 30 days,Cancelled
+CTR-2025220,2026-06-09,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
+CTR-2025221,2026-02-28,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT advance,Fulfilled
+CTR-2025222,2025-10-03,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,TT 30 days,Fulfilled
+CTR-2025223,2025-03-20,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025224,2025-01-07,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Cancelled
+CTR-2025225,2025-05-20,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Fulfilled
+CTR-2025226,2025-09-06,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC at sight,Fulfilled
+CTR-2025227,2025-08-03,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CIF,LC 90 days,Fulfilled
+CTR-2025228,2026-03-10,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025229,2025-03-29,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,FOB,TT advance,Open
+CTR-2025230,2025-01-11,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,LC 90 days,Cancelled
+CTR-2025231,2025-06-04,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Fulfilled
+CTR-2025232,2025-07-31,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC 90 days,Open
+CTR-2025233,2025-01-24,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025234,2026-03-13,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,FOB,TT 30 days,Cancelled
+CTR-2025235,2025-07-22,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 30 days,Open
+CTR-2025236,2025-07-11,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
+CTR-2025237,2025-04-27,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,TT 60 days,Fulfilled
+CTR-2025238,2025-04-30,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC 90 days,Cancelled
+CTR-2025239,2025-06-27,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 60 days,Fulfilled
+CTR-2025240,2025-05-20,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,LC 90 days,Open
+CTR-2025241,2025-02-01,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT advance,Fulfilled
+CTR-2025242,2026-06-08,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,TT advance,Fulfilled
+CTR-2025243,2025-04-15,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 60 days,Cancelled
+CTR-2025244,2025-12-26,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,FOB,TT 30 days,Cancelled
+CTR-2025245,2025-06-22,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,TT advance,Fulfilled
+CTR-2025246,2025-05-10,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025247,2026-03-01,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,LC 90 days,Fulfilled
+CTR-2025248,2025-01-03,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CFR,LC at sight,Fulfilled
+CTR-2025249,2025-10-02,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,TT advance,Open
+CTR-2025250,2026-04-16,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Fulfilled
+CTR-2025251,2025-06-12,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC at sight,Fulfilled
+CTR-2025252,2025-08-28,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC at sight,Fulfilled
+CTR-2025253,2026-06-16,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,LC at sight,Fulfilled
+CTR-2025254,2025-04-02,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT 30 days,Cancelled
+CTR-2025255,2025-01-09,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT 30 days,Open
+CTR-2025256,2025-05-24,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
+CTR-2025257,2025-09-12,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,FOB,TT advance,Open
+CTR-2025258,2025-09-03,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,TT advance,Fulfilled
+CTR-2025259,2026-02-01,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC at sight,Open
+CTR-2025260,2025-03-03,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,LC 90 days,Fulfilled
+CTR-2025261,2025-10-12,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 30 days,Open
+CTR-2025262,2025-11-14,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT 30 days,Cancelled
+CTR-2025263,2025-02-26,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,FOB,LC at sight,Fulfilled
+CTR-2025264,2026-06-20,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC at sight,Open
+CTR-2025265,2025-09-27,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CFR,LC at sight,Open
+CTR-2025266,2025-04-29,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,LC at sight,Fulfilled
+CTR-2025267,2025-07-03,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Fulfilled
+CTR-2025268,2025-10-05,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,TT 30 days,Fulfilled
+CTR-2025269,2025-10-17,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,LC at sight,Cancelled
+CTR-2025270,2025-09-06,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,TT 30 days,Cancelled
+CTR-2025271,2025-12-21,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,LC at sight,Fulfilled
+CTR-2025272,2025-10-14,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,CFR,LC 90 days,Fulfilled
+CTR-2025273,2025-03-18,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,FOB,TT 60 days,Fulfilled
+CTR-2025274,2025-11-22,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025275,2026-04-23,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 30 days,Open
+CTR-2025276,2025-04-03,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT 30 days,Fulfilled
+CTR-2025277,2025-12-31,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CFR,TT 60 days,Cancelled
+CTR-2025278,2025-09-13,PC-Trading-SG,CP-08,EuroFat Amsterdam,Broker-B,CIF,LC at sight,Fulfilled
+CTR-2025279,2025-03-28,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC at sight,Open
+CTR-2025280,2026-04-18,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,LC 90 days,Fulfilled
+CTR-2025281,2025-12-29,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC 90 days,Fulfilled
+CTR-2025282,2026-02-26,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT 30 days,Cancelled
+CTR-2025283,2025-01-20,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled
+CTR-2025284,2025-10-04,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
+CTR-2025285,2025-08-27,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 60 days,Fulfilled
+CTR-2025286,2025-12-30,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,TT 60 days,Fulfilled
+CTR-2025287,2026-05-20,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 30 days,Open
+CTR-2025288,2025-12-06,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,FOB,TT 60 days,Fulfilled
+CTR-2025289,2025-04-24,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025290,2025-06-11,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT 30 days,Cancelled
+CTR-2025291,2025-06-29,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Open
+CTR-2025292,2025-07-06,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT advance,Open
+CTR-2025293,2025-09-01,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Fulfilled
+CTR-2025294,2025-03-11,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,CIF,LC at sight,Fulfilled
+CTR-2025295,2026-01-23,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT advance,Open
+CTR-2025296,2025-10-29,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CIF,TT 60 days,Open
+CTR-2025297,2025-04-06,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,CIF,LC 90 days,Fulfilled
+CTR-2025298,2025-07-30,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 60 days,Fulfilled
+CTR-2025299,2026-05-18,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,LC at sight,Fulfilled
+CTR-2025300,2025-06-24,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,LC 90 days,Cancelled
+CTR-2025301,2026-02-01,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Fulfilled
+CTR-2025302,2025-10-03,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC at sight,Fulfilled
+CTR-2025303,2026-06-20,PC-Trading-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,LC 90 days,Cancelled
+CTR-2025304,2026-06-14,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,FOB,TT 30 days,Open
+CTR-2025305,2026-03-22,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CFR,LC at sight,Fulfilled
+CTR-2025306,2025-10-10,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Fulfilled
+CTR-2025307,2025-12-19,PC-Trading-SG,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT advance,Fulfilled
+CTR-2025308,2025-05-28,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Fulfilled
+CTR-2025309,2025-11-15,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025310,2025-04-02,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,DAP,TT advance,Open
+CTR-2025311,2025-11-15,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 30 days,Open
+CTR-2025312,2026-04-13,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,TT 60 days,Open
+CTR-2025313,2025-02-01,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 30 days,Fulfilled
+CTR-2025314,2025-04-03,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT advance,Fulfilled
+CTR-2025315,2025-10-03,PC-Trading-SG,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT 30 days,Cancelled
+CTR-2025316,2025-11-09,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Cancelled
+CTR-2025317,2026-02-11,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Open
+CTR-2025318,2025-12-11,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT 60 days,Open
+CTR-2025319,2026-02-18,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,LC 90 days,Open
+CTR-2025320,2025-07-14,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 60 days,Cancelled
+CTR-2025321,2025-07-05,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
+CTR-2025322,2025-08-17,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 60 days,Open
+CTR-2025323,2025-03-14,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,LC 90 days,Fulfilled
+CTR-2025324,2025-07-25,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,TT 30 days,Fulfilled
+CTR-2025325,2025-11-17,PC-Trading-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT 30 days,Cancelled
+CTR-2025326,2026-03-21,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC at sight,Cancelled
+CTR-2025327,2025-07-15,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025328,2026-05-31,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,TT 60 days,Fulfilled
+CTR-2025329,2025-12-17,PC-Trading-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Open
+CTR-2025330,2026-06-01,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,LC 90 days,Open
+CTR-2025331,2025-02-19,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT advance,Open
+CTR-2025332,2025-11-05,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT advance,Cancelled
+CTR-2025333,2025-05-01,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT 30 days,Fulfilled
+CTR-2025334,2026-02-24,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,TT 30 days,Open
+CTR-2025335,2025-04-02,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,LC at sight,Fulfilled
+CTR-2025336,2026-04-13,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,FOB,LC at sight,Open
+CTR-2025337,2025-04-08,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT 60 days,Open
+CTR-2025338,2026-01-17,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,DAP,LC 90 days,Fulfilled
+CTR-2025339,2025-04-26,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,LC at sight,Fulfilled
+CTR-2025340,2026-01-03,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,FOB,LC 90 days,Open
+CTR-2025341,2025-09-25,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,TT 60 days,Fulfilled
+CTR-2025342,2026-05-09,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,DAP,TT 30 days,Fulfilled
+CTR-2025343,2026-06-02,PC-Trading-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC 90 days,Cancelled
+CTR-2025344,2025-08-17,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,LC 90 days,Fulfilled
+CTR-2025345,2025-05-02,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,LC 90 days,Open
+CTR-2025346,2025-11-08,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,TT 60 days,Cancelled
+CTR-2025347,2026-04-30,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,LC at sight,Fulfilled
+CTR-2025348,2025-04-19,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,FOB,LC 90 days,Fulfilled
+CTR-2025349,2025-08-09,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC 90 days,Cancelled
+CTR-2025350,2026-06-01,PC-Trading-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,TT advance,Cancelled
+CTR-2025351,2025-06-27,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CFR,TT advance,Fulfilled
+CTR-2025352,2025-12-18,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC 90 days,Cancelled
+CTR-2025353,2025-08-11,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 60 days,Fulfilled
+CTR-2025354,2025-04-29,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,TT advance,Open
+CTR-2025355,2025-01-26,PC-Refining-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 30 days,Fulfilled
+CTR-2025356,2025-05-30,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,FOB,TT advance,Cancelled
+CTR-2025357,2025-08-18,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,LC at sight,Fulfilled
+CTR-2025358,2025-02-25,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 30 days,Fulfilled
+CTR-2025359,2025-07-01,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,LC 90 days,Fulfilled
+CTR-2025360,2025-06-14,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,FOB,LC at sight,Cancelled
+CTR-2025361,2025-11-05,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CIF,TT 60 days,Open
+CTR-2025362,2026-06-02,PC-Trading-SG,CP-07,Guangzhou Oleochem Ltd,Broker-D,DAP,LC at sight,Fulfilled
+CTR-2025363,2026-01-05,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CIF,LC at sight,Cancelled
+CTR-2025364,2025-09-07,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,DAP,LC at sight,Open
+CTR-2025365,2026-06-14,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,DAP,LC 90 days,Open
+CTR-2025366,2025-04-09,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,CIF,LC at sight,Cancelled
+CTR-2025367,2026-03-22,PC-Trading-MY,CP-12,PT Nusantara Lipid,Broker-F,DAP,TT 60 days,Fulfilled
+CTR-2025368,2025-09-15,PC-Trading-SG,CP-10,Istanbul Bitkisel Yag,Broker-E,CFR,LC 90 days,Open
+CTR-2025369,2026-02-03,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,CIF,TT advance,Open
+CTR-2025370,2025-10-24,PC-Trading-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC 90 days,Fulfilled
+CTR-2025371,2026-02-05,PC-Trading-MY,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC at sight,Cancelled
+CTR-2025372,2026-02-08,PC-Trading-MY,CP-05,Karachi Edible Oil Co.,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025373,2025-09-16,PC-Refining-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,CIF,TT advance,Open
+CTR-2025374,2025-09-14,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,DAP,TT 60 days,Fulfilled
+CTR-2025375,2025-03-13,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT advance,Fulfilled
+CTR-2025376,2025-06-22,PC-Trading-SG,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT 60 days,Fulfilled
+CTR-2025377,2026-01-03,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,TT advance,Fulfilled
+CTR-2025378,2025-09-27,PC-Refining-MY,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Fulfilled
+CTR-2025379,2026-04-29,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,FOB,LC 90 days,Open
+CTR-2025380,2025-09-02,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT 30 days,Open
+CTR-2025381,2025-08-13,PC-Trading-SG,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025382,2026-04-26,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC at sight,Cancelled
+CTR-2025383,2025-06-28,PC-Refining-MY,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT advance,Fulfilled
+CTR-2025384,2025-12-28,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC 90 days,Fulfilled
+CTR-2025385,2025-08-05,PC-Trading-SG,CP-03,Rotterdam Fats & Oils BV,Broker-B,CIF,TT 30 days,Fulfilled
+CTR-2025386,2026-05-06,PC-Refining-MY,CP-10,Istanbul Bitkisel Yag,Broker-E,DAP,LC at sight,Fulfilled
+CTR-2025387,2025-05-18,PC-Trading-SG,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,TT 30 days,Cancelled
+CTR-2025388,2025-01-20,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Cancelled
+CTR-2025389,2025-07-06,PC-Trading-MY,CP-03,Rotterdam Fats & Oils BV,Broker-B,CFR,LC 90 days,Open
+CTR-2025390,2025-01-17,PC-Refining-MY,CP-09,Lagos Vegetable Oil Ltd,Broker-E,FOB,TT advance,Cancelled
+CTR-2025391,2025-05-01,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CIF,LC 90 days,Cancelled
+CTR-2025392,2026-03-16,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Fulfilled
+CTR-2025393,2025-08-27,PC-Refining-MY,CP-05,Karachi Edible Oil Co.,Broker-C,DAP,TT 60 days,Cancelled
+CTR-2025394,2025-05-01,PC-Refining-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CFR,LC 90 days,Cancelled
+CTR-2025395,2025-09-17,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,CFR,TT advance,Cancelled
+CTR-2025396,2026-05-10,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,DAP,TT 60 days,Fulfilled
+CTR-2025397,2025-05-02,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,FOB,LC at sight,Cancelled
+CTR-2025398,2025-02-23,PC-Trading-MY,CP-07,Guangzhou Oleochem Ltd,Broker-D,CIF,TT 30 days,Fulfilled
+CTR-2025399,2025-08-16,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,LC 90 days,Fulfilled
+CTR-2025400,2026-03-26,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Open
+CTR-2025401,2026-01-04,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CIF,TT 60 days,Cancelled
+CTR-2025402,2025-07-25,PC-Trading-SG,CP-12,PT Nusantara Lipid,Broker-F,CIF,TT advance,Fulfilled
+CTR-2025403,2025-07-19,PC-Trading-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CIF,TT 60 days,Cancelled
+CTR-2025404,2025-03-16,PC-Refining-MY,CP-06,Shanghai Huifeng Trading,Broker-D,CFR,TT advance,Fulfilled
+CTR-2025405,2025-09-07,PC-Trading-SG,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Open
+CTR-2025406,2026-01-27,PC-Trading-SG,CP-11,Chittagong Oil Refinery,Broker-C,CFR,LC 90 days,Open
+CTR-2025407,2026-02-13,PC-Trading-MY,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT 60 days,Fulfilled
+CTR-2025408,2026-05-26,PC-Refining-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 30 days,Fulfilled
+CTR-2025409,2025-06-09,PC-Trading-SG,CP-02,Meridian Oleo Pvt Ltd,Broker-A,DAP,TT advance,Cancelled
+CTR-2025410,2025-11-19,PC-Refining-MY,CP-15,Jeddah Oils & Fats Co,Broker-E,CFR,LC 90 days,Fulfilled
+CTR-2025411,2025-02-25,PC-Refining-MY,CP-08,EuroFat Amsterdam,Broker-B,CFR,LC 90 days,Fulfilled
+CTR-2025412,2025-11-20,PC-Refining-MY,CP-01,Ganga Agro Traders,Broker-A,DAP,TT advance,Fulfilled
+CTR-2025413,2025-07-11,PC-Trading-MY,CP-04,Nile Delta Vegetable Oils,Broker-C,CFR,TT 60 days,Fulfilled
+CTR-2025414,2026-01-17,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,DAP,TT 30 days,Fulfilled
+CTR-2025415,2025-08-30,PC-Trading-SG,CP-14,Colombo Fats Trading,Broker-C,FOB,TT 30 days,Fulfilled
+CTR-2025416,2025-05-18,PC-Refining-MY,CP-13,California Biofuels Inc,Broker-G,CFR,TT advance,Fulfilled
+CTR-2025417,2025-03-03,PC-Refining-MY,CP-14,Colombo Fats Trading,Broker-C,CIF,LC 90 days,Cancelled
+CTR-2025418,2025-09-21,PC-Trading-SG,CP-01,Ganga Agro Traders,Broker-A,CFR,TT advance,Fulfilled
+CTR-2025419,2026-06-07,PC-Trading-MY,CP-13,California Biofuels Inc,Broker-G,DAP,TT advance,Fulfilled

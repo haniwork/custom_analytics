@@ -1,247 +1,247 @@
 {
-  "total_contract_value_usd": 1637819152.0,
-  "total_quantity_mt": 1735108.1,
+  "total_contract_value_usd": 1760589644.88,
+  "total_quantity_mt": 1868395.4,
   "total_contracts": 420,
-  "open_contracts": 91,
+  "open_contracts": 94,
   "by_product": [
     {
-      "product": "Palm Methyl Ester Biodiesel (B100)",
-      "invoice_amount_usd": 263458680.35
+      "product": "Palm Kernel Oil (PKO)",
+      "invoice_amount_usd": 298495898.49
     },
     {
       "product": "RBD Palm Olein",
-      "invoice_amount_usd": 247045093.81
+      "invoice_amount_usd": 256658629.8
     },
     {
-      "product": "Palm Kernel Oil (PKO)",
-      "invoice_amount_usd": 233642429.51
-    },
-    {
-      "product": "Palm Fatty Acid Distillate (PFAD)",
-      "invoice_amount_usd": 215086527.52
-    },
-    {
-      "product": "RBD Palm Oil",
-      "invoice_amount_usd": 206692294.46
-    },
-    {
-      "product": "RBD Palm Stearin",
-      "invoice_amount_usd": 173405589.06
+      "product": "Palm Methyl Ester Biodiesel (B100)",
+      "invoice_amount_usd": 228922739.25
     },
     {
       "product": "Palm Kernel Expeller (PKE)",
-      "invoice_amount_usd": 154534016.14
+      "invoice_amount_usd": 222975313.14
+    },
+    {
+      "product": "Palm Fatty Acid Distillate (PFAD)",
+      "invoice_amount_usd": 218665582.95
+    },
+    {
+      "product": "RBD Palm Oil",
+      "invoice_amount_usd": 200740382.52
+    },
+    {
+      "product": "RBD Palm Stearin",
+      "invoice_amount_usd": 181064302.69
     },
     {
       "product": "Crude Palm Oil (CPO)",
-      "invoice_amount_usd": 143954521.15
+      "invoice_amount_usd": 153066796.04
     }
   ],
   "by_counterparty": [
     {
-      "counterparty_name": "California Biofuels Inc",
-      "invoice_amount_usd": 164455265.88
+      "counterparty_name": "Meridian Oleo Pvt Ltd",
+      "invoice_amount_usd": 168702028.1
     },
     {
       "counterparty_name": "Chittagong Oil Refinery",
-      "invoice_amount_usd": 143174489.76
+      "invoice_amount_usd": 156875924.15
     },
     {
-      "counterparty_name": "Meridian Oleo Pvt Ltd",
-      "invoice_amount_usd": 137646410.76
-    },
-    {
-      "counterparty_name": "Shanghai Huifeng Trading",
-      "invoice_amount_usd": 121374807.36
-    },
-    {
-      "counterparty_name": "Rotterdam Fats & Oils BV",
-      "invoice_amount_usd": 119482390.21
-    },
-    {
-      "counterparty_name": "Karachi Edible Oil Co.",
-      "invoice_amount_usd": 114161580.69
-    },
-    {
-      "counterparty_name": "Istanbul Bitkisel Yag",
-      "invoice_amount_usd": 113577827.69
+      "counterparty_name": "California Biofuels Inc",
+      "invoice_amount_usd": 151982041.61
     },
     {
       "counterparty_name": "Colombo Fats Trading",
-      "invoice_amount_usd": 106388237.7
+      "invoice_amount_usd": 128536500.95
     },
     {
-      "counterparty_name": "Lagos Vegetable Oil Ltd",
-      "invoice_amount_usd": 105913926.86
+      "counterparty_name": "Shanghai Huifeng Trading",
+      "invoice_amount_usd": 117774653.01
     },
     {
       "counterparty_name": "Guangzhou Oleochem Ltd",
-      "invoice_amount_usd": 104728213.49
+      "invoice_amount_usd": 116514738.74
+    },
+    {
+      "counterparty_name": "Rotterdam Fats & Oils BV",
+      "invoice_amount_usd": 113533601.03
+    },
+    {
+      "counterparty_name": "PT Nusantara Lipid",
+      "invoice_amount_usd": 109848543.33
+    },
+    {
+      "counterparty_name": "Istanbul Bitkisel Yag",
+      "invoice_amount_usd": 106284026.15
+    },
+    {
+      "counterparty_name": "EuroFat Amsterdam",
+      "invoice_amount_usd": 105636251.53
     }
   ],
   "by_incoterm": [
     {
       "incoterms": "CFR",
-      "contract_count": 107
+      "contract_count": 120
     },
     {
       "incoterms": "CIF",
-      "contract_count": 104
+      "contract_count": 90
     },
     {
       "incoterms": "DAP",
-      "contract_count": 107
+      "contract_count": 106
     },
     {
       "incoterms": "FOB",
-      "contract_count": 102
+      "contract_count": 104
     }
   ],
   "by_port": [
     {
-      "discharge_port": "Karachi",
-      "quantity_mt": 159722.8
-    },
-    {
-      "discharge_port": "Istanbul",
-      "quantity_mt": 148475.0
-    },
-    {
-      "discharge_port": "Chennai",
-      "quantity_mt": 135772.4
-    },
-    {
       "discharge_port": "Los Angeles",
-      "quantity_mt": 129942.2
-    },
-    {
-      "discharge_port": "Jeddah",
-      "quantity_mt": 127858.8
-    },
-    {
-      "discharge_port": "Shanghai",
-      "quantity_mt": 127363.3
-    },
-    {
-      "discharge_port": "Guangzhou",
-      "quantity_mt": 125907.6
-    },
-    {
-      "discharge_port": "Chittagong",
-      "quantity_mt": 116316.2
+      "quantity_mt": 159540.4
     },
     {
       "discharge_port": "Lagos",
-      "quantity_mt": 115553.6
+      "quantity_mt": 154171.4
     },
     {
       "discharge_port": "Colombo",
-      "quantity_mt": 114934.2
+      "quantity_mt": 147568.7
+    },
+    {
+      "discharge_port": "Karachi",
+      "quantity_mt": 144488.0
+    },
+    {
+      "discharge_port": "Guangzhou",
+      "quantity_mt": 142785.5
+    },
+    {
+      "discharge_port": "West Port, Malaysia",
+      "quantity_mt": 136854.7
+    },
+    {
+      "discharge_port": "Istanbul",
+      "quantity_mt": 136450.7
+    },
+    {
+      "discharge_port": "Kandla",
+      "quantity_mt": 134748.9
+    },
+    {
+      "discharge_port": "Chittagong",
+      "quantity_mt": 131305.7
+    },
+    {
+      "discharge_port": "Jeddah",
+      "quantity_mt": 125425.6
     }
   ],
   "payment_term_mix": [
     {
       "payment_term": "LC 90 days",
-      "contract_count": 87
+      "contract_count": 91
     },
     {
       "payment_term": "LC at sight",
-      "contract_count": 72
+      "contract_count": 78
     },
     {
       "payment_term": "TT 30 days",
-      "contract_count": 87
+      "contract_count": 88
     },
     {
       "payment_term": "TT 60 days",
-      "contract_count": 75
+      "contract_count": 68
     },
     {
       "payment_term": "TT advance",
-      "contract_count": 99
+      "contract_count": 95
     }
   ],
-  "lc_transaction_count": 159,
+  "lc_transaction_count": 169,
   "monthly_value": [
     {
       "shipment_month": "2025-01",
-      "invoice_amount_usd": 29804601.89
+      "invoice_amount_usd": 23139185.29
     },
     {
       "shipment_month": "2025-02",
-      "invoice_amount_usd": 64224596.9
+      "invoice_amount_usd": 63001559.19
     },
     {
       "shipment_month": "2025-03",
-      "invoice_amount_usd": 65397809.24
+      "invoice_amount_usd": 74310547.14
     },
     {
       "shipment_month": "2025-04",
-      "invoice_amount_usd": 88872578.91
+      "invoice_amount_usd": 99204546.89
     },
     {
       "shipment_month": "2025-05",
-      "invoice_amount_usd": 89018274.03
+      "invoice_amount_usd": 87334356.66
     },
     {
       "shipment_month": "2025-06",
-      "invoice_amount_usd": 86091658.34
+      "invoice_amount_usd": 141542809.55
     },
     {
       "shipment_month": "2025-07",
-      "invoice_amount_usd": 100736847.5
+      "invoice_amount_usd": 93948710.8
     },
     {
       "shipment_month": "2025-08",
-      "invoice_amount_usd": 132939782.0
+      "invoice_amount_usd": 83251165.68
     },
     {
       "shipment_month": "2025-09",
-      "invoice_amount_usd": 151220278.99
+      "invoice_amount_usd": 139413125.32
     },
     {
       "shipment_month": "2025-10",
-      "invoice_amount_usd": 78718912.36
+      "invoice_amount_usd": 112739927.04
     },
     {
       "shipment_month": "2025-11",
-      "invoice_amount_usd": 100161625.23
+      "invoice_amount_usd": 124624580.96
     },
     {
       "shipment_month": "2025-12",
-      "invoice_amount_usd": 89294578.18
+      "invoice_amount_usd": 83453844.89
     },
     {
       "shipment_month": "2026-01",
-      "invoice_amount_usd": 74141371.54
+      "invoice_amount_usd": 116363247.08
     },
     {
       "shipment_month": "2026-02",
-      "invoice_amount_usd": 71160649.14
+      "invoice_amount_usd": 114147652.93
     },
     {
       "shipment_month": "2026-03",
-      "invoice_amount_usd": 108655989.89
+      "invoice_amount_usd": 57734354.2
     },
     {
       "shipment_month": "2026-04",
-      "invoice_amount_usd": 108502426.1
+      "invoice_amount_usd": 110332832.35
     },
     {
       "shipment_month": "2026-05",
-      "invoice_amount_usd": 89677835.64
+      "invoice_amount_usd": 97442064.95
     },
     {
       "shipment_month": "2026-06",
-      "invoice_amount_usd": 81441486.98
+      "invoice_amount_usd": 72745330.12
     },
     {
       "shipment_month": "2026-07",
-      "invoice_amount_usd": 24329031.96
+      "invoice_amount_usd": 57926393.43
     },
     {
       "shipment_month": "2026-08",
-      "invoice_amount_usd": 3428817.18
+      "invoice_amount_usd": 7933410.41
     }
   ]
 }

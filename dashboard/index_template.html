@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Trade Compliance & Customs Analytics Control Tower</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<script>__PLOTLY_JS__</script>
 <style>
   :root {
     --navy: #0b2545;
@@ -248,6 +248,9 @@ function badge(val) {
   else if (v === "N") { cls = "N"; label = "Missing"; }
   else if (v === "Backdated") { cls = "N"; label = "Backdated"; }
   else if (v === "OK") { cls = "Y"; label = "OK"; }
+  else if (v === "Yes") { cls = "Y"; label = "Yes"; }
+  else if (v.startsWith("No")) { cls = "N"; label = v; }
+  else if (v.startsWith("Unknown")) { cls = "NA"; label = v; }
   else if (v === "Green" || v === "Amber" || v === "Red") { cls = v; label = v; }
   return `<span class="badge ${cls}">${label}</span>`;
 }
@@ -530,6 +533,37 @@ function buildFta(container) {
     x: d.by_country_opportunity.map(r => r.discharge_country), y: d.by_country_opportunity.map(r => r.potential_saving_usd),
     type: "bar", marker: {color: "#2e7d32"},
   }], {margin: {t: 10, l: 60, r: 10, b: 80}, yaxis: {title: "USD"}}, {displayModeBar: false, responsive: true});
+
+  // -------------------------------------------------------------------
+  // HS Code + FTA Optimization — shipment-level, code- and origin-specific
+  // -------------------------------------------------------------------
+  const h = DATA.fta_opportunity.hs_fta_optimization;
+  if (h) {
+    container.appendChild(el("div", {class: "panel"}, [
+      el("h2", {}, "HS Code + FTA Optimization (shipment-level)"),
+      el("p", {}, "This drills into the same opportunity at the shipment level, using the fields that actually determine FTA eligibility: the true Country of Origin per Rules of Origin (not the ship-from port — cargo can load from Malaysia without qualifying as Malaysia-originating), the destination, and the HS code, since preferential rates are code-specific. \"Is FTA Available\" is a lookup against a Customs FTA/tariff-schedule master keyed by (origin, destination, HS code) — no matching row means no preferential rate exists for that exact combination. \"Duty Paid\" is what's currently being paid, at the standard/MFN rate unless a Certificate of Origin is on file to support a preferential claim. \"Saving Opportunity\" is duty paid minus duty at the preferential rate, only for shipments where an FTA is available but not being claimed."),
+    ]));
+
+    const kpis2 = el("div", {class: "kpi-row"});
+    kpis2.appendChild(kpiCard("Un-Claimed FTA Saving Opportunity", fmtUSD(h.total_saving_opportunity_usd), h.total_saving_opportunity_usd > 0 ? "red" : "green"));
+    kpis2.appendChild(kpiCard("Shipments With Missed Savings", h.shipments_with_missed_saving, h.shipments_with_missed_saving > 0 ? "amber" : "green"));
+    kpis2.appendChild(kpiCard("Shipments FTA-Available (code+origin verified)", h.shipments_fta_available));
+    kpis2.appendChild(kpiCard("Shipments — HS Code Unknown", h.shipments_unknown_hs, h.shipments_unknown_hs > 0 ? "amber" : "green"));
+    container.appendChild(kpis2);
+
+    const hsFtaDetail = h.detail.map(r => ({
+      ...r,
+      duty_paid_usd: (r.duty_paid_usd === "" || r.duty_paid_usd === null) ? "–" : fmtUSD(r.duty_paid_usd),
+      saving_opportunity_usd: fmtUSD(r.saving_opportunity_usd),
+    }));
+    renderTable(container, hsFtaDetail, [
+      {key: "shipment_id", label: "Shipment"}, {key: "contract_ref", label: "Contract"},
+      {key: "product", label: "Product"}, {key: "country_of_origin", label: "Country of Origin"},
+      {key: "destination_country", label: "Destination"}, {key: "hs_code", label: "HS Code"},
+      {key: "duty_paid_usd", label: "Duty Paid"}, {key: "is_fta_available", label: "FTA Available?", badge: true},
+      {key: "saving_opportunity_usd", label: "Saving Opportunity"},
+    ], {title: "HS + FTA optimization detail"});
+  }
 }
 
 function buildRisk(container) {

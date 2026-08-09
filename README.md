@@ -38,7 +38,7 @@ All four are generated as independent synthetic extracts and then joined the way
 | 3 | **Shipment & BL Monitoring** | Missing BL dates, quantity variance exceptions, shipments stuck before final stage |
 | 4 | **HS Code / Commodity Code Governance** | HS coverage %, missing/expired classifications, high-volume products without HS codes |
 | 5 | **Duty / Freight Exposure Proxy** *(illustrative)* | Freight, port cost and estimated duty as a % of invoice value, by product and by lane |
-| 6 | **FTA / Certificate of Origin Opportunity** *(illustrative)* | COO completion, FTA-eligible shipments missing COO, estimated preferential-duty savings opportunity |
+| 6 | **FTA / Certificate of Origin Opportunity** *(illustrative)* | COO completion, FTA-eligible shipments missing COO, estimated preferential-duty savings opportunity; plus a shipment-level HS Code + FTA optimization table (Country of Origin per Rules of Origin, destination, HS code, duty paid, FTA availability looked up from an origin–destination–HS master, and the resulting saving opportunity) |
 | 7 | **Trade Risk Score** | A composite Red/Amber/Green score combining missing documents, missing HS codes, missing/expired LCs, and high risk-limit utilization |
 
 Pages 5 and 6 are explicitly labeled as **illustrative proxies** in the dashboard itself — the point is to demonstrate the analytical framework, not to assert real tariff/duty figures.
@@ -123,6 +123,7 @@ trade-compliance-customs-control-tower/
 │   └── build_silver_gold.py      runs the Bronze → Silver → Gold transform + KPI/risk scoring
 ├── dashboard/
 │   ├── index_template.html       dashboard shell (Plotly.js, vanilla JS)
+│   ├── plotly.min.js             vendored Plotly.js (no CDN dependency at runtime)
 │   ├── data.json                 Gold-layer data bundle embedded into the dashboard
 │   └── index.html                final, self-contained dashboard (open directly, or serve via GitHub Pages)
 └── docs/
@@ -138,11 +139,14 @@ pip install -r requirements.txt
 python scripts/generate_bronze_data.py     # regenerate synthetic bronze extracts
 python scripts/build_silver_gold.py        # rebuild silver/gold + dashboard/data.json
 
-# then rebuild the static dashboard:
+# then rebuild the static dashboard (inlines Plotly.js + the data bundle,
+# so the result is a single self-contained file with no CDN dependency):
 python3 -c "
 data = open('dashboard/data.json').read()
+plotly_js = open('dashboard/plotly.min.js').read()
 tpl = open('dashboard/index_template.html').read()
-open('dashboard/index.html', 'w').write(tpl.replace('__DATA_JSON__', data))
+out = tpl.replace('__PLOTLY_JS__', plotly_js).replace('__DATA_JSON__', data)
+open('dashboard/index.html', 'w').write(out)
 "
 ```
 

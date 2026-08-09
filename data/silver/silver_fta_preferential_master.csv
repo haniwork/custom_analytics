@@ -1,0 +1,28 @@
+country_of_origin,destination_country,hs_code,fta_scheme,preferential_duty_rate_pct
+Malaysia,China,1511.90,ACFTA,5.3
+Malaysia,China,1513.29,ACFTA,1.5
+Malaysia,China,2306.60,ACFTA,3.8
+Malaysia,China,3823.19,ACFTA,0.8
+Malaysia,China,3826.00,ACFTA,3.8
+Malaysia,India,1511.10,AIFTA,1.5
+Malaysia,India,1511.90,AIFTA,6.5
+Malaysia,India,1513.29,AIFTA,6.7
+Malaysia,India,3826.00,AIFTA,4.2
+Malaysia,Malaysia,1511.90,Domestic,1.8
+Malaysia,Malaysia,1513.29,Domestic,0.9
+Malaysia,Malaysia,2306.60,Domestic,2.2
+Malaysia,Malaysia,3823.19,Domestic,1.3
+Malaysia,Malaysia,3826.00,Domestic,2.4
+Malaysia,Netherlands,1511.90,EU MFN,3.4
+Malaysia,Netherlands,1513.29,EU MFN,2.9
+Malaysia,Netherlands,2306.60,EU MFN,8.4
+Malaysia,Netherlands,3823.19,EU MFN,3.1
+Malaysia,Netherlands,3826.00,EU MFN,3.0
+Malaysia,Pakistan,1511.10,MPCEPA-like,5.2
+Malaysia,Pakistan,1511.90,MPCEPA-like,4.3
+Malaysia,Pakistan,2306.60,MPCEPA-like,1.3
+Malaysia,Pakistan,3826.00,MPCEPA-like,0.7
+Malaysia,Singapore,1511.10,AFTA,2.3
+Malaysia,Singapore,1511.90,AFTA,2.1
+Malaysia,Singapore,1513.29,AFTA,2.3
+Malaysia,Singapore,3826.00,AFTA,2.0
